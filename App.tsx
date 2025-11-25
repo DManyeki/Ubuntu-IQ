@@ -5,7 +5,7 @@ import { Assessment } from './components/Assessment';
 import { RiasecChart } from './components/RiasecChart';
 import { Language, AssessmentResult, Career } from './types';
 import { getCareerMatches } from './services/careerData';
-import { MessageCircle, BookOpen, Globe, ArrowLeft, HeartPulse, GraduationCap, ExternalLink, X } from 'lucide-react';
+import { MessageCircle, BookOpen, Globe, ArrowLeft, HeartPulse, GraduationCap, ExternalLink, X, Share2, Check } from 'lucide-react';
 
 const App: React.FC = () => {
   const [language, setLanguage] = useState<Language>('en');
@@ -13,6 +13,7 @@ const App: React.FC = () => {
   const [results, setResults] = useState<{ result: AssessmentResult; careers: Career[] } | null>(null);
   const [triggerMessage, setTriggerMessage] = useState<string | null>(null);
   const [showDisclaimer, setShowDisclaimer] = useState(true);
+  const [showShareToast, setShowShareToast] = useState(false);
 
   const handleAssessmentComplete = (result: AssessmentResult) => {
     const matches = getCareerMatches(result.topCodes);
@@ -26,10 +27,107 @@ const App: React.FC = () => {
     window.scrollTo(0, 0);
   };
 
+  const handleShareResults = async () => {
+    if (!results) return;
+
+    const code = results.result.topCodes.join('');
+    const traits = results.result.topCodes.map(c => 
+        c === 'R' ? 'Realistic' : 
+        c === 'I' ? 'Investigative' : 
+        c === 'A' ? 'Artistic' : 
+        c === 'S' ? 'Social' : 
+        c === 'E' ? 'Enterprising' : 'Conventional'
+    ).join(', ');
+
+    const shareText = `🇰🇪 My MindCare Profile: ${code}\n\nI am a mix of ${traits} traits.\n\nDiscover your career path and mental wellness tips on MindCare Kenya!`;
+    const shareUrl = window.location.href;
+    const fullText = `${shareText}\n${shareUrl}`;
+
+    // Helper for legacy copy (must run synchronously within click handler)
+    const legacyCopy = () => {
+        try {
+            const textArea = document.createElement("textarea");
+            textArea.value = fullText;
+            
+            // Ensure it's not visible but part of DOM and interactable
+            textArea.style.position = "fixed";
+            textArea.style.left = "0";
+            textArea.style.top = "0";
+            textArea.style.opacity = "0";
+            textArea.contentEditable = "true";
+            textArea.readOnly = false; 
+            
+            document.body.appendChild(textArea);
+            textArea.focus();
+            textArea.select();
+            textArea.setSelectionRange(0, 999999); // For mobile devices
+
+            const successful = document.execCommand('copy');
+            document.body.removeChild(textArea);
+            return successful;
+        } catch (err) {
+            console.warn('Legacy copy failed', err);
+            return false;
+        }
+    };
+
+    // Strategy:
+    // 1. If Native Share exists (Mobile), try it.
+    // 2. If Native Share missing (Desktop), try Legacy Copy (Sync).
+    // 3. If Legacy Copy fails, try Async Clipboard API.
+    
+    if (navigator.share) {
+        try {
+            await navigator.share({
+                title: 'MindCare Kenya Results',
+                text: shareText,
+                url: shareUrl,
+            });
+        } catch (error: any) {
+            if (error.name === 'AbortError') return; // User cancelled
+            
+            // If share failed (e.g., desktop implementation error), fall back to async clipboard
+            try {
+                await navigator.clipboard.writeText(fullText);
+                setShowShareToast(true);
+                setTimeout(() => setShowShareToast(false), 3000);
+            } catch (err) {
+                console.error('Clipboard failed after share error', err);
+            }
+        }
+    } else {
+        // Synchronous Fallback (Preferred for Desktop/Non-Share browsers)
+        const copied = legacyCopy();
+        
+        if (copied) {
+            setShowShareToast(true);
+            setTimeout(() => setShowShareToast(false), 3000);
+        } else {
+            // If legacy failed, try modern async API as last resort
+            try {
+                await navigator.clipboard.writeText(fullText);
+                setShowShareToast(true);
+                setTimeout(() => setShowShareToast(false), 3000);
+            } catch (err) {
+                console.error('All copy methods failed', err);
+                alert('Could not auto-copy results. Please capture a screenshot instead.');
+            }
+        }
+    }
+  };
+
   return (
-    <div className="min-h-screen flex flex-col font-sans">
+    <div className="min-h-screen flex flex-col font-sans relative">
       <CrisisBanner />
       
+      {/* Toast Notification */}
+      {showShareToast && (
+          <div className="fixed bottom-6 left-1/2 transform -translate-x-1/2 z-50 bg-gray-900 text-white px-6 py-3 rounded-full shadow-xl flex items-center gap-2 animate-in fade-in slide-in-from-bottom-4 border border-gray-700">
+              <Check size={18} className="text-green-400" />
+              <span className="font-medium text-sm">Results copied to clipboard!</span>
+          </div>
+      )}
+
       {/* Header */}
       <header className="bg-white border-b border-gray-200 sticky top-[52px] z-40">
         <div className="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between">
@@ -114,9 +212,11 @@ const App: React.FC = () => {
 
           {view === 'results' && results && (
             <div className="space-y-6 animate-in fade-in duration-500">
-               <button onClick={() => setView('chat')} className="flex items-center gap-1 text-gray-500 hover:text-primary mb-2 font-medium">
-                 <ArrowLeft size={16} /> Back to Home
-               </button>
+               <div className="flex justify-between items-center mb-2">
+                   <button onClick={() => setView('chat')} className="flex items-center gap-1 text-gray-500 hover:text-primary font-medium">
+                     <ArrowLeft size={16} /> Back to Home
+                   </button>
+               </div>
                
                {/* Result Summary Card */}
                <div className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
@@ -125,36 +225,40 @@ const App: React.FC = () => {
                       
                       {/* Text Content */}
                       <div className="flex-1 space-y-4">
-                          <div>
-                            <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
-                              Your Profile: <span className="text-primary">{results.result.topCodes.join('')}</span>
-                            </h2>
-                            <p className="text-gray-600 mt-2 leading-relaxed">
-                                You are a mix of <strong>{results.result.topCodes.map(c => 
-                                  c === 'R' ? 'Realistic' : 
-                                  c === 'I' ? 'Investigative' : 
-                                  c === 'A' ? 'Artistic' : 
-                                  c === 'S' ? 'Social' : 
-                                  c === 'E' ? 'Enterprising' : 'Conventional'
-                                ).join(', ')}</strong> traits.
-                            </p>
-                          </div>
-                          
-                          <div className="flex flex-wrap gap-2">
-                            {results.result.topCodes.map(code => (
-                              <div key={code} className="px-3 py-1 bg-primary/5 text-primary text-sm font-bold rounded-full border border-primary/10">
-                                {code} - {code === 'R' ? 'Realistic' : code === 'I' ? 'Investigative' : code === 'A' ? 'Artistic' : code === 'S' ? 'Social' : code === 'E' ? 'Enterprising' : 'Conventional'}
+                          <div className="flex items-start justify-between">
+                              <div>
+                                <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
+                                  Your Profile: <span className="text-primary">{results.result.topCodes.join('')}</span>
+                                </h2>
+                                <p className="text-gray-600 mt-2 leading-relaxed">
+                                    You are a mix of <strong>{results.result.topCodes.map(c => 
+                                      c === 'R' ? 'Realistic' : 
+                                      c === 'I' ? 'Investigative' : 
+                                      c === 'A' ? 'Artistic' : 
+                                      c === 'S' ? 'Social' : 
+                                      c === 'E' ? 'Enterprising' : 'Conventional'
+                                    ).join(', ')}</strong> traits.
+                                </p>
                               </div>
-                            ))}
                           </div>
 
-                          <button 
-                              onClick={() => startChatWithContext(`I just completed the assessment and got the RIASEC code ${results.result.topCodes.join('')}. Can you explain what this means for me and my future in Kenya?`)}
-                              className="w-full md:w-auto px-6 py-3 bg-primary text-white rounded-xl font-medium flex items-center justify-center gap-2 hover:bg-secondary transition-colors shadow-lg hover:shadow-xl hover:-translate-y-0.5"
-                          >
-                              <MessageCircle size={18} />
-                              Chat about my results
-                          </button>
+                          <div className="flex flex-col sm:flex-row gap-3 pt-2">
+                            <button 
+                                onClick={() => startChatWithContext(`I just completed the assessment and got the RIASEC code ${results.result.topCodes.join('')}. Can you explain what this means for me and my future in Kenya?`)}
+                                className="flex-1 px-6 py-3 bg-primary text-white rounded-xl font-medium flex items-center justify-center gap-2 hover:bg-secondary transition-colors shadow-lg hover:shadow-xl hover:-translate-y-0.5"
+                            >
+                                <MessageCircle size={18} />
+                                Chat about results
+                            </button>
+                            
+                            <button 
+                                onClick={handleShareResults}
+                                className="px-6 py-3 bg-white border border-gray-200 text-gray-700 rounded-xl font-medium flex items-center justify-center gap-2 hover:bg-gray-50 transition-colors shadow-sm active:bg-gray-100"
+                            >
+                                <Share2 size={18} />
+                                Share
+                            </button>
+                          </div>
                       </div>
 
                       {/* Chart Visualization */}

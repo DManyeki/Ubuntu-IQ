@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { QUESTIONS, calculateResults } from '../services/careerData';
 import { Language, AssessmentResult } from '../types';
-import { ChevronRight, ChevronLeft, CheckCircle2, ArrowLeft, ChevronDown, ChevronUp, HelpCircle, Info, Play } from 'lucide-react';
+import { ChevronRight, ChevronLeft, CheckCircle2, ArrowLeft, ChevronDown, ChevronUp, HelpCircle, Info, Play, Lightbulb } from 'lucide-react';
 
 interface Props {
   language: Language;
@@ -41,6 +41,12 @@ export const Assessment: React.FC<Props> = ({ language, onComplete, onCancel }) 
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<number, number>>({});
   const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(null);
+  const [showGuide, setShowGuide] = useState(false);
+
+  // Reset guide when question changes
+  useEffect(() => {
+    setShowGuide(false);
+  }, [currentQuestionIndex]);
 
   const handleAnswer = (questionId: number, value: number) => {
     setAnswers(prev => ({ ...prev, [questionId]: value }));
@@ -186,10 +192,30 @@ export const Assessment: React.FC<Props> = ({ language, onComplete, onCancel }) 
 
       {/* Question Card */}
       <div className="flex-1 flex flex-col">
-          <div key={currentQuestion.id} className="bg-white p-8 rounded-2xl shadow-sm border border-gray-200 animate-in fade-in slide-in-from-right-8 duration-300">
-            <h3 className="text-xl md:text-2xl font-medium text-gray-800 mb-8 leading-relaxed text-center">
+          <div key={currentQuestion.id} className="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-gray-200 animate-in fade-in slide-in-from-right-8 duration-300">
+            <h3 className="text-xl md:text-2xl font-medium text-gray-800 mb-6 leading-relaxed text-center">
                 {currentQuestion.text[language]}
             </h3>
+            
+            {/* Brief Guide Hint */}
+            <div className="mb-8">
+               <button 
+                 onClick={() => setShowGuide(!showGuide)}
+                 className="flex items-center gap-1.5 mx-auto text-sm text-primary font-medium hover:text-secondary hover:underline transition-all"
+               >
+                  <Lightbulb size={16} className={showGuide ? "fill-primary" : ""} />
+                  {language === 'sw' ? 'Unahitaji msaada kuelewa?' : language === 'sheng' ? 'Unataka hint?' : 'Need help understanding?'}
+                  {showGuide ? <ChevronUp size={14} /> : <ChevronDown size={14} />}
+               </button>
+               
+               {showGuide && (
+                 <div className="mt-3 bg-primary/5 border border-primary/10 rounded-xl p-4 text-center animate-in fade-in zoom-in-95 duration-200">
+                    <p className="text-gray-700 text-sm leading-relaxed">
+                       {currentQuestion.guide[language]}
+                    </p>
+                 </div>
+               )}
+            </div>
             
             <div className="grid grid-cols-5 gap-2 sm:gap-4 mb-8">
                {[1, 2, 3, 4, 5].map((val) => (

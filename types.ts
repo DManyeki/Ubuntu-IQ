@@ -10,6 +10,11 @@ export interface Question {
     sw: string;
     sheng: string;
   };
+  guide: {
+    en: string;
+    sw: string;
+    sheng: string;
+  };
 }
 
 export interface Career {
