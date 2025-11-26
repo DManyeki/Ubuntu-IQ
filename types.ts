@@ -42,3 +42,35 @@ export interface AssessmentResult {
   scores: Record<RIASECCode, number>;
   topCodes: RIASECCode[];
 }
+
+// Mood Scaler Types
+export interface MoodQuestion {
+  id: number;
+  category: 'depression' | 'anxiety';
+  text: {
+    en: string;
+    sw: string;
+    sheng: string;
+  };
+}
+
+export interface MoodResult {
+  scores: Record<number, number>; // questionId -> 1-6
+  depressionScore: number;
+  anxietyScore: number;
+  overallScore: number;
+  timestamp: Date;
+}
+
+export interface MoodRecommendation {
+  type: 'positive' | 'depression' | 'anxiety' | 'crisis';
+  message: {
+    en: string;
+    sw: string;
+    sheng: string;
+  };
+  activities: {
+    title: { en: string; sw: string; sheng: string };
+    action: string; // 'chat_breathing', 'chat_grounding', 'chat_journal'
+  }[];
+}

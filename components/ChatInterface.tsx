@@ -7,12 +7,12 @@ interface Props {
   language: Language;
   triggerMessage: string | null;
   onTriggerHandled: () => void;
+  isExpanded?: boolean;
+  onInteraction?: () => void;
 }
 
 const parseInline = (text: string) => {
     const elements: React.ReactNode[] = [];
-    // Split by bold (**...**) or links ([...](...))
-    // Note: Regex captures delimiters to keep them in the array
     const parts = text.split(/(\*\*.*?\*\*|\[.*?\]\(.*?\))/g);
     
     parts.forEach((part, i) => {
@@ -30,8 +30,6 @@ const parseInline = (text: string) => {
                 elements.push(<span key={i}>{part}</span>);
             }
         } else {
-            // Handle italics (*...*) within the remaining text parts
-            // We split again by single asterisks
             const subParts = part.split(/(\*[^*]+\*)/g);
             subParts.forEach((subPart, j) => {
                 if (subPart.startsWith('*') && subPart.endsWith('*') && subPart.length > 2) {
@@ -45,18 +43,15 @@ const parseInline = (text: string) => {
     return elements;
 }
 
-// Helper component to render text with Markdown support
 const FormattedText: React.FC<{ content: string }> = ({ content }) => {
   const lines = content.split('\n');
   return (
     <div className="space-y-1">
       {lines.map((line, i) => {
-         // Header (### or ##)
          if (line.match(/^#{1,6}\s/)) {
              return <div key={i} className="font-bold text-lg mt-2 mb-1">{parseInline(line.replace(/^#{1,6}\s+/, ''))}</div>;
          }
          
-         // Bullet list (* or -)
          if (line.match(/^[\*\-]\s/)) {
              return (
                  <div key={i} className="flex gap-2 ml-2 mb-1">
@@ -66,7 +61,6 @@ const FormattedText: React.FC<{ content: string }> = ({ content }) => {
              );
          }
          
-         // Numbered list (1.)
          if (line.match(/^\d+\.\s/)) {
             const match = line.match(/^(\d+)\.\s+(.*)/);
             if (match) {
@@ -79,26 +73,22 @@ const FormattedText: React.FC<{ content: string }> = ({ content }) => {
             }
          }
 
-         // Empty line
          if (!line.trim()) return <div key={i} className="h-1" />;
 
-         // Normal text
          return <div key={i} className="leading-relaxed">{parseInline(line)}</div>;
       })}
     </div>
   );
 };
 
-export const ChatInterface: React.FC<Props> = ({ language, triggerMessage, onTriggerHandled }) => {
+export const ChatInterface: React.FC<Props> = ({ language, triggerMessage, onTriggerHandled, isExpanded = false, onInteraction }) => {
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   
-  // Initialize messages from SessionStorage
   const [messages, setMessages] = useState<ChatMessage[]>(() => {
     try {
         const saved = sessionStorage.getItem('mindcare_chat_history');
         if (saved) {
-            // Need to revive Date objects because JSON.stringify converts them to strings
             return JSON.parse(saved).map((m: any) => ({
                 ...m,
                 timestamp: new Date(m.timestamp)
@@ -108,7 +98,6 @@ export const ChatInterface: React.FC<Props> = ({ language, triggerMessage, onTri
         console.warn('Failed to parse chat history', e);
     }
     
-    // Default welcome message if no history
     return [{
       id: 'welcome',
       role: 'model',
@@ -123,7 +112,6 @@ export const ChatInterface: React.FC<Props> = ({ language, triggerMessage, onTri
   
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
-  // Persist messages to SessionStorage
   useEffect(() => {
     sessionStorage.setItem('mindcare_chat_history', JSON.stringify(messages));
   }, [messages]);
@@ -149,10 +137,9 @@ export const ChatInterface: React.FC<Props> = ({ language, triggerMessage, onTri
 
     try {
       const history = messages.map(m => ({ role: m.role, content: m.content }));
-      // Append current message to history for context
       history.push({ role: 'user', content: text });
       
-      const responseText = await sendMessageToGemini(text, history.slice(0, -1)); // Send API the history, let it append current
+      const responseText = await sendMessageToGemini(text, history.slice(0, -1));
       
       const botMsg: ChatMessage = {
         id: (Date.now() + 1).toString(),
@@ -171,6 +158,7 @@ export const ChatInterface: React.FC<Props> = ({ language, triggerMessage, onTri
 
   const handleSendClick = async () => {
     if (!input.trim()) return;
+    if (onInteraction) onInteraction();
     const text = input;
     setInput('');
     await sendMessage(text);
@@ -183,16 +171,20 @@ export const ChatInterface: React.FC<Props> = ({ language, triggerMessage, onTri
     }
   };
 
-  // Watch for trigger messages from parent (e.g. from Results page)
   useEffect(() => {
     if (triggerMessage) {
+        if (onInteraction) onInteraction();
         sendMessage(triggerMessage);
         onTriggerHandled();
     }
   }, [triggerMessage]);
 
   return (
-    <div className="flex flex-col h-[calc(100dvh-220px)] md:h-[600px] min-h-[300px] bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden transition-all duration-300">
+    <div className={`flex flex-col bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden transition-all duration-500 ease-in-out ${
+        isExpanded 
+        ? 'h-[calc(100dvh-130px)] md:h-[calc(100dvh-180px)]' 
+        : 'h-[calc(100dvh-220px)] md:h-[600px] min-h-[300px]'
+    }`}>
       <div className="flex-1 overflow-y-auto p-4 space-y-4 bg-gray-50">
         {messages.map((msg) => (
           <div 
@@ -232,6 +224,7 @@ export const ChatInterface: React.FC<Props> = ({ language, triggerMessage, onTri
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={handleKeyDown}
+            onFocus={onInteraction}
             disabled={isLoading}
             placeholder={
                 language === 'sheng' ? "Bonga nami..." :

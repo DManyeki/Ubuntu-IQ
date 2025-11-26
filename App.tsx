@@ -2,10 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { CrisisBanner } from './components/CrisisBanner';
 import { ChatInterface } from './components/ChatInterface';
 import { Assessment } from './components/Assessment';
+import { MoodAssessment } from './components/MoodAssessment';
 import { RiasecChart } from './components/RiasecChart';
-import { Language, AssessmentResult, Career } from './types';
+import { Language, AssessmentResult, Career, MoodResult } from './types';
 import { getCareerMatches } from './services/careerData';
-import { MessageCircle, BookOpen, Globe, ArrowLeft, HeartPulse, GraduationCap, ExternalLink, X, Share2, Check } from 'lucide-react';
+import { MessageCircle, BookOpen, Globe, ArrowLeft, HeartPulse, GraduationCap, ExternalLink, X, Share2, Check, Smile } from 'lucide-react';
 
 const App: React.FC = () => {
   // Session Storage Helpers
@@ -20,11 +21,15 @@ const App: React.FC = () => {
   };
 
   const [language, setLanguage] = useState<Language>(() => getStorage('mindcare_language', 'en'));
-  const [view, setView] = useState<'chat' | 'assessment' | 'results'>(() => getStorage('mindcare_view', 'chat'));
+  const [view, setView] = useState<'chat' | 'assessment' | 'results' | 'mood'>(() => getStorage('mindcare_view', 'chat'));
   const [results, setResults] = useState<{ result: AssessmentResult; careers: Career[] } | null>(() => getStorage('mindcare_results', null));
+  const [moodResult, setMoodResult] = useState<MoodResult | null>(() => getStorage('mindcare_mood_result', null));
+  
   const [triggerMessage, setTriggerMessage] = useState<string | null>(null);
   const [showDisclaimer, setShowDisclaimer] = useState(true);
   const [showShareToast, setShowShareToast] = useState(false);
+  const [crisisExpanded, setCrisisExpanded] = useState(false);
+  const [chatMode, setChatMode] = useState(false);
 
   // Persist State Changes
   useEffect(() => {
@@ -39,6 +44,17 @@ const App: React.FC = () => {
     sessionStorage.setItem('mindcare_results', JSON.stringify(results));
   }, [results]);
 
+  useEffect(() => {
+    sessionStorage.setItem('mindcare_mood_result', JSON.stringify(moodResult));
+  }, [moodResult]);
+
+  // Reset chat mode when changing views via internal navigation
+  useEffect(() => {
+    if (view !== 'chat') {
+        setChatMode(false);
+    }
+  }, [view]);
+
   const handleAssessmentComplete = (result: AssessmentResult) => {
     const matches = getCareerMatches(result.topCodes);
     setResults({ result, careers: matches });
@@ -51,9 +67,19 @@ const App: React.FC = () => {
     setView('results');
   };
 
+  const handleMoodComplete = (result: MoodResult) => {
+      setMoodResult(result);
+      // If crisis score detected (>= 4.5), maximize the crisis banner automatically
+      if (result.overallScore >= 4.5) {
+          setCrisisExpanded(true);
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+  };
+
   const startChatWithContext = (message: string) => {
     setTriggerMessage(message);
     setView('chat');
+    setChatMode(true);
     window.scrollTo(0, 0);
   };
 
@@ -78,8 +104,6 @@ const App: React.FC = () => {
         try {
             const textArea = document.createElement("textarea");
             textArea.value = fullText;
-            
-            // Ensure it's not visible but part of DOM and interactable
             textArea.style.position = "fixed";
             textArea.style.left = "0";
             textArea.style.top = "0";
@@ -90,7 +114,7 @@ const App: React.FC = () => {
             document.body.appendChild(textArea);
             textArea.focus();
             textArea.select();
-            textArea.setSelectionRange(0, 999999); // For mobile devices
+            textArea.setSelectionRange(0, 999999); 
 
             const successful = document.execCommand('copy');
             document.body.removeChild(textArea);
@@ -100,11 +124,6 @@ const App: React.FC = () => {
             return false;
         }
     };
-
-    // Strategy:
-    // 1. If Native Share exists (Mobile), try it.
-    // 2. If Native Share missing (Desktop), try Legacy Copy (Sync).
-    // 3. If Legacy Copy fails, try Async Clipboard API.
     
     if (navigator.share) {
         try {
@@ -114,9 +133,7 @@ const App: React.FC = () => {
                 url: shareUrl,
             });
         } catch (error: any) {
-            if (error.name === 'AbortError') return; // User cancelled
-            
-            // If share failed (e.g., desktop implementation error), fall back to async clipboard
+            if (error.name === 'AbortError') return; 
             try {
                 await navigator.clipboard.writeText(fullText);
                 setShowShareToast(true);
@@ -126,14 +143,11 @@ const App: React.FC = () => {
             }
         }
     } else {
-        // Synchronous Fallback (Preferred for Desktop/Non-Share browsers)
         const copied = legacyCopy();
-        
         if (copied) {
             setShowShareToast(true);
             setTimeout(() => setShowShareToast(false), 3000);
         } else {
-            // If legacy failed, try modern async API as last resort
             try {
                 await navigator.clipboard.writeText(fullText);
                 setShowShareToast(true);
@@ -151,11 +165,21 @@ const App: React.FC = () => {
       
       {/* Sticky Header Group */}
       <div className="sticky top-0 z-50 w-full shadow-sm">
-        <CrisisBanner />
-        <header className="bg-white border-b border-gray-200">
+        <CrisisBanner forceExpanded={crisisExpanded} onToggle={setCrisisExpanded} />
+        <header className="bg-white border-b border-gray-200 transition-all duration-300">
           <div className="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between">
-            <div className="flex items-center gap-2 text-primary cursor-pointer" onClick={() => setView('chat')}>
-              <HeartPulse className="h-6 w-6" />
+            <div className="flex items-center gap-2 text-primary cursor-pointer" onClick={() => { setView('chat'); setChatMode(false); }}>
+              {chatMode && view === 'chat' ? (
+                 <button 
+                    onClick={(e) => { e.stopPropagation(); setChatMode(false); }}
+                    className="p-1 -ml-2 rounded-full hover:bg-gray-100 mr-1 transition-colors"
+                    aria-label="Back to Menu"
+                 >
+                     <ArrowLeft className="h-6 w-6 text-gray-600" />
+                 </button>
+              ) : (
+                 <HeartPulse className="h-6 w-6" />
+              )}
               <h1 className="font-bold text-xl tracking-tight">MindCare<span className="text-kenya-red">.ke</span></h1>
             </div>
             
@@ -184,35 +208,38 @@ const App: React.FC = () => {
       )}
 
       {/* Main Content */}
-      <main className="flex-1 p-3 md:p-6 w-full max-w-4xl mx-auto">
+      <main className={`flex-1 w-full max-w-4xl mx-auto transition-all duration-300 ${chatMode ? 'p-0 md:p-6' : 'p-3 md:p-6'}`}>
           
-          {/* Navigation Tabs (Only visible on main views) */}
-          {view !== 'assessment' && view !== 'results' && (
-             <div className="flex gap-3 md:gap-4 mb-4 md:mb-6">
+          {/* Navigation Tabs - Hidden when Chat Mode is active */}
+          {!chatMode && view !== 'assessment' && view !== 'results' && view !== 'mood' && (
+             <div className="grid grid-cols-3 gap-2 md:gap-4 mb-4 md:mb-6 animate-in fade-in slide-in-from-top-2">
                 <button 
-                  onClick={() => setView('chat')}
-                  className={`flex-1 py-3 md:py-4 rounded-xl flex items-center justify-center gap-2 font-semibold transition-all shadow-sm text-sm md:text-base ${
-                    view === 'chat' 
-                    ? 'bg-white text-primary ring-2 ring-primary/10' 
-                    : 'bg-white/60 text-gray-500 hover:bg-white'
-                  }`}
+                  onClick={() => { setView('chat'); setChatMode(true); }}
+                  className="py-3 md:py-6 bg-white border-2 border-blue-100 text-blue-600 rounded-xl flex flex-col md:flex-row items-center justify-center gap-1 md:gap-3 font-bold shadow-sm hover:shadow-md hover:border-blue-300 transition-all text-xs md:text-lg hover:-translate-y-0.5"
                 >
-                  <MessageCircle className="w-5 h-5" />
-                  {language === 'sheng' ? 'Bonga Nami' : language === 'sw' ? 'Ongea Nami' : 'Chat'}
+                  <MessageCircle className="w-5 h-5 md:w-6 md:h-6" />
+                  <span>{language === 'sheng' ? 'Bonga' : language === 'sw' ? 'Ongea' : 'Chat'}</span>
                 </button>
                 <button 
                   onClick={() => setView('assessment')}
-                  className="flex-1 py-3 md:py-4 bg-gradient-to-r from-primary to-secondary text-white rounded-xl flex items-center justify-center gap-2 font-semibold shadow-md hover:shadow-lg transition-all text-sm md:text-base"
+                  className="py-3 md:py-6 bg-gradient-to-r from-primary to-secondary text-white rounded-xl flex flex-col md:flex-row items-center justify-center gap-1 md:gap-3 font-bold shadow-md hover:shadow-lg transition-all text-xs md:text-lg hover:-translate-y-0.5"
                 >
-                  <BookOpen className="w-5 h-5" />
-                  {language === 'sheng' ? 'Check Career' : language === 'sw' ? 'Tathmini Kazi' : 'Career Test'}
+                  <BookOpen className="w-5 h-5 md:w-6 md:h-6" />
+                  <span>{language === 'sheng' ? 'Career' : language === 'sw' ? 'Kazi' : 'Career'}</span>
+                </button>
+                <button 
+                  onClick={() => setView('mood')}
+                  className="py-3 md:py-6 bg-gradient-to-r from-purple-500 to-purple-600 text-white rounded-xl flex flex-col md:flex-row items-center justify-center gap-1 md:gap-3 font-bold shadow-md hover:shadow-lg transition-all text-xs md:text-lg hover:-translate-y-0.5"
+                >
+                  <Smile className="w-5 h-5 md:w-6 md:h-6" />
+                  <span>{language === 'sheng' ? 'Mood' : language === 'sw' ? 'Hisia' : 'Mood'}</span>
                 </button>
              </div>
           )}
 
-          {/* Chat View - Persistent but hidden when inactive to keep state */}
+          {/* Chat View */}
           <div className={view === 'chat' ? 'block' : 'hidden'}>
-              {showDisclaimer && (
+              {showDisclaimer && !chatMode && (
                 <div className="mb-3 p-3 bg-blue-50 border border-blue-100 rounded-lg text-sm text-blue-800 flex justify-between gap-3 animate-in fade-in slide-in-from-top-2">
                   <p className="leading-relaxed text-xs md:text-sm">
                     <strong>Note:</strong> MindCare is an AI assistant. While we are here to support you, we are not a replacement for professional medical advice.
@@ -230,8 +257,20 @@ const App: React.FC = () => {
                 language={language} 
                 triggerMessage={triggerMessage}
                 onTriggerHandled={() => setTriggerMessage(null)}
+                isExpanded={chatMode}
+                onInteraction={() => setChatMode(true)}
               />
           </div>
+
+          {view === 'mood' && (
+             <MoodAssessment
+                language={language}
+                onComplete={handleMoodComplete}
+                onCancel={() => setView('chat')}
+                onChatTrigger={startChatWithContext}
+                previousResult={moodResult}
+             />
+          )}
 
           {view === 'assessment' && (
             <Assessment 

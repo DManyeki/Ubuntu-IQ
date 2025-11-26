@@ -1,15 +1,33 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Phone, AlertTriangle, ChevronUp, ChevronDown } from 'lucide-react';
 
-export const CrisisBanner: React.FC = () => {
+interface Props {
+  forceExpanded?: boolean;
+  onToggle?: (expanded: boolean) => void;
+}
+
+export const CrisisBanner: React.FC<Props> = ({ forceExpanded = false, onToggle }) => {
   const [isMinimized, setIsMinimized] = useState(false);
+
+  // If forceExpanded changes to true, expand the banner
+  useEffect(() => {
+    if (forceExpanded) {
+      setIsMinimized(false);
+    }
+  }, [forceExpanded]);
+
+  const toggle = () => {
+    const newState = !isMinimized;
+    setIsMinimized(newState);
+    if (onToggle) onToggle(!newState);
+  };
 
   return (
     <div className={`bg-kenya-red text-white shadow-lg sticky top-0 z-50 transition-all duration-300 ${isMinimized ? 'p-2' : 'p-3'}`}>
       <div className="max-w-4xl mx-auto flex items-center justify-between">
         
         {/* Left Side: Icon & Text */}
-        <div className="flex items-center gap-2 flex-1 cursor-pointer" onClick={() => isMinimized && setIsMinimized(false)}>
+        <div className="flex items-center gap-2 flex-1 cursor-pointer" onClick={() => isMinimized && toggle()}>
           <AlertTriangle className={`h-5 w-5 ${!isMinimized && 'animate-pulse'}`} />
           {isMinimized ? (
             <span className="font-bold text-xs md:text-sm">Emergency Help / Msaada wa Haraka</span>
@@ -32,7 +50,7 @@ export const CrisisBanner: React.FC = () => {
           )}
           
           <button 
-            onClick={() => setIsMinimized(!isMinimized)}
+            onClick={toggle}
             className="p-1 hover:bg-white/20 rounded-full transition-colors shrink-0"
             aria-label={isMinimized ? "Expand crisis banner" : "Minimize crisis banner"}
           >
