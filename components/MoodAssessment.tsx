@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { MOOD_QUESTIONS, calculateMoodResults, getMoodRecommendation } from '../services/moodData';
 import { Language, MoodResult, MoodRecommendation } from '../types';
-import { ArrowLeft, Play, CheckCircle2, HeartPulse, ChevronRight, BarChart2, HelpCircle, Info, ChevronUp, ChevronDown, Lightbulb } from 'lucide-react';
+import { ArrowLeft, Play, CheckCircle2, HeartPulse, ChevronRight, BarChart2, HelpCircle, Info, ChevronUp, ChevronDown, Lightbulb, Clock, BrainCircuit, Phone, Award } from 'lucide-react';
 import { MoodChart } from './MoodChart';
+import { useSessionStorage } from '../hooks/useSessionStorage';
 
 interface Props {
   language: Language;
@@ -48,20 +49,9 @@ const MOOD_FAQS = [
 ];
 
 export const MoodAssessment: React.FC<Props> = ({ language, onComplete, onCancel, onChatTrigger, previousResult }) => {
-  // Session Storage helper
-  const getStorage = <T,>(key: string, initialValue: T): T => {
-    try {
-        const saved = sessionStorage.getItem(key);
-        if (saved) return JSON.parse(saved);
-    } catch (e) {
-        console.warn('Failed to parse mood storage', e);
-    }
-    return initialValue;
-  };
-
-  const [started, setStarted] = useState(() => getStorage('mindcare_mood_started', false));
-  const [currentIndex, setCurrentIndex] = useState(() => getStorage('mindcare_mood_index', 0));
-  const [scores, setScores] = useState<Record<number, number>>(() => getStorage('mindcare_mood_scores', {}));
+  const [started, setStarted] = useSessionStorage<boolean>('mindcare_mood_started', false);
+  const [currentIndex, setCurrentIndex] = useSessionStorage<number>('mindcare_mood_index', 0);
+  const [scores, setScores] = useSessionStorage<Record<number, number>>('mindcare_mood_scores', {});
   
   // Local state for UI
   const [viewMode, setViewMode] = useState<'assessment' | 'result'>('assessment');
@@ -69,19 +59,6 @@ export const MoodAssessment: React.FC<Props> = ({ language, onComplete, onCancel
   const [recommendation, setRecommendation] = useState<MoodRecommendation | null>(null);
   const [showFaqList, setShowFaqList] = useState(false);
   const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(null);
-
-  // Persist State
-  useEffect(() => {
-    sessionStorage.setItem('mindcare_mood_started', JSON.stringify(started));
-  }, [started]);
-
-  useEffect(() => {
-    sessionStorage.setItem('mindcare_mood_index', JSON.stringify(currentIndex));
-  }, [currentIndex]);
-
-  useEffect(() => {
-    sessionStorage.setItem('mindcare_mood_scores', JSON.stringify(scores));
-  }, [scores]);
 
   // Handle viewing previous result
   const handleViewPrevious = () => {
@@ -159,22 +136,31 @@ export const MoodAssessment: React.FC<Props> = ({ language, onComplete, onCancel
       <div className="max-w-xl mx-auto p-4 animate-in fade-in slide-in-from-bottom-4 duration-500 pb-12">
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
           {/* Header based on Type */}
-          <div className={`p-6 text-white text-center ${
+          <div className={`p-4 text-white text-center relative ${
             recommendation.type === 'crisis' ? 'bg-red-600' :
             recommendation.type === 'positive' ? 'bg-green-600' :
             recommendation.type === 'anxiety' ? 'bg-orange-500' :
             'bg-blue-500' // Depression
           }`}>
-             <div className="bg-white/20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3 backdrop-blur-sm shadow-inner">
+             {/* Back Arrow */}
+             <button 
+                onClick={onCancel}
+                className="absolute left-4 top-1/2 -translate-y-1/2 p-2 rounded-full bg-white/20 hover:bg-white/30 transition-colors"
+                aria-label="Back to Menu"
+             >
+                <ArrowLeft size={20} className="text-white" />
+             </button>
+
+             <div className="bg-white/20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3 backdrop-blur-sm shadow-inner mt-4">
                 <HeartPulse size={32} className="text-white" />
              </div>
              <h2 className="text-2xl font-bold mb-1">
                {language === 'sw' ? 'Matokeo Yako' : language === 'sheng' ? 'Results Zako' : 'Your Mood Check'}
              </h2>
-             <p className="opacity-90 font-medium text-sm bg-white/20 inline-block px-3 py-1 rounded-full">
-               {recommendation.type === 'crisis' ? 'Alert' : 
-                recommendation.type === 'positive' ? 'Excellent Condition' :
-                recommendation.type === 'anxiety' ? 'Anxiety Detected' : 'Low Mood Detected'}
+             <p className="opacity-90 font-medium text-sm bg-white/20 inline-block px-3 py-1 rounded-full capitalize mb-2">
+               {recommendation.severity === 'severe' ? 'High Intensity' : 
+                recommendation.severity === 'moderate' ? 'Moderate Intensity' :
+                recommendation.severity === 'mild' ? 'Mild Intensity' : 'Excellent'}
              </p>
           </div>
 
@@ -191,48 +177,74 @@ export const MoodAssessment: React.FC<Props> = ({ language, onComplete, onCancel
 
             {/* Activities */}
             <h3 className="text-xs font-bold text-gray-400 uppercase tracking-wide mb-4 text-center">
-              {language === 'sw' ? 'Jaribu Hii Sasa' : language === 'sheng' ? 'Jaribu Hii' : 'Recommended For You'}
+              {language === 'sw' ? 'Mapendekezo Yako' : language === 'sheng' ? 'Form Yako' : 'Recommended Strategies'}
             </h3>
 
-            <div className="space-y-3">
-               {recommendation.activities.map((activity, idx) => (
-                 <button
-                   key={idx}
-                   onClick={() => {
-                       if (activity.action === 'crisis_hotline') {
-                           window.location.href = 'tel:0722178177';
-                       } else if (activity.action === 'nav_assessment') {
-                           onCancel(); 
-                       } else {
-                           let msg = "";
-                           if (activity.action === 'chat_breathing') msg = "I'm feeling anxious. Can you guide me through a 4-7-8 breathing exercise?";
-                           if (activity.action === 'chat_grounding') msg = "I need to calm down. Can you help me with the 5-senses grounding technique?";
-                           if (activity.action === 'chat_journal') msg = "I want to journal my wins for today. Can you help me start?";
-                           if (activity.action === 'chat_behavioral_activation') msg = "I'm feeling low. Can you help me pick one small enjoyable thing to do right now?";
-                           if (activity.action === 'chat_safety_plan') msg = "I'm feeling unsafe. Can you help me make a safety plan?";
-                           if (activity.action === 'chat_low_mood') msg = "I'm feeling down and just want to talk to someone who understands.";
-                           
-                           onChatTrigger(msg);
-                       }
-                   }}
-                   className={`w-full py-4 px-6 rounded-xl text-left flex items-center justify-between group transition-all shadow-sm ${
-                     recommendation.type === 'crisis' 
-                     ? 'bg-red-50 text-red-700 hover:bg-red-100 border border-red-200' 
-                     : 'bg-white text-gray-800 hover:bg-primary hover:text-white border border-gray-100 hover:border-primary'
-                   }`}
-                 >
-                    <span className="font-semibold">{activity.title[language]}</span>
-                    {activity.action === 'crisis_hotline' ? <PhoneIcon /> : <ChevronRight className="opacity-50 group-hover:opacity-100" />}
-                 </button>
+            <div className="space-y-4">
+               {recommendation.strategies.map((strategy, idx) => (
+                 <div key={idx} className={`border rounded-xl p-5 transition-all shadow-sm ${
+                     strategy.category === 'crisis' ? 'bg-red-50 border-red-200' : 'bg-white border-gray-200 hover:border-primary/50'
+                 }`}>
+                    <div className="flex justify-between items-start mb-2">
+                        <div className="flex-1">
+                            <span className={`text-[10px] font-bold uppercase tracking-wider mb-1 block ${
+                                strategy.category === 'crisis' ? 'text-red-500' : 'text-gray-400'
+                            }`}>
+                                {strategy.category}
+                            </span>
+                            <h4 className={`font-bold text-lg ${strategy.category === 'crisis' ? 'text-red-700' : 'text-gray-900'}`}>
+                                {strategy.title[language]}
+                            </h4>
+                        </div>
+                        {strategy.duration > 0 && (
+                            <span className="flex items-center gap-1 text-xs font-bold text-gray-500 bg-gray-100 px-2 py-1.5 rounded-lg whitespace-nowrap">
+                                <Clock size={12} /> {strategy.duration}m
+                            </span>
+                        )}
+                    </div>
+                    
+                    <p className="text-sm text-gray-600 mb-4 leading-relaxed">
+                        {strategy.description[language]}
+                    </p>
+
+                    <div className="flex flex-wrap gap-2 mb-4">
+                        {strategy.mechanism && (
+                            <div className="flex items-center gap-1.5 text-[10px] text-gray-500 bg-gray-50 px-2 py-1 rounded border border-gray-100">
+                                <BrainCircuit size={12} className="text-primary/70" />
+                                <span className="truncate max-w-[200px]">{strategy.mechanism}</span>
+                            </div>
+                        )}
+                        {strategy.success_rate && (
+                             <div className="flex items-center gap-1.5 text-[10px] text-green-700 bg-green-50 px-2 py-1 rounded border border-green-100">
+                                <Award size={12} />
+                                <span>{strategy.success_rate} Success</span>
+                            </div>
+                        )}
+                    </div>
+
+                    <button
+                        onClick={() => {
+                            if (strategy.id === 'crisis_hotline') {
+                                window.location.href = 'tel:0722178177';
+                            } else {
+                                onChatTrigger(strategy.action_context);
+                            }
+                        }}
+                        className={`w-full py-3 rounded-xl text-sm font-bold flex items-center justify-center gap-2 transition-colors ${
+                            strategy.category === 'crisis'
+                            ? 'bg-red-600 text-white hover:bg-red-700 shadow-md hover:shadow-lg'
+                            : 'bg-primary text-white hover:bg-secondary shadow-md hover:shadow-lg'
+                        }`}
+                    >
+                        {strategy.id === 'crisis_hotline' ? (
+                            <><Phone size={18} /> Call Now</>
+                        ) : (
+                            <>{language === 'sheng' ? 'Jaribu Hii' : 'Try This'} <ChevronRight size={18} /></>
+                        )}
+                    </button>
+                 </div>
                ))}
             </div>
-            
-            <button 
-              onClick={onCancel}
-              className="mt-8 w-full py-3 text-gray-400 text-sm font-medium hover:text-gray-600 transition-colors"
-            >
-              Back to Menu
-            </button>
           </div>
         </div>
       </div>
@@ -398,7 +410,3 @@ export const MoodAssessment: React.FC<Props> = ({ language, onComplete, onCancel
     </div>
   );
 };
-
-const PhoneIcon = () => (
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-);

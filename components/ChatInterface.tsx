@@ -1,7 +1,8 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, memo } from 'react';
 import { Send, User, Bot, Loader2 } from 'lucide-react';
 import { ChatMessage, Language } from '../types';
 import { sendMessageToGemini } from '../services/geminiService';
+import { useSessionStorage } from '../hooks/useSessionStorage';
 
 interface Props {
   language: Language;
@@ -43,7 +44,8 @@ const parseInline = (text: string) => {
     return elements;
 }
 
-const FormattedText: React.FC<{ content: string }> = ({ content }) => {
+// Memoized to prevent re-parsing on every input change
+const FormattedText = memo(({ content }: { content: string }) => {
   const lines = content.split('\n');
   return (
     <div className="space-y-1">
@@ -79,42 +81,42 @@ const FormattedText: React.FC<{ content: string }> = ({ content }) => {
       })}
     </div>
   );
-};
+});
 
 export const ChatInterface: React.FC<Props> = ({ language, triggerMessage, onTriggerHandled, isExpanded = false, onInteraction }) => {
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   
-  const [messages, setMessages] = useState<ChatMessage[]>(() => {
-    try {
-        const saved = sessionStorage.getItem('mindcare_chat_history');
-        if (saved) {
-            return JSON.parse(saved).map((m: any) => ({
-                ...m,
-                timestamp: new Date(m.timestamp)
-            }));
+  // Custom hook handles parsing and storage automatically
+  const [messages, setMessages] = useSessionStorage<ChatMessage[]>('mindcare_chat_history', []);
+  
+  // Initialization logic for welcome message if history is empty
+  useEffect(() => {
+    if (messages.length === 0) {
+        setMessages([{
+            id: 'welcome',
+            role: 'model',
+            content: language === 'sheng' 
+              ? "Niaje! Mimi ni MindCare. Najua hizi times za kuwait results zinaweza kuwa ngumu. Nisaidie aje leo? Tunaweza bonga stori za career ama vile unajiskia."
+              : language === 'sw'
+              ? "Hujambo! Mimi ni MindCare. Najua kusubiri matokeo ya KCSE inaweza kuwa na wasiwasi. Naweza kukusaidia aje leo?"
+              : "Hello! I'm MindCare. I know waiting for KCSE results can be stressful. How can I support you today? We can talk about careers or how you're feeling.",
+            timestamp: new Date()
+        }]);
+    } else {
+        // Hydrate timestamps from JSON strings
+        const hydrated = messages.map(m => ({
+            ...m,
+            timestamp: typeof m.timestamp === 'string' ? new Date(m.timestamp) : m.timestamp
+        }));
+        // Only update if hydration actually changed something (deep comparison avoidance)
+        if (hydrated.some((m, i) => m.timestamp !== messages[i].timestamp)) {
+             setMessages(hydrated);
         }
-    } catch (e) {
-        console.warn('Failed to parse chat history', e);
     }
-    
-    return [{
-      id: 'welcome',
-      role: 'model',
-      content: language === 'sheng' 
-        ? "Niaje! Mimi ni MindCare. Najua hizi times za kuwait results zinaweza kuwa ngumu. Nisaidie aje leo? Tunaweza bonga stori za career ama vile unajiskia."
-        : language === 'sw'
-        ? "Hujambo! Mimi ni MindCare. Najua kusubiri matokeo ya KCSE inaweza kuwa na wasiwasi. Naweza kukusaidia aje leo?"
-        : "Hello! I'm MindCare. I know waiting for KCSE results can be stressful. How can I support you today? We can talk about careers or how you're feeling.",
-      timestamp: new Date()
-    }];
-  });
+  }, [language, messages.length]); // Dependencies minimal to avoid loops
   
   const messagesEndRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    sessionStorage.setItem('mindcare_chat_history', JSON.stringify(messages));
-  }, [messages]);
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -203,7 +205,7 @@ export const ChatInterface: React.FC<Props> = ({ language, triggerMessage, onTri
             }`}>
               <FormattedText content={msg.content} />
               <div className={`text-[10px] mt-1 opacity-70 ${msg.role === 'user' ? 'text-blue-100' : 'text-gray-400'}`}>
-                {msg.timestamp.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
+                {new Date(msg.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
               </div>
             </div>
           </div>

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { CrisisBanner } from './components/CrisisBanner';
 import { ChatInterface } from './components/ChatInterface';
 import { Assessment } from './components/Assessment';
@@ -7,46 +7,21 @@ import { RiasecChart } from './components/RiasecChart';
 import { Language, AssessmentResult, Career, MoodResult } from './types';
 import { getCareerMatches } from './services/careerData';
 import { MessageCircle, BookOpen, Globe, ArrowLeft, HeartPulse, GraduationCap, ExternalLink, X, Share2, Check, Smile } from 'lucide-react';
+import { useSessionStorage } from './hooks/useSessionStorage';
 
 const App: React.FC = () => {
-  // Session Storage Helpers
-  const getStorage = <T,>(key: string, initialValue: T): T => {
-    try {
-      const saved = sessionStorage.getItem(key);
-      if (saved) return JSON.parse(saved);
-    } catch (e) {
-      console.warn('Failed to parse session storage', e);
-    }
-    return initialValue;
-  };
-
-  const [language, setLanguage] = useState<Language>(() => getStorage('mindcare_language', 'en'));
-  const [view, setView] = useState<'chat' | 'assessment' | 'results' | 'mood'>(() => getStorage('mindcare_view', 'chat'));
-  const [results, setResults] = useState<{ result: AssessmentResult; careers: Career[] } | null>(() => getStorage('mindcare_results', null));
-  const [moodResult, setMoodResult] = useState<MoodResult | null>(() => getStorage('mindcare_mood_result', null));
+  // State Management via Custom Hook
+  const [language, setLanguage] = useSessionStorage<Language>('mindcare_language', 'en');
+  const [view, setView] = useSessionStorage<'chat' | 'assessment' | 'results' | 'mood'>('mindcare_view', 'chat');
+  const [results, setResults] = useSessionStorage<{ result: AssessmentResult; careers: Career[] } | null>('mindcare_results', null);
+  const [moodResult, setMoodResult] = useSessionStorage<MoodResult | null>('mindcare_mood_result', null);
   
+  // UI State
   const [triggerMessage, setTriggerMessage] = useState<string | null>(null);
   const [showDisclaimer, setShowDisclaimer] = useState(true);
   const [showShareToast, setShowShareToast] = useState(false);
   const [crisisExpanded, setCrisisExpanded] = useState(false);
   const [chatMode, setChatMode] = useState(false);
-
-  // Persist State Changes
-  useEffect(() => {
-    sessionStorage.setItem('mindcare_language', JSON.stringify(language));
-  }, [language]);
-
-  useEffect(() => {
-    sessionStorage.setItem('mindcare_view', JSON.stringify(view));
-  }, [view]);
-
-  useEffect(() => {
-    sessionStorage.setItem('mindcare_results', JSON.stringify(results));
-  }, [results]);
-
-  useEffect(() => {
-    sessionStorage.setItem('mindcare_mood_result', JSON.stringify(moodResult));
-  }, [moodResult]);
 
   // Reset chat mode when changing views via internal navigation
   useEffect(() => {
@@ -55,35 +30,35 @@ const App: React.FC = () => {
     }
   }, [view]);
 
-  const handleAssessmentComplete = (result: AssessmentResult) => {
+  const handleAssessmentComplete = useCallback((result: AssessmentResult) => {
     const matches = getCareerMatches(result.topCodes);
     setResults({ result, careers: matches });
     
-    // Clear assessment progress from storage now that it's complete
+    // Clear assessment progress
     sessionStorage.removeItem('mindcare_assessment_started');
     sessionStorage.removeItem('mindcare_assessment_index');
     sessionStorage.removeItem('mindcare_assessment_answers');
     
     setView('results');
-  };
+  }, [setResults, setView]);
 
-  const handleMoodComplete = (result: MoodResult) => {
+  const handleMoodComplete = useCallback((result: MoodResult) => {
       setMoodResult(result);
       // If crisis score detected (>= 4.5), maximize the crisis banner automatically
       if (result.overallScore >= 4.5) {
           setCrisisExpanded(true);
           window.scrollTo({ top: 0, behavior: 'smooth' });
       }
-  };
+  }, [setMoodResult]);
 
-  const startChatWithContext = (message: string) => {
+  const startChatWithContext = useCallback((message: string) => {
     setTriggerMessage(message);
     setView('chat');
     setChatMode(true);
     window.scrollTo(0, 0);
-  };
+  }, [setView]);
 
-  const handleShareResults = async () => {
+  const handleShareResults = useCallback(async () => {
     if (!results) return;
 
     const code = results.result.topCodes.join('');
@@ -158,7 +133,7 @@ const App: React.FC = () => {
             }
         }
     };
-  };
+  }, [results]);
 
   return (
     <div className="min-h-screen flex flex-col font-sans relative bg-gray-50">

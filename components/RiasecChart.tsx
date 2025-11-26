@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { RIASECCode } from '../types';
 import { X, Info } from 'lucide-react';
 
@@ -48,24 +48,15 @@ const TRAIT_CONFIG: Record<RIASECCode, { title: string; desc: string; color: str
 export const RiasecChart: React.FC<Props> = ({ scores }) => {
   const [activeTrait, setActiveTrait] = useState<RIASECCode | null>(null);
 
-  // Adjusted dimensions to maximize chart size while keeping labels visible
-  // Size 360 with Radius 105 leaves ~75px margin on sides for labels
+  // Constants for dimensions
   const size = 360; 
   const center = size / 2;
   const radius = 105; 
   const maxScore = 20; 
   const labelOffset = 18; 
+  const gridLevels = [0.25, 0.5, 0.75, 1];
 
-  const axes: { code: RIASECCode; label: string; fullLabel: string }[] = [
-    { code: 'R', label: 'R', fullLabel: 'Realistic' },
-    { code: 'I', label: 'I', fullLabel: 'Investigative' },
-    { code: 'A', label: 'A', fullLabel: 'Artistic' },
-    { code: 'S', label: 'S', fullLabel: 'Social' },
-    { code: 'E', label: 'E', fullLabel: 'Enterprising' },
-    { code: 'C', label: 'C', fullLabel: 'Conventional' },
-  ];
-
-  // Helper to calculate coordinates
+  // Helper to calculate coordinates - memoized indirectly via useMemo blocks below
   const getCoordinates = (r: number, index: number) => {
     const angle = (Math.PI / 3) * index - Math.PI / 2;
     const x = center + r * Math.cos(angle);
@@ -73,13 +64,23 @@ export const RiasecChart: React.FC<Props> = ({ scores }) => {
     return { x, y };
   };
 
-  const points = axes.map((axis, i) => {
-    const r = (scores[axis.code] / maxScore) * radius;
-    const { x, y } = getCoordinates(r, i);
-    return `${x},${y}`;
-  }).join(' ');
+  const axes = useMemo(() => [
+    { code: 'R' as RIASECCode, label: 'R', fullLabel: 'Realistic' },
+    { code: 'I' as RIASECCode, label: 'I', fullLabel: 'Investigative' },
+    { code: 'A' as RIASECCode, label: 'A', fullLabel: 'Artistic' },
+    { code: 'S' as RIASECCode, label: 'S', fullLabel: 'Social' },
+    { code: 'E' as RIASECCode, label: 'E', fullLabel: 'Enterprising' },
+    { code: 'C' as RIASECCode, label: 'C', fullLabel: 'Conventional' },
+  ], []);
 
-  const gridLevels = [0.25, 0.5, 0.75, 1];
+  // Memoize polygon points calculation
+  const points = useMemo(() => {
+    return axes.map((axis, i) => {
+      const r = (scores[axis.code] / maxScore) * radius;
+      const { x, y } = getCoordinates(r, i);
+      return `${x},${y}`;
+    }).join(' ');
+  }, [scores, axes]);
 
   // Handle global clicks to close popup
   useEffect(() => {

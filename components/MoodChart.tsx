@@ -59,46 +59,44 @@ export const MoodChart: React.FC<Props> = ({ result }) => {
            </div>
        )}
 
-       <div className="flex flex-col gap-6">
-          {/* Overall Gauge */}
-          <div className="flex items-center justify-between cursor-pointer group p-2 hover:bg-gray-50 rounded-lg transition-colors" onClick={() => setActiveInfo('overall')}>
-              <div className="flex flex-col">
-                  <span className="text-xs font-bold text-gray-400 uppercase tracking-wide flex items-center gap-1 mb-1">
-                      Overall Mood <Info size={12} />
-                  </span>
-                  <span className="text-xl font-bold transition-colors" style={{ color: overall.color }}>
-                      {overall.label}
-                  </span>
-              </div>
-              <div className="relative w-16 h-16 flex items-center justify-center">
+       <div className="flex flex-col items-center gap-6">
+          {/* Main Overall Gauge - Centered and Larger */}
+          <div className="flex flex-col items-center cursor-pointer group scale-100 hover:scale-105 transition-transform" onClick={() => setActiveInfo('overall')}>
+              <div className="relative w-32 h-32 flex items-center justify-center">
                   <svg className="w-full h-full transform -rotate-90">
-                      <circle cx="32" cy="32" r="28" stroke="#f3f4f6" strokeWidth="6" fill="transparent" />
+                      <circle cx="64" cy="64" r="56" stroke="#f3f4f6" strokeWidth="10" fill="transparent" />
                       <circle 
-                        cx="32" cy="32" r="28" 
+                        cx="64" cy="64" r="56" 
                         stroke={overall.color} 
-                        strokeWidth="6" 
+                        strokeWidth="10" 
                         fill="transparent" 
-                        strokeDasharray={175.9} 
-                        strokeDashoffset={175.9 - (175.9 * (result.overallScore / 6))}
+                        strokeDasharray={351.8} // 2 * pi * 56
+                        strokeDashoffset={351.8 - (351.8 * (result.overallScore / 6))}
                         strokeLinecap="round"
                         className="transition-all duration-1000 ease-out"
                       />
                   </svg>
-                  <span className="absolute text-sm font-bold text-gray-700">{result.overallScore.toFixed(1)}</span>
+                  <div className="absolute flex flex-col items-center">
+                    <span className="text-3xl font-bold text-gray-800">{result.overallScore.toFixed(1)}</span>
+                    <span className="text-[10px] font-bold uppercase tracking-wider" style={{ color: overall.color }}>{overall.label}</span>
+                  </div>
               </div>
+              <span className="mt-2 text-[10px] font-bold text-gray-400 uppercase tracking-widest flex items-center gap-1">
+                  Overall Mood <Info size={10} />
+              </span>
           </div>
 
-          <div className="h-px bg-gray-100 w-full" />
+          <div className="w-full h-px bg-gray-100" />
 
-          {/* Bar Charts */}
-          <div className="space-y-5 px-2">
+          {/* Subscales - Bars */}
+          <div className="w-full grid grid-cols-1 gap-6 px-2">
               {/* Depression */}
               <div className="cursor-pointer group" onClick={() => setActiveInfo('depression')}>
                   <div className="flex justify-between text-sm mb-2">
                       <span className="font-medium text-gray-700 flex items-center gap-1">Depression <Info size={12} className="opacity-0 group-hover:opacity-100 transition-opacity text-gray-400"/></span>
                       <span className="font-bold" style={{ color: depression.color }}>{result.depressionScore.toFixed(1)}</span>
                   </div>
-                  <div className="w-full bg-gray-100 rounded-full h-2.5 overflow-hidden">
+                  <div className="w-full bg-gray-100 rounded-full h-3 overflow-hidden">
                       <div 
                         className="h-full rounded-full transition-all duration-1000 ease-out"
                         style={{ width: `${(result.depressionScore / 6) * 100}%`, backgroundColor: depression.color }}
@@ -112,7 +110,7 @@ export const MoodChart: React.FC<Props> = ({ result }) => {
                       <span className="font-medium text-gray-700 flex items-center gap-1">Anxiety <Info size={12} className="opacity-0 group-hover:opacity-100 transition-opacity text-gray-400"/></span>
                       <span className="font-bold" style={{ color: anxiety.color }}>{result.anxietyScore.toFixed(1)}</span>
                   </div>
-                  <div className="w-full bg-gray-100 rounded-full h-2.5 overflow-hidden">
+                  <div className="w-full bg-gray-100 rounded-full h-3 overflow-hidden">
                       <div 
                         className="h-full rounded-full transition-all duration-1000 ease-out"
                         style={{ width: `${(result.anxietyScore / 6) * 100}%`, backgroundColor: anxiety.color }}

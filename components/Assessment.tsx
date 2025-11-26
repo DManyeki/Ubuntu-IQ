@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { QUESTIONS, calculateResults } from '../services/careerData';
 import { Language, AssessmentResult } from '../types';
 import { ChevronRight, ChevronLeft, CheckCircle2, ArrowLeft, ChevronDown, ChevronUp, HelpCircle, Info, Play, Lightbulb, BarChart2 } from 'lucide-react';
+import { useSessionStorage } from '../hooks/useSessionStorage';
 
 interface Props {
   language: Language;
@@ -95,37 +96,13 @@ const FAQs = [
 ];
 
 export const Assessment: React.FC<Props> = ({ language, onComplete, onCancel, previousResults, onViewResults }) => {
-  // Session Storage helper
-  const getStorage = <T,>(key: string, initialValue: T): T => {
-    try {
-        const saved = sessionStorage.getItem(key);
-        if (saved) return JSON.parse(saved);
-    } catch (e) {
-        console.warn('Failed to parse assessment storage', e);
-    }
-    return initialValue;
-  };
-
-  const [hasStarted, setHasStarted] = useState(() => getStorage('mindcare_assessment_started', false));
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(() => getStorage('mindcare_assessment_index', 0));
-  const [answers, setAnswers] = useState<Record<number, number>>(() => getStorage('mindcare_assessment_answers', {}));
+  const [hasStarted, setHasStarted] = useSessionStorage<boolean>('mindcare_assessment_started', false);
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useSessionStorage<number>('mindcare_assessment_index', 0);
+  const [answers, setAnswers] = useSessionStorage<Record<number, number>>('mindcare_assessment_answers', {});
   
   const [showFaqList, setShowFaqList] = useState(false);
   const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(null);
   const [showGuide, setShowGuide] = useState(false);
-
-  // Persist State
-  useEffect(() => {
-    sessionStorage.setItem('mindcare_assessment_started', JSON.stringify(hasStarted));
-  }, [hasStarted]);
-
-  useEffect(() => {
-    sessionStorage.setItem('mindcare_assessment_index', JSON.stringify(currentQuestionIndex));
-  }, [currentQuestionIndex]);
-
-  useEffect(() => {
-    sessionStorage.setItem('mindcare_assessment_answers', JSON.stringify(answers));
-  }, [answers]);
 
   // Reset guide when question changes
   useEffect(() => {

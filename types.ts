@@ -62,15 +62,26 @@ export interface MoodResult {
   timestamp: Date;
 }
 
+export interface MoodStrategy {
+  id: string;
+  category: 'depression' | 'anxiety' | 'mixed' | 'crisis' | 'positive' | 'anger' | 'loneliness' | 'exam_stress' | 'family_pressure';
+  intensity: 'mild' | 'moderate' | 'severe' | 'all';
+  title: { en: string; sw: string; sheng: string };
+  description: { en: string; sw: string; sheng: string };
+  duration: number; // minutes
+  mechanism?: string; // Scientific basis
+  success_rate?: string; // e.g. "70%"
+  difficulty?: number; // 1 (Easy) to 3 (Hard)
+  action_context: string; // Context string to send to Chat
+}
+
 export interface MoodRecommendation {
-  type: 'positive' | 'depression' | 'anxiety' | 'crisis';
+  type: 'positive' | 'depression' | 'anxiety' | 'crisis' | 'mixed';
+  severity: 'mild' | 'moderate' | 'severe';
   message: {
     en: string;
     sw: string;
     sheng: string;
   };
-  activities: {
-    title: { en: string; sw: string; sheng: string };
-    action: string; // 'chat_breathing', 'chat_grounding', 'chat_journal'
-  }[];
+  strategies: MoodStrategy[];
 }
