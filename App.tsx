@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { CrisisBanner } from './components/CrisisBanner';
 import { ChatInterface } from './components/ChatInterface';
 import { Assessment } from './components/Assessment';
@@ -8,16 +8,46 @@ import { getCareerMatches } from './services/careerData';
 import { MessageCircle, BookOpen, Globe, ArrowLeft, HeartPulse, GraduationCap, ExternalLink, X, Share2, Check } from 'lucide-react';
 
 const App: React.FC = () => {
-  const [language, setLanguage] = useState<Language>('en');
-  const [view, setView] = useState<'chat' | 'assessment' | 'results'>('chat');
-  const [results, setResults] = useState<{ result: AssessmentResult; careers: Career[] } | null>(null);
+  // Session Storage Helpers
+  const getStorage = <T,>(key: string, initialValue: T): T => {
+    try {
+      const saved = sessionStorage.getItem(key);
+      if (saved) return JSON.parse(saved);
+    } catch (e) {
+      console.warn('Failed to parse session storage', e);
+    }
+    return initialValue;
+  };
+
+  const [language, setLanguage] = useState<Language>(() => getStorage('mindcare_language', 'en'));
+  const [view, setView] = useState<'chat' | 'assessment' | 'results'>(() => getStorage('mindcare_view', 'chat'));
+  const [results, setResults] = useState<{ result: AssessmentResult; careers: Career[] } | null>(() => getStorage('mindcare_results', null));
   const [triggerMessage, setTriggerMessage] = useState<string | null>(null);
   const [showDisclaimer, setShowDisclaimer] = useState(true);
   const [showShareToast, setShowShareToast] = useState(false);
 
+  // Persist State Changes
+  useEffect(() => {
+    sessionStorage.setItem('mindcare_language', JSON.stringify(language));
+  }, [language]);
+
+  useEffect(() => {
+    sessionStorage.setItem('mindcare_view', JSON.stringify(view));
+  }, [view]);
+
+  useEffect(() => {
+    sessionStorage.setItem('mindcare_results', JSON.stringify(results));
+  }, [results]);
+
   const handleAssessmentComplete = (result: AssessmentResult) => {
     const matches = getCareerMatches(result.topCodes);
     setResults({ result, careers: matches });
+    
+    // Clear assessment progress from storage now that it's complete
+    sessionStorage.removeItem('mindcare_assessment_started');
+    sessionStorage.removeItem('mindcare_assessment_index');
+    sessionStorage.removeItem('mindcare_assessment_answers');
+    
     setView('results');
   };
 
@@ -113,57 +143,58 @@ const App: React.FC = () => {
                 alert('Could not auto-copy results. Please capture a screenshot instead.');
             }
         }
-    }
+    };
   };
 
   return (
-    <div className="min-h-screen flex flex-col font-sans relative">
-      <CrisisBanner />
+    <div className="min-h-screen flex flex-col font-sans relative bg-gray-50">
       
+      {/* Sticky Header Group */}
+      <div className="sticky top-0 z-50 w-full shadow-sm">
+        <CrisisBanner />
+        <header className="bg-white border-b border-gray-200">
+          <div className="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between">
+            <div className="flex items-center gap-2 text-primary cursor-pointer" onClick={() => setView('chat')}>
+              <HeartPulse className="h-6 w-6" />
+              <h1 className="font-bold text-xl tracking-tight">MindCare<span className="text-kenya-red">.ke</span></h1>
+            </div>
+            
+            <div className="flex items-center gap-2">
+              <Globe className="w-4 h-4 text-gray-500" />
+              <select 
+                value={language}
+                onChange={(e) => setLanguage(e.target.value as Language)}
+                className="bg-transparent text-sm font-medium text-gray-700 outline-none cursor-pointer"
+              >
+                <option value="en">English</option>
+                <option value="sw">Kiswahili</option>
+                <option value="sheng">Sheng</option>
+              </select>
+            </div>
+          </div>
+        </header>
+      </div>
+
       {/* Toast Notification */}
       {showShareToast && (
-          <div className="fixed bottom-6 left-1/2 transform -translate-x-1/2 z-50 bg-gray-900 text-white px-6 py-3 rounded-full shadow-xl flex items-center gap-2 animate-in fade-in slide-in-from-bottom-4 border border-gray-700">
+          <div className="fixed bottom-6 left-1/2 transform -translate-x-1/2 z-[60] bg-gray-900 text-white px-6 py-3 rounded-full shadow-xl flex items-center gap-2 animate-in fade-in slide-in-from-bottom-4 border border-gray-700">
               <Check size={18} className="text-green-400" />
               <span className="font-medium text-sm">Results copied to clipboard!</span>
           </div>
       )}
 
-      {/* Header */}
-      <header className="bg-white border-b border-gray-200 sticky top-[52px] z-40">
-        <div className="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between">
-          <div className="flex items-center gap-2 text-primary cursor-pointer" onClick={() => setView('chat')}>
-            <HeartPulse className="h-6 w-6" />
-            <h1 className="font-bold text-xl tracking-tight">MindCare<span className="text-kenya-red">.ke</span></h1>
-          </div>
-          
-          <div className="flex items-center gap-2">
-            <Globe className="w-4 h-4 text-gray-500" />
-            <select 
-              value={language}
-              onChange={(e) => setLanguage(e.target.value as Language)}
-              className="bg-transparent text-sm font-medium text-gray-700 outline-none cursor-pointer"
-            >
-              <option value="en">English</option>
-              <option value="sw">Kiswahili</option>
-              <option value="sheng">Sheng</option>
-            </select>
-          </div>
-        </div>
-      </header>
-
       {/* Main Content */}
-      <main className="flex-1 bg-gray-50 p-4">
-        <div className="max-w-4xl mx-auto">
+      <main className="flex-1 p-3 md:p-6 w-full max-w-4xl mx-auto">
           
           {/* Navigation Tabs (Only visible on main views) */}
           {view !== 'assessment' && view !== 'results' && (
-             <div className="flex gap-4 mb-6">
+             <div className="flex gap-3 md:gap-4 mb-4 md:mb-6">
                 <button 
                   onClick={() => setView('chat')}
-                  className={`flex-1 py-4 rounded-xl flex items-center justify-center gap-2 font-semibold transition-all shadow-sm ${
+                  className={`flex-1 py-3 md:py-4 rounded-xl flex items-center justify-center gap-2 font-semibold transition-all shadow-sm text-sm md:text-base ${
                     view === 'chat' 
                     ? 'bg-white text-primary ring-2 ring-primary/10' 
-                    : 'bg-white/50 text-gray-500 hover:bg-white'
+                    : 'bg-white/60 text-gray-500 hover:bg-white'
                   }`}
                 >
                   <MessageCircle className="w-5 h-5" />
@@ -171,7 +202,7 @@ const App: React.FC = () => {
                 </button>
                 <button 
                   onClick={() => setView('assessment')}
-                  className="flex-1 py-4 bg-gradient-to-r from-primary to-secondary text-white rounded-xl flex items-center justify-center gap-2 font-semibold shadow-md hover:shadow-lg transition-all"
+                  className="flex-1 py-3 md:py-4 bg-gradient-to-r from-primary to-secondary text-white rounded-xl flex items-center justify-center gap-2 font-semibold shadow-md hover:shadow-lg transition-all text-sm md:text-base"
                 >
                   <BookOpen className="w-5 h-5" />
                   {language === 'sheng' ? 'Check Career' : language === 'sw' ? 'Tathmini Kazi' : 'Career Test'}
@@ -182,8 +213,8 @@ const App: React.FC = () => {
           {/* Chat View - Persistent but hidden when inactive to keep state */}
           <div className={view === 'chat' ? 'block' : 'hidden'}>
               {showDisclaimer && (
-                <div className="mb-4 p-3 bg-blue-50 border border-blue-100 rounded-lg text-sm text-blue-800 flex justify-between gap-3 animate-in fade-in slide-in-from-top-2">
-                  <p className="leading-relaxed">
+                <div className="mb-3 p-3 bg-blue-50 border border-blue-100 rounded-lg text-sm text-blue-800 flex justify-between gap-3 animate-in fade-in slide-in-from-top-2">
+                  <p className="leading-relaxed text-xs md:text-sm">
                     <strong>Note:</strong> MindCare is an AI assistant. While we are here to support you, we are not a replacement for professional medical advice.
                   </p>
                   <button 
@@ -207,13 +238,15 @@ const App: React.FC = () => {
               language={language} 
               onComplete={handleAssessmentComplete}
               onCancel={() => setView('chat')}
+              previousResults={results ? results.result : null}
+              onViewResults={() => setView('results')}
             />
           )}
 
           {view === 'results' && results && (
-            <div className="space-y-6 animate-in fade-in duration-500">
+            <div className="space-y-6 animate-in fade-in duration-500 pb-10">
                <div className="flex justify-between items-center mb-2">
-                   <button onClick={() => setView('chat')} className="flex items-center gap-1 text-gray-500 hover:text-primary font-medium">
+                   <button onClick={() => setView('chat')} className="flex items-center gap-1 text-gray-500 hover:text-primary font-medium p-2 -ml-2 rounded-lg hover:bg-gray-100 transition-colors">
                      <ArrowLeft size={16} /> Back to Home
                    </button>
                </div>
@@ -343,7 +376,6 @@ const App: React.FC = () => {
             </div>
           )}
 
-        </div>
       </main>
     </div>
   );

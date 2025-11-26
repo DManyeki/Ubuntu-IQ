@@ -92,8 +92,24 @@ const FormattedText: React.FC<{ content: string }> = ({ content }) => {
 export const ChatInterface: React.FC<Props> = ({ language, triggerMessage, onTriggerHandled }) => {
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
-  const [messages, setMessages] = useState<ChatMessage[]>([
-    {
+  
+  // Initialize messages from SessionStorage
+  const [messages, setMessages] = useState<ChatMessage[]>(() => {
+    try {
+        const saved = sessionStorage.getItem('mindcare_chat_history');
+        if (saved) {
+            // Need to revive Date objects because JSON.stringify converts them to strings
+            return JSON.parse(saved).map((m: any) => ({
+                ...m,
+                timestamp: new Date(m.timestamp)
+            }));
+        }
+    } catch (e) {
+        console.warn('Failed to parse chat history', e);
+    }
+    
+    // Default welcome message if no history
+    return [{
       id: 'welcome',
       role: 'model',
       content: language === 'sheng' 
@@ -102,10 +118,15 @@ export const ChatInterface: React.FC<Props> = ({ language, triggerMessage, onTri
         ? "Hujambo! Mimi ni MindCare. Najua kusubiri matokeo ya KCSE inaweza kuwa na wasiwasi. Naweza kukusaidia aje leo?"
         : "Hello! I'm MindCare. I know waiting for KCSE results can be stressful. How can I support you today? We can talk about careers or how you're feeling.",
       timestamp: new Date()
-    }
-  ]);
+    }];
+  });
   
   const messagesEndRef = useRef<HTMLDivElement>(null);
+
+  // Persist messages to SessionStorage
+  useEffect(() => {
+    sessionStorage.setItem('mindcare_chat_history', JSON.stringify(messages));
+  }, [messages]);
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -171,7 +192,7 @@ export const ChatInterface: React.FC<Props> = ({ language, triggerMessage, onTri
   }, [triggerMessage]);
 
   return (
-    <div className="flex flex-col h-[600px] bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+    <div className="flex flex-col h-[calc(100dvh-220px)] md:h-[600px] min-h-[300px] bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden transition-all duration-300">
       <div className="flex-1 overflow-y-auto p-4 space-y-4 bg-gray-50">
         {messages.map((msg) => (
           <div 
@@ -183,7 +204,7 @@ export const ChatInterface: React.FC<Props> = ({ language, triggerMessage, onTri
             }`}>
               {msg.role === 'user' ? <User size={16} /> : <Bot size={16} />}
             </div>
-            <div className={`max-w-[80%] p-3.5 rounded-2xl text-sm leading-relaxed ${
+            <div className={`max-w-[85%] p-3.5 rounded-2xl text-sm leading-relaxed ${
               msg.role === 'user' 
                 ? 'bg-primary text-white rounded-tr-none' 
                 : 'bg-white border border-gray-200 text-gray-800 rounded-tl-none shadow-sm'
@@ -204,7 +225,7 @@ export const ChatInterface: React.FC<Props> = ({ language, triggerMessage, onTri
         <div ref={messagesEndRef} />
       </div>
 
-      <div className="p-4 bg-white border-t border-gray-100">
+      <div className="p-3 md:p-4 bg-white border-t border-gray-100">
         <div className="flex items-center gap-2 bg-gray-50 rounded-full px-4 py-2 border border-gray-200 focus-within:ring-2 focus-within:ring-primary/20 transition-all">
           <input
             type="text"
