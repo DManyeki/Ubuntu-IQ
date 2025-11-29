@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "ipconfig": "ipconfig"
   },
   "dependencies": {
     "@google/genai": "latest",
