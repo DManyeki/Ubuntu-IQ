@@ -1,4 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
+import { AuthProvider, useAuth } from './context/AuthContext';
+import { AuthModal } from './components/AuthModal';
+import { SessionHistory } from './components/SessionHistory';
 import { CrisisBanner } from './components/CrisisBanner';
 import { ChatInterface } from './components/ChatInterface';
 import { Assessment } from './components/Assessment';
@@ -6,6 +9,7 @@ import { MoodAssessment } from './components/MoodAssessment';
 import { RiasecChart } from './components/RiasecChart';
 import { Language, AssessmentResult, Career, MoodResult } from './types';
 import { getCareerMatches } from './services/careerData';
+import { saveAssessmentForUser, saveMoodForUser } from './services/userDataService';
 import { MessageCircle, BookOpen, Globe, ArrowLeft, HeartPulse, GraduationCap, ExternalLink, X, Share2, Check, Smile } from 'lucide-react';
 import { useSessionStorage } from './hooks/useSessionStorage';
 
@@ -22,6 +26,8 @@ const App: React.FC = () => {
   const [showShareToast, setShowShareToast] = useState(false);
   const [crisisExpanded, setCrisisExpanded] = useState(false);
   const [chatMode, setChatMode] = useState(false);
+  const [showAuthModal, setShowAuthModal] = useState(false);
+  const [showHistory, setShowHistory] = useState(false);
 
   // Reset chat mode when changing views via internal navigation
   useEffect(() => {
@@ -30,7 +36,46 @@ const App: React.FC = () => {
     }
   }, [view]);
 
-  const handleAssessmentComplete = useCallback((result: AssessmentResult) => {
+  // Device detection: store a device id to recognize returning anonymous users
+  useEffect(() => {
+    try {
+      const key = 'mindcare_device_id';
+      if (!localStorage.getItem(key)) {
+        const id = `d_${Math.random().toString(36).slice(2, 9)}`;
+        localStorage.setItem(key, id);
+      }
+    } catch (err) {
+      // ignore localStorage errors
+    }
+  }, []);
+
+  // Warn users who are not signed in about losing session data
+  useEffect(() => {
+    const handler = (e: BeforeUnloadEvent) => {
+      try {
+        const hasUnsaved = !!(
+          sessionStorage.getItem('mindcare_chat_history') ||
+          sessionStorage.getItem('mindcare_assessment_answers') ||
+          sessionStorage.getItem('mindcare_mood_result')
+        );
+        const userJson = localStorage.getItem('firebase:authUser');
+        const isLoggedIn = !!userJson; // rough check; real check via context
+        if (hasUnsaved && !isLoggedIn) {
+          e.preventDefault();
+          e.returnValue = 'You are about to leave and unsaved data will be lost. Create an account to save your session?';
+          return e.returnValue;
+        }
+      } catch (err) {
+        // noop
+      }
+    };
+    window.addEventListener('beforeunload', handler);
+    return () => window.removeEventListener('beforeunload', handler);
+  }, []);
+
+  const { currentUser } = useAuth();
+
+  const handleAssessmentComplete = useCallback(async (result: AssessmentResult) => {
     const matches = getCareerMatches(result.topCodes);
     setResults({ result, careers: matches });
     
@@ -40,14 +85,30 @@ const App: React.FC = () => {
     sessionStorage.removeItem('mindcare_assessment_answers');
     
     setView('results');
+    // Save to Firestore if user is signed in
+    try {
+      if (currentUser) {
+        await saveAssessmentForUser(currentUser.uid, { result, careers: matches });
+      }
+    } catch (err) {
+      console.error('Failed to save assessment to Firestore', err);
+    }
   }, [setResults, setView]);
 
-  const handleMoodComplete = useCallback((result: MoodResult) => {
+  const handleMoodComplete = useCallback(async (result: MoodResult) => {
       setMoodResult(result);
       // If crisis score detected (>= 4.5), maximize the crisis banner automatically
       if (result.overallScore >= 4.5) {
           setCrisisExpanded(true);
           window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+
+      try {
+        if (currentUser) {
+          await saveMoodForUser(currentUser.uid, result);
+        }
+      } catch (err) {
+        console.error('Failed to save mood result to Firestore', err);
       }
   }, [setMoodResult]);
 
@@ -57,6 +118,10 @@ const App: React.FC = () => {
     setChatMode(true);
     window.scrollTo(0, 0);
   }, [setView]);
+
+  const handleOpenAuth = useCallback(() => setShowAuthModal(true), []);
+  const handleCloseAuth = useCallback(() => setShowAuthModal(false), []);
+  const toggleHistory = useCallback(() => setShowHistory(s => !s), []);
 
   const handleShareResults = useCallback(async () => {
     if (!results) return;
@@ -169,6 +234,8 @@ const App: React.FC = () => {
                 <option value="sw">Kiswahili</option>
                 <option value="sheng">Sheng</option>
               </select>
+              <button onClick={handleOpenAuth} className="ml-3 text-sm px-3 py-1 border rounded text-primary bg-white">Account</button>
+              <button onClick={toggleHistory} className="ml-2 text-sm px-3 py-1 border rounded text-primary bg-white">History</button>
             </div>
           </div>
         </header>
@@ -390,9 +457,23 @@ const App: React.FC = () => {
             </div>
           )}
 
+          {/* Account modal and history side-panel */}
+          <AuthModal open={showAuthModal} onClose={handleCloseAuth} />
+          {showHistory && (
+            <div className="fixed right-4 top-24 w-96 z-60">
+              <SessionHistory />
+            </div>
+          )}
+
       </main>
     </div>
   );
 };
 
-export default App;
+const AppWithProvider: React.FC = () => (
+  <AuthProvider>
+    <App />
+  </AuthProvider>
+);
+
+export default AppWithProvider;
