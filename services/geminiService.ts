@@ -1,6 +1,7 @@
 import { GoogleGenAI, GenerateContentResponse } from "@google/genai";
 
-const apiKey = process.env.API_KEY || ''; // Ensure this is available
+// Use Vite env var if available, or empty string.
+const apiKey = import.meta.env.VITE_GEMINI_API_KEY || import.meta.env.VITE_FIREBASE_API_KEY || '';
 const ai = new GoogleGenAI({ apiKey });
 
 const SYSTEM_INSTRUCTION = `
@@ -37,9 +38,6 @@ export const sendMessageToGemini = async (
 ): Promise<string> => {
   try {
     const model = 'gemini-2.5-flash';
-    
-    // Convert history to compatible format if needed, but for single generateContent we just concatenate or use chat
-    // For simplicity in this demo, we'll use generateContent with system instruction and context
     
     const chat = ai.chats.create({
       model: model,
