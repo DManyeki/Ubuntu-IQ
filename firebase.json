@@ -5,6 +5,9 @@
     "rules": "firestore.rules",
     "indexes": " firestore.indexes.json"
   },
+  "functions": {
+    "source": "functions"
+  },
   "emulators": {
     "auth": {
       "port": 9099
@@ -12,6 +15,9 @@
     "firestore": {
       "port": 8080,
       "rules": "firestore.rules"
+    },
+    "functions": {
+      "port": 5001
     },
     "ui": {
       "enabled": true
