@@ -12,7 +12,7 @@ export const SessionHistory: React.FC = () => {
     (async () => {
       setLoading(true);
       try {
-        const data = await getSessionsForUser(currentUser.uid);
+        const data = await getSessionsForUser(currentUser.id);
         setSessions(data as any[]);
       } catch (err) {
         console.error(err);

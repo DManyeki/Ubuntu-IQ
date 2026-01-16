@@ -1,7 +1,6 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
-import { onAuthStateChanged, User } from 'firebase/auth';
-import { auth } from '../services/firebaseConfig';
-import * as authService from '../services/authService';
+import { User } from '@supabase/supabase-js';
+import { supabase } from '../lib/supabase';
 
 interface AuthContextValue {
   currentUser: User | null;
@@ -18,27 +17,64 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const unsub = onAuthStateChanged(auth, (user) => {
-      setCurrentUser(user || null);
+    // Check active session
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      setCurrentUser(session?.user ?? null);
       setLoading(false);
     });
-    return () => unsub();
+
+    // Listen for auth state changes
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event: string, session: any) => {
+      setCurrentUser(session?.user ?? null);
+      setLoading(false);
+    });
+
+    return () => subscription.unsubscribe();
   }, []);
 
   const signup = async (username: string, password: string) => {
-    const user = await authService.signupWithUsername(username, password);
-    setCurrentUser(user as any);
-    return user as any;
+    // Use email format for username (e.g., username@mindcare.local)
+    const email = username.includes('@') ? username : `${username}@mindcare.local`;
+
+    const { data, error } = await supabase.auth.signUp({
+      email,
+      password,
+      options: {
+        data: {
+          username,
+          display_name: username
+        }
+      }
+    });
+
+    if (error) throw error;
+
+    // Create user profile
+    if (data.user) {
+      await supabase.from('user_profiles').insert({
+        id: data.user.id,
+        role: 'student'
+      });
+    }
+
+    return data.user;
   };
 
   const login = async (username: string, password: string) => {
-    const user = await authService.loginWithUsername(username, password);
-    setCurrentUser(user as any);
-    return user as any;
+    const email = username.includes('@') ? username : `${username}@mindcare.local`;
+
+    const { data, error } = await supabase.auth.signInWithPassword({
+      email,
+      password
+    });
+
+    if (error) throw error;
+    return data.user;
   };
 
   const logout = async () => {
-    await authService.logout();
+    const { error } = await supabase.auth.signOut();
+    if (error) throw error;
     setCurrentUser(null);
   };
 

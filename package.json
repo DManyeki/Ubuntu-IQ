@@ -11,17 +11,23 @@
   },
   "dependencies": {
     "@google/genai": "latest",
-    "firebase": "^10.10.0",
+    "@supabase/supabase-js": "^2.90.1",
+    "@vercel/blob": "^2.0.0",
+    "cheerio": "^1.1.2",
+    "dotenv": "^17.2.3",
     "lucide-react": "^0.263.1",
+    "pdfjs-dist": "^5.4.530",
+    "playwright": "^1.57.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/node": "^20.0.0",
+    "@types/node": "^20.19.30",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^4.0.3",
-    "firebase-tools": "^14.26.0",
+    "firebase-admin": "^13.6.0",
+    "tsx": "^4.21.0",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
   }
