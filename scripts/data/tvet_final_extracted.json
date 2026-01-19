@@ -1,0 +1,822 @@
+{
+  "source": "TVET_CLUSTER_DOCUMENT_2025 - updated.xlsx",
+  "count": 69,
+  "programs": [
+    {
+      "category": "Law",
+      "level": "Diploma",
+      "min_mean_grade": "C",
+      "requirements": [
+        {
+          "subject": "ENG/KIS",
+          "grade": "C+"
+        }
+      ]
+    },
+    {
+      "category": "Law",
+      "level": "Certificate",
+      "min_mean_grade": "C-",
+      "requirements": [
+        {
+          "subject": "ENG/KIS",
+          "grade": "C"
+        }
+      ]
+    },
+    {
+      "category": "Education",
+      "level": "Diploma",
+      "min_mean_grade": "C+",
+      "requirements": [
+        {
+          "subject": "ENG",
+          "grade": "C"
+        },
+        {
+          "subject": "MATH",
+          "grade": "C"
+        },
+        {
+          "subject": "ENG",
+          "grade": "C"
+        },
+        {
+          "subject": "MATH",
+          "grade": "D+"
+        }
+      ]
+    },
+    {
+      "category": "Education",
+      "level": "Diploma (Special Needs)",
+      "min_mean_grade": "C",
+      "requirements": [
+        {
+          "subject": "ENG",
+          "grade": "C-"
+        },
+        {
+          "subject": "MATH",
+          "grade": "C-"
+        },
+        {
+          "subject": "ENG",
+          "grade": "C-"
+        },
+        {
+          "subject": "MATH",
+          "grade": "D"
+        }
+      ]
+    },
+    {
+      "category": "Accountancy",
+      "level": "Diploma",
+      "min_mean_grade": "C-",
+      "requirements": []
+    },
+    {
+      "category": "Accountancy",
+      "level": "Certificate",
+      "min_mean_grade": "D",
+      "requirements": []
+    },
+    {
+      "category": "Architecture",
+      "level": "Diploma",
+      "min_mean_grade": "C",
+      "requirements": [
+        {
+          "subject": "MATH Alternative A",
+          "grade": "C"
+        },
+        {
+          "subject": "PHY",
+          "grade": "C"
+        },
+        {
+          "subject": "ENG/KIS",
+          "grade": "C"
+        }
+      ]
+    },
+    {
+      "category": "Architecture",
+      "level": "Certificate",
+      "min_mean_grade": "C-",
+      "requirements": [
+        {
+          "subject": "MATH",
+          "grade": "C-"
+        },
+        {
+          "subject": "PHY",
+          "grade": "C-"
+        },
+        {
+          "subject": "ENG/KIS",
+          "grade": "C-"
+        }
+      ]
+    },
+    {
+      "category": "Quantity Survey",
+      "level": "Diploma",
+      "min_mean_grade": "C",
+      "requirements": [
+        {
+          "subject": "MATH Alternative A",
+          "grade": "C"
+        },
+        {
+          "subject": "PHY",
+          "grade": "C"
+        },
+        {
+          "subject": "ENG/KIS",
+          "grade": "C"
+        }
+      ]
+    },
+    {
+      "category": "Quantity Survey",
+      "level": "Certificate",
+      "min_mean_grade": "C-",
+      "requirements": [
+        {
+          "subject": "MATH",
+          "grade": "C-"
+        },
+        {
+          "subject": "PHY",
+          "grade": "C-"
+        },
+        {
+          "subject": "ENG/KIS",
+          "grade": "C-"
+        }
+      ]
+    },
+    {
+      "category": "Engineering, Engineering Technology",
+      "level": "Diploma",
+      "min_mean_grade": "C-",
+      "requirements": []
+    },
+    {
+      "category": "Engineering, Engineering Technology",
+      "level": "Certificate",
+      "min_mean_grade": "D+",
+      "requirements": []
+    },
+    {
+      "category": "Pharmacy",
+      "level": "Diploma",
+      "min_mean_grade": "C",
+      "requirements": [
+        {
+          "subject": "B  CHE",
+          "grade": "C"
+        },
+        {
+          "subject": "BIO",
+          "grade": "C"
+        },
+        {
+          "subject": "MATH/PHY",
+          "grade": "C"
+        },
+        {
+          "subject": "MATH",
+          "grade": "C"
+        },
+        {
+          "subject": "ENG/KIS",
+          "grade": "C"
+        },
+        {
+          "subject": "ENG/KIS",
+          "grade": "C"
+        }
+      ]
+    },
+    {
+      "category": "Environmental Health",
+      "level": "Diploma",
+      "min_mean_grade": "C",
+      "requirements": [
+        {
+          "subject": "ENG/KIS",
+          "grade": "C"
+        },
+        {
+          "subject": "MATH Alternative A",
+          "grade": "C-"
+        }
+      ]
+    },
+    {
+      "category": "Environmental Health",
+      "level": "Certificate",
+      "min_mean_grade": "C-",
+      "requirements": [
+        {
+          "subject": "ENG/KIS",
+          "grade": "C-"
+        },
+        {
+          "subject": "PHY/CHE/MATH/HSC/AGRIC/GSC",
+          "grade": "D+"
+        }
+      ]
+    },
+    {
+      "category": "Nursing",
+      "level": "Diploma",
+      "min_mean_grade": "C",
+      "requirements": [
+        {
+          "subject": "ENG/KIS",
+          "grade": "C"
+        },
+        {
+          "subject": "CHE/MATH",
+          "grade": "C-"
+        }
+      ]
+    },
+    {
+      "category": "Nursing",
+      "level": "Certificate",
+      "min_mean_grade": "C-",
+      "requirements": [
+        {
+          "subject": "ENG/KIS",
+          "grade": "C"
+        },
+        {
+          "subject": "CHE/MATH",
+          "grade": "D+"
+        }
+      ]
+    },
+    {
+      "category": "Animal Health",
+      "level": "Diploma",
+      "min_mean_grade": "C",
+      "requirements": [
+        {
+          "subject": "BIO",
+          "grade": "C"
+        },
+        {
+          "subject": "CHE",
+          "grade": "C-"
+        },
+        {
+          "subject": "MATH/PHY/AGRIC",
+          "grade": "C-"
+        }
+      ]
+    },
+    {
+      "category": "Animal Health",
+      "level": "Certificate",
+      "min_mean_grade": "C-",
+      "requirements": [
+        {
+          "subject": "BIO",
+          "grade": "C-"
+        }
+      ]
+    },
+    {
+      "category": "Medical Laboratory Science",
+      "level": "Diploma",
+      "min_mean_grade": "C",
+      "requirements": [
+        {
+          "subject": "ENG/KIS",
+          "grade": "C"
+        },
+        {
+          "subject": "MATH/PHY",
+          "grade": "C"
+        },
+        {
+          "subject": "BIO",
+          "grade": "C"
+        },
+        {
+          "subject": "CHE",
+          "grade": "C"
+        }
+      ]
+    },
+    {
+      "category": "Nutrition & Dietetics",
+      "level": "Diploma",
+      "min_mean_grade": "C-",
+      "requirements": [
+        {
+          "subject": "ENG/KIS",
+          "grade": "D+"
+        },
+        {
+          "subject": "PHY/MATH/HSC/AGRIC/GSC",
+          "grade": "D"
+        }
+      ]
+    },
+    {
+      "category": "Nutrition & Dietetics",
+      "level": "Certificate",
+      "min_mean_grade": "D",
+      "requirements": [
+        {
+          "subject": "ENG/KIS",
+          "grade": "D"
+        },
+        {
+          "subject": "PHY/MATH/HSC/AGRIC/GSC",
+          "grade": "D"
+        }
+      ]
+    },
+    {
+      "category": "Land Surveying",
+      "level": "Diploma",
+      "min_mean_grade": "C-",
+      "requirements": [
+        {
+          "subject": "ENG",
+          "grade": "C-"
+        },
+        {
+          "subject": "PHY",
+          "grade": "C-"
+        }
+      ]
+    },
+    {
+      "category": "Land Surveying",
+      "level": "Certificate",
+      "min_mean_grade": "D",
+      "requirements": []
+    },
+    {
+      "category": "Clinical Medicine and Surgery and Community Health",
+      "level": "Diploma",
+      "min_mean_grade": "C",
+      "requirements": [
+        {
+          "subject": "ENG/KIS",
+          "grade": "C"
+        },
+        {
+          "subject": "BIO",
+          "grade": "C"
+        },
+        {
+          "subject": "CHE",
+          "grade": "C-"
+        },
+        {
+          "subject": "MATH/PHY",
+          "grade": "C-"
+        }
+      ]
+    },
+    {
+      "category": "Clinical Medicine and Surgery and Community Health",
+      "level": "Diploma",
+      "min_mean_grade": "",
+      "requirements": [
+        {
+          "subject": "ENG/KIS",
+          "grade": "C"
+        },
+        {
+          "subject": "MATH",
+          "grade": "C-"
+        }
+      ]
+    },
+    {
+      "category": "Health Records and Information Technology",
+      "level": "Diploma",
+      "min_mean_grade": "C",
+      "requirements": [
+        {
+          "subject": "ENG/KIS",
+          "grade": "C"
+        },
+        {
+          "subject": "MATH A/MAT B",
+          "grade": "C-"
+        },
+        {
+          "subject": "BIO/BSC",
+          "grade": "D+"
+        },
+        {
+          "subject": "PHY/CHE/COMP/AGR/HSC/ECON/GEO/COM/BST",
+          "grade": "C-"
+        }
+      ]
+    },
+    {
+      "category": "Health Records and Information Technology",
+      "level": "Certificate",
+      "min_mean_grade": "C-",
+      "requirements": [
+        {
+          "subject": "ENG/KIS",
+          "grade": "C-"
+        },
+        {
+          "subject": "MATH A/MAT B",
+          "grade": "D"
+        },
+        {
+          "subject": "BIO/BSC",
+          "grade": "D"
+        },
+        {
+          "subject": "PHY/CHE/COMP/AGR/HSC/ECON/GEO/COM/BST",
+          "grade": "D+"
+        }
+      ]
+    },
+    {
+      "category": "Business courses",
+      "level": "Diploma",
+      "min_mean_grade": "C-",
+      "requirements": []
+    },
+    {
+      "category": "Business courses",
+      "level": "Certificate",
+      "min_mean_grade": "D",
+      "requirements": []
+    },
+    {
+      "category": "Business courses",
+      "level": "Artisan",
+      "min_mean_grade": "D-",
+      "requirements": []
+    },
+    {
+      "category": "Humanities (Social Sciences)",
+      "level": "Diploma",
+      "min_mean_grade": "C-",
+      "requirements": []
+    },
+    {
+      "category": "Humanities (Social Sciences)",
+      "level": "Certificate",
+      "min_mean_grade": "D",
+      "requirements": []
+    },
+    {
+      "category": "Humanities (Social Sciences)",
+      "level": "Artisan",
+      "min_mean_grade": "D-",
+      "requirements": []
+    },
+    {
+      "category": "Computing",
+      "level": "Diploma",
+      "min_mean_grade": "C-",
+      "requirements": []
+    },
+    {
+      "category": "Computing",
+      "level": "Certificate",
+      "min_mean_grade": "D",
+      "requirements": []
+    },
+    {
+      "category": "Computing",
+      "level": "Artisan",
+      "min_mean_grade": "D-",
+      "requirements": []
+    },
+    {
+      "category": "Tourism and Hotel Management",
+      "level": "Diploma",
+      "min_mean_grade": "C-",
+      "requirements": []
+    },
+    {
+      "category": "Tourism and Hotel Management",
+      "level": "Certificate",
+      "min_mean_grade": "D",
+      "requirements": []
+    },
+    {
+      "category": "Tourism and Hotel Management",
+      "level": "Artisan",
+      "min_mean_grade": "D-",
+      "requirements": []
+    },
+    {
+      "category": "Clothing & Textile",
+      "level": "Diploma",
+      "min_mean_grade": "C-",
+      "requirements": []
+    },
+    {
+      "category": "Clothing & Textile",
+      "level": "Certificate",
+      "min_mean_grade": "D",
+      "requirements": []
+    },
+    {
+      "category": "Clothing & Textile",
+      "level": "Artisan",
+      "min_mean_grade": "D-",
+      "requirements": []
+    },
+    {
+      "category": "Applied Biology",
+      "level": "Diploma",
+      "min_mean_grade": "C-",
+      "requirements": []
+    },
+    {
+      "category": "Applied Biology",
+      "level": "Certificate",
+      "min_mean_grade": "D",
+      "requirements": []
+    },
+    {
+      "category": "Applied Biology",
+      "level": "Artisan",
+      "min_mean_grade": "D-",
+      "requirements": []
+    },
+    {
+      "category": "Applied Chemistry",
+      "level": "Diploma",
+      "min_mean_grade": "C-",
+      "requirements": []
+    },
+    {
+      "category": "Applied Chemistry",
+      "level": "Certificate",
+      "min_mean_grade": "D",
+      "requirements": []
+    },
+    {
+      "category": "Applied Chemistry",
+      "level": "Artisan",
+      "min_mean_grade": "D-",
+      "requirements": []
+    },
+    {
+      "category": "Analytical Chemistry",
+      "level": "Diploma",
+      "min_mean_grade": "C-",
+      "requirements": []
+    },
+    {
+      "category": "Analytical Chemistry",
+      "level": "Certificate",
+      "min_mean_grade": "D",
+      "requirements": []
+    },
+    {
+      "category": "Analytical Chemistry",
+      "level": "Artisan",
+      "min_mean_grade": "D-",
+      "requirements": []
+    },
+    {
+      "category": "Agricultural Courses",
+      "level": "Diploma",
+      "min_mean_grade": "C-",
+      "requirements": []
+    },
+    {
+      "category": "Agricultural Courses",
+      "level": "Certificate",
+      "min_mean_grade": "D",
+      "requirements": []
+    },
+    {
+      "category": "Agricultural Courses",
+      "level": "Artisan",
+      "min_mean_grade": "D-",
+      "requirements": []
+    },
+    {
+      "category": "Natural Resources (Geology, Petroleum, Nautical Sciences, Fisheries and Aquatic Sciences",
+      "level": "Diploma",
+      "min_mean_grade": "C-",
+      "requirements": []
+    },
+    {
+      "category": "Natural Resources (Geology, Petroleum, Nautical Sciences, Fisheries and Aquatic Sciences",
+      "level": "Certificate",
+      "min_mean_grade": "D",
+      "requirements": []
+    },
+    {
+      "category": "Natural Resources (Geology, Petroleum, Nautical Sciences, Fisheries and Aquatic Sciences",
+      "level": "Artisan",
+      "min_mean_grade": "D-",
+      "requirements": []
+    },
+    {
+      "category": "Aeronautical Engineering (Airframes and Engines)",
+      "level": "Diploma",
+      "min_mean_grade": "C",
+      "requirements": [
+        {
+          "subject": "MATH Alternative A",
+          "grade": "C-"
+        },
+        {
+          "subject": "ENG",
+          "grade": "C"
+        },
+        {
+          "subject": "PHY",
+          "grade": "C"
+        }
+      ]
+    },
+    {
+      "category": "Aeronautical Engineering (Avionics)",
+      "level": "Diploma",
+      "min_mean_grade": "C",
+      "requirements": [
+        {
+          "subject": "MATH Alternative A",
+          "grade": "C-"
+        },
+        {
+          "subject": "ENG",
+          "grade": "C"
+        },
+        {
+          "subject": "PHY",
+          "grade": "C"
+        }
+      ]
+    },
+    {
+      "category": "Photogrammetry & Remote Sensing",
+      "level": "Diploma",
+      "min_mean_grade": "C-",
+      "requirements": [
+        {
+          "subject": "ENG",
+          "grade": "C-"
+        },
+        {
+          "subject": "PHY",
+          "grade": "C-"
+        }
+      ]
+    },
+    {
+      "category": "Cartography",
+      "level": "Diploma",
+      "min_mean_grade": "C-",
+      "requirements": [
+        {
+          "subject": "ENG",
+          "grade": "C-"
+        },
+        {
+          "subject": "GEO",
+          "grade": "C-"
+        }
+      ]
+    },
+    {
+      "category": "Map Reproduction (Printing)",
+      "level": "Diploma",
+      "min_mean_grade": "C-",
+      "requirements": [
+        {
+          "subject": "ENG",
+          "grade": "C-"
+        },
+        {
+          "subject": "CHE",
+          "grade": "C-"
+        }
+      ]
+    },
+    {
+      "category": "Forestry",
+      "level": "Certificate",
+      "min_mean_grade": "D+",
+      "requirements": [
+        {
+          "subject": "MATH Alternative A",
+          "grade": "D+"
+        },
+        {
+          "subject": "BIO/PHY/CHE/AGRIC",
+          "grade": "C-"
+        },
+        {
+          "subject": "BIO/PHY/CHE/AGRIC",
+          "grade": "C-"
+        },
+        {
+          "subject": "ENG/KIS",
+          "grade": "C-"
+        }
+      ]
+    },
+    {
+      "category": "Tax Administration",
+      "level": "Diploma",
+      "min_mean_grade": "C",
+      "requirements": [
+        {
+          "subject": "ENG",
+          "grade": "C-"
+        },
+        {
+          "subject": "MATH Alternative A",
+          "grade": "C-"
+        }
+      ]
+    },
+    {
+      "category": "Tax Administration",
+      "level": "Certificate",
+      "min_mean_grade": "C-",
+      "requirements": [
+        {
+          "subject": "ENG",
+          "grade": "D+"
+        },
+        {
+          "subject": "MATH Alternative A",
+          "grade": "D+"
+        }
+      ]
+    },
+    {
+      "category": "Custom Administration",
+      "level": "Diploma",
+      "min_mean_grade": "C",
+      "requirements": [
+        {
+          "subject": "ENG",
+          "grade": "C-"
+        },
+        {
+          "subject": "MATH Alternative A",
+          "grade": "C-"
+        }
+      ]
+    },
+    {
+      "category": "Custom Administration",
+      "level": "Certificate",
+      "min_mean_grade": "C-",
+      "requirements": [
+        {
+          "subject": "ENG",
+          "grade": "D+"
+        },
+        {
+          "subject": "MATH Alternative A",
+          "grade": "D+"
+        }
+      ]
+    },
+    {
+      "category": "Agricultural Irrigation and Drainage Engineering",
+      "level": "Diploma",
+      "min_mean_grade": "C-",
+      "requirements": [
+        {
+          "subject": "ENG / KIS",
+          "grade": "D"
+        },
+        {
+          "subject": "MAT A",
+          "grade": "D"
+        },
+        {
+          "subject": "PHY/CHE",
+          "grade": "D"
+        },
+        {
+          "subject": "BIO/GEO/HSC/AGR/BST",
+          "grade": "C-"
+        }
+      ]
+    }
+  ]
+}

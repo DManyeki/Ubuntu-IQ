@@ -1,7 +1,8 @@
 // PDF Parser for KUCCPS Admission Data
 // Usage: npx tsx scripts/parse-pdf.ts <path-to-pdf>
 
-import * as pdfjsLib from 'pdfjs-dist';
+// @ts-ignore
+import * as pdfParse from 'pdf-parse/lib/pdf-parse.js';
 import { createClient } from '@supabase/supabase-js';
 import * as fs from 'fs';
 import * as path from 'path';
@@ -27,28 +28,12 @@ async function extractTextFromPDF(pdfPath: string): Promise<string> {
     console.log(`📄 Reading PDF: ${pdfPath}`);
 
     const dataBuffer = fs.readFileSync(pdfPath);
-    const data = new Uint8Array(dataBuffer);
 
-    const pdf = await pdfjsLib.getDocument(data).promise;
-    console.log(`📖 Total pages: ${pdf.numPages}`);
+    const data = await pdfParse(dataBuffer);
+    console.log(`📖 Total pages: ${data.numpages}`);
+    console.log(`✓ Extracted ${data.text.length} characters`);
 
-    let fullText = '';
-
-    for (let i = 1; i <= pdf.numPages; i++) {
-        const page = await pdf.getPage(i);
-        const textContent = await page.getTextContent();
-        const pageText = textContent.items
-            .map((item: any) => item.str)
-            .join(' ');
-        fullText += pageText + '\n';
-
-        if (i % 10 === 0) {
-            console.log(`   Processed ${i}/${pdf.numPages} pages...`);
-        }
-    }
-
-    console.log(`✓ Extracted ${fullText.length} characters`);
-    return fullText;
+    return data.text;
 }
 
 /**

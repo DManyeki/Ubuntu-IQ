@@ -1,0 +1,641 @@
+[
+  {
+    "id": "7c433d60-5620-4848-86c8-8ef9a9b33ea1",
+    "name": "AFRICA INTERNATIONAL UNIVERSITY",
+    "website": "https://aiu.ac.ke",
+    "phone": "+254 796 352 397",
+    "email": null,
+    "logo_url": null,
+    "description": null
+  },
+  {
+    "id": "78d06803-0b82-4cc2-9545-a97034fc2a9b",
+    "name": "AFRICA NAZARENE UNIVERSITY",
+    "website": "https://www.anu.ac.ke",
+    "phone": "+254 773 977 859",
+    "email": null,
+    "logo_url": "https://www.anu.ac.ke/wp-content/uploads/2023/04/Africa-Nazarene-University-Campus.jpeg",
+    "description": "Our Mission is to provide a holistic education that equips individuals with excellent skills, competencies, and Christian Values."
+  },
+  {
+    "id": "e94a0fd4-5888-43bb-a41a-dc5aaf08b27f",
+    "name": "ALUPE UNIVERSITY",
+    "website": "https://alupe.ac.ke",
+    "phone": null,
+    "email": null,
+    "logo_url": null,
+    "description": null
+  },
+  {
+    "id": "846abb4d-e9f0-4858-a88a-b782ac60396d",
+    "name": "AMREF INTERNATIONAL UNIVERSITY",
+    "website": "https://www.amref.ac.ke",
+    "phone": "+254 794377 643",
+    "email": "enquiry@amref.ac.ke",
+    "logo_url": null,
+    "description": "Amref International University (AMIU) focuses on health sciences training."
+  },
+  {
+    "id": "d9457a87-9d2a-4369-9449-0967b7df7f52",
+    "name": "BOMET UNIVERSITY COLLEGE",
+    "website": "https://buc.ac.ke",
+    "phone": "+254748067182",
+    "email": "info@buc.ac.ke",
+    "logo_url": "https://buc.ac.ke/templates/jl_learnmate/custom/images/buclogo.png",
+    "description": null
+  },
+  {
+    "id": "a5a34e32-6ff6-4701-bf22-9df67aab622f",
+    "name": "CATHOLIC UNIVERSITY OF EASTERN AFRICA",
+    "website": "https://cuea.ac.ke",
+    "phone": null,
+    "email": null,
+    "logo_url": null,
+    "description": null
+  },
+  {
+    "id": "aa70bb5c-4a80-4b3c-bfe6-d33817537d63",
+    "name": "CHUKA UNIVERSITY",
+    "website": "https://chuka.ac.ke",
+    "phone": "1999999999",
+    "email": "info@chuka.ac.ke",
+    "logo_url": "https://www.chuka.ac.ke/storage/2026/01/acu-logo_rgb.png",
+    "description": "Top University in Kenya - Best University in Kenya - Chuka University"
+  },
+  {
+    "id": "622c72bf-5862-4227-b079-73052d3a9c7b",
+    "name": "CO-OPERATIVE UNIVERSITY OF KENYA",
+    "website": "https://www.cuk.ac.ke",
+    "phone": "+254 724 311 606",
+    "email": "enquiries@cuk.ac.ke",
+    "logo_url": "https://cuk.ac.ke/wp-content/uploads/2025/04/LOGO.png",
+    "description": "University News REQUEST INFO JOIN US Events Calendar UNIVERSITY NEWS JOIN US REQUEST INFO Events Calendar Youtube Twitter Facebook Linkedin Instagram"
+  },
+  {
+    "id": "c1555dba-e96d-4e0b-8245-d98e55da50b4",
+    "name": "DAYSTAR UNIVERSITY",
+    "website": "https://www.daystar.ac.ke",
+    "phone": "+254 709 972 000",
+    "email": "admissions@daystar.ac.ke",
+    "logo_url": "https://daystar.ac.ke/images/athi_main.png",
+    "description": "Daystar University is a Christ-centred non-denominational institution of higher learning which exists to equip Christian servant leaders for the transformation of church and society. Founded in Bulawayo, Zimbabwe, as Daystar Publications in 1964, the institution was moved to Kenya in 1971 and registered as Daystar Communications"
+  },
+  {
+    "id": "82f7aaa1-a37e-4743-a705-c90cb5dd4a47",
+    "name": "DEDAN KIMATHI UNIVERSITY OF TECHNOLOGY",
+    "website": "https://dkut.ac.ke",
+    "phone": "+254 727 088 807",
+    "email": "vc@dkut.ac.kemarketing",
+    "logo_url": "https://www.dkut.ac.ke/images/logo.png",
+    "description": "Dedan Kimathi University of Technology (DeKUT) is a Chartered Public University that has two campuses: the Main Campus in Nyeri and Nairobi Campus along Loita street."
+  },
+  {
+    "id": "1d65c5e3-86fc-46f6-98e5-742fea107012",
+    "name": "EGERTON UNIVERSITY",
+    "website": "https://www.egerton.ac.ke",
+    "phone": "+254 772 817 106",
+    "email": null,
+    "logo_url": "https://www.egerton.ac.ke/images/drmm_logo.jpg",
+    "description": "Transforming Lives through Quality Education."
+  },
+  {
+    "id": "701a4b8e-a006-4eda-8876-7bb68f645d94",
+    "name": "GARISSA UNIVERSITY",
+    "website": "https://gau.ac.ke",
+    "phone": "+254713680988",
+    "email": "info@gau.ac.ke",
+    "logo_url": "https://gau.ac.ke/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-04-at-12.32.17-800x800.jpeg",
+    "description": "Garissa University (GaU) is a government institution founded in Garissa County on 33.81 hectares of land taken over from Garissa Teachers Training College. GaU was established by an Act of Parliament as a constituent college of Moi University through a Gazette Notice Number 116 of 9th September 2011. Garissa University College admitted its first cohort of 480 government-sponsored students on 7th October 2013. The second cohort of 352 students joined in September 2014."
+  },
+  {
+    "id": "4f2d4a5f-2bd4-42fa-8abc-b23b304896d5",
+    "name": "GREAT LAKES UNIVERSITY OF KISUMU",
+    "website": "https://www.gluk.ac.ke",
+    "phone": "+254 736 550 505",
+    "email": "admissions@gluk.ac.ke",
+    "logo_url": "https://www.gluk.ac.ke/wp-content/uploads/2025/05/cropped-logo-gluk-4.fw_.png",
+    "description": "Great Lakes University of Kisumu - NEWS AND EVENTS Professor Hazel Miseda Mumbo, Vice Chancellor, Great Lakes University of Kisumu STUDENTS PORTAL STAFF PORTAL E-LEARNING PORTAL ALL PROGRAMS MAY 2025 INTAKE ONGOING! Our May intake for postgraduate and undergraduate courses is currently on. Apply conveniently form the comfort of your home by clicking the link below APPLY ONLINE NOW 05Feb GLUK"
+  },
+  {
+    "id": "39e6dd3e-72ca-4da0-8f98-a9f5c74dfdb1",
+    "name": "GRETSA UNIVERSITY",
+    "website": "https://gretsauniversity.ac.ke",
+    "phone": "+254712959293",
+    "email": "info@gretsauniversity.ac.ke",
+    "logo_url": "https://gretsauniversity.ac.ke/public/assets/images/logo.png",
+    "description": null
+  },
+  {
+    "id": "ea6daa4d-70df-4d28-8eef-0380c93bfce5",
+    "name": "INTERNATIONAL LEADERSHIP UNIVERSITY",
+    "website": "https://ilu.ac.ke",
+    "phone": null,
+    "email": null,
+    "logo_url": null,
+    "description": null
+  },
+  {
+    "id": "e8c2d8f0-5d2a-4d0c-b0de-e4277d07169e",
+    "name": "ISLAMIC UNIVERSITY OF KENYA",
+    "website": "https://iuk.ac.ke",
+    "phone": "+254 707 267 957",
+    "email": "info@iuk.ac.ke",
+    "logo_url": "https://iuk.ac.ke/assets/img/IUK-logo.png",
+    "description": null
+  },
+  {
+    "id": "f5c9fe28-1798-42fa-b498-b3e8765fc85a",
+    "name": "JARAMOGI OGINGA ODINGA UNIVERSITY OF SCIENCE AND TECHNOLOGY",
+    "website": "https://jooust.ac.ke",
+    "phone": null,
+    "email": "information@jooust.ac.kecomplaints",
+    "logo_url": "https://jooust.ac.ke/images/jooust_logo1_54.fw.png",
+    "description": "Jaramogi Oginga Odinga University of Science and Technology - JOOUST"
+  },
+  {
+    "id": "5571b444-97b3-40c0-b58e-415ce2fe3741",
+    "name": "JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY",
+    "website": "https://www.jkuat.ac.ke",
+    "phone": "+254709715815",
+    "email": "customercare@jkuat.ac.ke",
+    "logo_url": "https://www.jkuat.ac.ke/wp-content/uploads/2024/04/jkuatlogo1.png",
+    "description": "JKUAT is a University of global excellence in Training, Research, Innovation and Entrepreneurship for development."
+  },
+  {
+    "id": "4c7183ed-abca-45dd-920e-3c5160b3f9dc",
+    "name": "KABARAK UNIVERSITY",
+    "website": "https://kabarak.ac.ke",
+    "phone": "+254 729 223 370",
+    "email": "admissions@kabarak.ac.ke",
+    "logo_url": "https://kabarak.ac.ke/images/logos/kabarak_social_share_wide_logo_plain.jpg",
+    "description": "Kenya's Top Private chartered Institution of Higher Learning"
+  },
+  {
+    "id": "83d730d4-e646-4001-b48a-8d4e96cb9e3d",
+    "name": "KABARNET UNIVERSITY COLLEGE",
+    "website": "https://kabarnet.ac.ke",
+    "phone": null,
+    "email": null,
+    "logo_url": null,
+    "description": null
+  },
+  {
+    "id": "05ac9909-6bc9-49a3-acf3-2031ddd79996",
+    "name": "KAIMOSI FRIENDS UNIVERSITY",
+    "website": "https://kafu.ac.ke",
+    "phone": "+254777373633",
+    "email": "vc@kafu.ac.ke",
+    "logo_url": "https://kafu.ac.ke/wp-content/uploads/2025/10/undergraduate-fin-480x320.jpg",
+    "description": "Kaimosi Friends University (KAFU) is a chartered public university in Kenya offering diverse undergraduate, graduate, and PhD programs rooted in service and integrity"
+  },
+  {
+    "id": "2ac2f691-a9c0-4356-979c-34c44628fd71",
+    "name": "KARATINA UNIVERSITY",
+    "website": "https://karu.ac.ke",
+    "phone": null,
+    "email": "info@karu.ac.ke",
+    "logo_url": null,
+    "description": null
+  },
+  {
+    "id": "35b76655-cc21-4933-9786-27e013380a42",
+    "name": "KCA UNIVERSITY",
+    "website": "https://kca.ac.ke",
+    "phone": "+254 773 139 041",
+    "email": "alumni@kcau.ac.ke",
+    "logo_url": "https://alumni.kca.ac.ke/wp-content/uploads/2019/10/20190827_172757.jpg",
+    "description": null
+  },
+  {
+    "id": "f5d47f5c-3101-4e2e-8a53-f4b1e274a72e",
+    "name": "KENYA ASSEMBLIES OF GOD EAST UNIVERSITY",
+    "website": "https://kag.ac.ke",
+    "phone": null,
+    "email": null,
+    "logo_url": null,
+    "description": null
+  },
+  {
+    "id": "c45ec874-e0a8-4992-8c97-3d7a134cd86e",
+    "name": "KENYA HIGHLANDS EVANGELICAL UNIVERSITY",
+    "website": "https://khu.ac.ke",
+    "phone": "+254716477574",
+    "email": "info@khu.ac.ke",
+    "logo_url": "https://khu.ac.ke/wp-content/uploads/2021/02/cropped-khu-logo-e1613996226104.jpg",
+    "description": "University Strengthens Partnership with Family Bank Through CSR Support What a great way to begin the new year with distinguished visitors at the University! ...Read More Kilifi Mission Kenya Highlands University continues to demonstrate its strong commitment to community development and mission partnership ...Read More KHU Hosts Koitaleel Samoei University for Partnership Talks on Climate"
+  },
+  {
+    "id": "2b91a6c7-787d-4bbe-9884-f2f23247c159",
+    "name": "KENYA METHODIST UNIVERSITY",
+    "website": "https://kemu.ac.ke",
+    "phone": "1767035948",
+    "email": "info@kemu.ac.keCourses",
+    "logo_url": null,
+    "description": null
+  },
+  {
+    "id": "e8d04f12-8376-4763-b777-e1714c28c692",
+    "name": "KENYATTA UNIVERSITY",
+    "website": "https://www.ku.ac.ke",
+    "phone": "+254 725 471 487",
+    "email": "info@ku.ac.ke",
+    "logo_url": "https://www.ku.ac.ke/wp-content/uploads/2025/09/screencapture-ku-ac-ke-2025-09-25-09_04_15-749x1024.png",
+    "description": "Kenyatta University (KU) is a leading public university in Kenya offering diverse undergraduate, graduate, and doctoral programs. With multiple campuses across the country, we are committed to research, quality education, innovation, and community development."
+  },
+  {
+    "id": "721e8512-6961-4b35-a188-9842a13b00a6",
+    "name": "KENYATTA UNIVERSITY - MAMA NGINA UNIVERSITY COLLEGE",
+    "website": "https://www.ku.ac.ke",
+    "phone": "+254 725 471 487",
+    "email": "info@ku.ac.ke",
+    "logo_url": "https://www.ku.ac.ke/wp-content/uploads/2025/09/screencapture-ku-ac-ke-2025-09-25-09_04_15-749x1024.png",
+    "description": "Kenyatta University (KU) is a leading public university in Kenya offering diverse undergraduate, graduate, and doctoral programs. With multiple campuses across the country, we are committed to research, quality education, innovation, and community development."
+  },
+  {
+    "id": "86483395-af80-4302-b44a-d883297d0dc6",
+    "name": "KIBABII UNIVERSITY",
+    "website": "https://kibu.ac.ke",
+    "phone": "2999380617",
+    "email": null,
+    "logo_url": "http://kibu.ac.ke/wp-content/uploads/2024/11/Apply-Now__1_.png",
+    "description": "Congratulations to the 2025 KCSE Candidates Join Kibabii University Explore Our Programmes ON-GOING INTAKE FEE PAYMENT PROCEDURE News & Events More News Give Us FeedBack Complaints and Compliments Report Corruption Notice Board See All Announcements >>> Upcoming Events No event found! News & Events More News Notice Board See All Announcements >>> Upcoming Events No […]"
+  },
+  {
+    "id": "fe1ca4cb-9b45-4dcb-b4a0-0fe861148d5d",
+    "name": "KIRINYAGA UNIVERSITY",
+    "website": "https://kyu.ac.ke",
+    "phone": "+254728499650",
+    "email": "info@kyu.ac.ke",
+    "logo_url": "https://kyu.ac.ke/images/kyu_logosmall2.png",
+    "description": "University and School Joomla template - JA Athena"
+  },
+  {
+    "id": "4020398a-0fed-4c44-9b7a-d0c314233661",
+    "name": "KIRIRI WOMENS UNIVERSITY OF SCIENCE AND TECHNOLOGY",
+    "website": "https://kwust.ac.ke",
+    "phone": null,
+    "email": "info@kwust.ac.ke",
+    "logo_url": "https://kwust.ac.ke/assets/Home/Img/logo_v6.svg",
+    "description": "Kiriri Women’s University of Science and Technology is about one thing: making you stronger, more confident. Powerful. Empowering women is what we stand for. Assuring your success in life. For the rest of your life."
+  },
+  {
+    "id": "1d2d95d9-c9f5-4ef1-9757-0814d5f6e1d7",
+    "name": "KISII UNIVERSITY",
+    "website": "https://kisii.ac.ke",
+    "phone": null,
+    "email": null,
+    "logo_url": null,
+    "description": null
+  },
+  {
+    "id": "f387a94d-a94e-4cb4-91be-bf7ef447d4e7",
+    "name": "KOITALEEL SAMOEI UNIVERSITY COLLEGE",
+    "website": "https://ksu.ac.ke",
+    "phone": "+254 740 183 955",
+    "email": "principal@ksu.ac.ke",
+    "logo_url": "https://ksu.ac.ke/wp-content/uploads/2021/05/unnamed-file.png",
+    "description": "Discover excellence at Koitaleel Samoei University College. Top-tier programs, renowned faculty, vibrant campus – your path to success starts here"
+  },
+  {
+    "id": "93c41fda-cfc7-413f-928e-670f3564502f",
+    "name": "LAIKIPIA UNIVERSITY",
+    "website": "https://laikipia.ac.ke",
+    "phone": "+254 713 552 761",
+    "email": "info@laikipia.ac.ke",
+    "logo_url": null,
+    "description": null
+  },
+  {
+    "id": "35faed3e-0b2d-4ef5-a2cb-e0d1a4af417e",
+    "name": "LUKENYA UNIVERSITY",
+    "website": "https://lukenyauniversity.ac.ke",
+    "phone": "1999999999",
+    "email": "info@lukenyauniversity.ac.ke",
+    "logo_url": "https://lukenyauniversity.ac.ke/files/2024/04/LUlogo-1-300x91.png",
+    "description": null
+  },
+  {
+    "id": "7de8e834-aad8-4428-ae7b-9092196cfa2e",
+    "name": "MAASAI MARA UNIVERSITY",
+    "website": "https://www.mmarau.ac.ke",
+    "phone": "0205131400",
+    "email": "info@mmarau.ac.ke",
+    "logo_url": "https://www.mmarau.ac.ke/wp-content/uploads/2022/04/cropped-logo1.png",
+    "description": "Discover Maasai Mara University: A World-Class Institution Providing Quality Education for Development. Explore Our Academic Schools and Innovative E-Learning.."
+  },
+  {
+    "id": "bfbb09ce-aab9-4ab5-89cf-2677841aefec",
+    "name": "MACHAKOS UNIVERSITY",
+    "website": "https://mksu.ac.ke",
+    "phone": "+254 735 247 939",
+    "email": "info@mksu.ac.ke",
+    "logo_url": null,
+    "description": null
+  },
+  {
+    "id": "26bb1639-733e-4b45-befe-140619b02450",
+    "name": "MANAGEMENT UNIVERSITY OF AFRICA",
+    "website": "https://mua.ac.ke",
+    "phone": "+254 114 649827",
+    "email": "info@mua.ac.keOpening",
+    "logo_url": "https://mua.ac.ke/wp-content/uploads/2024/08/mua_logo-2.png",
+    "description": null
+  },
+  {
+    "id": "4658d905-f980-4f4b-beaf-d28d5f27c4e2",
+    "name": "MARIST INTERNATIONAL UNIVERSITY COLLEGE",
+    "website": "https://www.miuc.ac.ke",
+    "phone": "+254 702 771 959",
+    "email": "admissions@miuc.ac.ke",
+    "logo_url": "https://www.miuc.ac.ke/wp-content/uploads/2023/01/miuc_logo.png",
+    "description": null
+  },
+  {
+    "id": "bde03ec3-6f19-4cec-a326-3848d66ea2ca",
+    "name": "MASENO UNIVERSITY",
+    "website": "https://www.maseno.ac.ke",
+    "phone": null,
+    "email": null,
+    "logo_url": null,
+    "description": null
+  },
+  {
+    "id": "747be46d-8444-4a95-b917-a3a40eccce08",
+    "name": "MASINDE MULIRO UNIVERSITY OF SCIENCE & TECHNOLOGY",
+    "website": "https://mmust.ac.ke",
+    "phone": "+254 716903672",
+    "email": "info@mmust.ac.ke",
+    "logo_url": "https://mmust.ac.ke/wp-content/uploads/2020/03/logofinal2_4.jpg",
+    "description": "Quality EducationView More Learn Courses OnlineView More FOCUS ON RESEARCHView More Bulletin Board MMUST Successfully Hosts Inaugural Alumni Dinner to Mobilize Support for Needy Students MMUST and GCA Concludes Youth-Led Climate Adaptation Replication Exercise Across Africa MMUST Equips Staff With Requisite Skills to Promote Integrity and Culture Change in Service Delivery LATEST NEWS MMUST Successfully"
+  },
+  {
+    "id": "db1af8e2-13d0-4ee7-9775-1af29d1f73d9",
+    "name": "MERU UNIVERSITY OF SCIENCE AND TECHNOLOGY",
+    "website": "https://must.ac.ke",
+    "phone": "+254 799 529 958",
+    "email": null,
+    "logo_url": "https://www.must.ac.ke/wp-content/uploads/2022/07/logo4_png_version.fw_.png",
+    "description": null
+  },
+  {
+    "id": "7f3007bc-164b-492b-bd26-431c112ea3f1",
+    "name": "MOI UNIVERSITY",
+    "website": "https://mu.ac.ke",
+    "phone": null,
+    "email": "info@mu.ac.ke",
+    "logo_url": "https://mu.ac.ke/wp-content/uploads/2024/06/mumainlogo.png",
+    "description": null
+  },
+  {
+    "id": "e9ffa051-094f-4f1e-a8e3-4eed0e131176",
+    "name": "MOUNT KENYA UNIVERSITY",
+    "website": "https://mku.ac.ke",
+    "phone": "+254709153000",
+    "email": "info@mku.ac.ke",
+    "logo_url": "http://mku.ac.ke/wp-content/uploads/2014/10/MKU-excels-in-research-and-academics-ranked-5th-in-Kenya.png",
+    "description": "Mount Kenya University (MKU) is an international destination for higher education. Study for your degree, diploma or certificate with us."
+  },
+  {
+    "id": "b828ec1c-8d05-4355-b3c8-c5206c26f824",
+    "name": "MULTIMEDIA UNIVERSITY OF KENYA",
+    "website": "https://www.mmu.ac.ke",
+    "phone": "+254 116 881 352",
+    "email": "info@mmu.ac.ke",
+    "logo_url": "https://www.mmu.ac.ke/wp-content/uploads/2024/05/mmulogo1.png",
+    "description": null
+  },
+  {
+    "id": "feaeb4a3-f5bc-4b59-8dd4-2bb7d06e5352",
+    "name": "MURANG'A UNIVERSITY OF TECHNOLOGY",
+    "website": "https://mut.ac.ke",
+    "phone": "+254 112 957 399",
+    "email": "info@mut.ac.ke",
+    "logo_url": null,
+    "description": "Explore the diverse Academic programs, Admissions process, and vibrant campus life at Murang'a University of Technology. Apply Postgraduate, Undergraduate and TVET Programmes at MUT. Start your journey with us today."
+  },
+  {
+    "id": "4e33e454-cc45-405b-aa17-6144b5fe5bf5",
+    "name": "NYANDARUA UNIVERSITY COLLEGE",
+    "website": "https://nyandarua.ac.ke",
+    "phone": null,
+    "email": null,
+    "logo_url": null,
+    "description": null
+  },
+  {
+    "id": "8c701f14-92ab-4a6b-8896-6c95ba3341aa",
+    "name": "OPEN UNIVERSITY OF KENYA",
+    "website": "https://ouk.ac.ke",
+    "phone": "+254 702 212 212",
+    "email": "info@ouk.ac.ke",
+    "logo_url": "https://ouk.ac.ke/sites/default/files/logo_0.png",
+    "description": "Join the Open University of Kenya — an innovative digital university transforming access to higher education. Learn anytime, anywhere, and gain practical skills for leadership, entrepreneurship, and global competitiveness. Our core values are Excellence, Inclusivity, Innovation, and Integrity."
+  },
+  {
+    "id": "ab749ed1-1eee-4f71-aa43-2a72443748ae",
+    "name": "PAN AFRICA CHRISTIAN UNIVERSITY",
+    "website": "https://www.pacuniversity.ac.ke",
+    "phone": "+254730955000",
+    "email": "admissions@pacuniversity.ac.ke",
+    "logo_url": null,
+    "description": "Schools​ & Departments Graduate School School of Theology School of Leadership, Business, & Technology School of Humanities & Social SciencesOnline Enquiry January 2026 Intake Ongoing. Apply Now! We welcome you to join our innovative, creative, and dynamic student community. 0 Student Nationalities 0 + Student Population 0 Academic Programs 0 + Graduates Campus Life As"
+  },
+  {
+    "id": "eeaf51f1-c19c-4a9f-8cb1-e77cb0a2e345",
+    "name": "PRESBYTERIAN UNIVERSITY OF EAST AFRICA",
+    "website": "https://puea.ac.ke",
+    "phone": "+254 769 500 702",
+    "email": "info@puea.ac.ke",
+    "logo_url": "https://puea.ac.ke/wp-content/uploads/2023/11/logo-1.png",
+    "description": "The Presbyterian University of East Africa (PUEA) - A Chartered faith-based private University located in Thogoto, Kikuyu The Presbyterian University of East Africa (PUEA) A Chartered faith-based private University located in Thogoto, Kikuyu"
+  },
+  {
+    "id": "4642ed06-6937-42fc-a585-6aecf5d3e665",
+    "name": "PWANI UNIVERSITY",
+    "website": "https://pu.ac.ke",
+    "phone": "+254 786 727 899",
+    "email": "info@pu.ac.ke",
+    "logo_url": "https://pu.ac.ke/images/pwani-university-logo1.png",
+    "description": null
+  },
+  {
+    "id": "b2380a58-dc12-4739-9a2a-8211585431fd",
+    "name": "RIARA UNIVERSITY",
+    "website": "https://riara.ac.ke",
+    "phone": null,
+    "email": null,
+    "logo_url": null,
+    "description": null
+  },
+  {
+    "id": "368c8c16-1387-4103-9c37-85d7a6e77891",
+    "name": "RONGO UNIVERSITY",
+    "website": "https://www.rongovarsity.ac.ke",
+    "phone": "+254794781865",
+    "email": "regaa@rongovarsity.ac.ke",
+    "logo_url": "https://www.rongovarsity.ac.ke/wp-content/uploads/2024/10/cropped-ruc-new-logo-1-2-3.jpg",
+    "description": "The Goldmine of Knowledge"
+  },
+  {
+    "id": "7c8e1202-60ba-4a24-abec-c514ee06bb43",
+    "name": "SCOTT CHRISTIAN UNIVERSITY",
+    "website": "https://www.scott.ac.ke",
+    "phone": "+254 713 745 404",
+    "email": "info@scott.ac.ke",
+    "logo_url": "https://scott.ac.ke/wp-content/uploads/2025/02/DSC00647-scaled.jpg",
+    "description": "Welcome to Scott Christian University. SCU is the place to be. We offer quality higher education with a Christian bend whereby the student is equipped with not only the necessary knowledge but also with skills for service and character formation. We offer courses under the following schools:                 […]"
+  },
+  {
+    "id": "7d439fed-9f82-4bc3-b595-337f17231020",
+    "name": "SOUTH EASTERN KENYA UNIVERSITY",
+    "website": "https://www.seku.ac.ke",
+    "phone": "+254 748 605 997",
+    "email": "info@seku.ac.keMon",
+    "logo_url": "https://www.seku.ac.ke/images/Logo/seku_logo.jpg",
+    "description": "South Eastern Kenya University preparing students to make meaningful contributions to society as engaged citizens and leaders in a complex world..."
+  },
+  {
+    "id": "6daf1a45-e328-4363-9d2c-a4b03a00b2ad",
+    "name": "ST PAULS UNIVERSITY",
+    "website": "https://spu.ac.ke",
+    "phone": "+254701079406",
+    "email": "info@spu.ac.keCopyright",
+    "logo_url": "https://spu.ac.ke/images/spu_logo.png",
+    "description": "St. Paul's University is a leading Christian chartered university in Kenya offering accredited Certificate, Diploma, Undergraduate, and Postgraduate programs."
+  },
+  {
+    "id": "e7194a2e-6ef9-4554-aebd-ad1d95d313b6",
+    "name": "TAITA TAVETA UNIVERSITY",
+    "website": "https://www.ttu.ac.ke",
+    "phone": "+254 721 113 302",
+    "email": "info@ttu.ac.ke",
+    "logo_url": null,
+    "description": null
+  },
+  {
+    "id": "a271041d-f9c8-4ae0-853f-f419c0cd583b",
+    "name": "TANGAZA UNIVERSITY",
+    "website": "https://tangaza.ac.ke",
+    "phone": "+254 722 204 724",
+    "email": "inquiries@tangaza.ac.ke",
+    "logo_url": null,
+    "description": null
+  },
+  {
+    "id": "c5dc806c-6330-4ea4-aa16-863fc85a61c7",
+    "name": "TECHNICAL UNIVERSITY OF KENYA",
+    "website": "https://tukenya.ac.ke",
+    "phone": "+254 020334367",
+    "email": "info@tukenya.ac.ke",
+    "logo_url": "https://tukenya.ac.ke/images/logo.png",
+    "description": "The Technical University of Kenya (TU-K) was established through the elevation of The Kenya Polytechnic University College (KPUC) to full university status. TU-K was established as the first Technical University in Kenya line with the provisions of the proposed Universities Act, 2012."
+  },
+  {
+    "id": "e343c9e1-e06b-4b54-a798-a523a3772a30",
+    "name": "TECHNICAL UNIVERSITY OF MOMBASA",
+    "website": "https://www.tum.ac.ke",
+    "phone": "+254733955377",
+    "email": "info@tum.ac.ke",
+    "logo_url": "https://www.tum.ac.ke/resources/public/logo.png",
+    "description": null
+  },
+  {
+    "id": "3145dae5-c549-4498-8494-0b67da6de3b4",
+    "name": "THARAKA UNIVERSITY",
+    "website": "https://tharaka.ac.ke",
+    "phone": "+254745838353",
+    "email": "info@tharaka.ac.ke",
+    "logo_url": "https://www.tharaka.ac.ke/wp-content/uploads/2025/01/logo-2.png",
+    "description": null
+  },
+  {
+    "id": "e165ac13-3aea-4e53-bec8-fa302b65c16b",
+    "name": "THE EAST AFRICAN UNIVERSITY",
+    "website": "https://teau.ac.ke",
+    "phone": "+254771688318",
+    "email": "info@teau.ac.ke",
+    "logo_url": "https://teau.ac.ke/wp-content/uploads/2025/04/logo-7.png",
+    "description": null
+  },
+  {
+    "id": "84ee8387-1c94-4177-818d-b691c81f6f68",
+    "name": "TOM MBOYA UNIVERSITY",
+    "website": "https://tmu.ac.ke",
+    "phone": null,
+    "email": null,
+    "logo_url": null,
+    "description": null
+  },
+  {
+    "id": "bf6be9ff-5438-490e-88e4-cb43dbb3240b",
+    "name": "TURKANA UNIVERSITY COLLEGE",
+    "website": "https://tuc.ac.ke",
+    "phone": "+254 205 257 712",
+    "email": null,
+    "logo_url": null,
+    "description": "Welcome to Turkana University College. At Turkana University College, You will interact with highly qualified and industrious personnel ..."
+  },
+  {
+    "id": "cbac2b96-4b6d-49e2-8704-df2d819ca4fb",
+    "name": "UNIVERSITY OF EASTERN AFRICA, BARATON",
+    "website": "https://www.ueab.ac.ke",
+    "phone": "+254 714 333 111",
+    "email": "info@ueab.ac.ke",
+    "logo_url": "https://ueab.ac.ke/wp-content/uploads/2023/04/bara-logo-a.png",
+    "description": null
+  },
+  {
+    "id": "29d6f702-a816-4b3b-8652-8d3fb61c1b4d",
+    "name": "UNIVERSITY OF ELDORET",
+    "website": "https://uoeld.ac.ke",
+    "phone": "+254 746 490 082",
+    "email": "info@uoeld.ac.ke",
+    "logo_url": "https://uoeld.ac.ke/themes/uoeld/logo.png",
+    "description": null
+  },
+  {
+    "id": "0f159277-173e-49fc-90b3-e7be178e5d95",
+    "name": "UNIVERSITY OF EMBU",
+    "website": "https://www.embuni.ac.ke",
+    "phone": "+254 727 933950",
+    "email": "Info@embuni.ac.keStudents",
+    "logo_url": "https://embuni.ac.ke/wp-content/uploads/2020/06/logo2.png",
+    "description": "University of Embu was established in 1947 as an agricultural training school for pre-service training at certificate level to Kenya African Preliminary Examination (KAPE) students. The objective of the University College is to play a leading role in the development and expansion of the opportunities for higher education and research in Agriculture, Agribusiness, Veterinary Medicine, Forestry, Water and Biological and Physical sciences. The College will develop into a centre of excellence for learning and research in agriculture and farming systems within and outside Kenya."
+  },
+  {
+    "id": "624a92a6-1a6b-4172-b2b9-0dcc0174e9e1",
+    "name": "UNIVERSITY OF KABIANGA",
+    "website": "https://kabianga.ac.ke",
+    "phone": "+254202172665",
+    "email": "info@kabianga.ac.ke",
+    "logo_url": "https://kabianga.ac.ke/sites/default/files/md-slider-image/moe_logo.png",
+    "description": null
+  },
+  {
+    "id": "5e8d3678-f69d-4164-95f5-7fe0a9fce5a0",
+    "name": "UNIVERSITY OF NAIROBI",
+    "website": "https://uonbi.ac.ke",
+    "phone": "+254 204 913 205",
+    "email": "pr@uonbi.ac.ke",
+    "logo_url": "https://uonbi.ac.ke/sites/default/files/RADA%20logo.jpg",
+    "description": null
+  },
+  {
+    "id": "e116b62b-6e30-47a3-8739-dabde80cb884",
+    "name": "UZIMA UNIVERSITY",
+    "website": "https://www.uzimauniversity.ac.ke",
+    "phone": "+254 703 727 660",
+    "email": "vc@uzimauniversity.ac.ke",
+    "logo_url": "https://uzimauniversity.ac.ke/wp-content/uploads/2019/09/logo.fw_.png",
+    "description": null
+  },
+  {
+    "id": "5b93386e-bea2-4f03-9f3f-c0dd912bc42a",
+    "name": "ZETECH UNIVERSITY",
+    "website": "https://zetech.ac.ke",
+    "phone": "+254 719 034 500",
+    "email": "info@zetech.ac.ke",
+    "logo_url": "https://www.zetech.ac.ke/images/logo.png",
+    "description": "Zetech University | Inventing the Future"
+  }
+]

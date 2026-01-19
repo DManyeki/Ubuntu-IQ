@@ -20,7 +20,7 @@ async function testConnection() {
         // Test database connection
         console.log('📊 Querying institutions table...');
         const { data, error, count } = await supabase
-            .from('institutions')
+            .from('universities')
             .select('*', { count: 'exact', head: true });
 
         if (error) {

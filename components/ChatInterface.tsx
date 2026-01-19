@@ -13,35 +13,35 @@ interface Props {
 }
 
 const parseInline = (text: string) => {
-    const elements: React.ReactNode[] = [];
-    const parts = text.split(/(\*\*.*?\*\*|\[.*?\]\(.*?\))/g);
-    
-    parts.forEach((part, i) => {
-        if (part.startsWith('**') && part.endsWith('**')) {
-            elements.push(<strong key={i}>{part.slice(2, -2)}</strong>);
-        } else if (part.startsWith('[') && part.includes('](') && part.endsWith(')')) {
-            const match = part.match(/\[(.*?)\]\((.*?)\)/);
-            if (match) {
-                elements.push(
-                    <a key={i} href={match[2]} target="_blank" rel="noopener noreferrer" className="underline font-medium hover:opacity-80">
-                        {match[1]}
-                    </a>
-                );
-            } else {
-                elements.push(<span key={i}>{part}</span>);
-            }
+  const elements: React.ReactNode[] = [];
+  const parts = text.split(/(\*\*.*?\*\*|\[.*?\]\(.*?\))/g);
+
+  parts.forEach((part, i) => {
+    if (part.startsWith('**') && part.endsWith('**')) {
+      elements.push(<strong key={i}>{part.slice(2, -2)}</strong>);
+    } else if (part.startsWith('[') && part.includes('](') && part.endsWith(')')) {
+      const match = part.match(/\[(.*?)\]\((.*?)\)/);
+      if (match) {
+        elements.push(
+          <a key={i} href={match[2]} target="_blank" rel="noopener noreferrer" className="underline font-medium hover:opacity-80">
+            {match[1]}
+          </a>
+        );
+      } else {
+        elements.push(<span key={i}>{part}</span>);
+      }
+    } else {
+      const subParts = part.split(/(\*[^*]+\*)/g);
+      subParts.forEach((subPart, j) => {
+        if (subPart.startsWith('*') && subPart.endsWith('*') && subPart.length > 2) {
+          elements.push(<em key={`${i}-${j}`}>{subPart.slice(1, -1)}</em>);
         } else {
-            const subParts = part.split(/(\*[^*]+\*)/g);
-            subParts.forEach((subPart, j) => {
-                if (subPart.startsWith('*') && subPart.endsWith('*') && subPart.length > 2) {
-                     elements.push(<em key={`${i}-${j}`}>{subPart.slice(1, -1)}</em>);
-                } else {
-                     elements.push(<span key={`${i}-${j}`}>{subPart}</span>);
-                }
-            });
+          elements.push(<span key={`${i}-${j}`}>{subPart}</span>);
         }
-    });
-    return elements;
+      });
+    }
+  });
+  return elements;
 }
 
 // Memoized to prevent re-parsing on every input change
@@ -50,34 +50,34 @@ const FormattedText = memo(({ content }: { content: string }) => {
   return (
     <div className="space-y-1">
       {lines.map((line, i) => {
-         if (line.match(/^#{1,6}\s/)) {
-             return <div key={i} className="font-bold text-lg mt-2 mb-1">{parseInline(line.replace(/^#{1,6}\s+/, ''))}</div>;
-         }
-         
-         if (line.match(/^[\*\-]\s/)) {
-             return (
-                 <div key={i} className="flex gap-2 ml-2 mb-1">
-                     <span className="mt-2 w-1.5 h-1.5 bg-current rounded-full shrink-0 opacity-60"/>
-                     <div>{parseInline(line.replace(/^[\*\-]\s+/, ''))}</div>
-                 </div>
-             );
-         }
-         
-         if (line.match(/^\d+\.\s/)) {
-            const match = line.match(/^(\d+)\.\s+(.*)/);
-            if (match) {
-                return (
-                 <div key={i} className="flex gap-2 ml-2 mb-1">
-                     <span className="font-bold opacity-80">{match[1]}.</span>
-                     <div>{parseInline(match[2])}</div>
-                 </div>
-                );
-            }
-         }
+        if (line.match(/^#{1,6}\s/)) {
+          return <div key={i} className="font-bold text-lg mt-2 mb-1">{parseInline(line.replace(/^#{1,6}\s+/, ''))}</div>;
+        }
 
-         if (!line.trim()) return <div key={i} className="h-1" />;
+        if (line.match(/^[\*\-]\s/)) {
+          return (
+            <div key={i} className="flex gap-2 ml-2 mb-1">
+              <span className="mt-2 w-1.5 h-1.5 bg-current rounded-full shrink-0 opacity-60" />
+              <div>{parseInline(line.replace(/^[\*\-]\s+/, ''))}</div>
+            </div>
+          );
+        }
 
-         return <div key={i} className="leading-relaxed">{parseInline(line)}</div>;
+        if (line.match(/^\d+\.\s/)) {
+          const match = line.match(/^(\d+)\.\s+(.*)/);
+          if (match) {
+            return (
+              <div key={i} className="flex gap-2 ml-2 mb-1">
+                <span className="font-bold opacity-80">{match[1]}.</span>
+                <div>{parseInline(match[2])}</div>
+              </div>
+            );
+          }
+        }
+
+        if (!line.trim()) return <div key={i} className="h-1" />;
+
+        return <div key={i} className="leading-relaxed">{parseInline(line)}</div>;
       })}
     </div>
   );
@@ -86,36 +86,53 @@ const FormattedText = memo(({ content }: { content: string }) => {
 export const ChatInterface: React.FC<Props> = ({ language, triggerMessage, onTriggerHandled, isExpanded = false, onInteraction }) => {
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
-  
+
   // Custom hook handles parsing and storage automatically
-  const [messages, setMessages] = useSessionStorage<ChatMessage[]>('mindcare_chat_history', []);
-  
+  const [messages, setMessages] = useSessionStorage<ChatMessage[]>('mindcare_chat_history_v4', []);
+
+  // Suggestions Configuration
+  const SUGGESTIONS = [
+    { label: "Calculate my cluster", action: "prompt_cluster" },
+    { label: "Find suitable career path", action: "redirect_career" },
+    { label: "Find courses that I qualify for", action: "prompt_courses" }
+  ];
+
+  const [showSuggestions, setShowSuggestions] = useState(true);
+
+  // Hide suggestions if user has sent a message
+  useEffect(() => {
+    if (messages.some(m => m.role === 'user')) {
+      setShowSuggestions(false);
+    } else {
+      setShowSuggestions(true);
+    }
+  }, [messages]);
+
   // Initialization logic for welcome message if history is empty
   useEffect(() => {
     if (messages.length === 0) {
-        setMessages([{
-            id: 'welcome',
-            role: 'model',
-            content: language === 'sheng' 
-              ? "Niaje! Mimi ni MindCare. Najua hizi times za kuwait results zinaweza kuwa ngumu. Nisaidie aje leo? Tunaweza bonga stori za career ama vile unajiskia."
-              : language === 'sw'
-              ? "Hujambo! Mimi ni MindCare. Najua kusubiri matokeo ya KCSE inaweza kuwa na wasiwasi. Naweza kukusaidia aje leo?"
-              : "Hello! I'm MindCare. I know waiting for KCSE results can be stressful. How can I support you today? We can talk about careers or how you're feeling.",
-            timestamp: new Date()
-        }]);
+      setMessages([{
+        id: 'welcome',
+        role: 'model',
+        content: language === 'sheng'
+          ? "Niaje! Mimi ni MindCare. Najua hizi times za kuwait results zinaweza kuwa ngumu. Nisaidie aje leo? Tunaweza bonga stori za career ama vile unajiskia."
+          : language === 'sw'
+            ? "Hujambo! Mimi ni MindCare. Najua kusubiri matokeo ya KCSE inaweza kuwa na wasiwasi. Naweza kukusaidia aje leo?"
+            : "I know that selecting a course and institution is an exciting journey and you can become easily overwhelmed. I'm here to help you explore your options using verified data. Let me know where you'd want to start.",
+        timestamp: new Date()
+      }]);
     } else {
-        // Hydrate timestamps from JSON strings
-        const hydrated = messages.map(m => ({
-            ...m,
-            timestamp: typeof m.timestamp === 'string' ? new Date(m.timestamp) : m.timestamp
-        }));
-        // Only update if hydration actually changed something (deep comparison avoidance)
-        if (hydrated.some((m, i) => m.timestamp !== messages[i].timestamp)) {
-             setMessages(hydrated);
-        }
+      // Hydrate timestamps from JSON strings
+      const hydrated = messages.map(m => ({
+        ...m,
+        timestamp: typeof m.timestamp === 'string' ? new Date(m.timestamp) : m.timestamp
+      }));
+      if (hydrated.some((m, i) => m.timestamp !== messages[i].timestamp)) {
+        setMessages(hydrated);
+      }
     }
-  }, [language, messages.length]); // Dependencies minimal to avoid loops
-  
+  }, [language, messages.length]);
+
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   const scrollToBottom = () => {
@@ -124,7 +141,20 @@ export const ChatInterface: React.FC<Props> = ({ language, triggerMessage, onTri
 
   useEffect(() => {
     scrollToBottom();
-  }, [messages, isLoading]);
+  }, [messages, isLoading, showSuggestions]);
+
+  const handleSuggestionClick = (action: string) => {
+    if (action === 'redirect_career') {
+      window.location.href = '/career'; // Or router.push if available
+      return;
+    }
+
+    let text = "";
+    if (action === 'prompt_cluster') text = "Help me calculate my cluster";
+    if (action === 'prompt_courses') text = "Find courses I qualify for";
+
+    if (text) sendMessage(text);
+  };
 
   const sendMessage = async (text: string) => {
     const userMsg: ChatMessage = {
@@ -138,18 +168,22 @@ export const ChatInterface: React.FC<Props> = ({ language, triggerMessage, onTri
     setIsLoading(true);
 
     try {
+      // Pass full history of previous messages. 
+      // Do NOT push current message or slice, as Gemini service handles appending current message.
       const history = messages.map(m => ({ role: m.role, content: m.content }));
-      history.push({ role: 'user', content: text });
-      
-      const responseText = await sendMessageToGemini(text, history.slice(0, -1));
-      
+
+      // Debug History
+      console.log("Chat History Sent to API:", history);
+
+      const responseText = await sendMessageToGemini(text, history);
+
       const botMsg: ChatMessage = {
         id: (Date.now() + 1).toString(),
         role: 'model',
         content: responseText,
         timestamp: new Date()
       };
-      
+
       setMessages(prev => [...prev, botMsg]);
     } catch (error) {
       console.error(error);
@@ -175,34 +209,31 @@ export const ChatInterface: React.FC<Props> = ({ language, triggerMessage, onTri
 
   useEffect(() => {
     if (triggerMessage) {
-        if (onInteraction) onInteraction();
-        sendMessage(triggerMessage);
-        onTriggerHandled();
+      if (onInteraction) onInteraction();
+      sendMessage(triggerMessage);
+      onTriggerHandled();
     }
   }, [triggerMessage]);
 
   return (
-    <div className={`flex flex-col bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden transition-all duration-500 ease-in-out ${
-        isExpanded 
-        ? 'h-[calc(100dvh-130px)] md:h-[calc(100dvh-180px)]' 
-        : 'h-[calc(100dvh-220px)] md:h-[600px] min-h-[300px]'
-    }`}>
+    <div className={`flex flex-col bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden transition-all duration-500 ease-in-out ${isExpanded
+      ? 'h-[calc(100dvh-130px)] md:h-[calc(100dvh-180px)]'
+      : 'h-[calc(100dvh-220px)] md:h-[600px] min-h-[300px]'
+      }`}>
       <div className="flex-1 overflow-y-auto p-4 space-y-4 bg-gray-50">
         {messages.map((msg) => (
-          <div 
-            key={msg.id} 
+          <div
+            key={msg.id}
             className={`flex items-start gap-2.5 ${msg.role === 'user' ? 'flex-row-reverse' : ''}`}
           >
-            <div className={`w-8 h-8 rounded-full flex items-center justify-center shrink-0 ${
-              msg.role === 'user' ? 'bg-primary text-white' : 'bg-white border border-gray-200 text-kenya-green'
-            }`}>
+            <div className={`w-8 h-8 rounded-full flex items-center justify-center shrink-0 ${msg.role === 'user' ? 'bg-primary text-white' : 'bg-white border border-gray-200 text-kenya-green'
+              }`}>
               {msg.role === 'user' ? <User size={16} /> : <Bot size={16} />}
             </div>
-            <div className={`max-w-[85%] p-3.5 rounded-2xl text-sm leading-relaxed ${
-              msg.role === 'user' 
-                ? 'bg-primary text-white rounded-tr-none' 
-                : 'bg-white border border-gray-200 text-gray-800 rounded-tl-none shadow-sm'
-            }`}>
+            <div className={`max-w-[85%] p-3.5 rounded-2xl text-sm leading-relaxed ${msg.role === 'user'
+              ? 'bg-primary text-white rounded-tr-none'
+              : 'bg-white border border-gray-200 text-gray-800 rounded-tl-none shadow-sm'
+              }`}>
               <FormattedText content={msg.content} />
               <div className={`text-[10px] mt-1 opacity-70 ${msg.role === 'user' ? 'text-blue-100' : 'text-gray-400'}`}>
                 {new Date(msg.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
@@ -210,6 +241,22 @@ export const ChatInterface: React.FC<Props> = ({ language, triggerMessage, onTri
             </div>
           </div>
         ))}
+
+        {/* Suggestion Chips */}
+        {showSuggestions && !isLoading && (
+          <div className="flex flex-wrap gap-2 justify-center mt-4 fade-in">
+            {SUGGESTIONS.map((s, i) => (
+              <button
+                key={i}
+                onClick={() => handleSuggestionClick(s.action)}
+                className="px-4 py-2 bg-blue-50 dark:bg-gray-800 text-blue-600 dark:text-blue-400 text-sm font-medium rounded-full border border-blue-100 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-700 transition-colors"
+              >
+                {s.label}
+              </button>
+            ))}
+          </div>
+        )}
+
         {isLoading && (
           <div className="flex items-center gap-2 text-gray-400 text-sm ml-10">
             <Loader2 className="w-4 h-4 animate-spin" />
@@ -229,13 +276,13 @@ export const ChatInterface: React.FC<Props> = ({ language, triggerMessage, onTri
             onFocus={onInteraction}
             disabled={isLoading}
             placeholder={
-                language === 'sheng' ? "Bonga nami..." :
+              language === 'sheng' ? "Bonga nami..." :
                 language === 'sw' ? "Andika ujumbe..." :
-                "Type a message..."
+                  "Type a message..."
             }
             className="flex-1 bg-transparent border-none outline-none text-sm py-1 disabled:opacity-50"
           />
-          <button 
+          <button
             onClick={handleSendClick}
             disabled={!input.trim() || isLoading}
             className="p-2 bg-primary text-white rounded-full hover:bg-secondary disabled:opacity-50 disabled:cursor-not-allowed transition-colors"

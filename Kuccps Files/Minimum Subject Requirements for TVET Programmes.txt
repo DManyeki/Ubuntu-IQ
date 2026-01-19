@@ -1,0 +1,616 @@
+{
+  "document": "Minimum Subject Requirements for TVET Programmes",
+  "organization": "KUCCPS",
+  "data": [
+    {
+      "order": 1,
+      "category": "Law",
+      "programs": [
+        {
+          "level": "Diploma",
+          "min_mean_grade": "C",
+          "min_mean_rank": 6,
+          "subject_rules": [{ "subjects": ["ENG", "KIS"], "logic": "OR", "min_grade": "C+", "min_rank": 7 }]
+        },
+        {
+          "level": "Certificate",
+          "min_mean_grade": "C-",
+          "min_mean_rank": 5,
+          "subject_rules": [{ "subjects": ["ENG", "KIS"], "logic": "OR", "min_grade": "C", "min_rank": 6 }]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Education",
+      "programs": [
+        {
+          "level": "Diploma",
+          "profile": "Standard",
+          "min_mean_grade": "C+",
+          "min_mean_rank": 7,
+          "tracks": [
+            {
+              "track_name": "Science Based Courses",
+              "rules": [
+                { "subjects": ["ENG"], "min_grade": "C", "min_rank": 6 },
+                { "subjects": ["MATH"], "min_grade": "C", "min_rank": 6 },
+                { "subjects": ["TEACHING_SUBJECTS"], "count": 2, "min_grade": "C+", "min_rank": 7 }
+              ]
+            },
+            {
+              "track_name": "Non-Science Based Courses",
+              "rules": [
+                { "subjects": ["ENG"], "min_grade": "C", "min_rank": 6 },
+                { "subjects": ["MATH"], "min_grade": "D+", "min_rank": 4 },
+                { "subjects": ["TEACHING_SUBJECTS"], "count": 2, "min_grade": "C+", "min_rank": 7 }
+              ]
+            }
+          ]
+        },
+        {
+          "level": "Diploma",
+          "profile": "Visually and Hearing Impaired Applicants",
+          "min_mean_grade": "C",
+          "min_mean_rank": 6,
+          "tracks": [
+            {
+              "track_name": "Science Based Courses",
+              "rules": [
+                { "subjects": ["ENG"], "min_grade": "C-", "min_rank": 5 },
+                { "subjects": ["MATH"], "min_grade": "C-", "min_rank": 5 },
+                { "subjects": ["TEACHING_SUBJECTS"], "count": 2, "min_grade": "C", "min_rank": 6 }
+              ]
+            },
+            {
+              "track_name": "Non-Science Based Courses",
+              "rules": [
+                { "subjects": ["ENG"], "min_grade": "C-", "min_rank": 5 },
+                { "subjects": ["MATH"], "min_grade": "D", "min_rank": 3 },
+                { "subjects": ["TEACHING_SUBJECTS"], "count": 2, "min_grade": "C", "min_rank": 6 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Accountancy",
+      "programs": [
+        { "level": "Diploma", "min_mean_grade": "C-", "min_mean_rank": 5, "subject_rules": [] },
+        { "level": "Certificate", "min_mean_grade": "D", "min_mean_rank": 3, "subject_rules": [] }
+      ]
+    },
+    {
+      "order": 4,
+      "category": "Architecture",
+      "programs": [
+        {
+          "level": "Diploma",
+          "min_mean_grade": "C",
+          "min_mean_rank": 6,
+          "subject_rules": [
+            { "subjects": ["MATH_ALT_A"], "min_grade": "C", "min_rank": 6 },
+            { "subjects": ["PHY"], "min_grade": "C", "min_rank": 6 },
+            { "subjects": ["ENG", "KIS"], "logic": "OR", "min_grade": "C", "min_rank": 6 }
+          ]
+        },
+        {
+          "level": "Certificate",
+          "min_mean_grade": "C-",
+          "min_mean_rank": 5,
+          "subject_rules": [
+            { "subjects": ["MATH"], "min_grade": "C-", "min_rank": 5 },
+            { "subjects": ["PHY"], "min_grade": "C-", "min_rank": 5 },
+            { "subjects": ["ENG", "KIS"], "logic": "OR", "min_grade": "C-", "min_rank": 5 }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "category": "Quantity Survey",
+      "programs": [
+        {
+          "level": "Diploma",
+          "min_mean_grade": "C",
+          "min_mean_rank": 6,
+          "subject_rules": [
+            { "subjects": ["MATH_ALT_A"], "min_grade": "C", "min_rank": 6 },
+            { "subjects": ["PHY"], "min_grade": "C", "min_rank": 6 },
+            { "subjects": ["ENG", "KIS"], "logic": "OR", "min_grade": "C", "min_rank": 6 }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "category": "Engineering, Engineering Technology",
+      "programs": [
+        { "level": "Diploma", "min_mean_grade": "C-", "min_mean_rank": 5, "subject_rules": [] },
+        { "level": "Certificate", "min_mean_grade": "D+", "min_mean_rank": 4, "subject_rules": [] }
+      ]
+    },
+    {
+      "order": 7,
+      "category": "Pharmacy",
+      "programs": [
+        {
+          "level": "Diploma",
+          "min_mean_grade": "C",
+          "min_mean_rank": 6,
+          "alternative_sets": [
+            {
+              "label": "Alternative A",
+              "rules": [
+                { "subjects": ["CHE"], "min_grade": "C", "min_rank": 6 },
+                { "subjects": ["BIO"], "min_grade": "C", "min_rank": 6 },
+                { "subjects": ["MATH", "PHY"], "logic": "OR", "min_grade": "C", "min_rank": 6 },
+                { "subjects": ["ENG", "KIS"], "logic": "OR", "min_grade": "C", "min_rank": 6 }
+              ]
+            },
+            {
+              "label": "Alternative B",
+              "rules": [
+                { "subjects": ["BIOLOGICAL_SCIENCES"], "min_grade": "C", "min_rank": 6 },
+                { "subjects": ["PHYSICAL_SCIENCES"], "min_grade": "C", "min_rank": 6 },
+                { "subjects": ["MATH"], "min_grade": "C", "min_rank": 6 },
+                { "subjects": ["ENG", "KIS"], "logic": "OR", "min_grade": "C", "min_rank": 6 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "category": "Environmental Health",
+      "programs": [
+        {
+          "level": "Diploma",
+          "min_mean_grade": "C",
+          "min_mean_rank": 6,
+          "subject_rules": [
+            { "subjects": ["ENG", "KIS"], "logic": "OR", "min_grade": "C", "min_rank": 6 },
+            { "subjects": ["BIO", "BIOLOGICAL_SCIENCES"], "logic": "OR", "min_grade": "C", "min_rank": 6 },
+            { "subjects": ["CHE", "PHYSICAL_SCIENCES"], "logic": "OR", "min_grade": "C-", "min_rank": 5 },
+            { "subjects": ["MATH_ALT_A"], "min_grade": "C-", "min_rank": 5 }
+          ]
+        },
+        {
+          "level": "Certificate",
+          "min_mean_grade": "C-",
+          "min_mean_rank": 5,
+          "subject_rules": [
+            { "subjects": ["ENG", "KIS"], "logic": "OR", "min_grade": "C-", "min_rank": 5 },
+            { "subjects": ["BIO", "BIOLOGICAL_SCIENCES"], "logic": "OR", "min_grade": "C-", "min_rank": 5 },
+            { "subjects": ["PHY", "CHE", "MATH", "HSC", "AGRIC", "GSC"], "logic": "OR", "min_grade": "D+", "min_rank": 4 }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "category": "Nursing",
+      "programs": [
+        {
+          "level": "Diploma",
+          "min_mean_grade": "C",
+          "min_mean_rank": 6,
+          "subject_rules": [
+            { "subjects": ["BIO", "BIOLOGICAL_SCIENCES"], "logic": "OR", "min_grade": "C", "min_rank": 6 },
+            { "subjects": ["ENG", "KIS"], "logic": "OR", "min_grade": "C", "min_rank": 6 },
+            { "subjects": ["PHY", "PHYSICAL_SCIENCES", "CHE", "MATH"], "logic": "OR", "min_grade": "C-", "min_rank": 5 }
+          ]
+        },
+        {
+          "level": "Certificate",
+          "min_mean_grade": "C-",
+          "min_mean_rank": 5,
+          "subject_rules": [
+            { "subjects": ["BIO", "BIOLOGICAL_SCIENCES"], "logic": "OR", "min_grade": "C-", "min_rank": 5 },
+            { "subjects": ["ENG", "KIS"], "logic": "OR", "min_grade": "C-", "min_rank": 5 },
+            { "subjects": ["PHY", "PHYSICAL_SCIENCES", "CHE", "MATH"], "logic": "OR", "min_grade": "D+", "min_rank": 4 }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "category": "Animal Health",
+      "programs": [
+        {
+          "level": "Diploma",
+          "min_mean_grade": "C",
+          "min_mean_rank": 6,
+          "subject_rules": [
+            { "subjects": ["BIO"], "min_grade": "C", "min_rank": 6 },
+            { "subjects": ["CHE"], "min_grade": "C-", "min_rank": 5 },
+            { "subjects": ["MATH", "PHY", "AGRIC"], "logic": "OR", "min_grade": "C-", "min_rank": 5 }
+          ]
+        },
+        {
+          "level": "Certificate",
+          "min_mean_grade": "C-",
+          "min_mean_rank": 5,
+          "subject_rules": [{ "subjects": ["BIO"], "min_grade": "C-", "min_rank": 5 }]
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "category": "Medical Laboratory Science",
+      "programs": [
+        {
+          "level": "Diploma",
+          "min_mean_grade": "C",
+          "min_mean_rank": 6,
+          "subject_rules": [
+            { "subjects": ["ENG", "KIS"], "logic": "OR", "min_grade": "C", "min_rank": 6 },
+            { "subjects": ["MATH", "PHY"], "logic": "OR", "min_grade": "C", "min_rank": 6 },
+            { "subjects": ["BIO"], "min_grade": "C", "min_rank": 6 },
+            { "subjects": ["CHE"], "min_grade": "C", "min_rank": 6 }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "category": "Nutrition & Dietetics",
+      "programs": [
+        {
+          "level": "Diploma",
+          "min_mean_grade": "C-",
+          "min_mean_rank": 5,
+          "subject_rules": [
+            { "subjects": ["CHE", "PHYSICAL_SCIENCES"], "logic": "OR", "min_grade": "D+", "min_rank": 4 },
+            { "subjects": ["BIO", "BIOLOGICAL_SCIENCES"], "logic": "OR", "min_grade": "D+", "min_rank": 4 },
+            { "subjects": ["ENG", "KIS"], "logic": "OR", "min_grade": "D+", "min_rank": 4 },
+            { "subjects": ["PHY", "MATH", "HSC", "AGRIC", "GSC"], "logic": "OR", "min_grade": "D", "min_rank": 3 }
+          ]
+        },
+        {
+          "level": "Certificate",
+          "min_mean_grade": "D",
+          "min_mean_rank": 3,
+          "subject_rules": [
+            { "subjects": ["CHE", "PHYSICAL_SCIENCES"], "logic": "OR", "min_grade": "D", "min_rank": 3 },
+            { "subjects": ["BIO", "BIOLOGICAL_SCIENCES"], "logic": "OR", "min_grade": "D", "min_rank": 3 },
+            { "subjects": ["ENG", "KIS"], "logic": "OR", "min_grade": "D", "min_rank": 3 },
+            { "subjects": ["PHY", "MATH", "HSC", "AGRIC", "GSC"], "logic": "OR", "min_grade": "D", "min_rank": 3 }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "category": "Land Surveying",
+      "programs": [
+        {
+          "level": "Diploma",
+          "min_mean_grade": "C-",
+          "min_mean_rank": 5,
+          "subject_rules": [
+            { "subjects": ["ENG"], "min_grade": "C-", "min_rank": 5 },
+            { "subjects": ["MATH_ALT_A"], "min_grade": "C-", "min_rank": 5 },
+            { "subjects": ["PHY"], "min_grade": "C-", "min_rank": 5 }
+          ]
+        },
+        { "level": "Certificate", "min_mean_grade": "D", "min_mean_rank": 3, "subject_rules": [] }
+      ]
+    },
+    {
+      "order": 14,
+      "category": "Clinical Medicine and Surgery and Community Health",
+      "programs": [
+        {
+          "level": "Diploma",
+          "min_mean_grade": "C",
+          "min_mean_rank": 6,
+          "alternative_sets": [
+            {
+              "label": "Alternative A",
+              "rules": [
+                { "subjects": ["ENG", "KIS"], "logic": "OR", "min_grade": "C", "min_rank": 6 },
+                { "subjects": ["BIO"], "min_grade": "C", "min_rank": 6 },
+                { "subjects": ["CHE"], "min_grade": "C-", "min_rank": 5 },
+                { "subjects": ["MATH", "PHY"], "logic": "OR", "min_grade": "C-", "min_rank": 5 }
+              ]
+            },
+            {
+              "label": "Alternative B",
+              "rules": [
+                { "subjects": ["ENG", "KIS"], "logic": "OR", "min_grade": "C", "min_rank": 6 },
+                { "subjects": ["BIOLOGICAL_SCIENCES"], "min_grade": "C", "min_rank": 6 },
+                { "subjects": ["PHYSICAL_SCIENCES"], "min_grade": "C-", "min_rank": 5 },
+                { "subjects": ["MATH"], "min_grade": "C-", "min_rank": 5 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "category": "Health Records and Information Technology",
+      "programs": [
+        {
+          "level": "Diploma",
+          "min_mean_grade": "C",
+          "min_mean_rank": 6,
+          "subject_rules": [
+            { "subjects": ["ENG", "KIS"], "logic": "OR", "min_grade": "C", "min_rank": 6 },
+            { "subjects": ["MATH_A", "MATH_B"], "logic": "OR", "min_grade": "C-", "min_rank": 5 },
+            { "subjects": ["BIO", "BSC"], "logic": "OR", "min_grade": "D+", "min_rank": 4 },
+            { "subjects": ["PHY", "CHE", "COMP", "AGR", "HSC", "ECON", "GEO", "COM", "BST"], "logic": "OR", "min_grade": "C-", "min_rank": 5 }
+          ]
+        },
+        {
+          "level": "Certificate",
+          "min_mean_grade": "C-",
+          "min_mean_rank": 5,
+          "subject_rules": [
+            { "subjects": ["ENG", "KIS"], "logic": "OR", "min_grade": "C-", "min_rank": 5 },
+            { "subjects": ["MATH_A", "MATH_B"], "logic": "OR", "min_grade": "D", "min_rank": 3 },
+            { "subjects": ["BIO", "BSC"], "logic": "OR", "min_grade": "D", "min_rank": 3 },
+            { "subjects": ["PHY", "CHE", "COMP", "AGR", "HSC", "ECON", "GEO", "COM", "BST"], "logic": "OR", "min_grade": "D+", "min_rank": 4 }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "KNEC EXAMINATION",
+      "order": 16,
+      "category": "Business courses",
+      "levels": [
+        { "level": "Diploma", "min_mean_grade": "C-", "min_mean_rank": 5, "subject_rules": [] },
+        { "level": "Certificate", "min_mean_grade": "D", "min_mean_rank": 3, "subject_rules": [] },
+        { "level": "Artisan", "min_mean_grade": "D-", "max_mean_rank": 2, "is_open_ended_below": true, "subject_rules": [] }
+      ]
+    },
+    {
+      "order": 17,
+      "category": "Humanities (Social Sciences)",
+      "levels": [
+        { "level": "Diploma", "min_mean_grade": "C-", "min_mean_rank": 5, "subject_rules": [] },
+        { "level": "Certificate", "min_mean_grade": "D", "min_mean_rank": 3, "subject_rules": [] },
+        { "level": "Artisan", "min_mean_grade": "D-", "max_mean_rank": 2, "is_open_ended_below": true, "subject_rules": [] }
+      ]
+    },
+    {
+      "order": 18,
+      "category": "Computing",
+      "levels": [
+        { "level": "Diploma", "min_mean_grade": "C-", "min_mean_rank": 5, "subject_rules": [] },
+        { "level": "Certificate", "min_mean_grade": "D", "min_mean_rank": 3, "subject_rules": [] },
+        { "level": "Artisan", "min_mean_grade": "D-", "max_mean_rank": 2, "is_open_ended_below": true, "subject_rules": [] }
+      ]
+    },
+    {
+      "order": 19,
+      "category": "Tourism and Hotel Management",
+      "levels": [
+        { "level": "Diploma", "min_mean_grade": "C-", "min_mean_rank": 5, "subject_rules": [] },
+        { "level": "Certificate", "min_mean_grade": "D", "min_mean_rank": 3, "subject_rules": [] },
+        { "level": "Artisan", "min_mean_grade": "D-", "max_mean_rank": 2, "is_open_ended_below": true, "subject_rules": [] }
+      ]
+    },
+    {
+      "order": 20,
+      "category": "Clothing & Textile",
+      "levels": [
+        { "level": "Diploma", "min_mean_grade": "C-", "min_mean_rank": 5, "subject_rules": [] },
+        { "level": "Certificate", "min_mean_grade": "D", "min_mean_rank": 3, "subject_rules": [] },
+        { "level": "Artisan", "min_mean_grade": "D-", "max_mean_rank": 2, "is_open_ended_below": true, "subject_rules": [] }
+      ]
+    },
+    {
+      "order": 21,
+      "category": "Applied Biology",
+      "levels": [
+        { "level": "Diploma", "min_mean_grade": "C-", "min_mean_rank": 5, "subject_rules": [] },
+        { "level": "Certificate", "min_mean_grade": "D", "min_mean_rank": 3, "subject_rules": [] },
+        { "level": "Artisan", "min_mean_grade": "D-", "max_mean_rank": 2, "is_open_ended_below": true, "subject_rules": [] }
+      ]
+    },
+    {
+      "order": 22,
+      "category": "Applied Chemistry",
+      "levels": [
+        { "level": "Diploma", "min_mean_grade": "C-", "min_mean_rank": 5, "subject_rules": [] },
+        { "level": "Certificate", "min_mean_grade": "D", "min_mean_rank": 3, "subject_rules": [] },
+        { "level": "Artisan", "min_mean_grade": "D-", "max_mean_rank": 2, "is_open_ended_below": true, "subject_rules": [] }
+      ]
+    },
+    {
+      "order": 23,
+      "category": "Analytical Chemistry",
+      "levels": [
+        { "level": "Diploma", "min_mean_grade": "C-", "min_mean_rank": 5, "subject_rules": [] },
+        { "level": "Certificate", "min_mean_grade": "D", "min_mean_rank": 3, "subject_rules": [] },
+        { "level": "Artisan", "min_mean_grade": "D-", "max_mean_rank": 2, "is_open_ended_below": true, "subject_rules": [] }
+      ]
+    },
+    {
+      "order": 24,
+      "category": "Agricultural Courses",
+      "levels": [
+        { "level": "Diploma", "min_mean_grade": "C-", "min_mean_rank": 5, "subject_rules": [] },
+        { "level": "Certificate", "min_mean_grade": "D", "min_mean_rank": 3, "subject_rules": [] },
+        { "level": "Artisan", "min_mean_grade": "D-", "max_mean_rank": 2, "is_open_ended_below": true, "subject_rules": [] }
+      ]
+    },
+    {
+      "order": 25,
+      "category": "Natural Resources (Geology, Petroleum, Nautical Sciences, Fisheries and Aquatic Sciences)",
+      "levels": [
+        { "level": "Diploma", "min_mean_grade": "C-", "min_mean_rank": 5, "subject_rules": [] },
+        { "level": "Certificate", "min_mean_grade": "D", "min_mean_rank": 3, "subject_rules": [] },
+        { "level": "Artisan", "min_mean_grade": "D-", "max_mean_rank": 2, "is_open_ended_below": true, "subject_rules": [] }
+      ]
+    },
+    {
+      "order": 26,
+      "category": "Aeronautical Engineering (Airframes and Engines)",
+      "levels": [
+        {
+          "level": "Diploma",
+          "min_mean_grade": "C",
+          "min_mean_rank": 6,
+          "subject_rules": [
+            { "subjects": ["MATH_ALT_A"], "min_grade": "C-", "min_rank": 5 },
+            { "subjects": ["ENG"], "min_grade": "C-", "min_rank": 5 },
+            { "subjects": ["PHY"], "min_grade": "C-", "min_rank": 5 }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 27,
+      "category": "Aeronautical Engineering (Avionics)",
+      "levels": [
+        {
+          "level": "Diploma",
+          "min_mean_grade": "C",
+          "min_mean_rank": 6,
+          "subject_rules": [
+            { "subjects": ["MATH_ALT_A"], "min_grade": "C-", "min_rank": 5 },
+            { "subjects": ["ENG"], "min_grade": "C-", "min_rank": 5 },
+            { "subjects": ["PHY"], "min_grade": "C-", "min_rank": 5 }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "INTERNAL EXAMINERS",
+      "order": 28,
+      "category": "Photogrammetry & Remote Sensing",
+      "levels": [
+        {
+          "level": "Diploma",
+          "min_mean_grade": "C-",
+          "min_mean_rank": 5,
+          "subject_rules": [
+            { "subjects": ["ENG"], "min_grade": "C-", "min_rank": 5 },
+            { "subjects": ["MATH_ALT_A"], "min_grade": "C-", "min_rank": 5 },
+            { "subjects": ["PHY"], "min_grade": "C-", "min_rank": 5 }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 29,
+      "category": "Cartography",
+      "levels": [
+        {
+          "level": "Diploma",
+          "min_mean_grade": "C-",
+          "min_mean_rank": 5,
+          "subject_rules": [
+            { "subjects": ["ENG"], "min_grade": "C-", "min_rank": 5 },
+            { "subjects": ["MATH_ALT_A"], "min_grade": "C-", "min_rank": 5 },
+            { "subjects": ["GEO"], "min_grade": "C-", "min_rank": 5 }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 30,
+      "category": "Map Reproduction (Printing)",
+      "levels": [
+        {
+          "level": "Diploma",
+          "min_mean_grade": "C-",
+          "min_mean_rank": 5,
+          "subject_rules": [
+            { "subjects": ["ENG"], "min_grade": "C-", "min_rank": 5 },
+            { "subjects": ["MATH_ALT_A"], "min_grade": "C-", "min_rank": 5 },
+            { "subjects": ["CHE"], "min_grade": "C-", "min_rank": 5 }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 31,
+      "category": "Forestry",
+      "levels": [
+        {
+          "level": "Certificate",
+          "min_mean_grade": "D+",
+          "min_mean_rank": 4,
+          "subject_rules": [
+            { "subjects": ["MATH_ALT_A"], "min_grade": "D+", "min_rank": 4 },
+            { "subjects": ["BIO", "PHY", "CHE", "AGRIC"], "logic": "OR", "min_grade": "C-", "min_rank": 5 },
+            { "subjects": ["ENG", "KIS"], "logic": "OR", "min_grade": "C-", "min_rank": 5 }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 32,
+      "category": "Tax Administration",
+      "levels": [
+        {
+          "level": "Diploma",
+          "min_mean_grade": "C",
+          "min_mean_rank": 6,
+          "subject_rules": [
+            { "subjects": ["ENG"], "min_grade": "C-", "min_rank": 5 },
+            { "subjects": ["MATH_ALT_A"], "min_grade": "C-", "min_rank": 5 }
+          ]
+        },
+        {
+          "level": "Certificate",
+          "min_mean_grade": "C-",
+          "min_mean_rank": 5,
+          "subject_rules": [
+            { "subjects": ["ENG"], "min_grade": "D+", "min_rank": 4 },
+            { "subjects": ["MATH_ALT_A"], "min_grade": "D+", "min_rank": 4 }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 33,
+      "category": "Custom Administration",
+      "levels": [
+        {
+          "level": "Diploma",
+          "min_mean_grade": "C",
+          "min_mean_rank": 6,
+          "subject_rules": [
+            { "subjects": ["ENG"], "min_grade": "C-", "min_rank": 5 },
+            { "subjects": ["MATH_ALT_A"], "min_grade": "C-", "min_rank": 5 }
+          ]
+        },
+        {
+          "level": "Certificate",
+          "min_mean_grade": "C-",
+          "min_mean_rank": 5,
+          "subject_rules": [
+            { "subjects": ["ENG"], "min_grade": "D+", "min_rank": 4 },
+            { "subjects": ["MATH_ALT_A"], "min_grade": "D+", "min_rank": 4 }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 34,
+      "category": "Agricultural Irrigation and Drainage Engineering",
+      "levels": [
+        {
+          "level": "Diploma",
+          "min_mean_grade": "C-",
+          "min_mean_rank": 5,
+          "subject_rules": [
+            { "subjects": ["ENG", "KIS"], "logic": "OR", "min_grade": "D", "min_rank": 3 },
+            { "subjects": ["MATH_A"], "min_grade": "D", "min_rank": 3 },
+            { "subjects": ["PHY", "CHE"], "logic": "OR", "min_grade": "D", "min_rank": 3 },
+            { "subjects": ["BIO", "GEO", "HSC", "AGR", "BST"], "logic": "OR", "min_grade": "C-", "min_rank": 5 }
+          ]
+        }
+      ]
+    }
+  ]
+}

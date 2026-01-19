@@ -1,0 +1,21 @@
+{
+  "source": "Kuccps Files/TVET_CLUSTER_DOCUMENT_2025.pdf",
+  "extraction_method": "pdfplumber",
+  "total_programs": 2,
+  "programs": [
+    {
+      "category": "KNEC EXAMINATION",
+      "level": "Programme\nCategory",
+      "min_mean_grade": "Level",
+      "requirements": [],
+      "notes": ""
+    },
+    {
+      "category": "INTERNAL EXAMINERS",
+      "level": "Programme\nCategory",
+      "min_mean_grade": "Programme level",
+      "requirements": [],
+      "notes": ""
+    }
+  ]
+}

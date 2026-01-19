@@ -1,0 +1,20 @@
+[
+  {
+    "id": "bde03ec3-6f19-4cec-a326-3848d66ea2ca",
+    "name": "MASENO UNIVERSITY",
+    "url": "https://www.maseno.ac.ke",
+    "phone": null,
+    "issues": [
+      "Phone Missing"
+    ]
+  },
+  {
+    "id": "e7194a2e-6ef9-4554-aebd-ad1d95d313b6",
+    "name": "TAITA TAVETA UNIVERSITY",
+    "url": "https://www.ttu.ac.ke",
+    "phone": null,
+    "issues": [
+      "Phone Missing"
+    ]
+  }
+]
