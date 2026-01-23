@@ -1,0 +1,112 @@
+[
+  {
+    "id": "dfc0815b-3ead-47d6-a3c4-a94d32ba8b06",
+    "name": "A.I.C DIGUNA RAINBOW POLYTECHNIC",
+    "county": "Nandi",
+    "website": null,
+    "email": null,
+    "phone": null,
+    "town": "Kapsabet",
+    "confidence": "low",
+    "suspicious": null
+  },
+  {
+    "id": "39a3937e-101b-4af8-acc9-8055d6598968",
+    "name": "A.I.C MIAMBANI VOCATIONAL TRAINING CENTER",
+    "county": "Kitui",
+    "website": null,
+    "email": null,
+    "phone": null,
+    "town": "Kitui",
+    "confidence": "low",
+    "suspicious": null
+  },
+  {
+    "id": "c5784219-acbf-44ca-a892-bc072a51e9d8",
+    "name": "AA Mobility and Road Safety Training Institute",
+    "county": "Nairobi",
+    "website": null,
+    "email": null,
+    "phone": null,
+    "town": null,
+    "confidence": "low",
+    "suspicious": null
+  },
+  {
+    "id": "feffb491-61fd-4755-b3ae-800e709713e1",
+    "name": "ABC KIVI VOCATIONAL TRAINING CENTER",
+    "county": "Machakos",
+    "website": null,
+    "email": null,
+    "phone": null,
+    "town": null,
+    "confidence": "low",
+    "suspicious": null
+  },
+  {
+    "id": "9802aa92-b3a0-41d8-9b44-711982e2696a",
+    "name": "ABC UKAATUNI YOUTH POLYTECHNIC",
+    "county": "Makueni",
+    "website": null,
+    "email": null,
+    "phone": null,
+    "town": null,
+    "confidence": "low",
+    "suspicious": null
+  },
+  {
+    "id": "155a1027-bc8f-44a3-a7f6-33d600262b53",
+    "name": "ABERDARE INSTITUTE OF MANAGEMENT",
+    "county": "Nyeri",
+    "website": null,
+    "email": null,
+    "phone": null,
+    "town": null,
+    "confidence": "low",
+    "suspicious": null
+  },
+  {
+    "id": "130c8590-bbd6-425e-9ad5-94a45318832c",
+    "name": "Aberdares School of Music and Performing Arts",
+    "county": "Kiambu",
+    "website": null,
+    "email": null,
+    "phone": null,
+    "town": null,
+    "confidence": "low",
+    "suspicious": null
+  },
+  {
+    "id": "abe53e83-e4a1-4654-b43a-0d61adc25690",
+    "name": "ACADEMY OF GRAPHIC TECHNOLOGY",
+    "county": "Nairobi",
+    "website": null,
+    "email": null,
+    "phone": null,
+    "town": null,
+    "confidence": "low",
+    "suspicious": null
+  },
+  {
+    "id": "75993775-dd3b-4c48-b187-fe572ad4172c",
+    "name": "ACAI Institute of Technology",
+    "county": "Nairobi",
+    "website": null,
+    "email": null,
+    "phone": null,
+    "town": null,
+    "confidence": "low",
+    "suspicious": null
+  },
+  {
+    "id": "f39cfc96-901b-43a1-aad4-76b034524f9a",
+    "name": "Accquest Training Institute",
+    "county": "Kiambu",
+    "website": null,
+    "email": null,
+    "phone": null,
+    "town": null,
+    "confidence": "low",
+    "suspicious": null
+  }
+]

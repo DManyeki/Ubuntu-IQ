@@ -1,0 +1,2353 @@
+[
+  {
+    "id": "5538",
+    "name": "DIPLOMA IN COMMUNITY ORAL HEALTH",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5538/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MOSORIOT CAMPUS",
+        "code": "4980K01",
+        "county": "NANDI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAIROBI CAMPUS",
+        "code": "5000K01",
+        "county": "NAIROBI COUNTY"
+      }
+    ],
+    "min_mean_grade": "C",
+    "raw_requirements_text": "Subject 1: ENG / KIS (C)\nSubject 2: BIO / BSC (C)\nSubject 3: MAT A / PHY / CHE / PSC (C-)\nSubject 4: MAT A / PHY / CHE / PSC (C-)"
+  },
+  {
+    "id": "5539",
+    "name": "DIPLOMA IN NUTRITION & DIETETICS",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5539/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - HOMA BAY CAMPUS",
+        "code": "4780K02",
+        "county": "HOMA BAY COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAREN - NAIROBI CAMPUS",
+        "code": "4830K02",
+        "county": "NAIROBI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NYANDARUA CAMPUS",
+        "code": "5030K02",
+        "county": "NYANDARUA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - THIKA CAMPUS",
+        "code": "5100K02",
+        "county": "KIAMBU COUNTY"
+      }
+    ],
+    "min_mean_grade": "C-",
+    "raw_requirements_text": "Subject 1: ENG / KIS (D+)\nSubject 2: BIO / BSC (D+)\nSubject 3: CHE / PSC (D+)\nSubject 4: MAT A / PHY / PSC / GSC / HSC / AGR (D)"
+  },
+  {
+    "id": "5540",
+    "name": "DIPLOMA IN HEALTH RECORDS AND INFORMATION TECHNOLOGY",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5540/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - ISIOLO CAMPUS",
+        "code": "4790K03",
+        "county": "ISIOLO COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAIROBI CAMPUS",
+        "code": "5000K03",
+        "county": "NAIROBI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAKURU CAMPUS",
+        "code": "5005K03",
+        "county": "NAKURU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - SIAYA CAMPUS",
+        "code": "5070K03",
+        "county": "SIAYA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - TRANS MARA CAMPUS",
+        "code": "5105K03",
+        "county": "NAROK COUNTY"
+      }
+    ],
+    "min_mean_grade": "C",
+    "raw_requirements_text": "Subject 1: ENG / KIS (C)\nSubject 2: MAT A (C-)\nSubject 3: BIO / BSC (D+)\nSubject 4: PHY / CHE / PSC / GEO / ECON / HSC / AGR / CMP / COM / BST (C-)"
+  },
+  {
+    "id": "5541",
+    "name": "DIPLOMA IN KENYA REGISTERED COMMUNITY HEALTH NURSING",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5541/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - BOMET CAMPUS",
+        "code": "4720K04",
+        "county": "BOMET COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - BONDO CAMPUS",
+        "code": "4725K04",
+        "county": "SIAYA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - BUNGOMA CAMPUS",
+        "code": "4730K04",
+        "county": "BUNGOMA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - BUSIA CAMPUS",
+        "code": "4735K04",
+        "county": "BUSIA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - CHEMOLINGOT CAMPUS",
+        "code": "4740K04",
+        "county": "BARINGO COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - CHUKA CAMPUS",
+        "code": "4745K04",
+        "county": "EMBU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - ELDORET CAMPUS",
+        "code": "4755K04",
+        "county": "UASIN GISHU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - EMBU CAMPUS",
+        "code": "4760K04",
+        "county": "EMBU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - GARISSA CAMPUS",
+        "code": "4765K04",
+        "county": "GARISSA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - GATUNDU CAMPUS",
+        "code": "4770K04",
+        "county": "KIAMBU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - HOMA BAY CAMPUS",
+        "code": "4780K04",
+        "county": "HOMA BAY COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - ISIOLO CAMPUS",
+        "code": "4790K04",
+        "county": "ISIOLO COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - ITEN CAMPUS",
+        "code": "4795K04",
+        "county": "ELGEYO MARAKWET COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KABARNET CAMPUS",
+        "code": "4800K04",
+        "county": "BARINGO COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAKAMEGA - NAVAKHOLO CAMPUS",
+        "code": "5175K04",
+        "county": "KAKAMEGA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAKAMEGA CAMPUS",
+        "code": "4805K04",
+        "county": "KAKAMEGA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAPENGURIA CAMPUS",
+        "code": "4815K04",
+        "county": "WEST POKOT COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAPKATET CAMPUS",
+        "code": "4820K04",
+        "county": "KERICHO COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAPTUMO CAMPUS",
+        "code": "4825K04",
+        "county": "NANDI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KILIFI CAMPUS",
+        "code": "4840K04",
+        "county": "KILIFI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KISII CAMPUS",
+        "code": "4845K04",
+        "county": "KISII COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KISUMU CAMPUS",
+        "code": "4850K04",
+        "county": "KISUMU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KITALE CAMPUS",
+        "code": "4855K04",
+        "county": "TRANSNZOIA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KITUI CAMPUS",
+        "code": "4860K04",
+        "county": "KITUI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KURIA CAMPUS",
+        "code": "4870K04",
+        "county": "MIGORI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - LAKE VICTORIA CAMPUS",
+        "code": "4880K04",
+        "county": "KISUMU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - LODWAR CAMPUS",
+        "code": "4890K04",
+        "county": "TURKANA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - LOITOKITOK CAMPUS",
+        "code": "4895K04",
+        "county": "KAJIADO COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MACHAKOS CAMPUS",
+        "code": "4905K04",
+        "county": "MACHAKOS COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MAKINDU CAMPUS",
+        "code": "4910K04",
+        "county": "MAKUENI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MAKUENI CAMPUS",
+        "code": "4915K04",
+        "county": "MAKUENI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MARSABIT CAMPUS",
+        "code": "5310K04",
+        "county": "MARSABIT COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MERU CAMPUS",
+        "code": "4945K04",
+        "county": "MERU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MIGORI CAMPUS",
+        "code": "4960K04",
+        "county": "MIGORI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MOMBASA CAMPUS",
+        "code": "4975K04",
+        "county": "MOMBASA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MOSORIOT CAMPUS",
+        "code": "4980K04",
+        "county": "NANDI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MSAMBWENI CAMPUS",
+        "code": "4985K04",
+        "county": "KWALE COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MURANG'A CAMPUS",
+        "code": "4990K04",
+        "county": "MURANG'A COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MWINGI CAMPUS",
+        "code": "4995K04",
+        "county": "KITUI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAIROBI CAMPUS",
+        "code": "5000K04",
+        "county": "NAIROBI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAKURU CAMPUS",
+        "code": "5005K04",
+        "county": "NAKURU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAROK CAMPUS",
+        "code": "5215K04",
+        "county": "NAROK COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NYAHURURU CAMPUS",
+        "code": "5015K04",
+        "county": "LAIKIPIA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NYAMIRA CAMPUS",
+        "code": "5025K04",
+        "county": "NYAMIRA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NYANDARUA CAMPUS",
+        "code": "5030K04",
+        "county": "NYANDARUA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NYERI CAMPUS",
+        "code": "5040K04",
+        "county": "NYERI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - PORT REITZ CAMPUS",
+        "code": "5050K04",
+        "county": "MOMBASA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - RACHUONYO CAMPUS",
+        "code": "5055K04",
+        "county": "HOMA BAY COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - SIAYA CAMPUS",
+        "code": "5070K04",
+        "county": "SIAYA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - SIGOWET CAMPUS",
+        "code": "5080K04",
+        "county": "KERICHO COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - THIKA CAMPUS",
+        "code": "5100K04",
+        "county": "KIAMBU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - VOI CAMPUS",
+        "code": "5120K04",
+        "county": "TAITA TAVETA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - WEBUYE CAMPUS",
+        "code": "5130K04",
+        "county": "BUNGOMA COUNTY"
+      }
+    ],
+    "min_mean_grade": "C",
+    "raw_requirements_text": "Subject 1: ENG / KIS (C)\nSubject 2: BIO / BSC (C)\nSubject 3: MAT A / PHY / CHE / PSC (C-)"
+  },
+  {
+    "id": "5542",
+    "name": "DIPLOMA IN KENYA REGISTERED NURSING, MENTAL HEALTH & PSYCHIATRY",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5542/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MATHARE CAMPUS",
+        "code": "4935K05",
+        "county": "NAIROBI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MURANG'A CAMPUS",
+        "code": "4990K05",
+        "county": "MURANG'A COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - PORT REITZ CAMPUS",
+        "code": "5050K05",
+        "county": "MOMBASA COUNTY"
+      }
+    ],
+    "min_mean_grade": "C",
+    "raw_requirements_text": "Subject 1: ENG / KIS (C)\nSubject 2: BIO / BSC (C)\nSubject 3: MAT A / PHY / CHE / PSC (C-)"
+  },
+  {
+    "id": "5543",
+    "name": "DIPLOMA IN KENYA REGISTERED NURSING & MIDWIFERY",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5543/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - HOMA BAY CAMPUS",
+        "code": "4780K06",
+        "county": "HOMA BAY COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAKAMEGA CAMPUS",
+        "code": "4805K06",
+        "county": "KAKAMEGA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KOMBEWA CAMPUS",
+        "code": "4865K06",
+        "county": "KISUMU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MOSORIOT CAMPUS",
+        "code": "4980K06",
+        "county": "NANDI COUNTY"
+      }
+    ],
+    "min_mean_grade": "C",
+    "raw_requirements_text": "Subject 1: ENG / KIS (C)\nSubject 2: BIO / BSC (C)\nSubject 3: MAT A / PHY / CHE / PSC (C-)"
+  },
+  {
+    "id": "5544",
+    "name": "DIPLOMA IN RADIOGRAPHY & IMAGING",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5544/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - BUNGOMA CAMPUS",
+        "code": "4730K07",
+        "county": "BUNGOMA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - ELDORET CAMPUS",
+        "code": "4755K07",
+        "county": "UASIN GISHU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - HOMA BAY CAMPUS",
+        "code": "4780K07",
+        "county": "HOMA BAY COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAPKATET CAMPUS",
+        "code": "4820K07",
+        "county": "KERICHO COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KISUMU CAMPUS",
+        "code": "4850K07",
+        "county": "KISUMU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MANZA CAMPUS",
+        "code": "4930K07",
+        "county": "MACHAKOS COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MOMBASA CAMPUS",
+        "code": "4975K07",
+        "county": "MOMBASA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAIROBI CAMPUS",
+        "code": "5000K07",
+        "county": "NAIROBI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAKURU CAMPUS",
+        "code": "5005K07",
+        "county": "NAKURU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NYERI CAMPUS",
+        "code": "5040K07",
+        "county": "NYERI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - SIAYA CAMPUS",
+        "code": "5070K07",
+        "county": "SIAYA COUNTY"
+      }
+    ],
+    "min_mean_grade": "C",
+    "raw_requirements_text": "Subject 1: ENG / KIS (C)\nSubject 2: BIO / BSC (C)\nSubject 3: PHY / PSC (C)\nSubject 4: MAT A / CHE (C-)"
+  },
+  {
+    "id": "5545",
+    "name": "DIPLOMA IN MEDICAL LABORATORY SCIENCES",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5545/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - EMBU CAMPUS",
+        "code": "4760K08",
+        "county": "EMBU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAKAMEGA CAMPUS",
+        "code": "4805K08",
+        "county": "KAKAMEGA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KISII CAMPUS",
+        "code": "4845K08",
+        "county": "KISII COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KITUI CAMPUS",
+        "code": "4860K08",
+        "county": "KITUI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KOMBEWA CAMPUS",
+        "code": "4865K08",
+        "county": "KISUMU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - LAKE VICTORIA CAMPUS",
+        "code": "4880K08",
+        "county": "KISUMU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MACHAKOS CAMPUS",
+        "code": "4905K08",
+        "county": "MACHAKOS COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MERU CAMPUS",
+        "code": "4945K08",
+        "county": "MERU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAIROBI CAMPUS",
+        "code": "5000K08",
+        "county": "NAIROBI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAKURU CAMPUS",
+        "code": "5005K08",
+        "county": "NAKURU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NYERI CAMPUS",
+        "code": "5040K08",
+        "county": "NYERI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - PORT REITZ CAMPUS",
+        "code": "5050K08",
+        "county": "MOMBASA COUNTY"
+      }
+    ],
+    "min_mean_grade": "C",
+    "raw_requirements_text": "Subject 1: ENG / KIS (C)\nSubject 2: BIO / BSC (C)\nSubject 3: CHE / PSC (C)\nSubject 4: MAT A / PHY / PSC (C)"
+  },
+  {
+    "id": "5546",
+    "name": "DIPLOMA IN OCCUPATIONAL THERAPY",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5546/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - LUGARI CAMPUS",
+        "code": "4900K09",
+        "county": "KAKAMEGA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MACHAKOS CAMPUS",
+        "code": "4905K09",
+        "county": "MACHAKOS COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MAKINDU CAMPUS",
+        "code": "4910K09",
+        "county": "MAKUENI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MAKUENI - MBUVO CAMPUS",
+        "code": "4920K09",
+        "county": "MAKUENI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MOMBASA CAMPUS",
+        "code": "4975K09",
+        "county": "MOMBASA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MURANG'A CAMPUS",
+        "code": "4990K09",
+        "county": "MURANG'A COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAIROBI CAMPUS",
+        "code": "5000K09",
+        "county": "NAIROBI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NYAMACHE CAMPUS",
+        "code": "5020K09",
+        "county": "KISII COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - TESO CAMPUS",
+        "code": "5095K09",
+        "county": "BUSIA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - UGUNJA CAMPUS",
+        "code": "5075K09",
+        "county": "SIAYA COUNTY"
+      }
+    ],
+    "min_mean_grade": "C",
+    "raw_requirements_text": "Subject 1: ENG / KIS (C)\nSubject 2: BIO / BSC (C-)\nSubject 3: MAT A / PHY / CHE / PSC / HSC / AGR (C-)"
+  },
+  {
+    "id": "5547",
+    "name": "DIPLOMA IN OPTOMETRY",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5547/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAIROBI CAMPUS",
+        "code": "5000K10",
+        "county": "NAIROBI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - UGUNJA CAMPUS",
+        "code": "5075K10",
+        "county": "SIAYA COUNTY"
+      }
+    ],
+    "min_mean_grade": "C",
+    "raw_requirements_text": "Subject 1: ENG / KIS (C)\nSubject 2: MAT A (C)\nSubject 3: BIO / BSC (C-)\nSubject 4: PHY / PSC (C-)"
+  },
+  {
+    "id": "5548",
+    "name": "DIPLOMA IN ORTHOPAEDIC TECHNOLOGY",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5548/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KISUMU CAMPUS",
+        "code": "4850K11",
+        "county": "KISUMU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MACHAKOS CAMPUS",
+        "code": "4905K11",
+        "county": "MACHAKOS COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAIROBI CAMPUS",
+        "code": "5000K11",
+        "county": "NAIROBI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - PORT REITZ CAMPUS",
+        "code": "5050K11",
+        "county": "MOMBASA COUNTY"
+      }
+    ],
+    "min_mean_grade": "C",
+    "raw_requirements_text": "Subject 1: ENG / KIS (C)\nSubject 2: BIO / BSC (C)\nSubject 3: MAT A / PHY / CHE / PSC / WW / MW / DRD (C-)\nSubject 4: MAT A / PHY / CHE / PSC / WW / MW / DRD (C-)"
+  },
+  {
+    "id": "5549",
+    "name": "DIPLOMA IN PHARMACY",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5549/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAKAMEGA CAMPUS",
+        "code": "4805K12",
+        "county": "KAKAMEGA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KISUMU CAMPUS",
+        "code": "4850K12",
+        "county": "KISUMU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MANZA CAMPUS",
+        "code": "4930K12",
+        "county": "MACHAKOS COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MOMBASA CAMPUS",
+        "code": "4975K12",
+        "county": "MOMBASA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAIROBI CAMPUS",
+        "code": "5000K12",
+        "county": "NAIROBI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAKURU CAMPUS",
+        "code": "5005K12",
+        "county": "NAKURU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NYERI CAMPUS",
+        "code": "5040K12",
+        "county": "NYERI COUNTY"
+      }
+    ],
+    "min_mean_grade": "C",
+    "raw_requirements_text": "Subject 1: ENG / KIS (C)\nSubject 2: CHE / PSC (C)\nSubject 3: BIO / BSC (C)\nSubject 4: MAT A / PHY / PSC (C)"
+  },
+  {
+    "id": "5550",
+    "name": "DIPLOMA IN PHYSIOTHERAPY",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5550/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - GATUNDU CAMPUS",
+        "code": "4770K13",
+        "county": "KIAMBU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - HOMA BAY CAMPUS",
+        "code": "4780K13",
+        "county": "HOMA BAY COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MACHAKOS CAMPUS",
+        "code": "4905K13",
+        "county": "MACHAKOS COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAIROBI CAMPUS",
+        "code": "5000K13",
+        "county": "NAIROBI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAKURU CAMPUS",
+        "code": "5005K13",
+        "county": "NAKURU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NYAMIRA CAMPUS",
+        "code": "5025K13",
+        "county": "NYAMIRA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NYERI CAMPUS",
+        "code": "5040K13",
+        "county": "NYERI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - PORT REITZ CAMPUS",
+        "code": "5050K13",
+        "county": "MOMBASA COUNTY"
+      }
+    ],
+    "min_mean_grade": "C",
+    "raw_requirements_text": "Subject 1: ENG / KIS (C)\nSubject 2: BIO (C-)\nSubject 3: MAT A / PHY / CHE / PSC (C-)\nSubject 4: MAT A / PHY / CHE / PSC (C-)"
+  },
+  {
+    "id": "5551",
+    "name": "DIPLOMA IN MEDICAL ENGINEERING",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5551/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - ELDORET CAMPUS",
+        "code": "4755K14",
+        "county": "UASIN GISHU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MERU CAMPUS",
+        "code": "4945K14",
+        "county": "MERU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAIROBI CAMPUS",
+        "code": "5000K14",
+        "county": "NAIROBI COUNTY"
+      }
+    ],
+    "min_mean_grade": "C",
+    "raw_requirements_text": "Subject 1: ENG / KIS (C)\nSubject 2: MAT A (C-)\nSubject 3: PHY / PSC (C-)\nSubject 4: BIO / CHE / BSC / MW / ECT / DRD (D+)"
+  },
+  {
+    "id": "5552",
+    "name": "DIPLOMA IN PUBLIC HEALTH",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5552/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KARURI CAMPUS",
+        "code": "4835K15",
+        "county": "KIAMBU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAIROBI CAMPUS",
+        "code": "5000K15",
+        "county": "NAIROBI COUNTY"
+      }
+    ],
+    "min_mean_grade": "C",
+    "raw_requirements_text": "Subject 1: ENG / KIS (C)\nSubject 2: BIO / BSC (C)\nSubject 3: MAT A (C-)\nSubject 4: PHY / CHE / PSC (C-)"
+  },
+  {
+    "id": "5553",
+    "name": "DIPLOMA IN DENTAL TECHNOLOGY",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5553/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAIROBI CAMPUS",
+        "code": "5000K16",
+        "county": "NAIROBI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAKURU CAMPUS",
+        "code": "5005K16",
+        "county": "NAKURU COUNTY"
+      }
+    ],
+    "min_mean_grade": "C",
+    "raw_requirements_text": "Subject 1: ENG / KIS (C)\nSubject 2: PHY / CHE / PSC (C)\nSubject 3: BIO / BSC (C-)\nSubject 4: MAT A / PHY / CHE / PSC / MW (C-)"
+  },
+  {
+    "id": "5554",
+    "name": "DIPLOMA IN ORTHOPEDIC & TRAUMA MEDICINE",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5554/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAKAMEGA - NAVAKHOLO CAMPUS",
+        "code": "5175K17",
+        "county": "KAKAMEGA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAPENGURIA CAMPUS",
+        "code": "4815K17",
+        "county": "WEST POKOT COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KISII CAMPUS",
+        "code": "4845K17",
+        "county": "KISII COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MACHAKOS CAMPUS",
+        "code": "4905K17",
+        "county": "MACHAKOS COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MAKINDU CAMPUS",
+        "code": "4910K17",
+        "county": "MAKUENI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAIROBI CAMPUS",
+        "code": "5000K17",
+        "county": "NAIROBI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NYERI CAMPUS",
+        "code": "5040K17",
+        "county": "NYERI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - SHIANDA - MUMIAS CAMPUS",
+        "code": "5065K17",
+        "county": "KAKAMEGA COUNTY"
+      }
+    ],
+    "min_mean_grade": "C",
+    "raw_requirements_text": "Subject 1: ENG / KIS (C)\nSubject 2: BIO / BSC (C)\nSubject 3: MAT A / PHY / CHE / PSC (C-)"
+  },
+  {
+    "id": "5555",
+    "name": "DIPLOMA IN MEDICAL SOCIAL WORK",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5555/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - IMENTI CAMPUS",
+        "code": "4785K18",
+        "county": "MERU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAPKATET CAMPUS",
+        "code": "4820K18",
+        "county": "KERICHO COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KARURI CAMPUS",
+        "code": "4835K18",
+        "county": "KIAMBU COUNTY"
+      }
+    ],
+    "min_mean_grade": "C",
+    "raw_requirements_text": "Subject 1: ENG / KIS (C)\nSubject 2: BIO / BSC (D+)\nSubject 3: MAT A / PHY / CHE / PSC / HAG / GEO / CRE / IRE / HSC / AGR / BST (C-)"
+  },
+  {
+    "id": "5556",
+    "name": "DIPLOMA IN HEALTH COUNSELLING",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5556/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - EMBU CAMPUS",
+        "code": "4760K19",
+        "county": "EMBU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MATHARE CAMPUS",
+        "code": "4935K19",
+        "county": "NAIROBI COUNTY"
+      }
+    ],
+    "min_mean_grade": "C",
+    "raw_requirements_text": "Subject 1: ENG / KIS (C)\nSubject 2: BIO / BSC (D+)\nSubject 3: HAG / CRE / IRE / HRE (C-)"
+  },
+  {
+    "id": "5557",
+    "name": "DIPLOMA IN COMMUNITY HEALTH",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5557/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - GATUNDU - MUTUNGURU SATELLITE CAMPUS",
+        "code": "4775K20",
+        "county": "KIAMBU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - IMENTI CAMPUS",
+        "code": "4785K20",
+        "county": "MERU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - ISIOLO CAMPUS",
+        "code": "4790K20",
+        "county": "ISIOLO COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - ITEN CAMPUS",
+        "code": "4795K20",
+        "county": "ELGEYO MARAKWET COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAKAMEGA - NAVAKHOLO CAMPUS",
+        "code": "5175K20",
+        "county": "KAKAMEGA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KITUI - MUTOMO CAMPUS",
+        "code": "5180K20",
+        "county": "KITUI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KURIA CAMPUS",
+        "code": "4870K20",
+        "county": "MIGORI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MAKINDU CAMPUS",
+        "code": "4910K20",
+        "county": "MAKUENI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAIROBI CAMPUS",
+        "code": "5000K20",
+        "county": "NAIROBI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAKURU CAMPUS",
+        "code": "5005K20",
+        "county": "NAKURU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NDHIWA CAMPUS",
+        "code": "5010K20",
+        "county": "HOMA BAY COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NYAHURURU CAMPUS",
+        "code": "5015K20",
+        "county": "LAIKIPIA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NYAMACHE CAMPUS",
+        "code": "5020K20",
+        "county": "KISII COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - RACHUONYO CAMPUS",
+        "code": "5055K20",
+        "county": "HOMA BAY COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - SIGOWET CAMPUS",
+        "code": "5080K20",
+        "county": "KERICHO COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - WEBUYE CAMPUS",
+        "code": "5130K20",
+        "county": "BUNGOMA COUNTY"
+      }
+    ],
+    "min_mean_grade": "C",
+    "raw_requirements_text": "Subject 1: ENG / KIS (C-)\nSubject 2: BIO / BSC (D+)\nSubject 3: MAT A / PHY / CHE / PSC / HSC / AGR (D)"
+  },
+  {
+    "id": "5558",
+    "name": "DIPLOMA IN EMERGENCY MEDICAL TECHNOLOGY",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5558/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAKAMEGA - NAVAKHOLO CAMPUS",
+        "code": "5175K21",
+        "county": "KAKAMEGA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAPENGURIA CAMPUS",
+        "code": "4815K21",
+        "county": "WEST POKOT COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MAKINDU CAMPUS",
+        "code": "4910K21",
+        "county": "MAKUENI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MOMBASA CAMPUS",
+        "code": "4975K21",
+        "county": "MOMBASA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAIROBI CAMPUS",
+        "code": "5000K21",
+        "county": "NAIROBI COUNTY"
+      }
+    ],
+    "min_mean_grade": "C",
+    "raw_requirements_text": "Subject 1: BIO / BSC (D+)"
+  },
+  {
+    "id": "5559",
+    "name": "CERTIFICATE IN HEALTH RECORDS AND INFORMATION TECHNOLOGY",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5559/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - BONDO CAMPUS",
+        "code": "4725K22",
+        "county": "SIAYA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - CHEMOLINGOT CAMPUS",
+        "code": "4740K22",
+        "county": "BARINGO COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - IMENTI CAMPUS",
+        "code": "4785K22",
+        "county": "MERU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KANGEMA CAMPUS",
+        "code": "5220K22",
+        "county": "MURANG'A COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAPENGURIA CAMPUS",
+        "code": "4815K22",
+        "county": "WEST POKOT COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAPTUMO CAMPUS",
+        "code": "4825K22",
+        "county": "NANDI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KITUI CAMPUS",
+        "code": "4860K22",
+        "county": "KITUI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KURIA CAMPUS",
+        "code": "4870K22",
+        "county": "MIGORI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - LAMU CAMPUS",
+        "code": "4885K22",
+        "county": "LAMU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - LOITOKITOK CAMPUS",
+        "code": "4895K22",
+        "county": "KAJIADO COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - LUGARI CAMPUS",
+        "code": "4900K22",
+        "county": "KAKAMEGA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MAKUENI - MBUVO CAMPUS",
+        "code": "4920K22",
+        "county": "MAKUENI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MAUA CAMPUS",
+        "code": "4950K22",
+        "county": "MERU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MBOONI CAMPUS",
+        "code": "4940K22",
+        "county": "MAKUENI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MOLO CAMPUS",
+        "code": "4970K22",
+        "county": "NAKURU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MOMBASA CAMPUS",
+        "code": "4975K22",
+        "county": "MOMBASA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAIROBI CAMPUS",
+        "code": "5000K22",
+        "county": "NAIROBI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAROK CAMPUS",
+        "code": "5215K22",
+        "county": "NAROK COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NDHIWA CAMPUS",
+        "code": "5010K22",
+        "county": "HOMA BAY COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NYAMACHE CAMPUS",
+        "code": "5020K22",
+        "county": "KISII COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - OTHAYA CAMPUS",
+        "code": "5045K22",
+        "county": "NYERI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - RERA CAMPUS",
+        "code": "5060K22",
+        "county": "SIAYA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - SIAYA CAMPUS",
+        "code": "5070K22",
+        "county": "SIAYA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - TANA RIVER CAMPUS",
+        "code": "5085K22",
+        "county": "TANA RIVER COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - UGENYA CAMPUS",
+        "code": "5110K22",
+        "county": "SIAYA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - VOI CAMPUS",
+        "code": "5120K22",
+        "county": "TAITA TAVETA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - WEBUYE CAMPUS",
+        "code": "5130K22",
+        "county": "BUNGOMA COUNTY"
+      }
+    ],
+    "min_mean_grade": "C-",
+    "raw_requirements_text": "Subject 1: ENG / KIS (C-)\nSubject 2: BIO / BSC (D)\nSubject 3: MAT A (D-)\nSubject 4: PHY / CHE / PSC / GSC / GEO / ECON / HSC / AGR / CMP / COM / BST (D+)"
+  },
+  {
+    "id": "5560",
+    "name": "CERTIFICATE IN KENYA ENROLLED COMMUNITY HEALTH NURSING",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5560/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - BOMET CAMPUS",
+        "code": "4720K23",
+        "county": "BOMET COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - GARISSA CAMPUS",
+        "code": "4765K23",
+        "county": "GARISSA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - ISIOLO CAMPUS",
+        "code": "4790K23",
+        "county": "ISIOLO COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KABARNET CAMPUS",
+        "code": "4800K23",
+        "county": "BARINGO COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAPENGURIA CAMPUS",
+        "code": "4815K23",
+        "county": "WEST POKOT COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KILIFI CAMPUS",
+        "code": "4840K23",
+        "county": "KILIFI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KITUI CAMPUS",
+        "code": "4860K23",
+        "county": "KITUI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - LOITOKITOK CAMPUS",
+        "code": "4895K23",
+        "county": "KAJIADO COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MSAMBWENI CAMPUS",
+        "code": "4985K23",
+        "county": "KWALE COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - WAJIR CAMPUS",
+        "code": "5125K23",
+        "county": "WAJIR COUNTY"
+      }
+    ],
+    "min_mean_grade": "C-",
+    "raw_requirements_text": "Subject 1: ENG / KIS (C-)\nSubject 2: BIO / BSC (C-)\nSubject 3: MAT A / PHY / CHE / PSC (D+)"
+  },
+  {
+    "id": "5561",
+    "name": "CERTIFICATE IN NUTRITION & DIETETICS",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5561/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - CHWELE CAMPUS",
+        "code": "4750K24",
+        "county": "BUNGOMA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KABARNET CAMPUS",
+        "code": "4800K24",
+        "county": "BARINGO COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAREN - NAIROBI CAMPUS",
+        "code": "4830K24",
+        "county": "NAIROBI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KWALE CAMPUS",
+        "code": "4875K24",
+        "county": "KWALE COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - LODWAR CAMPUS",
+        "code": "4890K24",
+        "county": "TURKANA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MAKUENI - MBUVO CAMPUS",
+        "code": "4920K24",
+        "county": "MAKUENI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MOLO CAMPUS",
+        "code": "4970K24",
+        "county": "NAKURU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - RERA CAMPUS",
+        "code": "5060K24",
+        "county": "SIAYA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - THIKA CAMPUS",
+        "code": "5100K24",
+        "county": "KIAMBU COUNTY"
+      }
+    ],
+    "min_mean_grade": "D+",
+    "raw_requirements_text": "Subject 1: ENG / KIS (D+)\nSubject 2: BIO / BSC (D)\nSubject 3: CHE / PSC (D)\nSubject 4: MAT A / PHY / GSC / HSC / AGR (D)"
+  },
+  {
+    "id": "5562",
+    "name": "CERTIFICATE IN MEDICAL ENGINEERING",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5562/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - BOMET CAMPUS",
+        "code": "4720K25",
+        "county": "BOMET COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - ELDORET CAMPUS",
+        "code": "4755K25",
+        "county": "UASIN GISHU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - EMBU CAMPUS",
+        "code": "4760K25",
+        "county": "EMBU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KILIFI CAMPUS",
+        "code": "4840K25",
+        "county": "KILIFI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KISII CAMPUS",
+        "code": "4845K25",
+        "county": "KISII COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KISUMU CAMPUS",
+        "code": "4850K25",
+        "county": "KISUMU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - LAKE VICTORIA CAMPUS",
+        "code": "4880K25",
+        "county": "KISUMU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - LOITOKITOK CAMPUS",
+        "code": "4895K25",
+        "county": "KAJIADO COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MAKINDU CAMPUS",
+        "code": "4910K25",
+        "county": "MAKUENI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MERU CAMPUS",
+        "code": "4945K25",
+        "county": "MERU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAIROBI CAMPUS",
+        "code": "5000K25",
+        "county": "NAIROBI COUNTY"
+      }
+    ],
+    "min_mean_grade": "D+",
+    "raw_requirements_text": "Subject 1: ENG / KIS (D+)\nSubject 2: MAT A (D)\nSubject 3: BIO / PHY / CHE / PSC / BSC (D-)"
+  },
+  {
+    "id": "5563",
+    "name": "CERTIFICATE IN ORTHOPEDIC TRAUMA MEDICINE",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5563/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - BUNGOMA CAMPUS",
+        "code": "4730K26",
+        "county": "BUNGOMA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - BURNT FOREST CAMPUS",
+        "code": "5495K26",
+        "county": "UASIN GISHU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - BUSIA CAMPUS",
+        "code": "4735K26",
+        "county": "BUSIA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - BUTULA CAMPUS",
+        "code": "5505K26",
+        "county": "BUSIA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - CHUKA CAMPUS",
+        "code": "4745K26",
+        "county": "EMBU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - HOMA BAY - MBITA SATELLITE CAMPUS",
+        "code": "5525K26",
+        "county": "HOMA BAY COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - HOMA BAY CAMPUS",
+        "code": "4780K26",
+        "county": "HOMA BAY COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAKAMEGA - IKOLOMANI CAMPUS",
+        "code": "5530K26",
+        "county": "KAKAMEGA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAKAMEGA - NAVAKHOLO CAMPUS",
+        "code": "5175K26",
+        "county": "KAKAMEGA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAKAMEGA CAMPUS",
+        "code": "4805K26",
+        "county": "KAKAMEGA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KANGUNDO CAMPUS",
+        "code": "4810K26",
+        "county": "MACHAKOS COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAPENGURIA CAMPUS",
+        "code": "4815K26",
+        "county": "WEST POKOT COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAPTUMO CAMPUS",
+        "code": "4825K26",
+        "county": "NANDI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KISII CAMPUS",
+        "code": "4845K26",
+        "county": "KISII COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - LOITOKITOK CAMPUS",
+        "code": "4895K26",
+        "county": "KAJIADO COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MAKINDU CAMPUS",
+        "code": "4910K26",
+        "county": "MAKUENI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MAKUENI CAMPUS",
+        "code": "4915K26",
+        "county": "MAKUENI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MBOONI CAMPUS",
+        "code": "4940K26",
+        "county": "MAKUENI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MERU - MIATHENE SATELLITE CAMPUS",
+        "code": "4955K26",
+        "county": "MERU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MURANG'A CAMPUS",
+        "code": "4990K26",
+        "county": "MURANG'A COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAKURU CAMPUS",
+        "code": "5005K26",
+        "county": "NAKURU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAROK CAMPUS",
+        "code": "5215K26",
+        "county": "NAROK COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NYAMIRA CAMPUS",
+        "code": "5025K26",
+        "county": "NYAMIRA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NYANDARUA CAMPUS",
+        "code": "5030K26",
+        "county": "NYANDARUA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NYERI - MUKURUWEINI SATELLITE CAMPUS",
+        "code": "5575K26",
+        "county": "NYERI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - PORT REITZ CAMPUS",
+        "code": "5050K26",
+        "county": "MOMBASA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - RACHUONYO CAMPUS",
+        "code": "5055K26",
+        "county": "HOMA BAY COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - SHIANDA - MUMIAS CAMPUS",
+        "code": "5065K26",
+        "county": "KAKAMEGA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - SIGOWET CAMPUS",
+        "code": "5080K26",
+        "county": "KERICHO COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - TAVETA CAMPUS",
+        "code": "5090K26",
+        "county": "TAITA TAVETA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - TRANS MARA CAMPUS",
+        "code": "5105K26",
+        "county": "NAROK COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - VIHIGA CAMPUS",
+        "code": "5115K26",
+        "county": "VIHIGA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - YATTA CAMPUS",
+        "code": "5500K26",
+        "county": "MACHAKOS COUNTY"
+      }
+    ],
+    "min_mean_grade": "C-",
+    "raw_requirements_text": "Subject 1: ENG / KIS (C-)\nSubject 2: BIO / BSC (C-)\nSubject 3: MAT A / PHY / CHE / PSC / HSC / AGR / WW / MW / DRD / CMP (D+)"
+  },
+  {
+    "id": "5564",
+    "name": "CERTIFICATE IN PUBLIC HEALTH",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5564/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KABARNET CAMPUS",
+        "code": "4800K27",
+        "county": "BARINGO COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KARURI CAMPUS",
+        "code": "4835K27",
+        "county": "KIAMBU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KITUI CAMPUS",
+        "code": "4860K27",
+        "county": "KITUI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KURIA CAMPUS",
+        "code": "4870K27",
+        "county": "MIGORI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KWALE CAMPUS",
+        "code": "4875K27",
+        "county": "KWALE COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - LAKE VICTORIA CAMPUS",
+        "code": "4880K27",
+        "county": "KISUMU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MANZA CAMPUS",
+        "code": "4930K27",
+        "county": "MACHAKOS COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NYERI CAMPUS",
+        "code": "5040K27",
+        "county": "NYERI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - TAVETA CAMPUS",
+        "code": "5090K27",
+        "county": "TAITA TAVETA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - TRANS MARA CAMPUS",
+        "code": "5105K27",
+        "county": "NAROK COUNTY"
+      }
+    ],
+    "min_mean_grade": "C-",
+    "raw_requirements_text": "Subject 1: ENG / KIS (C-)\nSubject 2: BIO / BSC (C-)\nSubject 3: MAT A / PHY / CHE / PSC (D)"
+  },
+  {
+    "id": "5565",
+    "name": "CERTIFICATE IN COMMUNITY HEALTH ASSISTANT",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5565/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - AWENDO CAMPUS",
+        "code": "4965K28",
+        "county": "MIGORI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - CHEMOLINGOT CAMPUS",
+        "code": "4740K28",
+        "county": "BARINGO COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - EMBU CAMPUS",
+        "code": "4760K28",
+        "county": "EMBU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - IMENTI CAMPUS",
+        "code": "4785K28",
+        "county": "MERU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - ISIOLO CAMPUS",
+        "code": "4790K28",
+        "county": "ISIOLO COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAKAMEGA - NAVAKHOLO CAMPUS",
+        "code": "5175K28",
+        "county": "KAKAMEGA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAKAMEGA CAMPUS",
+        "code": "4805K28",
+        "county": "KAKAMEGA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KANGEMA CAMPUS",
+        "code": "5220K28",
+        "county": "MURANG'A COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KANGUNDO CAMPUS",
+        "code": "4810K28",
+        "county": "MACHAKOS COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAPENGURIA CAMPUS",
+        "code": "4815K28",
+        "county": "WEST POKOT COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KERIO VALLEY CAMPUS",
+        "code": "5360K28",
+        "county": "ELGEYO MARAKWET COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KINANGOP CAMPUS",
+        "code": "5035K28",
+        "county": "NYANDARUA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KITUI - MUTOMO CAMPUS",
+        "code": "5180K28",
+        "county": "KITUI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KURIA CAMPUS",
+        "code": "4870K28",
+        "county": "MIGORI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KWALE CAMPUS",
+        "code": "4875K28",
+        "county": "KWALE COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - LAKE VICTORIA CAMPUS",
+        "code": "4880K28",
+        "county": "KISUMU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - LODWAR CAMPUS",
+        "code": "4890K28",
+        "county": "TURKANA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - LUGARI CAMPUS",
+        "code": "4900K28",
+        "county": "KAKAMEGA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MAKUENI - MBUVO CAMPUS",
+        "code": "4920K28",
+        "county": "MAKUENI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MANDERA CAMPUS",
+        "code": "4925K28",
+        "county": "MANDERA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MANZA CAMPUS",
+        "code": "4930K28",
+        "county": "MACHAKOS COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MARIMANTI CAMPUS",
+        "code": "5365K28",
+        "county": "THARAKA NITHI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MAUA CAMPUS",
+        "code": "4950K28",
+        "county": "MERU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MOSORIOT CAMPUS",
+        "code": "4980K28",
+        "county": "NANDI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAIROBI CAMPUS",
+        "code": "5000K28",
+        "county": "NAIROBI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NDHIWA CAMPUS",
+        "code": "5010K28",
+        "county": "HOMA BAY COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NYAHURURU CAMPUS",
+        "code": "5015K28",
+        "county": "LAIKIPIA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NYAMACHE CAMPUS",
+        "code": "5020K28",
+        "county": "KISII COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - OTHAYA CAMPUS",
+        "code": "5045K28",
+        "county": "NYERI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - RACHUONYO CAMPUS",
+        "code": "5055K28",
+        "county": "HOMA BAY COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - RERA CAMPUS",
+        "code": "5060K28",
+        "county": "SIAYA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - TANA RIVER CAMPUS",
+        "code": "5085K28",
+        "county": "TANA RIVER COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - TESO CAMPUS",
+        "code": "5095K28",
+        "county": "BUSIA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - TRANS MARA CAMPUS",
+        "code": "5105K28",
+        "county": "NAROK COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - UGUNJA CAMPUS",
+        "code": "5075K28",
+        "county": "SIAYA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - VIHIGA CAMPUS",
+        "code": "5115K28",
+        "county": "VIHIGA COUNTY"
+      }
+    ],
+    "min_mean_grade": "C-",
+    "raw_requirements_text": "Subject 1: ENG / KIS (D+)\nSubject 2: BIO / BSC (D)\nSubject 3: MAT A / PHY / CHE / PSC / HSC / AGR (D)"
+  },
+  {
+    "id": "5566",
+    "name": "CERTIFICATE IN EMERGENCY MEDICAL TECHNICIAN",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5566/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - AWENDO CAMPUS",
+        "code": "4965K29",
+        "county": "MIGORI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - BUNGOMA CAMPUS",
+        "code": "4730K29",
+        "county": "BUNGOMA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - BURNT FOREST CAMPUS",
+        "code": "5495K29",
+        "county": "UASIN GISHU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - CHWELE CAMPUS",
+        "code": "4750K29",
+        "county": "BUNGOMA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - GARISSA CAMPUS",
+        "code": "4765K29",
+        "county": "GARISSA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - GATUNDU CAMPUS",
+        "code": "4770K29",
+        "county": "KIAMBU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - ISIOLO CAMPUS",
+        "code": "4790K29",
+        "county": "ISIOLO COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAKAMEGA - MALABA SATELLITE",
+        "code": "5605K29",
+        "county": "KAKAMEGA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAKAMEGA CAMPUS",
+        "code": "4805K29",
+        "county": "KAKAMEGA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KANGEMA CAMPUS",
+        "code": "5220K29",
+        "county": "MURANG'A COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAPENGURIA CAMPUS",
+        "code": "4815K29",
+        "county": "WEST POKOT COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAPTUMO CAMPUS",
+        "code": "4825K29",
+        "county": "NANDI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KERIO VALLEY CAMPUS",
+        "code": "5360K29",
+        "county": "ELGEYO MARAKWET COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - LUGARI CAMPUS",
+        "code": "4900K29",
+        "county": "KAKAMEGA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MAKINDU CAMPUS",
+        "code": "4910K29",
+        "county": "MAKUENI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MAKUENI - MBUVO CAMPUS",
+        "code": "4920K29",
+        "county": "MAKUENI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MAKUENI CAMPUS",
+        "code": "4915K29",
+        "county": "MAKUENI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MANDERA CAMPUS",
+        "code": "4925K29",
+        "county": "MANDERA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MBOONI CAMPUS",
+        "code": "4940K29",
+        "county": "MAKUENI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MWINGI CAMPUS",
+        "code": "4995K29",
+        "county": "KITUI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NYAMIRA CAMPUS",
+        "code": "5025K29",
+        "county": "NYAMIRA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NYANDARUA CAMPUS",
+        "code": "5030K29",
+        "county": "NYANDARUA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NYERI CAMPUS",
+        "code": "5040K29",
+        "county": "NYERI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - PORT REITZ CAMPUS",
+        "code": "5050K29",
+        "county": "MOMBASA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - RERA CAMPUS",
+        "code": "5060K29",
+        "county": "SIAYA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - TANA RIVER CAMPUS",
+        "code": "5085K29",
+        "county": "TANA RIVER COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - TAVETA CAMPUS",
+        "code": "5090K29",
+        "county": "TAITA TAVETA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - THIKA CAMPUS",
+        "code": "5100K29",
+        "county": "KIAMBU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - UGENYA CAMPUS",
+        "code": "5110K29",
+        "county": "SIAYA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - WEBUYE CAMPUS",
+        "code": "5130K29",
+        "county": "BUNGOMA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - YATTA CAMPUS",
+        "code": "5500K29",
+        "county": "MACHAKOS COUNTY"
+      }
+    ],
+    "min_mean_grade": "C-",
+    "raw_requirements_text": "Subject 1: BIO / BSC (D)"
+  },
+  {
+    "id": "5567",
+    "name": "DIPLOMA IN SPEECH AND LANGUAGE THERAPY",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5567/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAIROBI CAMPUS",
+        "code": "5000K30",
+        "county": "NAIROBI COUNTY"
+      }
+    ],
+    "min_mean_grade": "C",
+    "raw_requirements_text": "Subject 1: ENG / KIS (C-)\nSubject 2: BIO / BSC (C-)\nSubject 3: MAT A / PHY / CHE (C-)"
+  },
+  {
+    "id": "5901",
+    "name": "DIPLOMA IN KENYA REGISTERED NURSING",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5901/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - GATUNDU CAMPUS",
+        "code": "4770K31",
+        "county": "KIAMBU COUNTY"
+      }
+    ],
+    "min_mean_grade": "C",
+    "raw_requirements_text": "Subject 1: ENG / KIS (C)\nSubject 2: BIO / BSC (C)\nSubject 3: MAT A / PHY / CHE / PSC (C-)"
+  },
+  {
+    "id": "5902",
+    "name": "DIPLOMA IN CLINICAL MEDICINE AND SURGERY",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5902/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - BONDO CAMPUS",
+        "code": "4725K32",
+        "county": "SIAYA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - BUSIA CAMPUS",
+        "code": "4735K32",
+        "county": "BUSIA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - ELDORET CAMPUS",
+        "code": "4755K32",
+        "county": "UASIN GISHU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - EMBU CAMPUS",
+        "code": "4760K32",
+        "county": "EMBU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - GARISSA CAMPUS",
+        "code": "4765K32",
+        "county": "GARISSA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - HOMA BAY CAMPUS",
+        "code": "4780K32",
+        "county": "HOMA BAY COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - ISIOLO CAMPUS",
+        "code": "4790K32",
+        "county": "ISIOLO COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - ITEN CAMPUS",
+        "code": "4795K32",
+        "county": "ELGEYO MARAKWET COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KABARNET CAMPUS",
+        "code": "4800K32",
+        "county": "BARINGO COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAKAMEGA CAMPUS",
+        "code": "4805K32",
+        "county": "KAKAMEGA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAPENGURIA CAMPUS",
+        "code": "4815K32",
+        "county": "WEST POKOT COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAPKATET CAMPUS",
+        "code": "4820K32",
+        "county": "KERICHO COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KILIFI CAMPUS",
+        "code": "4840K32",
+        "county": "KILIFI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KISII CAMPUS",
+        "code": "4845K32",
+        "county": "KISII COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KISUMU CAMPUS",
+        "code": "4850K32",
+        "county": "KISUMU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KITUI CAMPUS",
+        "code": "4860K32",
+        "county": "KITUI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - LOITOKITOK CAMPUS",
+        "code": "4895K32",
+        "county": "KAJIADO COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MACHAKOS CAMPUS",
+        "code": "4905K32",
+        "county": "MACHAKOS COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MAKUENI CAMPUS",
+        "code": "4915K32",
+        "county": "MAKUENI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MANDERA CAMPUS",
+        "code": "4925K32",
+        "county": "MANDERA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MARSABIT CAMPUS",
+        "code": "5310K32",
+        "county": "MARSABIT COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MERU CAMPUS",
+        "code": "4945K32",
+        "county": "MERU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MSAMBWENI CAMPUS",
+        "code": "4985K32",
+        "county": "KWALE COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAIROBI CAMPUS",
+        "code": "5000K32",
+        "county": "NAIROBI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAKURU CAMPUS",
+        "code": "5005K32",
+        "county": "NAKURU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NYAMIRA CAMPUS",
+        "code": "5025K32",
+        "county": "NYAMIRA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NYANDARUA CAMPUS",
+        "code": "5030K32",
+        "county": "NYANDARUA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NYERI CAMPUS",
+        "code": "5040K32",
+        "county": "NYERI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - PORT REITZ CAMPUS",
+        "code": "5050K32",
+        "county": "MOMBASA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - SHIANDA - MUMIAS CAMPUS",
+        "code": "5065K32",
+        "county": "KAKAMEGA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - SIGOWET CAMPUS",
+        "code": "5080K32",
+        "county": "KERICHO COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - TESO CAMPUS",
+        "code": "5095K32",
+        "county": "BUSIA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - THIKA CAMPUS",
+        "code": "5100K32",
+        "county": "KIAMBU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - VOI CAMPUS",
+        "code": "5120K32",
+        "county": "TAITA TAVETA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - WEBUYE CAMPUS",
+        "code": "5130K32",
+        "county": "BUNGOMA COUNTY"
+      }
+    ],
+    "min_mean_grade": "C",
+    "raw_requirements_text": "Subject 1: ENG / KIS (C)\nSubject 2: BIO / BSC (C)\nSubject 3: CHE / PSC (C-)\nSubject 4: MAT A / PHY / PSC (C-)"
+  },
+  {
+    "id": "5903",
+    "name": "DIPLOMA IN MORTUARY SCIENCE",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5903/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - BONDO CAMPUS",
+        "code": "4725K33",
+        "county": "SIAYA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - EMBU CAMPUS",
+        "code": "4760K33",
+        "county": "EMBU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KAKAMEGA CAMPUS",
+        "code": "4805K33",
+        "county": "KAKAMEGA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KISII CAMPUS",
+        "code": "4845K33",
+        "county": "KISII COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - KISUMU CAMPUS",
+        "code": "4850K33",
+        "county": "KISUMU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MACHAKOS CAMPUS",
+        "code": "4905K33",
+        "county": "MACHAKOS COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MOMBASA CAMPUS",
+        "code": "4975K33",
+        "county": "MOMBASA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAIROBI CAMPUS",
+        "code": "5000K33",
+        "county": "NAIROBI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - UGENYA CAMPUS",
+        "code": "5110K33",
+        "county": "SIAYA COUNTY"
+      }
+    ],
+    "min_mean_grade": "C-",
+    "raw_requirements_text": ""
+  },
+  {
+    "id": "5904",
+    "name": "DIPLOMA IN HEALTH PROMOTION",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/5904/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAIROBI CAMPUS",
+        "code": "5000K34",
+        "county": "NAIROBI COUNTY"
+      }
+    ],
+    "min_mean_grade": "C",
+    "raw_requirements_text": "Subject 1: ENG / KIS (C)\nSubject 2: BIO / BSC (C-)\nSubject 3: MAT A / PHY / CHE / PSC (D+)"
+  },
+  {
+    "id": "6154",
+    "name": "DIPLOMA IN HEALTH INSURANCE MANAGEMENT",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/6154/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAIROBI CAMPUS",
+        "code": "5000K35",
+        "county": "NAIROBI COUNTY"
+      }
+    ],
+    "min_mean_grade": "C",
+    "raw_requirements_text": "Subject 1: ENG / KIS (C)\nSubject 2: BIO / BSC (D+)\nSubject 3: MAT A (D+)\nSubject 4: PHY / CHE / PSC / GSC / GEO / ECON / HSC / AGR / CMP / COM / BST (D+)"
+  },
+  {
+    "id": "7195",
+    "name": "CERTIFICATE IN HEALTH INSURANCE MANAGEMENT",
+    "url": "https://students.kuccps.net/programmes/kmtcdetail/7195/",
+    "category_group": "Health Sciences & Related",
+    "subject_requirements": [],
+    "campuses": [
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - BONDO CAMPUS",
+        "code": "4725K36",
+        "county": "SIAYA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - CHWELE CAMPUS",
+        "code": "4750K36",
+        "county": "BUNGOMA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - MOMBASA CAMPUS",
+        "code": "4975K36",
+        "county": "MOMBASA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAIROBI CAMPUS",
+        "code": "5000K36",
+        "county": "NAIROBI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NAKURU CAMPUS",
+        "code": "5005K36",
+        "county": "NAKURU COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NYAMACHE CAMPUS",
+        "code": "5020K36",
+        "county": "KISII COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - NYERI CAMPUS",
+        "code": "5040K36",
+        "county": "NYERI COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - RACHUONYO CAMPUS",
+        "code": "5055K36",
+        "county": "HOMA BAY COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - RERA CAMPUS",
+        "code": "5060K36",
+        "county": "SIAYA COUNTY"
+      },
+      {
+        "name": "KENYA MEDICAL TRAINING COLLEGE - WEBUYE CAMPUS",
+        "code": "5130K36",
+        "county": "BUNGOMA COUNTY"
+      }
+    ],
+    "min_mean_grade": "D+",
+    "raw_requirements_text": "Subject 1: ENG / KIS (D+)\nSubject 2: BIO / BSC (D)\nSubject 3: PHY / CHE / HSC / AGR / WW / BC / ECT / DRD (D)"
+  }
+]

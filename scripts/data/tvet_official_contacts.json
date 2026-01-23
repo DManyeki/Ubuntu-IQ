@@ -1,0 +1,59 @@
+[
+  {
+    "id": "abe53e83-e4a1-4654-b43a-0d61adc25690",
+    "name": "ACADEMY OF GRAPHIC TECHNOLOGY",
+    "website": "https://agt.co.ke/",
+    "emails": [],
+    "phones": [
+      "0114634146"
+    ],
+    "source_url": "https://agt.co.ke/",
+    "scraped_at": "2026-01-21T23:31:01.632Z"
+  },
+  {
+    "id": "c5784219-acbf-44ca-a892-bc072a51e9d8",
+    "name": "AA Mobility and Road Safety Training Institute",
+    "website": "https://aakenya.co.ke/Training.html",
+    "emails": [],
+    "phones": [
+      "0709933902"
+    ],
+    "source_url": "https://aakenya.co.ke/Training.html",
+    "scraped_at": "2026-01-21T23:31:07.555Z"
+  },
+  {
+    "id": "f39cfc96-901b-43a1-aad4-76b034524f9a",
+    "name": "Accquest Training Institute",
+    "website": "https://www.kist.ac.ke/about.html",
+    "emails": [
+      "principal@kist.ac.ke"
+    ],
+    "phones": [],
+    "source_url": "https://www.kist.ac.ke/about.html",
+    "scraped_at": "2026-01-21T23:31:09.847Z"
+  },
+  {
+    "id": "e93e1164-b5e6-412d-9f8d-e1e700ead6c3",
+    "name": "Acropolis College Of Medical And Professional Studies",
+    "website": "https://www.acropolis.ac.ke/",
+    "emails": [
+      "info@acropolis.ac.ke"
+    ],
+    "phones": [],
+    "source_url": "https://www.acropolis.ac.ke/",
+    "scraped_at": "2026-01-21T23:31:17.418Z"
+  },
+  {
+    "id": "3b8e35f4-81d3-4807-a394-046defbe5b4f",
+    "name": "Adapt Ability Africa Initiative Training Institute",
+    "website": "https://www.africatraininginstitute.org/",
+    "emails": [
+      "email@example.com"
+    ],
+    "phones": [
+      "0751953125"
+    ],
+    "source_url": "https://www.africatraininginstitute.org/",
+    "scraped_at": "2026-01-21T23:31:17.514Z"
+  }
+]
