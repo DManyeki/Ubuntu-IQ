@@ -160,12 +160,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.2,
     "first_word_match": false,
-    "status": "RETRY_LOW_CONFIDENCE",
+    "status": "RETRY_VALID_HIGH",
     "has_phone": true,
     "has_address": true,
     "has_website": true,
     "maps_link": "https://www.google.com/maps/place/AG+German+Institute+-+Nairobi/@-1.2817939,36.8114286,17z/data=!4m10!1m2!2m1!1sAkdogan+Glaszner+German+Training+Institute,+Nairobi,+Kenya!3m6!1s0x182f11f65d11159f:0x4c180d60e0efe0bd!8m2!3d-1.2817939!4d36.8161922!15sCjpBa2RvZ2FuIEdsYXN6bmVyIEdlcm1hbiBUcmFpbmluZyBJbnN0aXR1dGUsIE5haXJvYmksIEtlbnlhWjoiOGFrZG9nYW4gZ2xhc3puZXIgZ2VybWFuIHRyYWluaW5nIGluc3RpdHV0ZSBuYWlyb2JpIGtlbnlhkgEPbGFuZ3VhZ2Vfc2Nob29smgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5VZEdReldHRlJFQUXgAQD6AQQIABAs!16s%2Fg%2F11vrmvjfss?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D",
-    "notes": "First words don't match: \"akdogan\" vs \"ag\""
+    "notes": "User approved: moved from LOW_CONFIDENCE"
   },
   {
     "id": "cd795b36-0b23-48d1-8360-a947a1a3c557",
@@ -202,12 +202,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.625,
     "first_word_match": true,
-    "status": "RETRY_VALID_MEDIUM",
+    "status": "RETRY_POTENTIAL_AFFILIATION",
     "has_phone": true,
     "has_address": true,
     "has_website": true,
     "maps_link": "https://www.google.com/maps/place/Almer+Safety+Uniforms+%26+PPE/@-1.0508688,36.937397,11z/data=!4m10!1m2!2m1!1sAlmers+Training+College,+Nairobi,+Kenya!3m6!1s0x182f11186462bbb5:0x73b112797c337d6f!8m2!3d-1.2830354!4d36.8272749!15sCidBbG1lcnMgVHJhaW5pbmcgQ29sbGVnZSwgTmFpcm9iaSwgS2VueWFaJyIlYWxtZXJzIHRyYWluaW5nIGNvbGxlZ2UgbmFpcm9iaSBrZW55YZIBDXVuaWZvcm1fc3RvcmWaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVUmxjMjlxZW1GUkVBReABAPoBBAhbEBY!16s%2Fg%2F11fv71_wmp?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D",
-    "notes": "First word matches: \"almers\""
+    "notes": "User flagged: possibly affiliated institution"
   },
   {
     "id": "db1efe45-c6de-47cf-b695-1be969775625",
@@ -258,12 +258,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.625,
     "first_word_match": true,
-    "status": "RETRY_VALID_MEDIUM",
+    "status": "RETRY_POTENTIAL_AFFILIATION",
     "has_phone": true,
     "has_address": true,
     "has_website": true,
     "maps_link": "https://www.google.com/maps/place/Amref+International+University/@-1.3195785,36.7907506,15z/data=!4m10!1m2!2m1!1sAMREF+VIRTUAL+TRAINING+SCHOOL,+Nairobi,+Kenya!3m6!1s0x182f117e85c88113:0xae86517477dc99cf!8m2!3d-1.3195785!4d36.809805!15sCi1BTVJFRiBWSVJUVUFMIFRSQUlOSU5HIFNDSE9PTCwgTmFpcm9iaSwgS2VueWFaLSIrYW1yZWYgdmlydHVhbCB0cmFpbmluZyBzY2hvb2wgbmFpcm9iaSBrZW55YZIBCnVuaXZlcnNpdHmaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTnVlV1JUVFcxblJSQULgAQD6AQQIABBJ!16s%2Fg%2F11f3xqwt6y?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D",
-    "notes": "First word matches: \"amref\""
+    "notes": "User flagged: possibly affiliated institution"
   },
   {
     "id": "60a6b7a5-cada-4350-8c12-ee7a78281e14",
@@ -286,12 +286,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.625,
     "first_word_match": true,
-    "status": "RETRY_VALID_MEDIUM",
+    "status": "RETRY_VALID_HIGH",
     "has_phone": false,
     "has_address": true,
     "has_website": false,
     "maps_link": "https://www.google.com/maps/place/Apokor+Youth+Polytechnic/@0.5924174,34.2551235,13z/data=!4m10!1m2!2m1!1sAPOKOR+VOCATIONAL+TRAINING+CENTER,+Bungoma,+Kenya!3m6!1s0x177f7750808de683:0x674c0da6951779da!8m2!3d0.5529343!4d34.264386!15sCjFBUE9LT1IgVk9DQVRJT05BTCBUUkFJTklORyBDRU5URVIsIEJ1bmdvbWEsIEtlbnlhkgEadm9jYXRpb25hbF90cmFpbmluZ19zY2hvb2zgAQA!16s%2Fg%2F11h6r_b9xk?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D",
-    "notes": "First word matches: \"apokor\""
+    "notes": "User approved: moved from VALID_MEDIUM"
   },
   {
     "id": "8248663e-1a17-43a6-a71b-d2965b9b5459",
@@ -342,12 +342,12 @@
     "original_scraped_name": "Results",
     "similarity": 1,
     "first_word_match": true,
-    "status": "RETRY_VALID_HIGH",
+    "status": "RETRY_USER_REJECTED",
     "has_phone": true,
     "has_address": true,
     "has_website": true,
     "maps_link": "https://www.google.com/maps/place/ATLAS+COLLEGE/@-1.2787017,36.8364594,16z/data=!4m10!1m2!2m1!1sATLAS+COLLEGE,+Nairobi,+Kenya!3m6!1s0x182f16b62b13d927:0x68d8e719e6997fa0!8m2!3d-1.2787017!4d36.8459866!15sCh1BVExBUyBDT0xMRUdFLCBOYWlyb2JpLCBLZW55YZIBF2VkdWNhdGlvbmFsX2luc3RpdHV0aW9u4AEA!16s%2Fg%2F1tjcrr2s?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D",
-    "notes": ""
+    "notes": "User rejected: different institution found"
   },
   {
     "id": "ac98e549-6653-4113-ade6-7a4d4e8c6165",
@@ -496,12 +496,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.8,
     "first_word_match": true,
-    "status": "RETRY_VALID_HIGH",
+    "status": "RETRY_USER_REJECTED",
     "has_phone": false,
     "has_address": true,
     "has_website": true,
     "maps_link": "https://www.google.com/maps/place/Best+Kenya+Training+Institute/@0.0478031,37.6140364,14z/data=!4m10!1m2!2m1!1sBest+Workforce+Development+Training+Institute,+Meru,+Kenya!3m6!1s0x178821e92bd5a46f:0x1d756369c0a230b9!8m2!3d0.0478031!4d37.6521452!15sCjpCZXN0IFdvcmtmb3JjZSBEZXZlbG9wbWVudCBUcmFpbmluZyBJbnN0aXR1dGUsIE1lcnUsIEtlbnlhkgEPdHJhaW5pbmdfY2VudGVy4AEA!16s%2Fg%2F11tfhb78qw?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D",
-    "notes": ""
+    "notes": "User rejected: different institution found"
   },
   {
     "id": "937b85fb-ecb5-4519-b852-e81bc865248f",
@@ -608,12 +608,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.5833333333333334,
     "first_word_match": true,
-    "status": "RETRY_VALID_MEDIUM",
+    "status": "RETRY_POTENTIAL_AFFILIATION",
     "has_phone": true,
     "has_address": true,
     "has_website": true,
     "maps_link": "https://www.google.com/maps/place/BUNGOMA+NATIONAL+POLYTECHNIC+-+AIRPORT+GATE+-+LAND/@0.6474215,34.5481114,11z/data=!4m10!1m2!2m1!1sBungoma+Triune+Technical+Institute,+Bungoma,+Kenya!3m6!1s0x1781d47c274f5cff:0x383c2da8ab7f1c24!8m2!3d0.5289991!4d34.5915798!15sCjJCdW5nb21hIFRyaXVuZSBUZWNobmljYWwgSW5zdGl0dXRlLCBCdW5nb21hLCBLZW55YVoyIjBidW5nb21hIHRyaXVuZSB0ZWNobmljYWwgaW5zdGl0dXRlIGJ1bmdvbWEga2VueWGSAQdjb2xsZWdlmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDI1c2JFMHpaR2hsV0ZaVFkwVXdNR0pIUm5KaE1rNDJWV3hHVUZkWVl4QULgAQD6AQQIABBC!16s%2Fg%2F124srx3ck?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D",
-    "notes": "First word matches: \"bungoma\""
+    "notes": "User flagged: possibly affiliated institution"
   },
   {
     "id": "b7469e52-bf98-4192-a15c-603a986ba3fd",
@@ -846,12 +846,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.75,
     "first_word_match": true,
-    "status": "RETRY_VALID_HIGH",
+    "status": "RETRY_USER_REJECTED",
     "has_phone": true,
     "has_address": true,
     "has_website": true,
     "maps_link": "https://www.google.com/maps/place/Cheptuech+Vocational+Training+Center/@-1.0508688,36.937397,11z/data=!4m10!1m2!2m1!1sChepsire+Vocational+Training+Centre,+Nandi,+Kenya!3m6!1s0x182f4ffb55e58e9d:0x2dbea38a881c4272!8m2!3d-1.0387569!4d37.0833753!15sCjFDaGVwc2lyZSBWb2NhdGlvbmFsIFRyYWluaW5nIENlbnRyZSwgTmFuZGksIEtlbnlhkgEPdHJhaW5pbmdfY2VudGVy4AEA!16s%2Fg%2F11pc0vpm64?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D",
-    "notes": ""
+    "notes": "User rejected: different institution found"
   },
   {
     "id": "237ff3aa-472a-4206-a9a1-e28c481775f4",
@@ -1000,12 +1000,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.25,
     "first_word_match": false,
-    "status": "RETRY_LOW_CONFIDENCE",
+    "status": "RETRY_VALID_HIGH",
     "has_phone": true,
     "has_address": true,
     "has_website": true,
     "maps_link": "https://www.google.com/maps/place/CM+Training+Institute/@-1.25989,36.7779721,17z/data=!3m1!4b1!4m6!3m5!1s0x182f19bacbc581bf:0x14dde25d7a2905d0!8m2!3d-1.25989!4d36.780547!16s%2Fg%2F11ymhm5tdk?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D",
-    "notes": "First words don't match: \"clinical\" vs \"cm\""
+    "notes": "User approved: moved from LOW_CONFIDENCE"
   },
   {
     "id": "d5971e91-81bf-4d24-82d3-a84db86738ab",
@@ -1630,12 +1630,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.3,
     "first_word_match": false,
-    "status": "RETRY_LOW_CONFIDENCE",
+    "status": "RETRY_VALID_HIGH",
     "has_phone": true,
     "has_address": true,
     "has_website": false,
     "maps_link": "https://www.google.com/maps/place/Gokoe+Vocational+Training+Center/@-1.0508688,36.937397,11z/data=!4m10!1m2!2m1!1sGAKOE+VOCATIONAL+TRAINING+CENTER+-+KIAMBU,+Kiambu,+Kenya!3m6!1s0x182f4fcd1f54d09d:0x37313051aa6bebe4!8m2!3d-1.0527747!4d37.103893!15sCjhHQUtPRSBWT0NBVElPTkFMIFRSQUlOSU5HIENFTlRFUiAtIEtJQU1CVSwgS2lhbWJ1LCBLZW55YZIBD3RyYWluaW5nX2NlbnRlcuABAA!16s%2Fg%2F11r40_xjp9?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D",
-    "notes": "First words don't match: \"gakoe\" vs \"gokoe\""
+    "notes": "User approved: moved from LOW_CONFIDENCE"
   },
   {
     "id": "41c56010-fe73-4ab6-b163-3452dd7dcdf3",
@@ -1826,12 +1826,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.6,
     "first_word_match": true,
-    "status": "RETRY_VALID_MEDIUM",
+    "status": "RETRY_POTENTIAL_AFFILIATION",
     "has_phone": true,
     "has_address": true,
     "has_website": true,
     "maps_link": "https://www.google.com/maps/place/The+Golden+Gate+College/@0.3634405,34.8881682,11z/data=!4m10!1m2!2m1!1sGolden+View+Technical+Training+Institute,+Uasin+Gishu,+Kenya!3m6!1s0x17805923d7ec950b:0xb84ea41171270d90!8m2!3d0.3634405!4d35.1930388!15sCjxHb2xkZW4gVmlldyBUZWNobmljYWwgVHJhaW5pbmcgSW5zdGl0dXRlLCBVYXNpbiBHaXNodSwgS2VueWGSAQdjb2xsZWdl4AEA!16s%2Fg%2F12lsjysy0?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D",
-    "notes": "First word matches: \"golden\""
+    "notes": "User flagged: possibly affiliated institution"
   },
   {
     "id": "33f89aa8-573a-4164-85fa-ba68fc1cfded",
@@ -1994,12 +1994,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.625,
     "first_word_match": true,
-    "status": "RETRY_VALID_MEDIUM",
+    "status": "RETRY_POTENTIAL_AFFILIATION",
     "has_phone": true,
     "has_address": true,
     "has_website": true,
     "maps_link": "https://www.google.com/maps/place/Heroes+Education+Centr/@-1.215909,36.7437637,11z/data=!4m10!1m2!2m1!1sHeroes+Institute+of+Technical+Studies,+Kiambu,+Kenya!3m6!1s0x182f693590bd6af1:0x1e9a978bcf7c6cc1!8m2!3d-1.215909!4d37.0486343!15sCjRIZXJvZXMgSW5zdGl0dXRlIG9mIFRlY2huaWNhbCBTdHVkaWVzLCBLaWFtYnUsIEtlbnlhkgEQZWR1Y2F0aW9uX2NlbnRlcuABAA!16s%2Fg%2F11j083xtdc?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D",
-    "notes": "First word matches: \"heroes\""
+    "notes": "User flagged: possibly affiliated institution"
   },
   {
     "id": "cf850868-2c62-4705-a4bc-07d3698b94b7",
@@ -2330,12 +2330,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.25,
     "first_word_match": false,
-    "status": "RETRY_LOW_CONFIDENCE",
+    "status": "RETRY_VALID_HIGH",
     "has_phone": true,
     "has_address": true,
     "has_website": true,
     "maps_link": "https://www.google.com/maps/place/Friends+College+Kaimosi/@0.125284,34.6877267,12z/data=!4m10!1m2!2m1!1sKAIMOSI+FRIENDS+NATIONAL+POLYTECHNIC,+Vihiga,+Kenya!3m6!1s0x178013d1f23f1e51:0xcadff9a59331ceb5!8m2!3d0.125284!4d34.840162!15sCjNLQUlNT1NJIEZSSUVORFMgTkFUSU9OQUwgUE9MWVRFQ0hOSUMsIFZpaGlnYSwgS2VueWFaMyIxa2FpbW9zaSBmcmllbmRzIG5hdGlvbmFsIHBvbHl0ZWNobmljIHZpaGlnYSBrZW55YZIBB2NvbGxlZ2WaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUlBkRFF0Y2poUlJSQULgAQD6AQQIABAZ!16s%2Fg%2F11frnv_d95?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D",
-    "notes": "First words don't match: \"kaimosi\" vs \"friends\""
+    "notes": "User approved: moved from LOW_CONFIDENCE"
   },
   {
     "id": "f9a17c90-cd66-4af2-9bad-0300693c673b",
@@ -2344,12 +2344,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.625,
     "first_word_match": true,
-    "status": "RETRY_VALID_MEDIUM",
+    "status": "RETRY_VALID_HIGH",
     "has_phone": false,
     "has_address": true,
     "has_website": true,
     "maps_link": "https://www.google.com/maps/place/Kaitheri+Technical+Institute/@-0.506768,37.2777942,17z/data=!4m10!1m2!2m1!1sKAITHERI+VOCATIONAL+TRAINING+CENTER,+Kirinyaga,+Kenya!3m6!1s0x1828803362c114f1:0xaafd99491b54723!8m2!3d-0.5072606!4d37.2816969!15sCjVLQUlUSEVSSSBWT0NBVElPTkFMIFRSQUlOSU5HIENFTlRFUiwgS2lyaW55YWdhLCBLZW55YVo1IjNrYWl0aGVyaSB2b2NhdGlvbmFsIHRyYWluaW5nIGNlbnRlciBraXJpbnlhZ2Ega2VueWGSAQp1bml2ZXJzaXR5mgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU4yTXpseGNHOW5SUkFC4AEA-gEECAYQMQ!16s%2Fg%2F1vd3m8qr?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D",
-    "notes": "First word matches: \"kaitheri\""
+    "notes": "User approved: moved from VALID_MEDIUM"
   },
   {
     "id": "fca54902-fa67-430d-b7a2-33d0fab3b89c",
@@ -2372,12 +2372,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.625,
     "first_word_match": true,
-    "status": "RETRY_VALID_MEDIUM",
+    "status": "RETRY_VALID_HIGH",
     "has_phone": true,
     "has_address": true,
     "has_website": false,
     "maps_link": "https://www.google.com/maps/place/Kakamega+County+Polytechnic+VTC./@0.2689777,34.7262835,15z/data=!4m10!1m2!2m1!1sKAKAMEGA+VOCATIONAL+TRAINING+CENTER,+Kakamega,+Kenya!3m6!1s0x17803d640a10f471:0x63bf764a4d549460!8m2!3d0.2787219!4d34.7521961!15sCjRLQUtBTUVHQSBWT0NBVElPTkFMIFRSQUlOSU5HIENFTlRFUiwgS2FrYW1lZ2EsIEtlbnlhWjQiMmtha2FtZWdhIHZvY2F0aW9uYWwgdHJhaW5pbmcgY2VudGVyIGtha2FtZWdhIGtlbnlhkgEadm9jYXRpb25hbF90cmFpbmluZ19zY2hvb2yaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTktjRGhZZGpWQlJSQULgAQD6AQQIABAX!16s%2Fg%2F11fm6p8qsz?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D",
-    "notes": "First word matches: \"kakamega\""
+    "notes": "User approved: moved from VALID_MEDIUM"
   },
   {
     "id": "46724912-2f8b-4153-9394-d42163085e17",
@@ -2386,12 +2386,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.625,
     "first_word_match": true,
-    "status": "RETRY_VALID_MEDIUM",
+    "status": "RETRY_VALID_HIGH",
     "has_phone": false,
     "has_address": true,
     "has_website": false,
     "maps_link": "https://www.google.com/maps/place/Kakuyuni+Polytechnic/@-3.2210027,39.8511376,12z/data=!4m10!1m2!2m1!1sKAKUYUNI+VOCATIONAL+TRAINING+CENTER,+Kilifi,+Kenya!3m6!1s0x181588486fbab61b:0x25b39596ef99f419!8m2!3d-3.2210027!4d40.0035729!15sCjJLQUtVWVVOSSBWT0NBVElPTkFMIFRSQUlOSU5HIENFTlRFUiwgS2lsaWZpLCBLZW55YVoyIjBrYWt1eXVuaSB2b2NhdGlvbmFsIHRyYWluaW5nIGNlbnRlciBraWxpZmkga2VueWGSARFjb21tdW5pdHlfY29sbGVnZZoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOWGFuTlBjak5uUlJBQuABAPoBBAgAEB0!16s%2Fg%2F11cr_r45wg?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D",
-    "notes": "First word matches: \"kakuyuni\""
+    "notes": "User approved: moved from VALID_MEDIUM"
   },
   {
     "id": "45f65787-e3a8-4090-9c10-ec87539243a1",
@@ -2722,12 +2722,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.375,
     "first_word_match": false,
-    "status": "RETRY_LOW_CONFIDENCE",
+    "status": "RETRY_VALID_HIGH",
     "has_phone": true,
     "has_address": true,
     "has_website": false,
     "maps_link": "https://www.google.com/maps/place/Kawala+Vocational+Training+Center/@-1.4119719,37.915007,12z/data=!4m10!1m2!2m1!1sKATWALA+VOCATIONAL+TRAINING+CENTER,+Kitui,+Kenya!3m6!1s0x18245332bd65ef73:0x8e2c79eb8e9fa75a!8m2!3d-1.3750588!4d37.9951422!15sCjBLQVRXQUxBIFZPQ0FUSU9OQUwgVFJBSU5JTkcgQ0VOVEVSLCBLaXR1aSwgS2VueWGSAQ90cmFpbmluZ19jZW50ZXLgAQA!16s%2Fg%2F11r4l0txf9?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D",
-    "notes": "First words don't match: \"katwala\" vs \"kawala\""
+    "notes": "User approved: moved from LOW_CONFIDENCE"
   },
   {
     "id": "8ea34259-a299-4e78-bd4c-9d2732182707",
@@ -3030,12 +3030,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.2,
     "first_word_match": false,
-    "status": "RETRY_LOW_CONFIDENCE",
+    "status": "RETRY_VALID_HIGH",
     "has_phone": false,
     "has_address": true,
     "has_website": true,
     "maps_link": "https://www.google.com/maps/place/KeMU+TVET+INSTITUTE/@0.0514721,37.6265498,15z/data=!4m10!1m2!2m1!1sKENYA+METHODIST+UNIVERSITY+TVET+INSTITUTE,+Meru,+Kenya!3m6!1s0x17882188ad90e881:0x93b7fed78ab7f7c8!8m2!3d0.0514721!4d37.6456042!15sCjZLRU5ZQSBNRVRIT0RJU1QgVU5JVkVSU0lUWSBUVkVUIElOU1RJVFVURSwgTWVydSwgS2VueWGSAQ9wcml2YXRlX2NvbGxlZ2XgAQA!16s%2Fg%2F11np7qbbx7?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D",
-    "notes": "First words don't match: \"kenya\" vs \"kemu\""
+    "notes": "User approved: moved from LOW_CONFIDENCE"
   },
   {
     "id": "72ee3814-f6e3-44db-9151-86b52afc8ab4",
@@ -3212,12 +3212,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.6,
     "first_word_match": true,
-    "status": "RETRY_VALID_MEDIUM",
+    "status": "RETRY_POTENTIAL_AFFILIATION",
     "has_phone": true,
     "has_address": true,
     "has_website": true,
     "maps_link": "https://www.google.com/maps/place/Kiambu+National+Polytechnic/@-1.1796939,36.5307581,11z/data=!4m10!1m2!2m1!1sKIAMBU+INSTITUTE+OF+HOTELS+AND+CATERING,+Kiambu,+Kenya!3m6!1s0x182f3c5e3b333a6d:0x298c6659642bc662!8m2!3d-1.1796939!4d36.8356287!15sCjZLSUFNQlUgSU5TVElUVVRFIE9GIEhPVEVMUyBBTkQgQ0FURVJJTkcsIEtpYW1idSwgS2VueWFaNiI0a2lhbWJ1IGluc3RpdHV0ZSBvZiBob3RlbHMgYW5kIGNhdGVyaW5nIGtpYW1idSBrZW55YZIBD3RyYWluaW5nX2NlbnRlcpoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOMUxYVmZNbDkzUlJBQuABAPoBBAgAEDQ!16s%2Fg%2F12h2qv6_b?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D",
-    "notes": "First word matches: \"kiambu\""
+    "notes": "User flagged: possibly affiliated institution"
   },
   {
     "id": "7058e081-08fe-457a-9a2f-bff61eeaad42",
@@ -3576,12 +3576,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.6,
     "first_word_match": true,
-    "status": "RETRY_VALID_MEDIUM",
+    "status": "RETRY_POTENTIAL_AFFILIATION",
     "has_phone": false,
     "has_address": true,
     "has_website": true,
     "maps_link": "https://www.google.com/maps/place/Kipsinende+Technical+and+Vocational+College-KSTVC/@-0.2180302,34.6871834,8z/data=!4m10!1m2!2m1!1sKipsimbol+Vocational+Training+Center,+Kericho,+Kenya!3m6!1s0x182a65d1ca183641:0x852e7c5d5a915d6c!8m2!3d-0.1767513!4d35.3550605!15sCjRLaXBzaW1ib2wgVm9jYXRpb25hbCBUcmFpbmluZyBDZW50ZXIsIEtlcmljaG8sIEtlbnlhWjQiMmtpcHNpbWJvbCB2b2NhdGlvbmFsIHRyYWluaW5nIGNlbnRlciBrZXJpY2hvIGtlbnlhkgEQdGVjaG5pY2FsX3NjaG9vbJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VSUFgzQmxVRGhuUlJBQuABAPoBBAhCECY!16s%2Fg%2F11c6vgkkmk?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D",
-    "notes": "First word matches: \"kipsimbol\""
+    "notes": "User flagged: possibly affiliated institution"
   },
   {
     "id": "ea9477c0-6647-450a-b2cf-1666e836f5ee",
@@ -3618,12 +3618,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.625,
     "first_word_match": true,
-    "status": "RETRY_VALID_MEDIUM",
+    "status": "RETRY_POTENTIAL_AFFILIATION",
     "has_phone": true,
     "has_address": true,
     "has_website": true,
     "maps_link": "https://www.google.com/maps/place/Kirinyaga+East+Technical+Institute/@-1.0499061,36.773896,10z/data=!4m10!1m2!2m1!1sKirinyaga+Agricultural+Technical+and+Vocational+Education+Training+Centre,+Kirinyaga,+Kenya!3m6!1s0x182629b369626039:0xdb20468f576793ad!8m2!3d-0.5734836!4d37.3252639!15sCltLaXJpbnlhZ2EgQWdyaWN1bHR1cmFsIFRlY2huaWNhbCBhbmQgVm9jYXRpb25hbCBFZHVjYXRpb24gVHJhaW5pbmcgQ2VudHJlLCBLaXJpbnlhZ2EsIEtlbnlhkgEPdHJhaW5pbmdfY2VudGVy4AEA!16s%2Fg%2F11f4_6qvq6?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D",
-    "notes": "First word matches: \"kirinyaga\""
+    "notes": "User flagged: possibly affiliated institution"
   },
   {
     "id": "2cf5d4f2-dc3c-4021-ad4b-169c9336a7a1",
@@ -3674,12 +3674,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.5833333333333334,
     "first_word_match": true,
-    "status": "RETRY_VALID_MEDIUM",
+    "status": "RETRY_POTENTIAL_AFFILIATION",
     "has_phone": true,
     "has_address": true,
     "has_website": true,
     "maps_link": "https://www.google.com/maps/place/The+Kisumu+National+Polytechnic/@-0.1032036,34.7700843,17z/data=!3m1!4b1!4m6!3m5!1s0x182aa49de3f95d9d:0x490d3ef6a058f400!8m2!3d-0.1032036!4d34.7726592!16s%2Fm%2F0cr57zr?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D",
-    "notes": "First word matches: \"kisumu\""
+    "notes": "User flagged: possibly affiliated institution"
   },
   {
     "id": "0f83de19-cb14-48b5-9020-f705316f8050",
@@ -3730,12 +3730,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.75,
     "first_word_match": true,
-    "status": "RETRY_VALID_HIGH",
+    "status": "RETRY_USER_REJECTED",
     "has_phone": false,
     "has_address": true,
     "has_website": true,
     "maps_link": "https://www.google.com/maps/place/Kituluni+Vocational+Training+Center/@-1.0499061,36.773896,10z/data=!4m10!1m2!2m1!1sKitumbini+Vocational+Training+Centre,+Makueni,+Kenya!3m6!1s0x182f81e25683164b:0xf91f1861929351a2!8m2!3d-1.5176837!4d37.2634146!15sCjRLaXR1bWJpbmkgVm9jYXRpb25hbCBUcmFpbmluZyBDZW50cmUsIE1ha3VlbmksIEtlbnlhkgEPdHJhaW5pbmdfY2VudGVy4AEA!16s%2Fg%2F11r4l2blcm?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D",
-    "notes": ""
+    "notes": "User rejected: different institution found"
   },
   {
     "id": "db199118-c211-48d2-a643-0b4b01c8ba75",
@@ -3758,12 +3758,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.625,
     "first_word_match": true,
-    "status": "RETRY_VALID_MEDIUM",
+    "status": "RETRY_VALID_HIGH",
     "has_phone": false,
     "has_address": true,
     "has_website": true,
     "maps_link": "https://www.google.com/maps/place/Kodich+Youth+Polytechnic/@1.6331711,35.0499239,17z/data=!4m10!1m2!2m1!1sKODICH+VOCATIONAL+TRAINING+CENTRE,+West+Pokot,+Kenya!3m6!1s0x1782e545e37dc755:0x365694bf2be05e81!8m2!3d1.6363422!4d35.0549977!15sCjRLT0RJQ0ggVk9DQVRJT05BTCBUUkFJTklORyBDRU5UUkUsIFdlc3QgUG9rb3QsIEtlbnlhkgEScG9seXRlY2huaWNfc2Nob29s4AEA!16s%2Fg%2F11dfld3pd8?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D",
-    "notes": "First word matches: \"kodich\""
+    "notes": "User approved: moved from VALID_MEDIUM"
   },
   {
     "id": "25a88783-ee06-4006-9b3f-2f05278bdd3c",
@@ -3940,12 +3940,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.625,
     "first_word_match": true,
-    "status": "RETRY_VALID_MEDIUM",
+    "status": "RETRY_VALID_HIGH",
     "has_phone": true,
     "has_address": true,
     "has_website": false,
     "maps_link": "https://www.google.com/maps/place/Lingua+Centre/@-4.2274486,39.4668218,13z/data=!4m10!1m2!2m1!1sLINGUA+VOCATIONAL+%26+TRAINING+CENTER,+Kwale,+Kenya!3m6!1s0x184045e23953eee9:0xce059834787200c6!8m2!3d-4.2816911!4d39.5675081!15sCjFMSU5HVUEgVk9DQVRJT05BTCAmIFRSQUlOSU5HIENFTlRFUiwgS3dhbGUsIEtlbnlh4AEA!16s%2Fg%2F11f6k_20ps?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D",
-    "notes": "First word matches: \"lingua\""
+    "notes": "User approved: moved from VALID_MEDIUM"
   },
   {
     "id": "7f6d3f25-a46b-48bc-8f34-ee4e76ce8159",
@@ -3968,12 +3968,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.625,
     "first_word_match": true,
-    "status": "RETRY_VALID_MEDIUM",
+    "status": "RETRY_VALID_HIGH",
     "has_phone": true,
     "has_address": true,
     "has_website": false,
     "maps_link": "https://www.google.com/maps/place/Lio+School+Of+Computer+Studies/@-1.245759,36.6616301,17z/data=!3m1!4b1!4m6!3m5!1s0x182f1f2a364fa155:0xaa085ec1f331f8d2!8m2!3d-1.245759!4d36.664205!16s%2Fg%2F11h565rld4?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D",
-    "notes": "First word matches: \"lio\""
+    "notes": "User approved: moved from VALID_MEDIUM"
   },
   {
     "id": "6aada4f0-8751-4278-a4fd-cee4a00b745e",
@@ -4218,12 +4218,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.625,
     "first_word_match": true,
-    "status": "RETRY_VALID_MEDIUM",
+    "status": "RETRY_VALID_HIGH",
     "has_phone": false,
     "has_address": true,
     "has_website": false,
     "maps_link": "https://www.google.com/maps/place/Makueni+ATC+Kwa+Kathoka/@-1.8481808,37.625014,14z/data=!4m10!1m2!2m1!1sMAKUENI+AGRICULTURE+TRAINING+CENTRE,+Makueni,+Kenya!3m6!1s0x182537b70378b9bd:0x6daf6fec6c998daf!8m2!3d-1.8481808!4d37.6631228!15sCjNNQUtVRU5JIEFHUklDVUxUVVJFIFRSQUlOSU5HIENFTlRSRSwgTWFrdWVuaSwgS2VueWFaMyIxbWFrdWVuaSBhZ3JpY3VsdHVyZSB0cmFpbmluZyBjZW50cmUgbWFrdWVuaSBrZW55YZIBD3RyYWluaW5nX2NlbnRlcpoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VNeGFscHlhVEJCUlJBQuABAPoBBAgAEBo!16s%2Fg%2F11f0kt57bq?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoASAFQAw%3D%3D",
-    "notes": "First word matches: \"makueni\""
+    "notes": "User approved: moved from VALID_MEDIUM"
   },
   {
     "id": "e15a7d51-1217-469b-9ddb-3302bd96aaee",
@@ -4456,12 +4456,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.6,
     "first_word_match": true,
-    "status": "RETRY_VALID_MEDIUM",
+    "status": "RETRY_VALID_HIGH",
     "has_phone": true,
     "has_address": true,
     "has_website": false,
     "maps_link": "https://www.google.com/maps/place/Mbale+Youth+Polytechnic,+Taita+Taveta/@-1.2535608,35.2332389,8z/data=!4m10!1m2!2m1!1sMBALE+VOCATIONAL+TRAINING+CENTER,+Taita+Taveta,+Kenya!3m6!1s0x183923dd9831c08b:0xa262f8234972ac98!8m2!3d-3.3798538!4d38.3786018!15sCjVNQkFMRSBWT0NBVElPTkFMIFRSQUlOSU5HIENFTlRFUiwgVGFpdGEgVGF2ZXRhLCBLZW55YZIBEWNvbW11bml0eV9jb2xsZWdl4AEA!16s%2Fg%2F11c51cql8g?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoASAFQAw%3D%3D",
-    "notes": "First word matches: \"mbale\""
+    "notes": "User approved: moved from VALID_MEDIUM"
   },
   {
     "id": "0af4b722-79ca-4ea0-8871-557809363e26",
@@ -4876,12 +4876,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.6666666666666666,
     "first_word_match": true,
-    "status": "RETRY_VALID_HIGH",
+    "status": "RETRY_USER_REJECTED",
     "has_phone": true,
     "has_address": true,
     "has_website": true,
     "maps_link": "https://www.google.com/maps/place/Mt+Elgon+Academy/@1.1119808,34.810466,12z/data=!4m10!1m2!2m1!1sMt.+Elgon+Bible+College,+Trans+Nzoia,+Kenya!3m6!1s0x178226538e075623:0xe03fe7685c0b3343!8m2!3d1.0271647!4d35.0012109!15sCitNdC4gRWxnb24gQmlibGUgQ29sbGVnZSwgVHJhbnMgTnpvaWEsIEtlbnlhkgEOcHJpbWFyeV9zY2hvb2zgAQA!16s%2Fg%2F1td80b55?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoASAFQAw%3D%3D",
-    "notes": ""
+    "notes": "User rejected: different institution found"
   },
   {
     "id": "566e1bdb-09e7-4f4e-abe6-d004df534ad9",
@@ -5016,12 +5016,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.125,
     "first_word_match": false,
-    "status": "RETRY_LOW_CONFIDENCE",
+    "status": "RETRY_VALID_HIGH",
     "has_phone": false,
     "has_address": true,
     "has_website": true,
     "maps_link": "https://www.google.com/maps/place/NYS-IBS/@-1.0518415,36.9387381,11z/data=!4m10!1m2!2m1!1sNYS+Institute+of+Business+Studies,+Nairobi,+Kenya!3m6!1s0x182f3d0001887bef:0x6fdb27cec14e535c!8m2!3d-1.2092864!4d36.7920143!15sCjFOWVMgSW5zdGl0dXRlIG9mIEJ1c2luZXNzIFN0dWRpZXMsIE5haXJvYmksIEtlbnlhkgEQZWR1Y2F0aW9uX2NlbnRlcuABAA!16s%2Fg%2F11lcm0y4n_?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoASAFQAw%3D%3D",
-    "notes": "First words don't match: \"of\" vs \"ibs\""
+    "notes": "User approved: moved from LOW_CONFIDENCE"
   },
   {
     "id": "1032801e-d972-4cc0-9fab-e32c9daafc51",
@@ -5212,12 +5212,12 @@
     "original_scraped_name": "Results",
     "similarity": 0,
     "first_word_match": false,
-    "status": "RETRY_LOW_CONFIDENCE",
+    "status": "RETRY_POTENTIAL_AFFILIATION",
     "has_phone": true,
     "has_address": true,
     "has_website": true,
     "maps_link": "https://www.google.com/maps/place/Pan+Africa+Christian+University/@-1.2159648,36.579638,11z/data=!4m10!1m2!2m1!1sPAC+Institute+of+Technology+and+Social+Studies,+Nairobi,+Kenya!3m6!1s0x182f3e1e421d6089:0xc55a1d5173c915bf!8m2!3d-1.2159648!4d36.8845086!15sCj5QQUMgSW5zdGl0dXRlIG9mIFRlY2hub2xvZ3kgYW5kIFNvY2lhbCBTdHVkaWVzLCBOYWlyb2JpLCBLZW55YVo-IjxwYWMgaW5zdGl0dXRlIG9mIHRlY2hub2xvZ3kgYW5kIHNvY2lhbCBzdHVkaWVzIG5haXJvYmkga2VueWGSARJwcml2YXRlX3VuaXZlcnNpdHmaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTnVkVFJIVVd4QlJSQULgAQD6AQQIABAZ!16s%2Fm%2F03nx7fh?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoASAFQAw%3D%3D",
-    "notes": "First words don't match: \"pac\" vs \"pan\""
+    "notes": "User flagged: Affiliated Institute / Business / Location"
   },
   {
     "id": "ae873555-d2e1-4357-9308-5579d729c962",
@@ -5352,12 +5352,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.1,
     "first_word_match": false,
-    "status": "RETRY_LOW_CONFIDENCE",
+    "status": "RETRY_VALID_HIGH",
     "has_phone": true,
     "has_address": true,
     "has_website": true,
     "maps_link": "https://www.google.com/maps/place/RCM+Online+College/@-1.2842872,36.5202605,11z/data=!3m1!5s0x182fdfa257544525:0x92510d79b8a011fb!4m10!1m2!2m1!1sRegional+College+of+Management+and+Accountancy,+Nairobi,+Kenya!3m6!1s0x182f11d6d038305b:0x455097e9eb8c39f6!8m2!3d-1.2842872!4d36.8251311!15sCj5SZWdpb25hbCBDb2xsZWdlIG9mIE1hbmFnZW1lbnQgYW5kIEFjY291bnRhbmN5LCBOYWlyb2JpLCBLZW55YVo-IjxyZWdpb25hbCBjb2xsZWdlIG9mIG1hbmFnZW1lbnQgYW5kIGFjY291bnRhbmN5IG5haXJvYmkga2VueWGSAQdjb2xsZWdlmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU16TXpkNVJFSjNFQUXgAQD6AQQIABBG!16s%2Fg%2F11fr3yhxgm?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoASAFQAw%3D%3D",
-    "notes": "First words don't match: \"regional\" vs \"rcm\""
+    "notes": "User approved: moved from LOW_CONFIDENCE"
   },
   {
     "id": "20ee2bae-5762-48f9-a90e-8c32766445da",
@@ -5422,12 +5422,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.625,
     "first_word_match": true,
-    "status": "RETRY_VALID_MEDIUM",
+    "status": "RETRY_VALID_HIGH",
     "has_phone": true,
     "has_address": true,
     "has_website": true,
     "maps_link": "https://www.google.com/maps/place/Riara+University/@-1.3148565,36.5020526,11z/data=!4m10!1m2!2m1!1sRiara+Business+Training+Institute,+Murang'a,+Kenya!3m6!1s0x182f105e9f1c97eb:0xd0d8411685ae0273!8m2!3d-1.3148565!4d36.8069232!15sCjJSaWFyYSBCdXNpbmVzcyBUcmFpbmluZyBJbnN0aXR1dGUsIE11cmFuZydhLCBLZW55YVoyIjByaWFyYSBidXNpbmVzcyB0cmFpbmluZyBpbnN0aXR1dGUgbXVyYW5nIGEga2VueWGSARJwcml2YXRlX3VuaXZlcnNpdHmaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVUndkSEV5UW1ObkVBReABAPoBBAgAEDc!16s%2Fm%2F0zmzh9z?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoASAFQAw%3D%3D",
-    "notes": "First word matches: \"riara\""
+    "notes": "User approved: moved from VALID_MEDIUM"
   },
   {
     "id": "0be5f860-6178-42fb-b473-0833d3bd5345",
@@ -5464,12 +5464,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.625,
     "first_word_match": true,
-    "status": "RETRY_VALID_MEDIUM",
+    "status": "RETRY_POTENTIAL_AFFILIATION",
     "has_phone": true,
     "has_address": true,
     "has_website": true,
     "maps_link": "https://www.google.com/maps/place/Roka+Secondary+School/@-3.5233396,39.8039592,12z/data=!4m10!1m2!2m1!1sROKA+VOCATIONAL+TRAINING+CENTRE,+Kilifi,+Kenya!3m6!1s0x183fd407ab20d7cd:0x4e5ae3981aea880e!8m2!3d-3.5106508!4d39.9093269!15sCi5ST0tBIFZPQ0FUSU9OQUwgVFJBSU5JTkcgQ0VOVFJFLCBLaWxpZmksIEtlbnlhkgENbWlkZGxlX3NjaG9vbOABAA!16s%2Fg%2F1tgzkhgx?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoASAFQAw%3D%3D",
-    "notes": "First word matches: \"roka\""
+    "notes": "User flagged: possibly affiliated institution"
   },
   {
     "id": "28b94de5-1c54-4c21-96a0-257a4833be7a",
@@ -5744,12 +5744,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.625,
     "first_word_match": true,
-    "status": "RETRY_VALID_MEDIUM",
+    "status": "RETRY_VALID_HIGH",
     "has_phone": true,
     "has_address": true,
     "has_website": true,
     "maps_link": "https://www.google.com/maps/place/Sigowet+KMTC/@-0.3939366,34.8934274,12z/data=!4m10!1m2!2m1!1sSIGOWET+TECHNICAL+TRAINING+INSTITUTE,+Kericho,+Kenya!3m6!1s0x182afbefd943736f:0x86392252435a3103!8m2!3d-0.3939366!4d35.0458627!15sCjRTSUdPV0VUIFRFQ0hOSUNBTCBUUkFJTklORyBJTlNUSVRVVEUsIEtlcmljaG8sIEtlbnlhWjQiMnNpZ293ZXQgdGVjaG5pY2FsIHRyYWluaW5nIGluc3RpdHV0ZSBrZXJpY2hvIGtlbnlhkgEHY29sbGVnZZoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOS2JWcERSMnhCUlJBQuABAPoBBAgAEBg!16s%2Fg%2F11rvh3gtgm?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoASAFQAw%3D%3D",
-    "notes": "First word matches: \"sigowet\""
+    "notes": "User approved: moved from VALID_MEDIUM"
   },
   {
     "id": "9def38e7-cd5e-4af3-9af4-e4ff3044b252",
@@ -6024,12 +6024,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.625,
     "first_word_match": true,
-    "status": "RETRY_VALID_MEDIUM",
+    "status": "RETRY_POTENTIAL_AFFILIATION",
     "has_phone": false,
     "has_address": true,
     "has_website": false,
     "maps_link": "https://www.google.com/maps/place/St+kizito+day+secondary+sirende/@0.8708191,34.820804,11z/data=!4m10!1m2!2m1!1sST.+KIZITO,+Trans+Nzoia,+Kenya!3m6!1s0x178189cee61dd5a3:0x9dbaf5c9afabc371!8m2!3d0.9798467!4d34.9811267!15sCh5TVC4gS0laSVRPLCBUcmFucyBOem9pYSwgS2VueWGSAQ1taWRkbGVfc2Nob29s4AEA!16s%2Fg%2F11r6xbmr5c?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoASAFQAw%3D%3D",
-    "notes": "First word matches: \"kizito\""
+    "notes": "User flagged: possibly affiliated institution"
   },
   {
     "id": "200c970d-4dc7-4d99-a18d-093caa28a9e0",
@@ -6122,12 +6122,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.6,
     "first_word_match": true,
-    "status": "RETRY_VALID_MEDIUM",
+    "status": "RETRY_VALID_HIGH",
     "has_phone": true,
     "has_address": true,
     "has_website": true,
     "maps_link": "https://www.google.com/maps/place/Strathmore+University/@-1.3089602,36.8072857,17z/data=!4m10!1m2!2m1!1sSTRATHMORE+INSTITUTE+OF+MANAGEMENT+AND+TECHNOLOGY,+Nairobi,+Kenya!3m6!1s0x182f112e9eff4827:0x17a918597484c8ea!8m2!3d-1.3089602!4d36.8120493!15sCkFTVFJBVEhNT1JFIElOU1RJVFVURSBPRiBNQU5BR0VNRU5UIEFORCBURUNITk9MT0dZLCBOYWlyb2JpLCBLZW55YVpBIj9zdHJhdGhtb3JlIGluc3RpdHV0ZSBvZiBtYW5hZ2VtZW50IGFuZCB0ZWNobm9sb2d5IG5haXJvYmkga2VueWGSAQp1bml2ZXJzaXR5mgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5DTWsxMVlXTlJFQUXgAQD6AQQIHxBD!16zL20vMDltNGp6?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoASAFQAw%3D%3D",
-    "notes": "First word matches: \"strathmore\""
+    "notes": "User approved: moved from VALID_MEDIUM"
   },
   {
     "id": "571bfba2-6edc-4310-834d-f43c0d3f5c32",
@@ -6290,12 +6290,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.625,
     "first_word_match": true,
-    "status": "RETRY_VALID_MEDIUM",
+    "status": "RETRY_VALID_HIGH",
     "has_phone": true,
     "has_address": true,
     "has_website": false,
     "maps_link": "https://www.google.com/maps/place/Baringo+Technical+College/@0.5435368,35.7076623,12z/data=!4m10!1m2!2m1!1sTHE+BARINGO+NATIONAL+POLYTECHNIC,+Baringo,+Kenya!3m6!1s0x1780d7a1e6b164a7:0xdb21939a7202c0e!8m2!3d0.460421!4d35.7628879!15sCjBUSEUgQkFSSU5HTyBOQVRJT05BTCBQT0xZVEVDSE5JQywgQmFyaW5nbywgS2VueWFaMCIudGhlIGJhcmluZ28gbmF0aW9uYWwgcG9seXRlY2huaWMgYmFyaW5nbyBrZW55YZIBEmdvdmVybm1lbnRfY29sbGVnZZoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOU09HRmhhMVYzRUFF4AEA-gEECAAQKg!16s%2Fg%2F11dflrq8fr?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoASAFQAw%3D%3D",
-    "notes": "First word matches: \"baringo\""
+    "notes": "User approved: moved from VALID_MEDIUM"
   },
   {
     "id": "b81d00ab-ef14-48a7-be4a-4c682557d8dc",
@@ -6332,12 +6332,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.08333333333333333,
     "first_word_match": false,
-    "status": "RETRY_LOW_CONFIDENCE",
+    "status": "RETRY_VALID_HIGH",
     "has_phone": true,
     "has_address": true,
     "has_website": true,
     "maps_link": "https://www.google.com/maps/place/The+Co-operative+University+of+Kenya,/@-1.319515,36.7503275,13z/data=!4m10!1m2!2m1!1sTHE+CUK+NAIROBI+CBD+TRAINING+INSTITUTE,+Nairobi,+Kenya!3m6!1s0x182f10d48d63c40d:0xc9249e82ecf49c26!8m2!3d-1.2814973!4d36.8208863!15sCjZUSEUgQ1VLIE5BSVJPQkkgQ0JEIFRSQUlOSU5HIElOU1RJVFVURSwgTmFpcm9iaSwgS2VueWGSARFwdWJsaWNfdW5pdmVyc2l0eeABAA!16s%2Fg%2F1yg4v8yh9?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoASAFQAw%3D%3D",
-    "notes": "First words don't match: \"cuk\" vs \"co\""
+    "notes": "User approved: moved from LOW_CONFIDENCE"
   },
   {
     "id": "e2c06bc2-6bc4-43ff-b383-c7cbb61a463c",
@@ -6556,12 +6556,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.6153846153846154,
     "first_word_match": true,
-    "status": "RETRY_VALID_MEDIUM",
+    "status": "RETRY_VALID_HIGH",
     "has_phone": true,
     "has_address": true,
     "has_website": false,
     "maps_link": "https://www.google.com/maps/place/Ujuzi+Fursa+Africa-Senior+Caregiver+Service%7C+caregivers+%7Chome+base+care+giver+agencies+nairobi+kenya/@-1.2665379,34.3654061,8z/data=!4m10!1m2!2m1!1sUjuzi+Fursa+Africa+Training+Institute+-+Mombasa,+Mombasa,+Kenya!3m6!1s0x182f17ea2e3dcced:0xa1dc65754af488e!8m2!3d-1.2665379!4d36.8043709!15sCj9VanV6aSBGdXJzYSBBZnJpY2EgVHJhaW5pbmcgSW5zdGl0dXRlIC0gTW9tYmFzYSwgTW9tYmFzYSwgS2VueWFaPSI7dWp1emkgZnVyc2EgYWZyaWNhIHRyYWluaW5nIGluc3RpdHV0ZSBtb21iYXNhIG1vbWJhc2Ega2VueWGSARhob21lX2hlYWx0aF9jYXJlX3NlcnZpY2WaASRDaGREU1VoTk1HOW5TMFZKUTBGblRVTm5iRmxtUTNWUlJSQULgAQD6AQQIABBH!16s%2Fg%2F11h1ybl6d5?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoASAFQAw%3D%3D",
-    "notes": "First word matches: \"ujuzi\""
+    "notes": "User approved: moved from VALID_MEDIUM"
   },
   {
     "id": "7753c5ad-eda2-48e3-ad48-fc916fe55163",
@@ -6598,12 +6598,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.625,
     "first_word_match": true,
-    "status": "RETRY_VALID_MEDIUM",
+    "status": "RETRY_POTENTIAL_AFFILIATION",
     "has_phone": true,
     "has_address": true,
     "has_website": true,
     "maps_link": "https://www.google.com/maps/place/Upperhill+Mixed+Secondary+School/@-0.2820266,36.0715743,15z/data=!4m10!1m2!2m1!1sUpperhill+College+of+Professional+Studies,+Nakuru,+Kenya!3m6!1s0x1829927b3d198889:0x538cecac61c4f2b7!8m2!3d-0.2777284!4d36.0992239!15sCjhVcHBlcmhpbGwgQ29sbGVnZSBvZiBQcm9mZXNzaW9uYWwgU3R1ZGllcywgTmFrdXJ1LCBLZW55YZIBC2hpZ2hfc2Nob29s4AEA!16s%2Fg%2F1hf3h82gy?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoASAFQAw%3D%3D",
-    "notes": "First word matches: \"upperhill\""
+    "notes": "User flagged: possibly affiliated institution"
   },
   {
     "id": "b7b6b5c2-f026-425a-a2d3-bced1af41a59",
@@ -6920,12 +6920,12 @@
     "original_scraped_name": "Results",
     "similarity": 0.5909090909090909,
     "first_word_match": true,
-    "status": "RETRY_VALID_MEDIUM",
+    "status": "RETRY_POTENTIAL_AFFILIATION",
     "has_phone": true,
     "has_address": true,
     "has_website": true,
     "maps_link": "https://www.google.com/maps/place/WIA+BEAUTY,+Microshading+in+Edoret,+Massage+in+Eldoret,+Spas+In+Eldoret,+Lashes+Extension+in+Eldoret/@-0.0112505,35.3785462,9z/data=!4m10!1m2!2m1!1sWia+Beauty+Training+College,+Uasin+Gishu,+Kenya!3m6!1s0x1781016cd0070f1f:0xd31064b1b8c2b884!8m2!3d0.5138872!4d35.2907213!15sCi9XaWEgQmVhdXR5IFRyYWluaW5nIENvbGxlZ2UsIFVhc2luIEdpc2h1LCBLZW55YVovIi13aWEgYmVhdXR5IHRyYWluaW5nIGNvbGxlZ2UgdWFzaW4gZ2lzaHUga2VueWGSAQ1tYWtldXBfYXJ0aXN0mgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJ3TlRWcGFrVjNFQUXgAQD6AQQIABBJ!16s%2Fg%2F11pcmj2xrb?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoASAFQAw%3D%3D",
-    "notes": "First word matches: \"wia\""
+    "notes": "User flagged: possibly affiliated institution"
   },
   {
     "id": "b7e8f01c-eed1-4dd4-a0b5-a36e0f836e25",

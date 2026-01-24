@@ -1,0 +1,22 @@
+[
+  {
+    "mistaken_find": {
+      "id": "828b5035-bb62-44e9-ac65-c40f907ea452",
+      "searched_for": "ST TERESA'S BUSINESS AND TECHNOLOGY TRAINING INSTITUTE",
+      "found_instead": "St.Theresa Business and Technology Institute",
+      "county": "Nyeri",
+      "status": "RETRY_LOW_CONFIDENCE",
+      "has_phone": true,
+      "has_address": true,
+      "has_website": false
+    },
+    "db_institution": {
+      "id": "828b5035-bb62-44e9-ac65-c40f907ea452",
+      "name": "ST TERESA'S BUSINESS AND TECHNOLOGY TRAINING INSTITUTE",
+      "county": "Nyeri"
+    },
+    "similarity": 0.6666666666666666,
+    "match_type": "same_county",
+    "relationship_type": "possible_campus"
+  }
+]
