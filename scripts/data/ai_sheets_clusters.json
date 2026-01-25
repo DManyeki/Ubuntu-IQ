@@ -1,0 +1,742 @@
+{
+  "source": "DEGREE_CLUSTER_DOCUMENT_2025_03 (1) edited.xlsx",
+  "processed_sheets": 11,
+  "total_clusters": 46,
+  "clusters": [
+    {
+      "cluster_id": "1A",
+      "subject_1": "ENG/KIS",
+      "grade_1": "C+",
+      "subject_2": "MAT",
+      "grade_2": "A",
+      "subject_3": "ANY GROUP III",
+      "grade_3": "B",
+      "subject_4": "ANY GROUP II/2nd GROUP III/ANY GROUP IV/ANY GROUP V",
+      "grade_4": "C+",
+      "programs": [
+        "Bachelor of Laws (LL.B.)",
+        "Bachelor of Science (Hospitality & Tourism Management)",
+        "Bachelor of Arts (Criminology and Security Studies)",
+        "Bachelor of Arts (Penology, Correction and Administration)",
+        "Bachelor of Arts in Criminology, Criminal Justice and Public Safety",
+        "Bachelor of Engineering (Civil and Structural Engineering)",
+        "Bachelor of Engineering (Civil Engineering)",
+        "Bachelor of Engineering (Electrical and Electronics Engineering)",
+        "Bachelor of Engineering (Electrical and Electronic Engineering)",
+        "Bachelor of Science (Agribusiness)",
+        "Bachelor of Science in Occupational Therapy",
+        "Bachelor of Population Health",
+        "Bachelor of Science (Fisheries and Aquaculture Management)",
+        "Bachelor of Science (Agriculture)"
+      ]
+    },
+    {
+      "cluster_id": "2A",
+      "subject_1": "ENG/KIS",
+      "grade_1": "C+",
+      "subject_2": "MAT",
+      "grade_2": "B",
+      "subject_3": "ANY GROUP II or any GROUP III",
+      "grade_3": "A",
+      "subject_4": "A GROUP II or a GROUP III or any GROUP IV or any GROUP V",
+      "grade_4": "C+",
+      "programs": [
+        "Bachelor in Business Administration",
+        "Bachelor in Business Administration, With IT",
+        "Bachelor of Science (Hospitality Management)",
+        "Bachelor of Arts (Criminology, With IT)",
+        "Bachelor of Arts (Peace Education",
+        "Bachelor of Arts in Criminology",
+        "Bachelor of Engineering (Mechanical & Production Engineering)",
+        "Bachelor of Engineering (Mechanical and Production Engineering)",
+        "Bachelor of Engineering (Mechanical Engineering)",
+        "Bachelor of Engineering (Industrial and Textile Engineering)",
+        "Bachelor of Agribusiness Management",
+        "Bachelor of Science (Community Health and Development)",
+        "Bachelor of Science in Community Health and Development",
+        "Bachelor of Technology (Environmental Resource Management)",
+        "Bachelor of Science (Land Resource Management)"
+      ]
+    },
+    {
+      "cluster_id": "2B",
+      "subject_1": "ENG/KIS",
+      "grade_1": "C+",
+      "subject_2": "MAT",
+      "grade_2": "A",
+      "subject_3": "ANY GROUP II or any GROUP III",
+      "grade_3": "B",
+      "subject_4": "A GROUP II or a GROUP III or any GROUP IV or any GROUP V",
+      "grade_4": "C+",
+      "programs": [
+        "Bachelor of Project Planning and Management",
+        "Bachelor of Science (Project Planning Management)",
+        "Bachelor of Sustainable Tourism & Hospitality Management",
+        "Bachelor of Arts (Gender and Development Studies",
+        "Bachelor of Arts (Gender Studies, With IT",
+        "Bachelor of Arts (Gender and Development",
+        "Bachelor of Science (Mechatronic Engineering)",
+        "Bachelor of Science in Electrical and Electronics Engineering",
+        "Bachelor of Science (Electrical & Electronics Engineering)",
+        "Bachelor of Science in Water and Environmental Engineering",
+        "Bachelor of Science (Agribusiness Management)",
+        "Bachelor of Science in Global Health and Emporiatrics",
+        "Bachelor of Health Services Management",
+        "Bachelor of Environmental Studies"
+      ]
+    },
+    {
+      "cluster_id": "4A",
+      "subject_1": "ENG/KIS",
+      "grade_1": "C+",
+      "subject_2": "MAT",
+      "grade_2": "B",
+      "subject_3": "ANY GROUP II or any GROUP III",
+      "grade_3": "A",
+      "subject_4": "A GROUP II or a GROUP III or any GROUP IV or any GROUP V",
+      "grade_4": "C+",
+      "programs": [
+        "Bachelor of Hotel & Hospitality Management",
+        "Bachelor of Hotel Management",
+        "Bachelor of Science (Hospitality and Tourism Management)",
+        "Bachelor of Engineering (Aeronautical Engineering",
+        "Bachelor of Engineering (Chemical and Process Engineering",
+        "Bachelor of Engineering (Civil & Structural Engineering",
+        "Bachelor of Science (Mechanical and Industrial Engineering)",
+        "Bachelor of Science (Mechanical & Manufacturing Engineering)",
+        "Bachelor of Science in Mechanical Engineering",
+        "Bachelor of Science (Mechanical Engineering)",
+        "Bachelor of Science (Agricultural Economics & Resource Management)",
+        "Bachelor of Science (Health Records and Informatics)",
+        "Bachelor of Science in Health Records and Information Management",
+        "Bachelor of Science (Agriculture & Biotechnology)",
+        "Bachelor of Science (Environmental Conservation and Natural Resources Management)"
+      ]
+    },
+    {
+      "cluster_id": "4B",
+      "subject_1": "ENG/KIS",
+      "grade_1": "C+",
+      "subject_2": "MAT",
+      "grade_2": "A",
+      "subject_3": "ANY GROUP II or any GROUP III",
+      "grade_3": "B",
+      "subject_4": "A GROUP II or a GROUP III or any GROUP IV or any GROUP V",
+      "grade_4": "C+",
+      "programs": [
+        "Bachelor of Science (Ecotourism & Hospitality Management)",
+        "Bachelor of Science in Ecotourism",
+        "Bachelor of Science (Tourism Management)",
+        "Bachelor of Science (Geomatic & Geospatial Information Systems",
+        "Bachelor of Science (Geospatial Information Science and Remote Sensing",
+        "Bachelor of Science (Geospatial Information Science, With IT",
+        "Bachelor of Science (Aerospace Engineering)",
+        "Bachelor of Engineering (Chemical Engineering)",
+        "Bachelor of Science (Marine Engineering)",
+        "Bachelor of Science in Marine Engineering",
+        "Bachelor of Agricultural Economics, With IT",
+        "Bachelor of Science (Health Records & Information Management)",
+        "Bachelor of Science in Health Records Management & Informatics",
+        "Bachelor of Science (Nutraceutical Science and Technology)"
+      ]
+    },
+    {
+      "cluster_id": "5A",
+      "subject_1": "ENG/KIS",
+      "grade_1": "C+",
+      "subject_2": "MAT",
+      "grade_2": "B",
+      "subject_3": "ANY GROUP II or any GROUP III",
+      "grade_3": "A",
+      "subject_4": "A GROUP II or a GROUP III or any GROUP IV or any GROUP V",
+      "grade_4": "C+",
+      "programs": [
+        "Bachelor of Business Information Technology",
+        "Bachelor of Technology (Business Information Technology)",
+        "Bachelor of Technology (Institutional Catering and Accommodation)",
+        "Bachelor of Science (Geophysical and Mineralogy",
+        "Bachelor of Science (Meteorology",
+        "Bachelor of Science (Astronomy and Astrophysics",
+        "Bachelor of Science (Analytical Chemistry With Management)",
+        "Bachelor of Science in Analytical Chemistry",
+        "Bachelor of Science (Analytical Chemistry)",
+        "Bachelor of Science in Analytical Chemistry With Computing",
+        "Bachelor of Agribusiness Economics and Food Industry Management",
+        "Bachelor of Science (Animal Health & Production)",
+        "Bachelor of Science (Animal Health and Production)",
+        "Bachelor of Science (Wildlife Enterprises & Management)",
+        "Bachelor of Science (Land Resource Planning & Management)"
+      ]
+    },
+    {
+      "cluster_id": "5B",
+      "subject_1": "ENG/KIS",
+      "grade_1": "C+",
+      "subject_2": "MAT",
+      "grade_2": "A",
+      "subject_3": "ANY GROUP II or any GROUP III",
+      "grade_3": "B",
+      "subject_4": "A GROUP II or a GROUP III or any GROUP IV or any GROUP V",
+      "grade_4": "C+",
+      "programs": [
+        "Bachelor of Science (Business Information Systems)",
+        "Bachelor of Science in Information Science",
+        "Bachelor of Technology in Hotel & Hospitality Management",
+        "Bachelor of Science (Civil and Structural Engineering",
+        "Bachelor of Science in Civil Engineering",
+        "Bachelor of Science (Civil Engineering",
+        "Bachelor of Science (Industrial Chemistry With Management)",
+        "Bachelor of Science (Industrial Chemistry, With IT)",
+        "Bachelor of Science in Industrial Chemistry",
+        "Bachelor of Science (Industrial Chemistry)",
+        "Bachelor of Agricultural Economics and Rural Development",
+        "Bachelor of Science (Animal Science & Management)",
+        "Bachelor of Science (Animal Science, With IT)",
+        "Bachelor of Science (Crop Improvement & Protection)",
+        "Bachelor of Science (Geography and Natural Resource Management, With IT)"
+      ]
+    },
+    {
+      "cluster_id": "3A",
+      "subject_1": "ENG/KIS",
+      "grade_1": "C+",
+      "subject_2": "MAT ALTERNATIVE A",
+      "grade_2": "C+",
+      "subject_3": "Any GROUP",
+      "grade_3": "C+",
+      "programs": [
+        "Bachelor of Applied Communication",
+        "Bachelor of Arts (Development Studies",
+        "Bachelor of Arts (Development Studies, With IT",
+        "Bachelor of Arts (Gender and Development Studies",
+        "Bachelor of Science (Agricultural Engineering)",
+        "Bachelor of Science (Telecommunication and Information Engineering)",
+        "Bachelor of Science (Electrical and Communication Engineering)",
+        "Bachelor of Science (Electronic and Computer Engineering)",
+        "Bachelor of Science Agribusiness Management",
+        "Bachelor of Science in Biostatistics",
+        "Bachelor of Science in Natural Resources"
+      ]
+    },
+    {
+      "cluster_id": "3B",
+      "subject_1": "ENG/KIS",
+      "grade_1": "C+",
+      "subject_2": "MAT ALTERNATIVE A",
+      "grade_2": "C+",
+      "subject_3": "Any GROUP",
+      "grade_3": "C+",
+      "programs": [
+        "Bachelor of Arts (Applied Linguistics)",
+        "Bachelor of Arts (Gender and Development",
+        "Bachelor of Arts (Gender",
+        "Bachelor of Science (Public Management and Development",
+        "Bachelor of Science (Agricultural Resource Management)",
+        "Bachelor of Science (Biomedical Science and Technology)",
+        "Bachelor of Technology (Science Laboratory Technology)",
+        "Bachelor of Science (Sustainable Energy & Climate Change Systems)"
+      ]
+    },
+    {
+      "cluster_id": "3C",
+      "subject_1": "KIS C+",
+      "grade_1": "C+",
+      "subject_2": "MAT ALTERNATIVE A",
+      "grade_2": "C+",
+      "subject_3": "Any GROUP",
+      "grade_3": "C+",
+      "programs": [
+        "Bachelor of Arts (Kiswahili and Communication)"
+      ]
+    },
+    {
+      "cluster_id": "6A",
+      "subject_1": "Any GROUP",
+      "grade_1": "C+",
+      "subject_2": "MAT ALTERNATIVE A",
+      "grade_2": "C+",
+      "subject_3": "Any GROUP",
+      "grade_3": "C+",
+      "programs": [
+        "Bachelor of Tourism Management",
+        "Bachelor of Science Agribusiness Management and Enterprise Development",
+        "Bachelor of Science (Dryland, Agriculture & Enterprise Development)"
+      ]
+    },
+    {
+      "cluster_id": "6B",
+      "subject_1": "Any GROUP",
+      "grade_1": "C+",
+      "subject_2": "MAT ALTERNATIVE A",
+      "grade_2": "C+",
+      "subject_3": "Any GROUP",
+      "grade_3": "C+",
+      "programs": [
+        "Bachelor of Travel and Tours Operations Management",
+        "Bachelor of Science (Agribusiness Management)",
+        "Bachelor of Science (Seed Science & Technology)"
+      ]
+    },
+    {
+      "cluster_id": "7A",
+      "subject_1": "Any GROUP",
+      "grade_1": "C+",
+      "subject_2": "MAT ALTERNATIVE A",
+      "grade_2": "C+",
+      "subject_3": "Any GROUP",
+      "grade_3": "C+",
+      "programs": [
+        "Bachelor of Science in Travel and Tourism Management",
+        "Bachelor of Science in Agribusiness Management and Marketing",
+        "Bachelor of Science (Environmental Horticulture & Landscaping Technology)"
+      ]
+    },
+    {
+      "cluster_id": "7B",
+      "subject_1": "Any GROUP",
+      "grade_1": "C+",
+      "subject_2": "MAT ALTERNATIVE A",
+      "grade_2": "C+",
+      "subject_3": "Any GROUP",
+      "grade_3": "C+",
+      "programs": [
+        "Bachelor of Catering & Hotel Management",
+        "Bachelor of Science in Agricultural Resource Economics and Management",
+        "Bachelor of Science (Horticulture, With IT)"
+      ]
+    },
+    {
+      "cluster_id": "8A",
+      "subject_1": "Any GROUP",
+      "grade_1": "C+",
+      "subject_2": "MAT ALTERNATIVE A",
+      "grade_2": "C+",
+      "subject_3": "Any GROUP",
+      "grade_3": "C+",
+      "programs": [
+        "Bachelor of Hotel and Hospitality Management",
+        "Bachelor of Science (Agribusiness Management, With IT)",
+        "Bachelor of Science (Soil Science)"
+      ]
+    },
+    {
+      "cluster_id": "8B",
+      "subject_1": "Any GROUP",
+      "grade_1": "C+",
+      "subject_2": "MAT ALTERNATIVE A",
+      "grade_2": "C+",
+      "subject_3": "Any GROUP",
+      "grade_3": "C+",
+      "programs": [
+        "Bachelor of International Tourism Management",
+        "Bachelor of Science (Soil Science, With IT)"
+      ]
+    },
+    {
+      "cluster_id": "9A",
+      "subject_1": "Any GROUP",
+      "grade_1": "C+",
+      "subject_2": "MAT ALTERNATIVE A",
+      "grade_2": "C+",
+      "subject_3": "Any GROUP",
+      "grade_3": "C+",
+      "programs": [
+        "Bachelor of Science (Hospitality and Tourism Management)",
+        "Bachelor of Science (Basic Science, With IT)",
+        "Bachelor of Science (Bio-resources Management and Conservation)"
+      ]
+    },
+    {
+      "cluster_id": "9B",
+      "subject_1": "Any GROUP",
+      "grade_1": "C+",
+      "subject_2": "MAT ALTERNATIVE A",
+      "grade_2": "C+",
+      "subject_3": "Any GROUP",
+      "grade_3": "C+",
+      "programs": [
+        "Bachelor of Science (Tourism Management)",
+        "Bachelor of Science in Biology",
+        "Bachelor of Science (Water and Environment Management)"
+      ]
+    },
+    {
+      "cluster_id": "10A",
+      "subject_1": "Any GROUP",
+      "grade_1": "C+",
+      "subject_2": "MAT ALTERNATIVE A",
+      "grade_2": "C+",
+      "subject_3": "Any GROUP",
+      "grade_3": "C+",
+      "programs": [
+        "Bachelor of Science in Hospitality Management",
+        "Bachelor of Science (Accountancy)",
+        "Bachelor of Science (Integrated Forest Resources Management)"
+      ]
+    },
+    {
+      "cluster_id": "10B",
+      "subject_1": "Any GROUP",
+      "grade_1": "C+",
+      "subject_2": "MAT ALTERNATIVE A",
+      "grade_2": "C+",
+      "subject_3": "Any GROUP",
+      "grade_3": "C+",
+      "programs": [
+        "Bachelor of Arts (Applied Linguistics)",
+        "Bachelor of Economics",
+        "Bachelor of Science (Wood Science and Industrial Processes)"
+      ]
+    },
+    {
+      "cluster_id": "11A",
+      "subject_1": "Any GROUP",
+      "grade_1": "C+",
+      "subject_2": "MAT ALTERNATIVE A",
+      "grade_2": "C+",
+      "subject_3": "Any GROUP",
+      "grade_3": "C+",
+      "programs": [
+        "Bachelor of Arts (Communication & Media)",
+        "Bachelor of Science (Natural Products)"
+      ]
+    },
+    {
+      "cluster_id": "11B",
+      "subject_1": "Any GROUP",
+      "grade_1": "C+",
+      "subject_2": "MAT ALTERNATIVE A",
+      "grade_2": "C+",
+      "subject_3": "Any GROUP",
+      "grade_3": "C+",
+      "programs": [
+        "Bachelor of Arts (Communication & Journalism)",
+        "Bachelor of Science (Wood Science and Industrial Processes)"
+      ]
+    },
+    {
+      "cluster_id": "12A",
+      "subject_1": "Any GROUP",
+      "grade_1": "C+",
+      "subject_2": "MAT ALTERNATIVE A",
+      "grade_2": "C+",
+      "subject_3": "Any GROUP",
+      "grade_3": "C+",
+      "programs": [
+        "Bachelor of Arts (International Relations and Diplomacy, With IT)"
+      ]
+    },
+    {
+      "cluster_id": "12B",
+      "subject_1": "Any GROUP",
+      "grade_1": "C+",
+      "subject_2": "MAT ALTERNATIVE A",
+      "grade_2": "C+",
+      "subject_3": "Any GROUP",
+      "grade_3": "C+",
+      "programs": [
+        "Bachelor of Arts (Communication and Public Relations)"
+      ]
+    },
+    {
+      "cluster_id": "13A",
+      "subject_1": "Any GROUP",
+      "grade_1": "C+",
+      "subject_2": "MAT ALTERNATIVE A",
+      "grade_2": "C+",
+      "subject_3": "Any GROUP",
+      "grade_3": "C+",
+      "programs": [
+        "Bachelor of Arts (Linguistics, Media and Communication)"
+      ]
+    },
+    {
+      "cluster_id": "13B",
+      "subject_1": "Any GROUP",
+      "grade_1": "C+",
+      "subject_2": "MAT ALTERNATIVE A",
+      "grade_2": "C+",
+      "subject_3": "Any GROUP",
+      "grade_3": "C+",
+      "programs": [
+        "Bachelor of Arts (Literature, With IT)"
+      ]
+    },
+    {
+      "cluster_id": "14A",
+      "subject_1": "Any GROUP",
+      "grade_1": "C+",
+      "subject_2": "MAT ALTERNATIVE A",
+      "grade_2": "C+",
+      "subject_3": "Any GROUP",
+      "grade_3": "C+",
+      "programs": [
+        "Bachelor of Arts in Government and International Relations"
+      ]
+    },
+    {
+      "cluster_id": "14B",
+      "subject_1": "Any GROUP",
+      "grade_1": "C+",
+      "subject_2": "MAT ALTERNATIVE A",
+      "grade_2": "C+",
+      "subject_3": "Any GROUP",
+      "grade_3": "C+",
+      "programs": [
+        "Bachelor of Arts (Communication & Media)"
+      ]
+    },
+    {
+      "cluster_id": "15A",
+      "subject_1": "Any GROUP",
+      "grade_1": "C+",
+      "subject_2": "MAT ALTERNATIVE A",
+      "grade_2": "C+",
+      "subject_3": "Any GROUP",
+      "grade_3": "C+",
+      "programs": [
+        "Bachelor of Arts in Mass Communication"
+      ]
+    },
+    {
+      "cluster_id": "15B",
+      "subject_1": "Any GROUP",
+      "grade_1": "C+",
+      "subject_2": "MAT ALTERNATIVE A",
+      "grade_2": "C+",
+      "subject_3": "Any GROUP",
+      "grade_3": "C+",
+      "programs": [
+        "Bachelor of Journalism & Mass Communication"
+      ]
+    },
+    {
+      "cluster_id": "16A",
+      "subject_1": "Any GROUP",
+      "grade_1": "C+",
+      "subject_2": "MAT ALTERNATIVE A",
+      "grade_2": "C+",
+      "subject_3": "Any GROUP",
+      "grade_3": "C+",
+      "programs": [
+        "Bachelor of Science in Mass Communication"
+      ]
+    },
+    {
+      "cluster_id": "16B",
+      "subject_1": "Any GROUP",
+      "grade_1": "C+",
+      "subject_2": "MAT ALTERNATIVE A",
+      "grade_2": "C+",
+      "subject_3": "Any GROUP",
+      "grade_3": "C+",
+      "programs": [
+        "Bachelor of Arts in Communication Studies"
+      ]
+    },
+    {
+      "cluster_id": "5C",
+      "subject_1": "Bachelor of Science (Control and Instrumentation)",
+      "grade_1": "C+",
+      "subject_2": "Bachelor of Science Instrumentation & Control",
+      "grade_2": "C+",
+      "subject_3": "Bachelor of Science in Control and Instrumentation",
+      "grade_3": "C+",
+      "subject_4": "Bachelor of Science (Microprocessor Technology and Instrumentation)",
+      "grade_4": "C+",
+      "programs": [
+        "Bachelor of Science (Control and Instrumentation)",
+        "Bachelor of Science Instrumentation & Control",
+        "Bachelor of Science in Control and Instrumentation",
+        "Bachelor of Science (Microprocessor Technology and Instrumentation)",
+        "Bachelor of Science (Food Nutrition and Dietetics)",
+        "Bachelor of Science (Human Nutrition and Dietetics)"
+      ]
+    },
+    {
+      "cluster_id": "5D",
+      "subject_1": "Bachelor of Science (Agricultural and Biosystems Engineering)",
+      "grade_1": "C+",
+      "subject_2": "Bachelor of Engineering (Agricultural & Bio-systems Engineering)",
+      "grade_2": "C+",
+      "subject_3": "Bachelor of Science in Agricultural and Biosystems Engineering",
+      "grade_3": "C+",
+      "subject_4": "Bachelor of Technology (Civil Engineering Technology)",
+      "grade_4": "C+",
+      "programs": [
+        "Bachelor of Science (Agricultural and Biosystems Engineering)",
+        "Bachelor of Engineering (Agricultural & Bio-systems Engineering)",
+        "Bachelor of Science in Agricultural and Biosystems Engineering",
+        "Bachelor of Technology (Civil Engineering Technology)",
+        "Bachelor of Science (Food Science and Nutrition)",
+        "Bachelor of Science in Food Science and Nutrition"
+      ]
+    },
+    {
+      "cluster_id": "5E",
+      "subject_1": "Bachelor of Technology in Electrical and Electronic Engineering",
+      "grade_1": "C+",
+      "subject_2": "Bachelor of Technology in Medical Engineering",
+      "grade_2": "C+",
+      "subject_3": "Bachelor of Industrial Technology",
+      "grade_3": "C+",
+      "subject_4": "Bachelor of Science (Renewable Energy and Technology)",
+      "grade_4": "C+",
+      "programs": [
+        "Bachelor of Technology in Electrical and Electronic Engineering",
+        "Bachelor of Technology in Medical Engineering",
+        "Bachelor of Industrial Technology",
+        "Bachelor of Science (Renewable Energy and Technology)"
+      ]
+    },
+    {
+      "cluster_id": "5F",
+      "subject_1": "Bachelor of Technology in Renewable Energy & Environmental Physics",
+      "grade_1": "C+",
+      "subject_2": "Bachelor of Technology (Chemical Engineering)",
+      "grade_2": "C+",
+      "subject_3": "Bachelor of Technology in Renewable Energy Technology",
+      "grade_3": "C+",
+      "subject_4": "Bachelor of Technology in Renewable Energy & Environmental Physics",
+      "grade_4": "C+",
+      "programs": [
+        "Bachelor of Technology in Renewable Energy & Environmental Physics",
+        "Bachelor of Technology (Chemical Engineering)",
+        "Bachelor of Technology in Renewable Energy Technology",
+        "Bachelor of Technology in Renewable Energy & Environmental Physics"
+      ]
+    },
+    {
+      "cluster_id": "6C",
+      "subject_1": "MAT ALTERNATIVE A",
+      "grade_1": "C+",
+      "subject_2": "BIO",
+      "grade_2": "C+",
+      "subject_3": "AGRIC",
+      "grade_3": "C+",
+      "subject_4": "BST",
+      "grade_4": "C+",
+      "programs": [
+        "Bachelor of Science (Agricultural Resource Management)"
+      ]
+    },
+    {
+      "cluster_id": "9C",
+      "subject_1": "MAT ALTERNATIVE A",
+      "grade_1": "C+",
+      "subject_2": "BIO",
+      "grade_2": "C+",
+      "subject_3": "CHE",
+      "grade_3": "C+",
+      "subject_4": "PHY",
+      "grade_4": "C+",
+      "programs": [
+        "Bachelor of Science (Physics)"
+      ]
+    },
+    {
+      "cluster_id": "9D",
+      "subject_1": "MAT ALTERNATIVE A",
+      "grade_1": "C+",
+      "subject_2": "BIO",
+      "grade_2": "C+",
+      "subject_3": "CHE",
+      "grade_3": "C+",
+      "subject_4": "PHY",
+      "grade_4": "C+",
+      "programs": [
+        "Bachelor of Science in Chemistry"
+      ]
+    },
+    {
+      "cluster_id": "1B",
+      "subject_1": "BIO/AGR",
+      "grade_1": "C+",
+      "subject_2": "CHE/GEO",
+      "grade_2": "C+",
+      "subject_3": "MATH A/PHY/GEO",
+      "grade_3": "PLAIN",
+      "programs": [
+        "Bachelor of Environmental Science"
+      ]
+    },
+    {
+      "cluster_id": "17A",
+      "subject_1": "FRE/GER",
+      "grade_1": "C+",
+      "subject_2": "ENG/KIS",
+      "grade_2": "C+",
+      "subject_3": "MAT ALTERNATIVE A/B or any GROUP II or any GROUP III",
+      "grade_3": "C+",
+      "subject_4": "A GROUP II or a GROUP III or any GROUP IV or 2nd GROUP V",
+      "programs": [
+        "Bachelor of Arts (Geography)"
+      ]
+    },
+    {
+      "cluster_id": "17B",
+      "subject_1": "FRE/GER",
+      "grade_1": "C+",
+      "subject_2": "ENG/KIS",
+      "grade_2": "C+",
+      "subject_3": "MAT ALTERNATIVE A/B or any GROUP II or any GROUP III",
+      "grade_3": "C+",
+      "subject_4": "A GROUP II or a GROUP III or any GROUP IV or 2nd GROUP V",
+      "programs": [
+        "Bachelor of Arts (French)"
+      ]
+    },
+    {
+      "cluster_id": "18A",
+      "subject_1": "MUS",
+      "grade_1": "C+",
+      "subject_2": "ENG/KIS",
+      "grade_2": "C+",
+      "subject_3": "MAT ALTERNATIVE A/B or any GROUP II or any GROUP III",
+      "grade_3": "C+",
+      "subject_4": "A GROUP II or a GROUP III or any GROUP IV or 2nd GROUP V",
+      "programs": [
+        "Bachelor of Arts (Music)"
+      ]
+    },
+    {
+      "cluster_id": "19A",
+      "subject_1": "ENG",
+      "grade_1": "C+",
+      "subject_2": "MAT ALTERNATIVE A/B or any GROUP II",
+      "grade_2": "C+",
+      "subject_3": "2nd GROUP II",
+      "grade_3": "C+",
+      "subject_4": "KIS or 3rd GROUP II or 2nd GROUP III or any GROUP IV or any GROUP V",
+      "programs": [
+        "Bachelor of Science with Education"
+      ]
+    },
+    {
+      "cluster_id": "19B",
+      "subject_1": "ENG/KIS/MAT ALTERNATIVE A/B/HAG/GEO/CRE/IRE/HRE/SSE/HSC/ARD/CMP/ANY GROUP 5",
+      "grade_1": "C+",
+      "subject_2": "ENG/KIS/MAT ALTERNATIVE A/B/HAG/GEO/CRE/IRE/HRE/SSE/HSC/ARD/CMP/ANY GROUP 5",
+      "grade_2": "C+",
+      "subject_3": "ANY GROUP 5",
+      "grade_3": "C+",
+      "subject_4": "ANY GROUP 5",
+      "programs": [
+        "Bachelor of Education (Science)"
+      ]
+    },
+    {
+      "cluster_id": "19C",
+      "subject_1": "MAT ALTERNATIVE A/B",
+      "grade_1": "C+",
+      "subject_2": "ENG/KIS",
+      "grade_2": "C+",
+      "subject_3": "GROUP II",
+      "grade_3": "C+",
+      "subject_4": "KIS or 3rd GROUP II or 2nd GROUP III or any GROUP IV or any GROUP V",
+      "programs": [
+        "Bachelor of Education (Arts)"
+      ]
+    }
+  ]
+}

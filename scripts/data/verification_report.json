@@ -1,0 +1,2368 @@
+{
+  "timestamp": "2026-01-16T21:17:16.597Z",
+  "source": "Kuccps Files\\DEGREE_PROGRAMMES_2025.pdf",
+  "totalPrograms": 2084,
+  "uniqueInstitutions": 69,
+  "localIssues": [
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KENYATTA UNIVERSITY\" vs \"JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KENYATTA UNIVERSITY\" vs \"KENYATTA UNIVERSITY - MAMA NGINA UNIVERSITY COLLEGE\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"SOUTH EASTERN KENYA UNIVERSITY\" vs \"MULTIMEDIA UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"SOUTH EASTERN KENYA UNIVERSITY\" vs \"TECHNICAL UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"SOUTH EASTERN KENYA UNIVERSITY\" vs \"CATHOLIC UNIVERSITY OF EASTERN AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"SOUTH EASTERN KENYA UNIVERSITY\" vs \"CO-OPERATIVE UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"SOUTH EASTERN KENYA UNIVERSITY\" vs \"MOUNT KENYA UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"SOUTH EASTERN KENYA UNIVERSITY\" vs \"UNIVERSITY OF EASTERN AFRICA, BARATON\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"SOUTH EASTERN KENYA UNIVERSITY\" vs \"KENYA METHODIST UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"SOUTH EASTERN KENYA UNIVERSITY\" vs \"KENYA HIGHLANDS EVANGELICAL UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"SOUTH EASTERN KENYA UNIVERSITY\" vs \"OPEN UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"SOUTH EASTERN KENYA UNIVERSITY\" vs \"KENYA ASSEMBLIES OF GOD EAST UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"SOUTH EASTERN KENYA UNIVERSITY\" vs \"ISLAMIC UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF NAIROBI\" vs \"MULTIMEDIA UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF NAIROBI\" vs \"TECHNICAL UNIVERSITY OF MOMBASA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF NAIROBI\" vs \"TECHNICAL UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF NAIROBI\" vs \"JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF NAIROBI\" vs \"CATHOLIC UNIVERSITY OF EASTERN AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF NAIROBI\" vs \"JARAMOGI OGINGA ODINGA UNIVERSITY OF SCIENCE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF NAIROBI\" vs \"UNIVERSITY OF KABIANGA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF NAIROBI\" vs \"MERU UNIVERSITY OF SCIENCE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF NAIROBI\" vs \"CO-OPERATIVE UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF NAIROBI\" vs \"UNIVERSITY OF EMBU\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF NAIROBI\" vs \"UNIVERSITY OF ELDORET\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF NAIROBI\" vs \"DEDAN KIMATHI UNIVERSITY OF TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF NAIROBI\" vs \"MURANG'A UNIVERSITY OF TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF NAIROBI\" vs \"MASINDE MULIRO UNIVERSITY OF SCIENCE & TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF NAIROBI\" vs \"UNIVERSITY OF EASTERN AFRICA, BARATON\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF NAIROBI\" vs \"KIRIRI WOMENS UNIVERSITY OF SCIENCE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF NAIROBI\" vs \"OPEN UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF NAIROBI\" vs \"PRESBYTERIAN UNIVERSITY OF EAST AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF NAIROBI\" vs \"GREAT LAKES UNIVERSITY OF KISUMU\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF NAIROBI\" vs \"MANAGEMENT UNIVERSITY OF AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF NAIROBI\" vs \"KENYA ASSEMBLIES OF GOD EAST UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF NAIROBI\" vs \"ISLAMIC UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"BOMET UNIVERSITY COLLEGE\" vs \"KOITALEEL SAMOEI UNIVERSITY COLLEGE\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"BOMET UNIVERSITY COLLEGE\" vs \"KENYATTA UNIVERSITY - MAMA NGINA UNIVERSITY COLLEGE\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"BOMET UNIVERSITY COLLEGE\" vs \"TURKANA UNIVERSITY COLLEGE\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"BOMET UNIVERSITY COLLEGE\" vs \"MARIST INTERNATIONAL UNIVERSITY COLLEGE\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KOITALEEL SAMOEI UNIVERSITY COLLEGE\" vs \"KENYATTA UNIVERSITY - MAMA NGINA UNIVERSITY COLLEGE\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KOITALEEL SAMOEI UNIVERSITY COLLEGE\" vs \"TURKANA UNIVERSITY COLLEGE\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KOITALEEL SAMOEI UNIVERSITY COLLEGE\" vs \"MARIST INTERNATIONAL UNIVERSITY COLLEGE\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MULTIMEDIA UNIVERSITY OF KENYA\" vs \"TECHNICAL UNIVERSITY OF MOMBASA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MULTIMEDIA UNIVERSITY OF KENYA\" vs \"TECHNICAL UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MULTIMEDIA UNIVERSITY OF KENYA\" vs \"JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MULTIMEDIA UNIVERSITY OF KENYA\" vs \"CATHOLIC UNIVERSITY OF EASTERN AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MULTIMEDIA UNIVERSITY OF KENYA\" vs \"JARAMOGI OGINGA ODINGA UNIVERSITY OF SCIENCE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MULTIMEDIA UNIVERSITY OF KENYA\" vs \"UNIVERSITY OF KABIANGA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MULTIMEDIA UNIVERSITY OF KENYA\" vs \"MERU UNIVERSITY OF SCIENCE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MULTIMEDIA UNIVERSITY OF KENYA\" vs \"CO-OPERATIVE UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MULTIMEDIA UNIVERSITY OF KENYA\" vs \"UNIVERSITY OF EMBU\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MULTIMEDIA UNIVERSITY OF KENYA\" vs \"UNIVERSITY OF ELDORET\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MULTIMEDIA UNIVERSITY OF KENYA\" vs \"DEDAN KIMATHI UNIVERSITY OF TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MULTIMEDIA UNIVERSITY OF KENYA\" vs \"MURANG'A UNIVERSITY OF TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MULTIMEDIA UNIVERSITY OF KENYA\" vs \"MOUNT KENYA UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MULTIMEDIA UNIVERSITY OF KENYA\" vs \"MASINDE MULIRO UNIVERSITY OF SCIENCE & TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MULTIMEDIA UNIVERSITY OF KENYA\" vs \"UNIVERSITY OF EASTERN AFRICA, BARATON\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MULTIMEDIA UNIVERSITY OF KENYA\" vs \"KIRIRI WOMENS UNIVERSITY OF SCIENCE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MULTIMEDIA UNIVERSITY OF KENYA\" vs \"KENYA METHODIST UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MULTIMEDIA UNIVERSITY OF KENYA\" vs \"KENYA HIGHLANDS EVANGELICAL UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MULTIMEDIA UNIVERSITY OF KENYA\" vs \"OPEN UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MULTIMEDIA UNIVERSITY OF KENYA\" vs \"PRESBYTERIAN UNIVERSITY OF EAST AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MULTIMEDIA UNIVERSITY OF KENYA\" vs \"GREAT LAKES UNIVERSITY OF KISUMU\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MULTIMEDIA UNIVERSITY OF KENYA\" vs \"MANAGEMENT UNIVERSITY OF AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MULTIMEDIA UNIVERSITY OF KENYA\" vs \"KENYA ASSEMBLIES OF GOD EAST UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MULTIMEDIA UNIVERSITY OF KENYA\" vs \"ISLAMIC UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF MOMBASA\" vs \"TECHNICAL UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF MOMBASA\" vs \"JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF MOMBASA\" vs \"CATHOLIC UNIVERSITY OF EASTERN AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF MOMBASA\" vs \"JARAMOGI OGINGA ODINGA UNIVERSITY OF SCIENCE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF MOMBASA\" vs \"UNIVERSITY OF KABIANGA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF MOMBASA\" vs \"MERU UNIVERSITY OF SCIENCE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF MOMBASA\" vs \"CO-OPERATIVE UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF MOMBASA\" vs \"UNIVERSITY OF EMBU\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF MOMBASA\" vs \"UNIVERSITY OF ELDORET\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF MOMBASA\" vs \"DEDAN KIMATHI UNIVERSITY OF TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF MOMBASA\" vs \"MURANG'A UNIVERSITY OF TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF MOMBASA\" vs \"MASINDE MULIRO UNIVERSITY OF SCIENCE & TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF MOMBASA\" vs \"UNIVERSITY OF EASTERN AFRICA, BARATON\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF MOMBASA\" vs \"KIRIRI WOMENS UNIVERSITY OF SCIENCE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF MOMBASA\" vs \"OPEN UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF MOMBASA\" vs \"PRESBYTERIAN UNIVERSITY OF EAST AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF MOMBASA\" vs \"GREAT LAKES UNIVERSITY OF KISUMU\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF MOMBASA\" vs \"MANAGEMENT UNIVERSITY OF AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF MOMBASA\" vs \"KENYA ASSEMBLIES OF GOD EAST UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF MOMBASA\" vs \"ISLAMIC UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF KENYA\" vs \"JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF KENYA\" vs \"CATHOLIC UNIVERSITY OF EASTERN AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF KENYA\" vs \"JARAMOGI OGINGA ODINGA UNIVERSITY OF SCIENCE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF KENYA\" vs \"UNIVERSITY OF KABIANGA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF KENYA\" vs \"MERU UNIVERSITY OF SCIENCE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF KENYA\" vs \"CO-OPERATIVE UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF KENYA\" vs \"UNIVERSITY OF EMBU\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF KENYA\" vs \"UNIVERSITY OF ELDORET\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF KENYA\" vs \"DEDAN KIMATHI UNIVERSITY OF TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF KENYA\" vs \"MURANG'A UNIVERSITY OF TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF KENYA\" vs \"MOUNT KENYA UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF KENYA\" vs \"MASINDE MULIRO UNIVERSITY OF SCIENCE & TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF KENYA\" vs \"UNIVERSITY OF EASTERN AFRICA, BARATON\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF KENYA\" vs \"KIRIRI WOMENS UNIVERSITY OF SCIENCE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF KENYA\" vs \"KENYA METHODIST UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF KENYA\" vs \"KENYA HIGHLANDS EVANGELICAL UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF KENYA\" vs \"OPEN UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF KENYA\" vs \"PRESBYTERIAN UNIVERSITY OF EAST AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF KENYA\" vs \"GREAT LAKES UNIVERSITY OF KISUMU\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF KENYA\" vs \"MANAGEMENT UNIVERSITY OF AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF KENYA\" vs \"KENYA ASSEMBLIES OF GOD EAST UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TECHNICAL UNIVERSITY OF KENYA\" vs \"ISLAMIC UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY\" vs \"CATHOLIC UNIVERSITY OF EASTERN AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY\" vs \"JARAMOGI OGINGA ODINGA UNIVERSITY OF SCIENCE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY\" vs \"UNIVERSITY OF KABIANGA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY\" vs \"MERU UNIVERSITY OF SCIENCE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY\" vs \"CO-OPERATIVE UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY\" vs \"UNIVERSITY OF EMBU\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY\" vs \"UNIVERSITY OF ELDORET\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY\" vs \"DEDAN KIMATHI UNIVERSITY OF TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY\" vs \"MURANG'A UNIVERSITY OF TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY\" vs \"MASINDE MULIRO UNIVERSITY OF SCIENCE & TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY\" vs \"UNIVERSITY OF EASTERN AFRICA, BARATON\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY\" vs \"KIRIRI WOMENS UNIVERSITY OF SCIENCE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY\" vs \"KENYATTA UNIVERSITY - MAMA NGINA UNIVERSITY COLLEGE\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY\" vs \"OPEN UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY\" vs \"PRESBYTERIAN UNIVERSITY OF EAST AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY\" vs \"GREAT LAKES UNIVERSITY OF KISUMU\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY\" vs \"MANAGEMENT UNIVERSITY OF AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY\" vs \"KENYA ASSEMBLIES OF GOD EAST UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY\" vs \"ISLAMIC UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CATHOLIC UNIVERSITY OF EASTERN AFRICA\" vs \"JARAMOGI OGINGA ODINGA UNIVERSITY OF SCIENCE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CATHOLIC UNIVERSITY OF EASTERN AFRICA\" vs \"UNIVERSITY OF KABIANGA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CATHOLIC UNIVERSITY OF EASTERN AFRICA\" vs \"MERU UNIVERSITY OF SCIENCE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CATHOLIC UNIVERSITY OF EASTERN AFRICA\" vs \"CO-OPERATIVE UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CATHOLIC UNIVERSITY OF EASTERN AFRICA\" vs \"UNIVERSITY OF EMBU\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CATHOLIC UNIVERSITY OF EASTERN AFRICA\" vs \"UNIVERSITY OF ELDORET\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CATHOLIC UNIVERSITY OF EASTERN AFRICA\" vs \"DEDAN KIMATHI UNIVERSITY OF TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CATHOLIC UNIVERSITY OF EASTERN AFRICA\" vs \"MURANG'A UNIVERSITY OF TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CATHOLIC UNIVERSITY OF EASTERN AFRICA\" vs \"MASINDE MULIRO UNIVERSITY OF SCIENCE & TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CATHOLIC UNIVERSITY OF EASTERN AFRICA\" vs \"UNIVERSITY OF EASTERN AFRICA, BARATON\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CATHOLIC UNIVERSITY OF EASTERN AFRICA\" vs \"KIRIRI WOMENS UNIVERSITY OF SCIENCE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CATHOLIC UNIVERSITY OF EASTERN AFRICA\" vs \"AFRICA NAZARENE UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CATHOLIC UNIVERSITY OF EASTERN AFRICA\" vs \"OPEN UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CATHOLIC UNIVERSITY OF EASTERN AFRICA\" vs \"PRESBYTERIAN UNIVERSITY OF EAST AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CATHOLIC UNIVERSITY OF EASTERN AFRICA\" vs \"GREAT LAKES UNIVERSITY OF KISUMU\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CATHOLIC UNIVERSITY OF EASTERN AFRICA\" vs \"MANAGEMENT UNIVERSITY OF AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CATHOLIC UNIVERSITY OF EASTERN AFRICA\" vs \"PAN AFRICA CHRISTIAN UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CATHOLIC UNIVERSITY OF EASTERN AFRICA\" vs \"AFRICA INTERNATIONAL UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CATHOLIC UNIVERSITY OF EASTERN AFRICA\" vs \"KENYA ASSEMBLIES OF GOD EAST UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CATHOLIC UNIVERSITY OF EASTERN AFRICA\" vs \"ISLAMIC UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JARAMOGI OGINGA ODINGA UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"UNIVERSITY OF KABIANGA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JARAMOGI OGINGA ODINGA UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"MERU UNIVERSITY OF SCIENCE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JARAMOGI OGINGA ODINGA UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"CO-OPERATIVE UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JARAMOGI OGINGA ODINGA UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"UNIVERSITY OF EMBU\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JARAMOGI OGINGA ODINGA UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"UNIVERSITY OF ELDORET\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JARAMOGI OGINGA ODINGA UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"DEDAN KIMATHI UNIVERSITY OF TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JARAMOGI OGINGA ODINGA UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"MURANG'A UNIVERSITY OF TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JARAMOGI OGINGA ODINGA UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"MASINDE MULIRO UNIVERSITY OF SCIENCE & TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JARAMOGI OGINGA ODINGA UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"UNIVERSITY OF EASTERN AFRICA, BARATON\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JARAMOGI OGINGA ODINGA UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"KIRIRI WOMENS UNIVERSITY OF SCIENCE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JARAMOGI OGINGA ODINGA UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"OPEN UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JARAMOGI OGINGA ODINGA UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"PRESBYTERIAN UNIVERSITY OF EAST AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JARAMOGI OGINGA ODINGA UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"GREAT LAKES UNIVERSITY OF KISUMU\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JARAMOGI OGINGA ODINGA UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"MANAGEMENT UNIVERSITY OF AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JARAMOGI OGINGA ODINGA UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"KENYA ASSEMBLIES OF GOD EAST UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"JARAMOGI OGINGA ODINGA UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"ISLAMIC UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF KABIANGA\" vs \"MERU UNIVERSITY OF SCIENCE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF KABIANGA\" vs \"CO-OPERATIVE UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF KABIANGA\" vs \"UNIVERSITY OF EMBU\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF KABIANGA\" vs \"UNIVERSITY OF ELDORET\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF KABIANGA\" vs \"DEDAN KIMATHI UNIVERSITY OF TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF KABIANGA\" vs \"MURANG'A UNIVERSITY OF TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF KABIANGA\" vs \"MASINDE MULIRO UNIVERSITY OF SCIENCE & TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF KABIANGA\" vs \"UNIVERSITY OF EASTERN AFRICA, BARATON\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF KABIANGA\" vs \"KIRIRI WOMENS UNIVERSITY OF SCIENCE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF KABIANGA\" vs \"OPEN UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF KABIANGA\" vs \"PRESBYTERIAN UNIVERSITY OF EAST AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF KABIANGA\" vs \"GREAT LAKES UNIVERSITY OF KISUMU\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF KABIANGA\" vs \"MANAGEMENT UNIVERSITY OF AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF KABIANGA\" vs \"KENYA ASSEMBLIES OF GOD EAST UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF KABIANGA\" vs \"ISLAMIC UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MERU UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"CO-OPERATIVE UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MERU UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"UNIVERSITY OF EMBU\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MERU UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"UNIVERSITY OF ELDORET\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MERU UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"DEDAN KIMATHI UNIVERSITY OF TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MERU UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"MURANG'A UNIVERSITY OF TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MERU UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"MASINDE MULIRO UNIVERSITY OF SCIENCE & TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MERU UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"UNIVERSITY OF EASTERN AFRICA, BARATON\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MERU UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"KIRIRI WOMENS UNIVERSITY OF SCIENCE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MERU UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"OPEN UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MERU UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"PRESBYTERIAN UNIVERSITY OF EAST AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MERU UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"GREAT LAKES UNIVERSITY OF KISUMU\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MERU UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"MANAGEMENT UNIVERSITY OF AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MERU UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"KENYA ASSEMBLIES OF GOD EAST UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MERU UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"ISLAMIC UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CO-OPERATIVE UNIVERSITY OF KENYA\" vs \"UNIVERSITY OF EMBU\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CO-OPERATIVE UNIVERSITY OF KENYA\" vs \"UNIVERSITY OF ELDORET\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CO-OPERATIVE UNIVERSITY OF KENYA\" vs \"DEDAN KIMATHI UNIVERSITY OF TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CO-OPERATIVE UNIVERSITY OF KENYA\" vs \"MURANG'A UNIVERSITY OF TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CO-OPERATIVE UNIVERSITY OF KENYA\" vs \"MOUNT KENYA UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CO-OPERATIVE UNIVERSITY OF KENYA\" vs \"MASINDE MULIRO UNIVERSITY OF SCIENCE & TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CO-OPERATIVE UNIVERSITY OF KENYA\" vs \"UNIVERSITY OF EASTERN AFRICA, BARATON\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CO-OPERATIVE UNIVERSITY OF KENYA\" vs \"KIRIRI WOMENS UNIVERSITY OF SCIENCE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CO-OPERATIVE UNIVERSITY OF KENYA\" vs \"KENYA METHODIST UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CO-OPERATIVE UNIVERSITY OF KENYA\" vs \"KENYA HIGHLANDS EVANGELICAL UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CO-OPERATIVE UNIVERSITY OF KENYA\" vs \"OPEN UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CO-OPERATIVE UNIVERSITY OF KENYA\" vs \"PRESBYTERIAN UNIVERSITY OF EAST AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CO-OPERATIVE UNIVERSITY OF KENYA\" vs \"GREAT LAKES UNIVERSITY OF KISUMU\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CO-OPERATIVE UNIVERSITY OF KENYA\" vs \"MANAGEMENT UNIVERSITY OF AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CO-OPERATIVE UNIVERSITY OF KENYA\" vs \"KENYA ASSEMBLIES OF GOD EAST UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"CO-OPERATIVE UNIVERSITY OF KENYA\" vs \"ISLAMIC UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF EMBU\" vs \"UNIVERSITY OF ELDORET\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF EMBU\" vs \"DEDAN KIMATHI UNIVERSITY OF TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF EMBU\" vs \"MURANG'A UNIVERSITY OF TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF EMBU\" vs \"MASINDE MULIRO UNIVERSITY OF SCIENCE & TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF EMBU\" vs \"UNIVERSITY OF EASTERN AFRICA, BARATON\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF EMBU\" vs \"KIRIRI WOMENS UNIVERSITY OF SCIENCE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF EMBU\" vs \"OPEN UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF EMBU\" vs \"PRESBYTERIAN UNIVERSITY OF EAST AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF EMBU\" vs \"GREAT LAKES UNIVERSITY OF KISUMU\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF EMBU\" vs \"MANAGEMENT UNIVERSITY OF AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF EMBU\" vs \"KENYA ASSEMBLIES OF GOD EAST UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF EMBU\" vs \"ISLAMIC UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF ELDORET\" vs \"DEDAN KIMATHI UNIVERSITY OF TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF ELDORET\" vs \"MURANG'A UNIVERSITY OF TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF ELDORET\" vs \"MASINDE MULIRO UNIVERSITY OF SCIENCE & TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF ELDORET\" vs \"UNIVERSITY OF EASTERN AFRICA, BARATON\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF ELDORET\" vs \"KIRIRI WOMENS UNIVERSITY OF SCIENCE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF ELDORET\" vs \"OPEN UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF ELDORET\" vs \"PRESBYTERIAN UNIVERSITY OF EAST AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF ELDORET\" vs \"GREAT LAKES UNIVERSITY OF KISUMU\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF ELDORET\" vs \"MANAGEMENT UNIVERSITY OF AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF ELDORET\" vs \"KENYA ASSEMBLIES OF GOD EAST UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF ELDORET\" vs \"ISLAMIC UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"DEDAN KIMATHI UNIVERSITY OF TECHNOLOGY\" vs \"MURANG'A UNIVERSITY OF TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"DEDAN KIMATHI UNIVERSITY OF TECHNOLOGY\" vs \"MASINDE MULIRO UNIVERSITY OF SCIENCE & TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"DEDAN KIMATHI UNIVERSITY OF TECHNOLOGY\" vs \"UNIVERSITY OF EASTERN AFRICA, BARATON\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"DEDAN KIMATHI UNIVERSITY OF TECHNOLOGY\" vs \"KIRIRI WOMENS UNIVERSITY OF SCIENCE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"DEDAN KIMATHI UNIVERSITY OF TECHNOLOGY\" vs \"OPEN UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"DEDAN KIMATHI UNIVERSITY OF TECHNOLOGY\" vs \"PRESBYTERIAN UNIVERSITY OF EAST AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"DEDAN KIMATHI UNIVERSITY OF TECHNOLOGY\" vs \"GREAT LAKES UNIVERSITY OF KISUMU\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"DEDAN KIMATHI UNIVERSITY OF TECHNOLOGY\" vs \"MANAGEMENT UNIVERSITY OF AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"DEDAN KIMATHI UNIVERSITY OF TECHNOLOGY\" vs \"KENYA ASSEMBLIES OF GOD EAST UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"DEDAN KIMATHI UNIVERSITY OF TECHNOLOGY\" vs \"ISLAMIC UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MURANG'A UNIVERSITY OF TECHNOLOGY\" vs \"MASINDE MULIRO UNIVERSITY OF SCIENCE & TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MURANG'A UNIVERSITY OF TECHNOLOGY\" vs \"UNIVERSITY OF EASTERN AFRICA, BARATON\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MURANG'A UNIVERSITY OF TECHNOLOGY\" vs \"KIRIRI WOMENS UNIVERSITY OF SCIENCE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MURANG'A UNIVERSITY OF TECHNOLOGY\" vs \"OPEN UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MURANG'A UNIVERSITY OF TECHNOLOGY\" vs \"PRESBYTERIAN UNIVERSITY OF EAST AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MURANG'A UNIVERSITY OF TECHNOLOGY\" vs \"GREAT LAKES UNIVERSITY OF KISUMU\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MURANG'A UNIVERSITY OF TECHNOLOGY\" vs \"MANAGEMENT UNIVERSITY OF AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MURANG'A UNIVERSITY OF TECHNOLOGY\" vs \"KENYA ASSEMBLIES OF GOD EAST UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MURANG'A UNIVERSITY OF TECHNOLOGY\" vs \"ISLAMIC UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MOUNT KENYA UNIVERSITY\" vs \"KENYA METHODIST UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MOUNT KENYA UNIVERSITY\" vs \"KENYA HIGHLANDS EVANGELICAL UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MOUNT KENYA UNIVERSITY\" vs \"OPEN UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MOUNT KENYA UNIVERSITY\" vs \"KENYA ASSEMBLIES OF GOD EAST UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MOUNT KENYA UNIVERSITY\" vs \"ISLAMIC UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MASINDE MULIRO UNIVERSITY OF SCIENCE & TECHNOLOGY\" vs \"UNIVERSITY OF EASTERN AFRICA, BARATON\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MASINDE MULIRO UNIVERSITY OF SCIENCE & TECHNOLOGY\" vs \"KIRIRI WOMENS UNIVERSITY OF SCIENCE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MASINDE MULIRO UNIVERSITY OF SCIENCE & TECHNOLOGY\" vs \"OPEN UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MASINDE MULIRO UNIVERSITY OF SCIENCE & TECHNOLOGY\" vs \"PRESBYTERIAN UNIVERSITY OF EAST AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MASINDE MULIRO UNIVERSITY OF SCIENCE & TECHNOLOGY\" vs \"GREAT LAKES UNIVERSITY OF KISUMU\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MASINDE MULIRO UNIVERSITY OF SCIENCE & TECHNOLOGY\" vs \"MANAGEMENT UNIVERSITY OF AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MASINDE MULIRO UNIVERSITY OF SCIENCE & TECHNOLOGY\" vs \"KENYA ASSEMBLIES OF GOD EAST UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MASINDE MULIRO UNIVERSITY OF SCIENCE & TECHNOLOGY\" vs \"ISLAMIC UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF EASTERN AFRICA, BARATON\" vs \"KIRIRI WOMENS UNIVERSITY OF SCIENCE AND TECHNOLOGY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF EASTERN AFRICA, BARATON\" vs \"OPEN UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF EASTERN AFRICA, BARATON\" vs \"PRESBYTERIAN UNIVERSITY OF EAST AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF EASTERN AFRICA, BARATON\" vs \"GREAT LAKES UNIVERSITY OF KISUMU\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF EASTERN AFRICA, BARATON\" vs \"MANAGEMENT UNIVERSITY OF AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF EASTERN AFRICA, BARATON\" vs \"KENYA ASSEMBLIES OF GOD EAST UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"UNIVERSITY OF EASTERN AFRICA, BARATON\" vs \"ISLAMIC UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KIRIRI WOMENS UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"OPEN UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KIRIRI WOMENS UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"PRESBYTERIAN UNIVERSITY OF EAST AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KIRIRI WOMENS UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"GREAT LAKES UNIVERSITY OF KISUMU\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KIRIRI WOMENS UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"MANAGEMENT UNIVERSITY OF AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KIRIRI WOMENS UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"KENYA ASSEMBLIES OF GOD EAST UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KIRIRI WOMENS UNIVERSITY OF SCIENCE AND TECHNOLOGY\" vs \"ISLAMIC UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KENYA METHODIST UNIVERSITY\" vs \"KENYA HIGHLANDS EVANGELICAL UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KENYA METHODIST UNIVERSITY\" vs \"OPEN UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KENYA METHODIST UNIVERSITY\" vs \"KENYA ASSEMBLIES OF GOD EAST UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KENYA METHODIST UNIVERSITY\" vs \"ISLAMIC UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"AFRICA NAZARENE UNIVERSITY\" vs \"PRESBYTERIAN UNIVERSITY OF EAST AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"AFRICA NAZARENE UNIVERSITY\" vs \"MANAGEMENT UNIVERSITY OF AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"AFRICA NAZARENE UNIVERSITY\" vs \"PAN AFRICA CHRISTIAN UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"AFRICA NAZARENE UNIVERSITY\" vs \"AFRICA INTERNATIONAL UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KENYA HIGHLANDS EVANGELICAL UNIVERSITY\" vs \"OPEN UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KENYA HIGHLANDS EVANGELICAL UNIVERSITY\" vs \"KENYA ASSEMBLIES OF GOD EAST UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KENYA HIGHLANDS EVANGELICAL UNIVERSITY\" vs \"ISLAMIC UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"THE EAST AFRICAN UNIVERSITY\" vs \"PRESBYTERIAN UNIVERSITY OF EAST AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"THE EAST AFRICAN UNIVERSITY\" vs \"KENYA ASSEMBLIES OF GOD EAST UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KENYATTA UNIVERSITY - MAMA NGINA UNIVERSITY COLLEGE\" vs \"ALUPE UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KENYATTA UNIVERSITY - MAMA NGINA UNIVERSITY COLLEGE\" vs \"OPEN UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KENYATTA UNIVERSITY - MAMA NGINA UNIVERSITY COLLEGE\" vs \"RIARA UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KENYATTA UNIVERSITY - MAMA NGINA UNIVERSITY COLLEGE\" vs \"GRETSA UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KENYATTA UNIVERSITY - MAMA NGINA UNIVERSITY COLLEGE\" vs \"ST PAULS UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KENYATTA UNIVERSITY - MAMA NGINA UNIVERSITY COLLEGE\" vs \"PRESBYTERIAN UNIVERSITY OF EAST AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KENYATTA UNIVERSITY - MAMA NGINA UNIVERSITY COLLEGE\" vs \"TURKANA UNIVERSITY COLLEGE\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KENYATTA UNIVERSITY - MAMA NGINA UNIVERSITY COLLEGE\" vs \"UZIMA UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KENYATTA UNIVERSITY - MAMA NGINA UNIVERSITY COLLEGE\" vs \"GREAT LAKES UNIVERSITY OF KISUMU\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KENYATTA UNIVERSITY - MAMA NGINA UNIVERSITY COLLEGE\" vs \"MANAGEMENT UNIVERSITY OF AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KENYATTA UNIVERSITY - MAMA NGINA UNIVERSITY COLLEGE\" vs \"PAN AFRICA CHRISTIAN UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KENYATTA UNIVERSITY - MAMA NGINA UNIVERSITY COLLEGE\" vs \"LUKENYA UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KENYATTA UNIVERSITY - MAMA NGINA UNIVERSITY COLLEGE\" vs \"SCOTT CHRISTIAN UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KENYATTA UNIVERSITY - MAMA NGINA UNIVERSITY COLLEGE\" vs \"AFRICA INTERNATIONAL UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KENYATTA UNIVERSITY - MAMA NGINA UNIVERSITY COLLEGE\" vs \"TANGAZA UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KENYATTA UNIVERSITY - MAMA NGINA UNIVERSITY COLLEGE\" vs \"KENYA ASSEMBLIES OF GOD EAST UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KENYATTA UNIVERSITY - MAMA NGINA UNIVERSITY COLLEGE\" vs \"MARIST INTERNATIONAL UNIVERSITY COLLEGE\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KENYATTA UNIVERSITY - MAMA NGINA UNIVERSITY COLLEGE\" vs \"ISLAMIC UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KENYATTA UNIVERSITY - MAMA NGINA UNIVERSITY COLLEGE\" vs \"INTERNATIONAL LEADERSHIP UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KENYATTA UNIVERSITY - MAMA NGINA UNIVERSITY COLLEGE\" vs \"AMREF INTERNATIONAL UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"OPEN UNIVERSITY OF KENYA\" vs \"PRESBYTERIAN UNIVERSITY OF EAST AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"OPEN UNIVERSITY OF KENYA\" vs \"GREAT LAKES UNIVERSITY OF KISUMU\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"OPEN UNIVERSITY OF KENYA\" vs \"MANAGEMENT UNIVERSITY OF AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"OPEN UNIVERSITY OF KENYA\" vs \"KENYA ASSEMBLIES OF GOD EAST UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"OPEN UNIVERSITY OF KENYA\" vs \"ISLAMIC UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"PRESBYTERIAN UNIVERSITY OF EAST AFRICA\" vs \"GREAT LAKES UNIVERSITY OF KISUMU\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"PRESBYTERIAN UNIVERSITY OF EAST AFRICA\" vs \"MANAGEMENT UNIVERSITY OF AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"PRESBYTERIAN UNIVERSITY OF EAST AFRICA\" vs \"PAN AFRICA CHRISTIAN UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"PRESBYTERIAN UNIVERSITY OF EAST AFRICA\" vs \"AFRICA INTERNATIONAL UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"PRESBYTERIAN UNIVERSITY OF EAST AFRICA\" vs \"KENYA ASSEMBLIES OF GOD EAST UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"PRESBYTERIAN UNIVERSITY OF EAST AFRICA\" vs \"ISLAMIC UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"TURKANA UNIVERSITY COLLEGE\" vs \"MARIST INTERNATIONAL UNIVERSITY COLLEGE\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"GREAT LAKES UNIVERSITY OF KISUMU\" vs \"MANAGEMENT UNIVERSITY OF AFRICA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"GREAT LAKES UNIVERSITY OF KISUMU\" vs \"KENYA ASSEMBLIES OF GOD EAST UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"GREAT LAKES UNIVERSITY OF KISUMU\" vs \"ISLAMIC UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MANAGEMENT UNIVERSITY OF AFRICA\" vs \"PAN AFRICA CHRISTIAN UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MANAGEMENT UNIVERSITY OF AFRICA\" vs \"AFRICA INTERNATIONAL UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MANAGEMENT UNIVERSITY OF AFRICA\" vs \"KENYA ASSEMBLIES OF GOD EAST UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MANAGEMENT UNIVERSITY OF AFRICA\" vs \"ISLAMIC UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"PAN AFRICA CHRISTIAN UNIVERSITY\" vs \"SCOTT CHRISTIAN UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"PAN AFRICA CHRISTIAN UNIVERSITY\" vs \"AFRICA INTERNATIONAL UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"AFRICA INTERNATIONAL UNIVERSITY\" vs \"MARIST INTERNATIONAL UNIVERSITY COLLEGE\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"AFRICA INTERNATIONAL UNIVERSITY\" vs \"INTERNATIONAL LEADERSHIP UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"AFRICA INTERNATIONAL UNIVERSITY\" vs \"AMREF INTERNATIONAL UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"KENYA ASSEMBLIES OF GOD EAST UNIVERSITY\" vs \"ISLAMIC UNIVERSITY OF KENYA\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MARIST INTERNATIONAL UNIVERSITY COLLEGE\" vs \"INTERNATIONAL LEADERSHIP UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"MARIST INTERNATIONAL UNIVERSITY COLLEGE\" vs \"AMREF INTERNATIONAL UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    },
+    {
+      "type": "inconsistent",
+      "field": "institution",
+      "value": "\"INTERNATIONAL LEADERSHIP UNIVERSITY\" vs \"AMREF INTERNATIONAL UNIVERSITY\"",
+      "suggestion": "These may be the same institution with different spellings",
+      "confidence": 0.6
+    }
+  ],
+  "aiReview": "AI review failed: OpenRouter API error: 429"
+}

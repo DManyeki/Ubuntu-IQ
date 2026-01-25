@@ -1,0 +1,511 @@
+{
+  "source": "Kuccps Files\\DEGREE_CLUSTER_DOCUMENT_2025_03 (1).xlsx",
+  "total_clusters": 20,
+  "clusters": [
+    {
+      "cluster_id": "1",
+      "subjects": {
+        "subject_1": "1A",
+        "grade_1": "",
+        "subject_2": "Subject 1 ENG/KIS",
+        "grade_2": "",
+        "subject_3": "Subject 2\nMAT ALTERNATIVE A/MAT ALTERNATIVE B/ANY GROUP II",
+        "grade_3": "",
+        "subject_4": "Subject 3\nAny GROUP III",
+        "grade_4": ""
+      },
+      "programs": [
+        "Bachelor of Laws (LL.B.)"
+      ]
+    },
+    {
+      "cluster_id": "2",
+      "subjects": {
+        "subject_1": "Subject 1 ENG/KIS ENG/KIS",
+        "grade_1": "",
+        "subject_2": "Subject 2\nMAT ALTERNATIVE A/B",
+        "grade_2": "",
+        "subject_3": "Subject 3\nAny GROUP II or any GROUP III",
+        "grade_3": "",
+        "subject_4": "Subject 4\nA GROUP II or a GROUP III or any GROUP IV or any GROUP V",
+        "grade_4": ""
+      },
+      "programs": [
+        "Bachelor in Business Administration  Bachelor in Business Administration, With IT Bachelor of Business and Office Management Bachelor of Business Management\nBachelor of Business Management (Marine Business Management)\nBachelor of Business Management (Civil Aviation Management) Bachelor of Arts (Business Studies, With IT)\nBachelor of Science (Records Management and Information Technology) Bachelor of Co-operative Management\nBachelor of Co-operative Business\nBachelor of Co-operative and Community Development Bachelor of Secretarial Management and Administration Bachelor of Technology (Office Administration and Technology) Bachelor of Commerce\nBachelor of Entrepreneurship\nBachelor of Entrepreneurship & Small Business Management Bachelor of Entrepreneurship and Small Business\nBachelor of Science (Entrepreneurship and Small Enterprises Management) Bachelor of Science (Entrepreneurship)\nBachelor of Science (Entrepreneurship Studies) Bachelor of Science in Entrepreneurship\nBachelor of Procurement and Contract Management Bachelor of Procurement and Supply Chain Management Bachelor of Purchasing & Supplies Management Bachelor of Supply Chain Management\nBachelor of Logistics and Supply Chain Management Bachelor of Procurement and Logistics Management Bachelor of Purchasing and Supplies Management Bachelor of Science (Management Science) Bachelor of Science in Strategic Management Bachelor of Science (Strategic Management)\nBachelor of Science In International Business Management Bachelor of Science in Marketing With IT\nBachelor of Science In Co-operative and Entreprenuership Management",
+        "Bachelor of Library & Information Science Bachelor of Library and Information Studies Bachelor of Science in Information Sciences Bachelor of Business Information and Management\nBachelor of Science (Information Sciences and Knowledge Management)\nBachelor of Science (Information Studies) Bachelor of Science in Information Science Bachelor of Science (Innovation Technology Management)\nBachelor of Business Information Technology\nBachelor of Science (Business Information Systems)\nBachelor of Technology (Business Information Technology)",
+        "Bachelor of Project Planning and Management Bachelor of Science (Project Planning Management)\nBachelor of Science in Project Management Bachelor of Human Resources Management\nBachelor of Science (Human Resource Management) Bachelor of Human Resource Management\nBachelor of Science in Human Resource Management, With IT",
+        "Bachelor of Hotel & Hospitality Management Bachelor of Hotel Management\nBachelor of Hotels and Hospitality Management Bachelor of Catering & Hospitality Management\nBachelor of Science (Ecotourism & Hospitality Management) Bachelor of Science in Ecotourism\nBachelor of Eco-tourism and Hospitality Management\nBachelor of Science (Eco-tourism, Hotel and Institution Management, With IT)",
+        "Bachelor of Science (Hospitality & Tourism Management) Bachelor of Science (Hospitality Management)\nBachelor of Sustainable Tourism & Hospitality Management Bachelor of Tourism & Hotel Management\nBachelor of Travel & Tours Operations Management Bachelor of Science in Travel and Tourism Management\nBachelor of Catering & Hotel Management Bachelor of Hotel and Hospitality Management Bachelor of International Tourism Management\nBachelor of Science (Hospitality and Tourism Management) Bachelor of Science (Tourism Management)\nBachelor of Science in Hospitality Management\nBachelor of Technology (Institutional Catering and Accommodation) Bachelor of Technology in Hotel & Hospitality Management Bachelor of Tourism Management\nBachelor of Travel and Tours Operations Management Bachelor of Science (Food Operations Management)\nBachelor of Science in Food Service and Hospitality Management\nBachelor of Science (Food Service and Hospitality Management)"
+      ]
+    },
+    {
+      "cluster_id": "3",
+      "subjects": {
+        "subject_1": "Subject 1 ENG/KIS",
+        "grade_1": "",
+        "subject_2": "Subject 2\nMAT ALTERNATIVE A/B or any GROUP II",
+        "grade_2": "",
+        "subject_3": "Subject 3 Any GROUP",
+        "grade_3": "",
+        "subject_4": "III",
+        "grade_4": ""
+      },
+      "programs": [
+        "Bachelor of Applied Communication",
+        "Bachelor of Science (Communication and Public Relations)",
+        "Bachelor of Arts (Applied Linguistics)",
+        "Bachelor of Science (Communication & Journalism)",
+        "Bachelor of Arts (Communication & Media)",
+        "Bachelor of Science (Comm. & Public Relations)",
+        "Bachelor of Arts (Drama and Theatre Studies, With IT)",
+        "Bachelor of Communication & Public Relations",
+        "Bachelor of Arts (International Relations and Diplomacy ,With IT)",
+        "Bachelor of Communication and Public Relations",
+        "Bachelor of Arts (International Relations and Diplomacy)",
+        "Bachelor of Science (Communication and Journalism)",
+        "Bachelor of Arts in Government and International Relations",
+        "Bachelor of Arts (Communication & Media",
+        "Bachelor of Arts in International Relations",
+        "Bachelor of Arts (Communication and Media)",
+        "Bachelor of Arts (Language and Communication, With IT)",
+        "Bachelor of Broadcast Journalism",
+        "Bachelor of Arts (Linguistics, Media and Communication)",
+        "Bachelor of",
+        "Bachelor of Arts (Linguistic)",
+        "Bachelor of Journalism and Mass Communication",
+        "Bachelor of Arts (Literature, With IT)",
+        "Bachelor of Corporate Communication and",
+        "Bachelor of Arts (Literature)",
+        "Bachelor of Science (Corporate Communication",
+        "Bachelor of Arts in Linguistics and Literature",
+        "Bachelor of Science (Media Science)",
+        "Bachelor of Arts (Theatre Arts & Film Technology)",
+        "Bachelor of Technology (Journalism and Mass Communication)",
+        "Bachelor of Arts (Translation and Interpretation)",
+        "Bachelor of Film Animation",
+        "Bachelor of Communication & Journalism",
+        "Bachelor of Film Production and Animation",
+        "Bachelor of Communication and Media Studies",
+        "Bachelor of Arts in Mass Communication",
+        "Bachelor of Journalism & Mass Communication",
+        "Bachelor of Science in Mass Communication",
+        "Bachelor of Arts in Communication and Journalism",
+        "Bachelor of Mass Communication",
+        "Bachelor of Arts in Communication Studies",
+        "Bachelor of Arts (English & Communication)",
+        "Bachelor of Arts (Kiswahili and Communication)",
+        "Bachelor of Arts (With IT)",
+        "Bachelor of Psychology (With IT)",
+        "Bachelor of Arts",
+        "Bachelor of Science (Counselling Psychology)",
+        "Bachelor of Arts (Anthropology)",
+        "Bachelor of Arts (Counselling Psychology)",
+        "Bachelor of Arts (Philosophy)",
+        "Bachelor of Arts (Psychology)",
+        "Bachelor of Arts in Philosophy",
+        "Bachelor of Arts in Counselling Psychology",
+        "Bachelor of Arts (Philosophy, With IT)",
+        "Bachelor of",
+        "Bachelor of Science (Event and Convention Management)",
+        "Bachelor of Arts (Sociology and Social Work)",
+        "Bachelor of Arts (Political Science, With IT)",
+        "Bachelor of Arts in Sociology",
+        "Bachelor of Arts (Criminology & Security Studies)",
+        "Bachelor of Arts (Social Work)",
+        "Bachelor of Arts in Criminology and Security Studies)",
+        "Bachelor of",
+        "Bachelor of Arts (Criminology and Security Studies) Bachelor of Arts (Penology, Correction and Administration)\nBachelor of Arts in Criminology, Criminal Justice and Public Safety\nBachelor of Conflict Resolution and Humanitarian Assistance\nBachelor of Arts (Criminology and Penology)\nBachelor of Science in Public Administration and Leadership Bachelor of Science in Medical Social Work\nBachelor of Arts (Criminology, With IT) Bachelor of Arts (Peace Education Bachelor of Criminology\nBachelor of Science (Criminology and Security Studies) Bachelor of Arts (Development Studies\nBachelor of Arts (Development Studies, With IT) Bachelor of Arts (Gender and Development Studies) Bachelor of Arts (Gender Studies, With IT)\nBachelor of Arts (Gender and Development) Bachelor of Arts (Gender)\nBachelor of Science (Public Management and Development) Bachelor of Public Management and Development\nBachelor of Science in Development Studies\nBachelor of Arts (Developmental and Policy Studies) Bachelor of Arts in Management\nBachelor of Arts in Leadership and Philosophy",
+        "Bachelor of Arts (Social Work)\nBachelor of Social Work and Administration Bachelor of Arts (Sociology and Anthropology, With IT)\nBachelor of Arts (Sociology)\nBachelor of Science in Sociology\nBachelor of Science (Disaster Mitigation and Sustainable Development)\nBachelor of Science (Disaster Risk Management and Sustainable Development)\nBachelor of Arts (Disaster Management, With IT)\nBachelor of Disaster Management & International Diplomacy\nBachelor of Arts in Community Development\nBachelor of Science (Disaster Preparedness and Environment Technology)\nBachelor of Arts (Peace and Conflict Studies)\nBachelor of Arts Community Development Bachelor of Community Development Bachelor of Development Studies Bachelor of Arts in Development Studies\nBachelor of Science (Community Development) Bachelor of Science in Community Development\nBachelor of Science (Community Development and Environment)\nBachelor of Community Development and Environment\nBachelor of Science (Community Resource Management)\nBachelor of Science in Community Resource Management\nBachelor of Arts (Political Science)",
+        "Bachelor of Arts in Child Care and Protection",
+        "Bachelor of Arts (Fine Art, With IT) Bachelor of Arts (Fine Arts)\nBachelor of Science in Gaming and Animation Technology",
+        "Bachelor of Science (Graphic, Communication and Advertising) Bachelor of Science (Graphic, Comm. & Advertising)"
+      ]
+    },
+    {
+      "cluster_id": "4",
+      "subjects": {
+        "subject_1": "Subject 1\nMAT ALTERNATIVE A",
+        "grade_1": "",
+        "subject_2": "Subject 2 PHY",
+        "grade_2": "",
+        "subject_3": "Subject 3 BIO/CHE/GEO",
+        "grade_3": "",
+        "subject_4": "Subject 4\nA GROUP II or any GROUP III or any GROUP IV or any GROUP V",
+        "grade_4": ""
+      },
+      "programs": [
+        "Bachelor of Science (Geomatic & Geospatial Information Systems) Bachelor of Science (Geospatial Information Science and Remote Sensing) Bachelor of Science (Geospatial Information Science, With IT)\nBachelor of Technology (Geoinformation Technology) Bachelor of Science (Geospatial Engineering) Bachelor of Engineering (Geospatial Engineering)",
+        "Bachelor of Applied Science (Geo-informatics)\nBachelor of Science (Geomatic Engineering and Geospatial Information Systems) Bachelor of Technology (Geospatial Engineering Technology)\nBachelor of Science (Geospatial Information Science) Bachelor of Science in Geospatial Information Science Bachelor of Science (Spatial Management)\nBachelor of Science in Geomatic Engineering and Geospatial Information Systems",
+        "Bachelor of Science (Geophysical and Mineralogy) Bachelor of Science (Meteorology)\nBachelor of Science (Astronomy and Astrophysics) Bachelor of Science in Mining Physics (Geophysics)",
+        "Bachelor of Science (Earth Science, With IT) Bachelor of Science (Geology)\nBachelor of Science (Geophysics) Bachelor of Science in Geophysics\nBachelor of Science (Hydrology and Water Resources Management)"
+      ]
+    },
+    {
+      "cluster_id": "5",
+      "subjects": {
+        "subject_1": "Subject 1\nMAT ALTERNATIVE A",
+        "grade_1": "",
+        "subject_2": "Subject 2 PHY",
+        "grade_2": "",
+        "subject_3": "Subject 3 CHE",
+        "grade_3": "",
+        "subject_4": "Subject 4\nSubject 4 BIO or any GROUP III or any GROUP IV or any GROUP V",
+        "grade_4": ""
+      },
+      "programs": [
+        "Bachelor of Engineering (Aeronautical Engineering) Bachelor of Engineering (Chemical and Process Engineering) Bachelor of Engineering (Civil & Structural Engineering)",
+        "Bachelor of Science (Civil and Structural Engineering) Bachelor of Science in Civil Engineering\nBachelor of Science (Civil Engineering)",
+        "Bachelor of Engineering (Civil and Structural Engineering) Bachelor of Engineering (Civil Engineering)\nBachelor of Engineering (Electrical and Electronics Engineering)\nBachelor of Engineering (Electrical and Electronic Engineering)\nBachelor of Engineering (Electrical and Telecommunication Engineering)\nBachelor of Engineering (Mechanical & Production Engineering)\nBachelor of Engineering (Mechanical and Production Engineering)\nBachelor of Engineering (Mechanical Engineering) Bachelor of Engineering (Industrial and Textile Engineering)\nBachelor of Science (Mechatronic Engineering)\nBachelor of Science in Electrical and Electronics Engineering Bachelor of Science (Electrical & Electronics Engineering) Bachelor of Science in Water and Environmental Engineering Bachelor of Science (Agricultural Engineering)\nBachelor of Science (Telecommunication and Information Engineering)",
+        "Bachelor of Science (Electrical and Communication Engineering) Bachelor of Science (Electronic and Computer Engineering) Bachelor of Science in Electronic and Computer Engineering\nBachelor of Science (Mechanical and Industrial Engineering) Bachelor of Science (Mechanical & Manufacturing Engineering) Bachelor of Science in Mechanical Engineering\nBachelor of Science (Mechanical Engineering)\nBachelor of Engineering (Industrial and Textile Engineering) Bachelor of Science (Electrical and Electronic Engineering)\nBachelor of Science (Aerospace Engineering) Bachelor of Engineering (Chemical Engineering) Bachelor of Science (Marine Engineering) Bachelor of Science in Marine Engineering Bachelor of Science (Petroleum Engineering)\nBahelor of Science in Mining and Mineral Process Engineering",
+        "Bachelor of Science in Telecommunication and Information Engineering",
+        "Bachelor of Science (Analytical Chemistry With Management) Bachelor of Science in Analytical Chemistry\nBachelor of Science (Analytical Chemistry)\nBachelor of Science in Analytical Chemistry With Computing\nBachelor of Science Chemistry (Inorganic, Physical and Organic Options) Bachelor of Technology in Applied Chemistry (Analytical & Industrial Options)",
+        "Bachelor of Science (Industrial Chemistry With Management) Bachelor of Science (Industrial Chemistry, With IT)\nBachelor of Science in Industrial Chemistry Bachelor of Science (Industrial Chemistry) Bachelor of Science (Petroleum Chemistry)\nBachelor of Technology (Industrial and Applied Chemistry)",
+        "Bachelor of Science (Control and Instrumentation) Bachelor of Science Instrumentation & Control Bachelor of Science in Control and Instrumentation\nBachelor of Science (Microprocessor Technology and Instrumentation) Bachelor of Science (Instrumentation & Control Engineering)  Bachelor of Science (Telecommunication & Information Technology) Bachelor of Science (Manufacturing Engineering & Technology) Bachelor of Science (Applied Optics and Lasers)\nBachelor of Science (Electronics) Bachelor of Science Engineering Physics\nBachelor of Science in Engineering Physics Bachelor of Science (Applied Bioengineering) Bachelor of Science in Applied Bioengineering Bachelor of Science (Biomedical Engineering)",
+        "Bachelor of Science (Renewable Energy and Environmental Physics) Bachelor of Science in Renewable Energy and Environmental Physics Bachelor of Science (Renewable Energy)\nBachelor of Science (Renewable Energy Technology and Management) Bachelor of Science (Renewable Energy and Bio-fuels Technology) Bachelor of Science (Renewable Energy and Biofuels Technology) Bachelor of Science (Energy Technology)",
+        "Bachelor of Science (Agricultural and Biosystems Engineering) Bachelor of Engineering (Agricultural & Bio-systems Engineering) Bachelor of Science (Agricultural & Bio-systems Engineering) Bachelor of Science in Agricultural and Biosystems Engineering",
+        "Bachelor of Technology (Civil Engineering Technology) Bachelor of Technology in Electrical and Electronic Engineering",
+        "Bachelor of Technology in Medical Engineering Bachelor of Industrial Technology\nBachelor of Science (Renewable Energy and Technology) Bachelor of Science in Renewable Energy and Technology\nBachelor of Technology in Renewable Energy & Environmental Physics Bachelor of Technology (Chemical Engineering)",
+        "Bachelor of Education in Technology (Civil Engineering) Bachelor of Education in Technology (Mechanical Engineering)\nBachelor of Education in Technology (Electrical & Electronics Engineering)",
+        "Bachelor of Education Technical and Vocational Education\nBachelor of Education (Technology)\nBachelor of Education (Technology Education)"
+      ]
+    },
+    {
+      "cluster_id": "6",
+      "subjects": {
+        "subject_1": "Subject 1\nMAT ALTERNATIVE A",
+        "grade_1": "",
+        "subject_2": "Subject 2 PHY",
+        "grade_2": "",
+        "subject_3": "Subject 3\nAny GROUP III",
+        "grade_3": "",
+        "subject_4": "Subject 4\n2nd GROUP II or 2nd GROUP III or any GROUP IV or any GROUP V",
+        "grade_4": ""
+      },
+      "programs": [
+        "Bachelor of Architectural Studies/Bachelor of Architecture Bachelor of Architecture\nBachelor of Architectural Technology Bachelor of Landscape Architecture",
+        "Bachelor of Quantity Surveying\nBachelor of Science (Quantity Surveying)",
+        "Bachelor of Arts (Planning) Bachelor of Arts (Spatial Planning) Bachelor of Arts (Design)\nBachelor of Technology (Design)\nBachelor of Technology (Building Construction)",
+        "Bachelor of Construction Management\nBachelor of Science (Construction Management)\nBachelor of The Built Environment (Construction Management) Bachelor of The Built Environment (Urban and Regional Planning) Bachelor of Arts (Urban and Regional Planning, With IT)\nBachelor of Science (Urban Design and Development)",
+        "Bachelor of Real Estate\nBachelor of Science (Real Estate)\nBachelor of Technology (Real Estate and Property Management) Bachelor of Science (Land Administration)"
+      ]
+    },
+    {
+      "cluster_id": "7",
+      "subjects": {
+        "subject_1": "Subject 1\nMAT ALTERNATIVE A",
+        "grade_1": "",
+        "subject_2": "Subject 2 PHY",
+        "grade_2": "",
+        "subject_3": "Subject 3\n2nd GROUP II or any GROUP III",
+        "grade_3": "",
+        "subject_4": "Subject 4\nA GROUP II or a GROUP III or any GROUP IV or any GROUP V",
+        "grade_4": ""
+      },
+      "programs": [
+        "Bachelor of Science (Computer Science) Bachelor of Science in Computer Science Bachelor of Science (Applied Computer Science) Bachelor of Science in Applied Computer Science\nBachelor of Science in Applied Physics and Computer Science Bachelor of Science in Software Engineering\nBachelor of Science (Computer Technology) Bachelor of Science in Computer Technology Bachelor of Technology (Computer Technology)\nBachelor of Science in Computer Information Systems",
+        "Bachelor of Science (Mathematics & Computer Science) Bachelor of Science (Mathematics and Computer Science) Bachelor of Science in Mathematics & Computer Science Bachelor of Science (Maths and Computer Science) Bachelor of Science in Mathematics and Computer Science Bachelor of Science in Statistics & Computer Science\nBachelor of Technology (Communication and Computer Networks) Bachelor of Applied Computer Science\nBachelor of Science (Computer Security and Forensics) Bachelor of Science in Computer Security and Forensics",
+        "Bachelor of Science (Applied Statistics With Computing) Bachelor of Science in Applied Statistics With Computing Bachelor of Science (Mathematics and Computing) Bachelor of Science (Statistics & Programming)\nBachelor of Science (Applied Statistics With Programming) Bachelor of Science in Statistics and Programming Bachelor of Science (Informatics and Mathematics) Bachelor of Science (Business Computing)\nBachelor of Science in Business Computing Bachelor of Science in Informatics Bachelor of Science (Informatics)\nBachelor of Science (Biometry and Informatics)\nBachelor of Science Statistics and Information Technology",
+        "Bachelor of Information Technology\nBachelor of Science (Information Technology) Bachelor of Science in Information Technology Bachelor of Technology (Information Technology) Bachelor of Technology in Information Technology Bachelor of Science (Information and Communication Technology)\nBachelor of Technology in Information & Communication\nTechnology"
+      ]
+    },
+    {
+      "cluster_id": "8",
+      "subjects": {
+        "subject_1": "Subject 1\nMAT ALTERNATIVE A",
+        "grade_1": "",
+        "subject_2": "Subject 2 BIO",
+        "grade_2": "",
+        "subject_3": "Subject 3 PHY or CHE",
+        "grade_3": "",
+        "subject_4": "Subject 4\n3rd GROUP II or any GROUP III or any GROUP IV or any GROUP V",
+        "grade_4": ""
+      },
+      "programs": [
+        "Bachelor of Science (Agribusiness) Bachelor of Agribusiness Management\nBachelor of Science (Agribusiness Management) Bachelor of Science Agribusiness Management\nBachelor of Science (Agricultural Resource Management)",
+        "Bachelor Bachelor Bachelor Bachelor Bachelor",
+        "Bachelor of Science in Agribusiness Management and Marketing\nBachelor of Science in Agribusiness Management\nBachelor of Science in Agricultural Resource Economics and Management",
+        "Bachelor\nBachelor Bachelor",
+        "Bachelor of Science Agribusiness Management and Enterprise Development\nBachelor of Science (Agribusiness Management) Bachelor of Science (Agri Business Management) Bachelor of Science (Agribusiness Management & Trade)",
+        "Bachelor\nBachelor Bachelor",
+        "Bachelor of Science in Agribusiness Management and Trade",
+        "Bachelor of Science (Agribusiness Management, With IT)"
+      ]
+    },
+    {
+      "cluster_id": "9",
+      "subjects": {
+        "subject_1": "Subject 1\nMAT ALTERNATIVE A",
+        "grade_1": "",
+        "subject_2": "Subject 2 any GROUP II",
+        "grade_2": "",
+        "subject_3": "Subject 3 2nd GROUP II",
+        "grade_3": "",
+        "subject_4": "Subject 4\n3rd GROUP II or any GROUP III or any GROUP IV or any GROUP V",
+        "grade_4": ""
+      },
+      "programs": [
+        "Bachelor of Science",
+        "Bachelor of Science (Basic Science, With IT)",
+        "Bachelor of Science (B.sc)",
+        "Bachelor of Science in Biology",
+        "Bachelor",
+        "Bachelor of Science (Biological Sciences)",
+        "Bachelor",
+        "Bachelor of Science (Applied Biology)",
+        "Bachelor",
+        "Bachelor of Science in Applied Biology",
+        "Bachelor",
+        "Bachelor of Technology (Applied Biology)",
+        "Bachelor",
+        "Bachelor of Science (Microbiology and Biotechnology)",
+        "Bachelor",
+        "Bachelor of Science in Microbiology and Biotechnology",
+        "Bachelor",
+        "Bachelor of Science in Microbiology",
+        "Bachelor",
+        "Bachelor of Science (Microbiology)",
+        "Bachelor",
+        "Bachelor of Science in Biology (Botany or Zoology Option)",
+        "Bachelor",
+        "Bachelor of Science Industrial Biotechnology",
+        "Bachelor",
+        "Bachelor of Technology (Biotechnology)",
+        "Bachelor",
+        "Bachelor of Technology in Industrial Microbiology & Biotechnology",
+        "Bachelor",
+        "Bachelor of Science in Biotechnology and Biosafety",
+        "Bachelor",
+        "Bachelor of Science (Forensic Science)",
+        "Bachelor",
+        "Bachelor of Science in Biosciences",
+        "Bachelor",
+        "Bachelor of Science in Medical Microbiology",
+        "Bachelor",
+        "Bachelor of Science (Medical Biochemistry)",
+        "Bachelor of Science in Medical Biochemistry",
+        "Bachelor of Science (Physics)",
+        "Bachelor of Science in Physics",
+        "Bachelor of Science (Physics, With IT)",
+        "Bachelor of Technology (Technical and Applied Physics)",
+        "Bachelor of Technology in Applied Physics (Electronics & Instrumentation",
+        "Bachelor of Science (Chemistry)",
+        "Bachelor of Science in Chemistry",
+        "Bachelor of Science (Environmental Chemistry)"
+      ]
+    },
+    {
+      "cluster_id": "10",
+      "subjects": {
+        "subject_1": "Subject 1\nMAT ALTERNATIVE A",
+        "grade_1": "",
+        "subject_2": "Subject 2 Any GROUP II",
+        "grade_2": "",
+        "subject_3": "Subject 3\nAny GROUP III",
+        "grade_3": "",
+        "subject_4": "Subject 4\n2nd GROUP II or 2nd GROUP III or a GROUP IV or any GROUP V",
+        "grade_4": ""
+      },
+      "programs": [
+        "Bachelor of Science (Accountancy)",
+        "Bachelor of Economics",
+        "Bachelor of Arts (Economics & Sociology)",
+        "Bachelor of Science in Economics\nBachelor of Science in Economics & Statistics Bachelor of Economics & Statistics\nBachelor of Economics and Statistics\nBachelor of Science (Economics and Statistics) Bachelor of Science (Economics & Statistics) Bachelor of Science (Mathematics and Economics) Bachelor of Science in Mathematics and Economics\nBachelor of Science (Mathematics & Business Studies, With IT) Bachelor of Economics & Finance\nBachelor of Economics (Economics & Finance, With IT) Bachelor of Economics and Finance\nBachelor of Science in Finance\nBachelor of Science (Finance)",
+        "Bachelor of Arts (Economics and Sociology) Bachelor of Arts in Economics and Sociology Bachelor of Arts (Economics)\nBachelor of Arts in Economics Bachelor of Arts (Economics, With IT) Bachelor of Arts (History & Economics)\nBachelor of Arts (History and Economics) Bachelor of Science (Financial Engineering)\nBachelor of Science in Mathematics and Finance and Statistics) Bachelor of Science (Mathematics & Economics, With IT Bachelor of Science in Financial Economics\nBachelor of Science in Mathematics and Finance Bachelor of Science (Operations Research)",
+        "Bachelor of Actuarial Science\nBachelor of Science in Actuarial Science Bachelor of Science (Actuarial Science) Bachelor of Science (Actuarial Science With IT) Bachelor of Science (Financial Engineering) Bachelor of Science (Applied Statistics, With IT) Bachelor of Science (Applied Statistics) Bachelor of Science in Applied Statistics\nBachelor of Technology (Applied Statistics)",
+        "Bachelor of Bachelor of Bachelor of Bachelor of Bachelor of Bachelor of Bachelor of Bachelor of\nBachelor of",
+        "Bachelor of Science (Statistics)",
+        "Bachelor of Arts (History and Economics)"
+      ]
+    },
+    {
+      "cluster_id": "11",
+      "subjects": {
+        "subject_1": "Subject 1 CHE",
+        "grade_1": "",
+        "subject_2": "Subject 2\nMAT ALTERNATIVE A/B or PHY",
+        "grade_2": "",
+        "subject_3": "Subject 3 BIO/HSC",
+        "grade_3": "",
+        "subject_4": "Subject 4\nENG/KIS or any GROUP III or a GROUP IV or any GROUP V",
+        "grade_4": ""
+      },
+      "programs": [
+        "Bachelor of Arts (Interior Design, With IT)\nBachelor of Science (Apparel & Fashion Technology) Bachelor of Science (Fashion Design & Marketing) Bachelor of Science in Fashion Design and Marketing",
+        "Bachelor of Bachelor of Bachelor of"
+      ]
+    },
+    {
+      "cluster_id": "12",
+      "subjects": {
+        "subject_1": "Subject 1 BIO/GSC",
+        "grade_1": "",
+        "subject_2": "Subject 2\nMAT ALTERNATIVE A/B",
+        "grade_2": "",
+        "subject_3": "Subject 3 Any GROUP",
+        "grade_3": "",
+        "subject_4": "II or any GROUP III",
+        "grade_4": ""
+      },
+      "programs": [
+        "Bachelor of Science (Health Promotion and Sports Science) Bachelor of Science (Exercise & Sport Science)\nBachelor of Science (Recreation and Sports Management) Bachelor of Sports Science & Management\nBachelor of Sports Management"
+      ]
+    },
+    {
+      "cluster_id": "13",
+      "subjects": {
+        "subject_1": "Subject 1 BIO",
+        "grade_1": "",
+        "subject_2": "Subject 2 CHE",
+        "grade_2": "",
+        "subject_3": "Subject 3\nMAT ALTERNATIVE A/PHY",
+        "grade_3": "",
+        "subject_4": "Subject 4\nENG/KIS or 3rd GROUP II or any GROUP III or any GROUP IV or any GROUP V",
+        "grade_4": ""
+      },
+      "programs": [
+        "Bachelor of Dental Surgery\nBachelor of Medicine & Bachelor of Surgery (M.B.Ch.B) Bachelor of Medicine and Bachelor of Surgery (M.B.Ch.B)",
+        "Bachelor of Bachelor of Bachelor of",
+        "Bachelor of Pharmacy\nBachelor of Science (Pharmaceutical Sciences, With IT) Bachelor of Science (Environmental Health)\nBachelor of Science in Environmental Health  Bachelor of Science in Environmental Health Sciences (Public Health)\nBachelor of Science (Optometry and Vision Sciences) Bachelor of Science (Physical Therapy)\nBachelor of Physiotherapy\nBachelor of Science in Physiotherapy Bachelor of Science (Public Health, With IT) Bachelor of Science in Public Health Bachelor of Science (Public Health) Bachelor of Science in Public Health",
+        "Bachelor of Bachelor of Bachelor of Bachelor of Bachelor of\nBachelor of Bachelor of Bachelor of Bachelor of Bachelor of Bachelor of Bachelor of Bachelor of",
+        "Bachelor of Technology (Community and Public Health) Bachelor of Science (Occupational Health & Safety)",
+        "Bachelor of Science in Occupational Therapy Bachelor of Population Health\nBachelor of Science (Community Health and Development) Bachelor of Science in Community Health and Development Bachelor of Science in Community Health Education Bachelor of Science (Population Health)\nBachelor of Science (Community Health & Development) Bachelor of Science in Community Health\nBachelor of Science in Global Health and Emporiatrics Bachelor of Science in Health Systems Management\nBachelor of Health Services Management",
+        "Bachelor of Veterinary Medicine",
+        "Bachelor of Science (Biostatistics) Bachelor of Science in Biostatistics\nBachelor of Science in Epidemiology and Biostatistics",
+        "Bachelor of Science (Biomedical Science and Technology Bachelor of Science in Biomedical Science and Technology Bachelor of Science (Biomedical Science & Technology) Bachelor of Science (Laboratory Sciences)\nBachelor of Technology (Science Laboratory Technology)\nBachelor of Science (Medical Psychology)",
+        "Bachelor of Science (Health Records and Informatics) Bachelor of Science in Health Records and Information Management\nBachelor of Science (Health Records & Information Management)\nBachelor of Science (Health Records and Information Management, with IT)\nBachelor of Science in Health Records Management &\nInformatics"
+      ]
+    },
+    {
+      "cluster_id": "14",
+      "subjects": {
+        "subject_1": "Subject 1 HAG",
+        "grade_1": "C+",
+        "subject_2": "Subject 2 ENG/KIS",
+        "grade_2": "",
+        "subject_3": "Subject 3\nMAT ALTERNATIVE A/B or any GROUP II",
+        "grade_3": "",
+        "subject_4": "Subject 4\nA GROUP II or 2nd GROUP III or any GROUP IV or any GROUP V",
+        "grade_4": ""
+      },
+      "programs": [
+        "Bachelor of Arts  History and Archaeology) Bachelor of Arts (History)\nBachelor of Arts (History  and Archaeology, With IT)\nBachelor of Arts  in History & International Studies"
+      ]
+    },
+    {
+      "cluster_id": "15",
+      "subjects": {
+        "subject_1": "Subject 1 BIO",
+        "grade_1": "",
+        "subject_2": "Subject 2 CHE",
+        "grade_2": "",
+        "subject_3": "Subject 3\nMAT ALTERNATIVE A/PHY/GEO",
+        "grade_3": "",
+        "subject_4": "Subject 4\nENG/KIS or 3rd GROUP II or a GROUP III or any GROUP IV or any GROUP V",
+        "grade_4": ""
+      },
+      "programs": [
+        "Bachelor of Science (Animal Health & Production)                                                                                              Bachelor of Science (Animal Health and Production)\nBachelor of Science (Animal Health, Production & Processing                                                                             Bachelor of Science (Animal Production & Health Management)\nBachelor of Science in Animal Health Management                                                                                             Bachelor of Science in Animal Production\nBachelor of Science in Applied Animal Laboratory Science",
+        "Bachelor of Science (Animal Science & Management) Bachelor of Science (Animal Science, With IT) Bachelor of Science in Animal Science\nBachelor of Science in Animal Science & Technology\nBachelor of Science in Animal Products Technology",
+        "Bachelor of Science (Food Nutrition and Dietetics)                                                                                              Bachelor of Science (Human Nutrition and Dietetics)\nBachelor of Science (Food Science and Nutrition)                                                                                                Bachelor of Science in Food Science and Nutrition\nBachelor of Science (Nutrition and Dietetics, With IT)                                                                                         Bachelor of Science in Human Nutrition and Dietetics\nBachelor of Science (Food Nutrition & Dietetics)                                                                                                 Bachelor of Technology (Nutrition and Dietetics) Bachelor of Science (Food Science & Nutrition)\nBachelor of Science (Food, Nutrition & Dietetics)\nBachelor of Science in Food Nutrition and Dietetics",
+        "Bachelor of Science (Fisheries and Aquaculture Management)                                                                            Bachelor of Science (Fisheries and Aquaculture, With IT)\nBachelor of Science Fisheries Management and Aquaculture Technology                                                            Bachelor of Science in Fisheries and Aquaculture\nBachelor of Science (Coastal & Marine Resource Management                                                                            Bachelor of Science (Marine Biology & Fisheries)\nBachelor of Science (Fisheries & Aquatic Sciences)                                                                                             Bachelor of Science in Aquaculture and Fisheries Technology\nBachelor of Science in Fisheries and Oceanography                                                                                             Bachelor of Science in Marine Resource Management Bachelor of Science in Maritime Management (Commercial)\nBachelor of Science (Applied Aquatic Science)",
+        "Bachelor of Science (Food Processing Technology) Bachelor of Science in Food Science & Technology Bachelor of Science (Food Science & Technology) Bachelor of Science (Food Science and Management) Bachelor of Science (Food Science and Technology) Bachelor of Science (Food Security)\nBachelor of Science in Food Technology & Quality Assurance",
+        "Bachelor of Environmental Science                                                                                                                      Bachelor of Technology (Environmental Resource Management\nBachelor of Environmental Studies                                                                                                                       Bachelor of Science (Environmental Management)\nBachelor of Science in Environmental Studies                                                                                                      Bachelor of Science (Environmental Science, With IT)\nBachelor of Environmental Studies (Arts)                                                                                                             Bachelor of Science (Environmental Science)\nBachelor of Environmental Studies (Science)                                                                                                       Bachelor of Science in Environmental Science and Technology\nBachelor of Science in Environmental Science                                                                                                     Bachelor of Science (Environmental Sciences)\nBachelor of Environmental (Environmental Resource Conservation)                                                                    Bachelor of Environmental Studies (Community Development)\nBachelor of Science (Bio-resources Management and Conservation)                                                                   Bachelor of Environmental Planning & Development Management\nBachelor of Environmental Education                                                                                                                             Bachelor of Environmental Studies and Community Development Bachelor of Science in Environment, Lands and Sustainable Development",
+        "Bachelor of Science in Natural Resources                                                                                                             Bachelor of Science (Sustainable Energy & Climate Change Systems)\nBachelor of Science (Natural Resource Management)                                                                                          Bachelor of Science (Agriculture & Biotechnology)\nBachelor of Science in Natural Resources Management                                                                                       Bachelor of Science (Agriculture and Biotechnology)\nBachelor of Science (Nutraceutical Science and Technology)                                                                              Bachelor of Science (Agroforestry & Rural Development)\nBachelor of Science in Nutraceutical Science and Technology                                                                             Bachelor of Science (Aquatic Resources Conservation and Development, With IT),\nBachelor of Science (Utilization & Sustainability of Arid Lands (Usal)                                                                 Bachelor of Science (Climate Change and Development, With IT)\nBachelor of Science (Wildlife Enterprises & Management)                                                                                   Bachelor of Science (Crop Improvement & Protection)\nBachelor of Science in Wildlife Enterprise & Management                                                                                   Bachelor of Science (Dryland, Agriculture & Enterprise Development)\nBachelor of Science in Natural Resource Management                                                                                         Bachelor of Science (Dryland Animal Science)\nBachelor of Science in Soil Environment & Land Use Management)                                                                     Bachelor of Science (Seed Science & Technology\nBachelor of Science (Environmental Horticulture & Landscaping Technology)                                                    Bachelor of Science (Waste Management)\nBachelor of Science (Forestry)                                                                                                                              Bachelor of Science (Water Resource\nManagement)\nBachelor of Science (Horticulture)                                                                                                                       Bachelor of Science in Ethno botany\nBachelor of Science in Horticulture                                                                                                                      Bachelor of Science (Agriculture & Human Ecology Extension)\nBachelor of Science in Horticultural Science & Management                                                                               Bachelor of Science (Agriculture and Enterprise Development)\nBachelor of Science Horticulture                                                                                                                          Bachelor of Science (Dairy Technology &\nManagement)\nBachelor of Science (Horticultural Science & Management)                                                                                Bachelor of Science (Leather Technology)\nBachelor of Science (Horticulture, With IT)                                                                                                          Bachelor of Science (Soil Science)\nBachelor of Science (Range Management)                                                                                                            Bachelor of Science (Soils & Land Use Management)\nBachelor of Science (Bio-resources Management and Conservation)                                                                   Bachelor of Science (Water and Environment Management)\nBachelor of Science (Integrated Forest Resources Management)                                                                         Bachelor of Science (Wood Science and Industrial Processes)\nBachelor of Science (Natural Products)                                                                                                                Bachelor of Science (Wood Science and Industrial Processes)\nBachelor of Science (Natural Resources Management)                                                                                         Bachelor of Science (Leather Technology)\nBachelor of Science (Soil Science, With IT)                                                                                                          Bachelor of Science (Soil Science)\nBachelor of Science (Wildlife Management)                                                                                                         Bachelor of Science (Soils & Land Use Management)\nBachelor of Science (Wildlife Management)                                                                                                         Bachelor of Science (Water and Environment Management)\nBachelor of Science (Agricultural Biotechnology)                                                                                                 Bachelor of Science (Wood Science and Industrial Processes)\nBachelor of Science in Agriculture                                                                                                                        Bachelor of Science (Wood Science and Industrial Processes)",
+        "Bachelor of Science (Agriculture)                                                                                                                         Bachelor of Science in Water and Environment Management\nBachelor of Science (Dryland Agriculture)                                                                                                            Bachelor of Science (Land Resource Management)\nBachelor of Science (Environmental Conservation and Natural Resources Management)                                    Bachelor of Science (Land Resource Planning & Management)",
+        "Bachelor of Science (Agronomy, With IT)",
+        "Bachelor of Science in Land Resource Planning & Management"
+      ]
+    },
+    {
+      "cluster_id": "16",
+      "subjects": {
+        "subject_1": "Subject 1 GEO",
+        "grade_1": "",
+        "subject_2": "Subject 2\nMAT ALTERNATIVE A/B",
+        "grade_2": "",
+        "subject_3": "Subject 3 Any GROUP II",
+        "grade_3": "",
+        "subject_4": "Subject 4\n2nd GROUP II or 2nd GROUP III  or any GROUP IV or any GROUP V",
+        "grade_4": ""
+      },
+      "programs": [
+        "Bachelor of Arts (Geography) Bachelor of Science (Geography)\nBachelor of Arts (Geography and Economics) Bachelor of Arts (Kiswahili and Geography)\nBachelor of Science (Geography and Natural Resource Management, With IT)"
+      ]
+    },
+    {
+      "cluster_id": "17",
+      "subjects": {
+        "subject_1": "Subject 1 FRE/GER",
+        "grade_1": "",
+        "subject_2": "Subject 2 ENG/KIS",
+        "grade_2": "",
+        "subject_3": "Subject 3\nMAT ALTERNATIVE A/B or any GROUP II or any",
+        "grade_3": "",
+        "subject_4": "Subject 4\nA GROUP II or a GROUP III or any GROUP IV or",
+        "grade_4": ""
+      },
+      "programs": [
+        "Bachelor of Arts (French) Bachelor of Arts (French, With IT) Bachelor of Arts (German)"
+      ]
+    },
+    {
+      "cluster_id": "18",
+      "subjects": {
+        "subject_1": "Subject 1 MUS",
+        "grade_1": "",
+        "subject_2": "Subject 2 ENG/KIS",
+        "grade_2": "",
+        "subject_3": "Subject 3\nMAT ALTERNATIVE A/B or any GROUP II or any GROUP III",
+        "grade_3": "",
+        "subject_4": "Subject 4\nA GROUP II or a GROUP III or any GROUP IV or 2nd GROUP V",
+        "grade_4": ""
+      },
+      "programs": [
+        "Bachelor of Arts (Music) Bachelor of Arts (Music, With IT) Bachelor of Music\nBachelor of Music (Technology)"
+      ]
+    },
+    {
+      "cluster_id": "19",
+      "subjects": {
+        "subject_1": "Subject 1 ENG",
+        "grade_1": "",
+        "subject_2": "Subject 2\nMAT ALTERNATIVE A/B or any GROUP II",
+        "grade_2": "",
+        "subject_3": "Subject 3 2nd GROUP II",
+        "grade_3": "",
+        "subject_4": "Subject 4\nKIS or 3rd GROUP II or 2nd GROUP III or any GROUP IV or any GROUP V",
+        "grade_4": ""
+      },
+      "programs": [
+        "Bachelor of Education (Science) Bachelor of Science with Education Bachelor of Education (Science,With IT) Bachelor of Education (Science with IT)",
+        "Bachelor of Education (Arts)                                                                                                                                 Bachelor of Education (Early Childhood\nDevelopment Education)\nBachelor of Education (Arts) Fine Art                                                                                                                   Bachelor of Education (Early Childhood Development)\nBachelor of Education (Early Childhood Education)\nBachelor of Education (Arts) With Guidance and Counselling                                                                              Bachelor of Education (Early Childhood Education, With IT)\nBachelor of Education (Arts, With IT)                                                                                                                   Bachelor of Education (Early Childhood)\nBachelor of Education (Guidance and Counselling)                                                                                              Bachelor of Education in Early Childhood Education\nBachelor of Education (Home Science and Technology)                                                                                       Bachelor of Education (Early Childhood\nBachelor of Education in Early Childhood\nBachelor of Education (Library Science)                                                                                                               Education\nBachelor of Education Arts (Home Economics)                                                                                                     Bachelor of Education (Early Childhood Development)\nBachelor of Education Arts                                                                                                                                    Bachelor of Education (Early Childhood and\nPrimary Education)\nBachelor of Arts (With Education)",
+        "Bachelor of Education Arts(Business Studies)",
+        "Bachelor of Education (Physical Education and Sports) Bachelor of Education (Physical Education)",
+        "Bachelor of Education (Special Needs Education - Secondary Option) Bachelor of Education (Special Needs Education)\nBachelor of Education (Visual and Performing Arts)",
+        "Bachelor of Education (French) Bachelor of Education (French, With IT)",
+        "Bachelor of Education (Music) Bachelor of Education (Music, With IT)",
+        "Bachelor of Education (German) Bachelor of Education (Arts) German",
+        "Bachelor of Agricultural Education & Extension                                                                                                   Bachelor of Science (Agricultural Education & Extension)\nBachelor of Agricultural Education and Extension                                                                                                Bachelor of Science (Agricultural Extension and Education)\nBachelor of Science in Agricultural Extension                                                                                                      Bachelor of Science (Agriculture Education & Extension)\nBachelor of Science (Agriculture Education and Extension)                                                                                 Bachelor of Science (Agriculture Education and Extension, With IT)\nBachelor of Science Agricultural Extension and Education                                                                                   Bachelor of Education (Agricultural Education) Bachelor of Science (Agricultural Extension Education)\nBachelor of Science in Agricultural Education & Extension Bachelor of Science (Agricultural Education and Extension)",
+        "Bachelor of Education (Computer Studies)",
+        "Bachelor of Education (ICT)",
+        "Bachelor of Education (Agriculture)"
+      ]
+    },
+    {
+      "cluster_id": "20",
+      "subjects": {
+        "subject_1": "Subject 1\nCRE/IRE/HRE",
+        "grade_1": "",
+        "subject_2": "Subject 2\nENG/KIS",
+        "grade_2": "",
+        "subject_3": "Subject 3\n2nd GROUP III",
+        "grade_3": "",
+        "subject_4": "Subject 4\nA GROUP II or a GROUP IV or any GROUP V",
+        "grade_4": ""
+      },
+      "programs": [
+        "Bachelor of Arts (Religion, With IT)                                                                                                                      Bachelor of Arts in Sociology and Religious Studies\nBachelor of Arts (Religious Studies)                                                                                                                      Bachelor of Arts (Theology, With IT)\nBachelor of Arts (Sociology & Religion)                                                                                                                Bachelor of Theology\nBachelor of Arts in Intercultural Studies                                                                                                               Bachelor of Arts in Biblical Studies\nBachelor of Arts in Islamic Studies                                                                                                                        Bachelor of Arts in Church Education Ministries\nBachelor of Arts in Islamic Sharia                                                                                                                         Bachelor of Arts in Christian Ministries"
+      ]
+    }
+  ]
+}

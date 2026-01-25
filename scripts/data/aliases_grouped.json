@@ -1,0 +1,447 @@
+[
+  {
+    "id": "7c433d60-5620-4848-86c8-8ef9a9b33ea1",
+    "name": "AFRICA INTERNATIONAL UNIVERSITY",
+    "aliases": [
+      "Africa International",
+      "AIU"
+    ]
+  },
+  {
+    "id": "78d06803-0b82-4cc2-9545-a97034fc2a9b",
+    "name": "AFRICA NAZARENE UNIVERSITY",
+    "aliases": [
+      "ANU"
+    ]
+  },
+  {
+    "id": "e94a0fd4-5888-43bb-a41a-dc5aaf08b27f",
+    "name": "ALUPE UNIVERSITY",
+    "aliases": [
+      "Alupe"
+    ]
+  },
+  {
+    "id": "846abb4d-e9f0-4858-a88a-b782ac60396d",
+    "name": "AMREF INTERNATIONAL UNIVERSITY",
+    "aliases": [
+      "Amref",
+      "AMIU"
+    ]
+  },
+  {
+    "id": "d9457a87-9d2a-4369-9449-0967b7df7f52",
+    "name": "BOMET UNIVERSITY COLLEGE",
+    "aliases": [
+      "Bomet"
+    ]
+  },
+  {
+    "id": "a5a34e32-6ff6-4701-bf22-9df67aab622f",
+    "name": "CATHOLIC UNIVERSITY OF EASTERN AFRICA",
+    "aliases": [
+      "CUEA"
+    ]
+  },
+  {
+    "id": "aa70bb5c-4a80-4b3c-bfe6-d33817537d63",
+    "name": "CHUKA UNIVERSITY",
+    "aliases": [
+      "Chuka"
+    ]
+  },
+  {
+    "id": "c1555dba-e96d-4e0b-8245-d98e55da50b4",
+    "name": "DAYSTAR UNIVERSITY",
+    "aliases": [
+      "Daystar"
+    ]
+  },
+  {
+    "id": "82f7aaa1-a37e-4743-a705-c90cb5dd4a47",
+    "name": "DEDAN KIMATHI UNIVERSITY OF TECHNOLOGY",
+    "aliases": [
+      "DeKUT"
+    ]
+  },
+  {
+    "id": "1d65c5e3-86fc-46f6-98e5-742fea107012",
+    "name": "EGERTON UNIVERSITY",
+    "aliases": [
+      "Egerton"
+    ]
+  },
+  {
+    "id": "701a4b8e-a006-4eda-8876-7bb68f645d94",
+    "name": "GARISSA UNIVERSITY",
+    "aliases": [
+      "Garissa"
+    ]
+  },
+  {
+    "id": "4f2d4a5f-2bd4-42fa-8abc-b23b304896d5",
+    "name": "GREAT LAKES UNIVERSITY OF KISUMU",
+    "aliases": [
+      "GLUK"
+    ]
+  },
+  {
+    "id": "39e6dd3e-72ca-4da0-8f98-a9f5c74dfdb1",
+    "name": "GRETSA UNIVERSITY",
+    "aliases": [
+      "Gretsa"
+    ]
+  },
+  {
+    "id": "ea6daa4d-70df-4d28-8eef-0380c93bfce5",
+    "name": "INTERNATIONAL LEADERSHIP UNIVERSITY",
+    "aliases": [
+      "ILU"
+    ]
+  },
+  {
+    "id": "e8c2d8f0-5d2a-4d0c-b0de-e4277d07169e",
+    "name": "ISLAMIC UNIVERSITY OF KENYA",
+    "aliases": [
+      "Islamic",
+      "IUK"
+    ]
+  },
+  {
+    "id": "f5c9fe28-1798-42fa-b498-b3e8765fc85a",
+    "name": "JARAMOGI OGINGA ODINGA UNIVERSITY OF SCIENCE AND TECHNOLOGY",
+    "aliases": [
+      "JOOUST"
+    ]
+  },
+  {
+    "id": "5571b444-97b3-40c0-b58e-415ce2fe3741",
+    "name": "JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY",
+    "aliases": [
+      "JKUAT"
+    ]
+  },
+  {
+    "id": "4c7183ed-abca-45dd-920e-3c5160b3f9dc",
+    "name": "KABARAK UNIVERSITY",
+    "aliases": [
+      "Kabarak"
+    ]
+  },
+  {
+    "id": "05ac9909-6bc9-49a3-acf3-2031ddd79996",
+    "name": "KAIMOSI FRIENDS UNIVERSITY",
+    "aliases": [
+      "Kaimosi",
+      "KAFU"
+    ]
+  },
+  {
+    "id": "2ac2f691-a9c0-4356-979c-34c44628fd71",
+    "name": "KARATINA UNIVERSITY",
+    "aliases": [
+      "Karatina"
+    ]
+  },
+  {
+    "id": "35b76655-cc21-4933-9786-27e013380a42",
+    "name": "KCA UNIVERSITY",
+    "aliases": [
+      "KCA"
+    ]
+  },
+  {
+    "id": "f5d47f5c-3101-4e2e-8a53-f4b1e274a72e",
+    "name": "KENYA ASSEMBLIES OF GOD EAST UNIVERSITY",
+    "aliases": [
+      "KAG"
+    ]
+  },
+  {
+    "id": "c45ec874-e0a8-4992-8c97-3d7a134cd86e",
+    "name": "KENYA HIGHLANDS EVANGELICAL UNIVERSITY",
+    "aliases": [
+      "Kenya Highlands"
+    ]
+  },
+  {
+    "id": "2b91a6c7-787d-4bbe-9884-f2f23247c159",
+    "name": "KENYA METHODIST UNIVERSITY",
+    "aliases": [
+      "KeMU"
+    ]
+  },
+  {
+    "id": "e8d04f12-8376-4763-b777-e1714c28c692",
+    "name": "KENYATTA UNIVERSITY",
+    "aliases": [
+      "KU"
+    ]
+  },
+  {
+    "id": "86483395-af80-4302-b44a-d883297d0dc6",
+    "name": "KIBABII UNIVERSITY",
+    "aliases": [
+      "Kibabii"
+    ]
+  },
+  {
+    "id": "1d2d95d9-c9f5-4ef1-9757-0814d5f6e1d7",
+    "name": "KISII UNIVERSITY",
+    "aliases": [
+      "Kisii"
+    ]
+  },
+  {
+    "id": "93c41fda-cfc7-413f-928e-670f3564502f",
+    "name": "LAIKIPIA UNIVERSITY",
+    "aliases": [
+      "Laikipia"
+    ]
+  },
+  {
+    "id": "35faed3e-0b2d-4ef5-a2cb-e0d1a4af417e",
+    "name": "LUKENYA UNIVERSITY",
+    "aliases": [
+      "Lukenya"
+    ]
+  },
+  {
+    "id": "7de8e834-aad8-4428-ae7b-9092196cfa2e",
+    "name": "MAASAI MARA UNIVERSITY",
+    "aliases": [
+      "Maasai Mara"
+    ]
+  },
+  {
+    "id": "bfbb09ce-aab9-4ab5-89cf-2677841aefec",
+    "name": "MACHAKOS UNIVERSITY",
+    "aliases": [
+      "MKS"
+    ]
+  },
+  {
+    "id": "26bb1639-733e-4b45-befe-140619b02450",
+    "name": "MANAGEMENT UNIVERSITY OF AFRICA",
+    "aliases": [
+      "MUA"
+    ]
+  },
+  {
+    "id": "4658d905-f980-4f4b-beaf-d28d5f27c4e2",
+    "name": "MARIST INTERNATIONAL UNIVERSITY COLLEGE",
+    "aliases": [
+      "Marist"
+    ]
+  },
+  {
+    "id": "bde03ec3-6f19-4cec-a326-3848d66ea2ca",
+    "name": "MASENO UNIVERSITY",
+    "aliases": [
+      "Maseno"
+    ]
+  },
+  {
+    "id": "747be46d-8444-4a95-b917-a3a40eccce08",
+    "name": "MASINDE MULIRO UNIVERSITY OF SCIENCE & TECHNOLOGY",
+    "aliases": [
+      "MMUST"
+    ]
+  },
+  {
+    "id": "db1af8e2-13d0-4ee7-9775-1af29d1f73d9",
+    "name": "MERU UNIVERSITY OF SCIENCE AND TECHNOLOGY",
+    "aliases": [
+      "Meru",
+      "MUST"
+    ]
+  },
+  {
+    "id": "7f3007bc-164b-492b-bd26-431c112ea3f1",
+    "name": "MOI UNIVERSITY",
+    "aliases": [
+      "Moi"
+    ]
+  },
+  {
+    "id": "e9ffa051-094f-4f1e-a8e3-4eed0e131176",
+    "name": "MOUNT KENYA UNIVERSITY",
+    "aliases": [
+      "MKU"
+    ]
+  },
+  {
+    "id": "b828ec1c-8d05-4355-b3c8-c5206c26f824",
+    "name": "MULTIMEDIA UNIVERSITY OF KENYA",
+    "aliases": [
+      "MMU"
+    ]
+  },
+  {
+    "id": "feaeb4a3-f5bc-4b59-8dd4-2bb7d06e5352",
+    "name": "MURANG'A UNIVERSITY OF TECHNOLOGY",
+    "aliases": [
+      "Murang'a",
+      "MUT"
+    ]
+  },
+  {
+    "id": "ab749ed1-1eee-4f71-aa43-2a72443748ae",
+    "name": "PAN AFRICA CHRISTIAN UNIVERSITY",
+    "aliases": [
+      "PAC"
+    ]
+  },
+  {
+    "id": "4642ed06-6937-42fc-a585-6aecf5d3e665",
+    "name": "PWANI UNIVERSITY",
+    "aliases": [
+      "Pwani"
+    ]
+  },
+  {
+    "id": "b2380a58-dc12-4739-9a2a-8211585431fd",
+    "name": "RIARA UNIVERSITY",
+    "aliases": [
+      "Riara"
+    ]
+  },
+  {
+    "id": "368c8c16-1387-4103-9c37-85d7a6e77891",
+    "name": "RONGO UNIVERSITY",
+    "aliases": [
+      "Rongo"
+    ]
+  },
+  {
+    "id": "7c8e1202-60ba-4a24-abec-c514ee06bb43",
+    "name": "SCOTT CHRISTIAN UNIVERSITY",
+    "aliases": [
+      "Scott"
+    ]
+  },
+  {
+    "id": "7d439fed-9f82-4bc3-b595-337f17231020",
+    "name": "SOUTH EASTERN KENYA UNIVERSITY",
+    "aliases": [
+      "SEKU"
+    ]
+  },
+  {
+    "id": "6daf1a45-e328-4363-9d2c-a4b03a00b2ad",
+    "name": "ST PAULS UNIVERSITY",
+    "aliases": [
+      "St Pauls",
+      "SPU"
+    ]
+  },
+  {
+    "id": "e7194a2e-6ef9-4554-aebd-ad1d95d313b6",
+    "name": "TAITA TAVETA UNIVERSITY",
+    "aliases": [
+      "Taita Taveta",
+      "TTU"
+    ]
+  },
+  {
+    "id": "a271041d-f9c8-4ae0-853f-f419c0cd583b",
+    "name": "TANGAZA UNIVERSITY",
+    "aliases": [
+      "Tangaza"
+    ]
+  },
+  {
+    "id": "c5dc806c-6330-4ea4-aa16-863fc85a61c7",
+    "name": "TECHNICAL UNIVERSITY OF KENYA",
+    "aliases": [
+      "TUK"
+    ]
+  },
+  {
+    "id": "e343c9e1-e06b-4b54-a798-a523a3772a30",
+    "name": "TECHNICAL UNIVERSITY OF MOMBASA",
+    "aliases": [
+      "TUM"
+    ]
+  },
+  {
+    "id": "3145dae5-c549-4498-8494-0b67da6de3b4",
+    "name": "THARAKA UNIVERSITY",
+    "aliases": [
+      "Tharaka"
+    ]
+  },
+  {
+    "id": "e165ac13-3aea-4e53-bec8-fa302b65c16b",
+    "name": "THE EAST AFRICAN UNIVERSITY",
+    "aliases": [
+      "East African"
+    ]
+  },
+  {
+    "id": "84ee8387-1c94-4177-818d-b691c81f6f68",
+    "name": "TOM MBOYA UNIVERSITY",
+    "aliases": [
+      "Tom Mboya",
+      "TMU"
+    ]
+  },
+  {
+    "id": "bf6be9ff-5438-490e-88e4-cb43dbb3240b",
+    "name": "TURKANA UNIVERSITY COLLEGE",
+    "aliases": [
+      "Turkana"
+    ]
+  },
+  {
+    "id": "cbac2b96-4b6d-49e2-8704-df2d819ca4fb",
+    "name": "UNIVERSITY OF EASTERN AFRICA, BARATON",
+    "aliases": [
+      "Baraton",
+      "UEAB"
+    ]
+  },
+  {
+    "id": "29d6f702-a816-4b3b-8652-8d3fb61c1b4d",
+    "name": "UNIVERSITY OF ELDORET",
+    "aliases": [
+      "Eldoret",
+      "UoE"
+    ]
+  },
+  {
+    "id": "0f159277-173e-49fc-90b3-e7be178e5d95",
+    "name": "UNIVERSITY OF EMBU",
+    "aliases": [
+      "Embu"
+    ]
+  },
+  {
+    "id": "624a92a6-1a6b-4172-b2b9-0dcc0174e9e1",
+    "name": "UNIVERSITY OF KABIANGA",
+    "aliases": [
+      "Kabianga"
+    ]
+  },
+  {
+    "id": "5e8d3678-f69d-4164-95f5-7fe0a9fce5a0",
+    "name": "UNIVERSITY OF NAIROBI",
+    "aliases": [
+      "UoN"
+    ]
+  },
+  {
+    "id": "e116b62b-6e30-47a3-8739-dabde80cb884",
+    "name": "UZIMA UNIVERSITY",
+    "aliases": [
+      "Uzima"
+    ]
+  },
+  {
+    "id": "5b93386e-bea2-4f03-9f3f-c0dd912bc42a",
+    "name": "ZETECH UNIVERSITY",
+    "aliases": [
+      "Zetech"
+    ]
+  }
+]

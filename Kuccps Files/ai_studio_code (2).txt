@@ -1,0 +1,142 @@
+{
+  "version": "2.0-logical",
+  "data": [
+    {
+      "category": "Law",
+      "programs": [
+        {
+          "level": "Diploma",
+          "min_mean_grade": "C",
+          "min_mean_rank": 6,
+          "subject_rules": [
+            { "subjects": ["ENG", "KIS"], "logic": "OR_ANY", "min_grade": "C+", "min_rank": 7 }
+          ]
+        },
+        {
+          "level": "Certificate",
+          "min_mean_grade": "C-",
+          "min_mean_rank": 5,
+          "subject_rules": [
+            { "subjects": ["ENG", "KIS"], "logic": "OR_ANY", "min_grade": "C", "min_rank": 6 }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Education",
+      "programs": [
+        {
+          "level": "Diploma",
+          "profile": "Standard",
+          "min_mean_grade": "C+",
+          "min_mean_rank": 7,
+          "tracks": [
+            {
+              "track_name": "Science Based",
+              "subject_rules": [
+                { "subjects": ["ENG"], "min_grade": "C", "min_rank": 6 },
+                { "subjects": ["MATH"], "min_grade": "C", "min_rank": 6 },
+                { "subjects": ["TEACHING_SUBJECTS"], "count": 2, "min_grade": "C+", "min_rank": 7 }
+              ]
+            },
+            {
+              "track_name": "Non-Science Based",
+              "subject_rules": [
+                { "subjects": ["ENG"], "min_grade": "C", "min_rank": 6 },
+                { "subjects": ["MATH"], "min_grade": "D+", "min_rank": 4 },
+                { "subjects": ["TEACHING_SUBJECTS"], "count": 2, "min_grade": "C+", "min_rank": 7 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Pharmacy",
+      "programs": [
+        {
+          "level": "Diploma",
+          "min_mean_grade": "C",
+          "min_mean_rank": 6,
+          "selection_logic": "OR",
+          "alternative_sets": [
+            {
+              "label": "Alternative A",
+              "rules": [
+                { "subjects": ["CHE"], "min_grade": "C", "min_rank": 6 },
+                { "subjects": ["BIO"], "min_grade": "C", "min_rank": 6 },
+                { "subjects": ["MATH", "PHY"], "logic": "OR_ANY", "min_grade": "C", "min_rank": 6 },
+                { "subjects": ["ENG", "KIS"], "logic": "OR_ANY", "min_grade": "C", "min_rank": 6 }
+              ]
+            },
+            {
+              "label": "Alternative B",
+              "rules": [
+                { "subjects": ["BIOLOGICAL_SCIENCES"], "min_grade": "C", "min_rank": 6 },
+                { "subjects": ["PHYSICAL_SCIENCES"], "min_grade": "C", "min_rank": 6 },
+                { "subjects": ["MATH"], "min_grade": "C", "min_rank": 6 },
+                { "subjects": ["ENG", "KIS"], "logic": "OR_ANY", "min_grade": "C", "min_rank": 6 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Engineering & Technology",
+      "programs": [
+        {
+          "level": "Diploma",
+          "min_mean_grade": "C-",
+          "min_mean_rank": 5,
+          "subject_rules": []
+        },
+        {
+          "level": "Certificate",
+          "min_mean_grade": "D+",
+          "min_mean_rank": 4,
+          "subject_rules": []
+        }
+      ]
+    },
+    {
+      "category": "Nursing",
+      "programs": [
+        {
+          "level": "Diploma",
+          "min_mean_grade": "C",
+          "min_mean_rank": 6,
+          "subject_rules": [
+            { "subjects": ["BIO", "BIOLOGICAL_SCIENCES"], "logic": "OR_ANY", "min_grade": "C", "min_rank": 6 },
+            { "subjects": ["ENG", "KIS"], "logic": "OR_ANY", "min_grade": "C", "min_rank": 6 },
+            { "subjects": ["PHY", "PHYSICAL_SCIENCES", "CHE", "MATH"], "logic": "OR_ANY", "min_grade": "C-", "min_rank": 5 }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "General Business / Computing / Humanities",
+      "programs": [
+        {
+          "level": "Diploma",
+          "min_mean_grade": "C-",
+          "min_mean_rank": 5,
+          "subject_rules": []
+        },
+        {
+          "level": "Certificate",
+          "min_mean_grade": "D",
+          "min_mean_rank": 3,
+          "subject_rules": []
+        },
+        {
+          "level": "Artisan",
+          "min_mean_grade": "D-",
+          "max_mean_rank": 2,
+          "is_open_ended_below": true,
+          "subject_rules": []
+        }
+      ]
+    }
+  ]
+}

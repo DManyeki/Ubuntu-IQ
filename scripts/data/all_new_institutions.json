@@ -1,0 +1,1037 @@
+[
+  {
+    "name": "Results",
+    "source": "retry",
+    "status": "RETRY_STILL_GENERIC",
+    "searched_for": "AA Mobility and Road Safety Training Institute",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": true
+  },
+  {
+    "name": "CircleTest Training Institute",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Accquest Training Institute",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Thika School of Medical and Health Sciences - Kisumu Campus",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Ahero School of Health Sciences",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "AIC Tulimani County Technical Training Institute",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "AIC Mukaatini Vocational Training Centre",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "name": "SPRING INTERNATIONAL TRAINING COLLEGE | KILIMANI CAMPUS |ENGLISH | GERMAN | FRENCH | IELTS | KISWAHILI | SPANISH | A1-C1",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Albury Training Institute",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "MacMillan University College",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Aldina Modern Training College",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Njoro Bible College",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Apostolic Faith Church Bible College",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Riabai Vocational Training Center",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "BAHARI VOCATIONAL TRAINING CENTER",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "name": "Nakuru Training Institute",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Berlin Business Training Institute",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Best Kenya Training Institute",
+    "source": "retry",
+    "status": "RETRY_USER_REJECTED",
+    "searched_for": "Best Workforce Development Training Institute",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Kisiwa Vocational Training Center",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Bungoma Township Vocational Center",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Boito Vocational Training Center",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Burgei Vocational Training Center",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Kakamega County Polytechnic VTC.",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "BURUNDU VTC",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "MBAA-INI VOCATIONAL TRAINING CENTER",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "BUSAINA VOCATIONAL TRAINING CENTER",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Dalc Education Cambridge Oxford",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Cambridge universal college Nakuru",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "name": "KMTC Kakamega",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Catholic Diocese Of Kakamega - St. Mary's Medical Training College",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Technical and vocational training institute",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Cawibo Technical Training College",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "name": "RCPI Bible College - Eldoret",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "CAYZER INTERNATIONAL MISSIONS BIBLE TRAINING COLLEGE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "name": "Chesongoch Vocational Training Center",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Chalicha Vocational Training Center",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Mugondoi Vocational Training Centre",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Chemundu Vocational Training Centre",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "name": "CHEPSIREI TECHNICAL AND VOCATIONAL COLLEGE",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "CHESEWEW VOCATIONAL TRAINING CENTRE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "THARAKA TECHNICAL & VOCATIONAL COLLEGE - kiembea",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "CIAMAKIE VOCATIONAL TRAINING CENTER",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Denis Motor Vehicle Trainig And Driving School",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "DIGITEX TECHNICAL & DRIVING SCHOOL",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "The Institute Of Community Development-Machakos",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "DURRIS COMPUTER INSTITUTE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "name": "Kericho Teachers Training College",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Eastport International Training College",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "East Africa Institute of Certified Studies Mombasa Branch",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "EQUIP AFRICA INSTITUTE -MOMBASA",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "I. G. O - Kenya Bible College",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Equip International Bible School",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Garissa Professional Training Centre",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Fafi Vocational Training Institute",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Vera Beauty And Fashion College - Nairobi",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Fahma Naleey Beauty College",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Kiambu National Polytechnic",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Fanisi Technical Training College",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Rift Valley Technology Farm",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Fooster Dairy Training Center",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Meru Technical Training College application",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Fusion Skills Technical College",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Gede Vocational Training Center",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "GANDA VOCATIONAL TRAINING CENTER",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "ISIOLO TECHNICAL TRAINING INSTITUTE",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Garbatulla Technical and Vocational College",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "name": "Gatanga Technical and Professional College",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "GHAZI VOCATIONAL TRAINING CENTER",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Mombasa Learning Centre",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "GLOBOPOINT LEARNING CENTRE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "name": "Uriri Vocational Training Center",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "GOLDEN HILL VOCATIONAL TRAINING CENTRE",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Ramogi Institute Of Advanced Technology (RIAT)",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Got Ramogi Technical and Vocational College",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Global Technical Training Institute G.T.T.I",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Granden Technical Training College",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "BELGUT TECHNICAL TRAINING INSTITUTE",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "GRATIA TECHNICAL TRAINING INSTITUTE",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "East Africa School Of Management",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Great Nairobi East College of Management and Technology",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Kenya Medical Training College, Garissa Campus",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Highrise Modern College",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Amani Counselling Centre & Training Institute",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Impact training and counselling centre",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Gokoe Vocational Training Center",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "JEPKOSE VOCATIONAL TRAINING CENTER",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "name": "Katse Vocational Training Center",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "KAIVISI VOCATIONAL TRAINING CENTER",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "name": "Kwale Community Technical Training Centre",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Kamale Vocational Training Centre",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Pwani Training Institute Kilifi",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "KAMBI YA WAYA VOCATIONAL TRAINING CENTRE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Kericho Township TVC",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Kamineiywo Vocational Training Centre",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "name": "Akado Vocational and Training Centre",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "KANDARIA VOCATIONAL & TRAINING CENTRE",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Kaluluni Vocational Training Center",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Kanundu Vocational Training Centre",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Homabay Vocational Training Centre",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "KANYALUO VOCATIONAL TRAINING CENTRE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Kipkabus Technical and Vocational College",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Kapkei Vocational Training college",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Kakrao Technical and Professional College",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Karungu Technical Training College",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "KCA Technical College Buruburu",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "KCA UNIVERSITY PROFESSIONAL AND TECHNICAL TRAINING INSTITUTE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "East Africa Institute of Certified Studies",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Kelac Training Institute",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Rhema Institute",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "KENEMA COLLEGE OF PROFESSIONAL STUDIES",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "KIBCo",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "KENYA INSTITUTE OF BUSINESS AND COUNSELING STUDIES",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "African Institute Of Research And Development Studies-Nakuru campus",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "KENYA INSTITUTE OF DEVELOPMENT STUDIES",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "KIPS Technical College",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "KENYA INSTITUTE OF PROFESSIONAL STUDIES ( KIPS) - KPCU",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Sponsored",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Kenya Institute of Project Management",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Nyaga Vocational Training Center",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "KENYERERE VOCATIONAL TRAINING CENTER",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Institute Of Service Excellence Kenya",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "KEY CENTER OF EXELLENCE INSTITUTE",
+    "has_phone": true,
+    "has_address": false,
+    "has_website": true
+  },
+  {
+    "name": "Ngenyilel Vocational Training Center",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "KIDAYA NGERENYI VOCATIONAL TRAINING CENTER",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "name": "Kenya industrial training institute",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Kingdom Transformers Training Institute",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Kikopey Vocational Training Center",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Kio Training Center",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Kiptiroko Vocational Training Center",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "KIPSNGORI VOCATIONAL TRAINING CENTER",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Kinangop Technical and Professional College",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Kitaingo Vocational Training Centers",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Kituluni Vocational Training Center",
+    "source": "retry",
+    "status": "RETRY_USER_REJECTED",
+    "searched_for": "Kitumbini Vocational Training Centre",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Nakuru Vocational Training Center",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "KWARE VOCATIONAL TRAINING CENTER",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "name": "Discipleship College",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Leaders Training College-Eldoret",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Loima Technical and Professional College",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "LORUGUM VOCATIONAL TRAINING CENTER",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "name": "Solongo Vocational Training Centre",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "LOTEGO VOCATIONAL TRAINING CENTER",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Msulwa Vocational Center",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Mabesheni Vocational Training Centre",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "name": "Lugha Learning Solutions",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Maior Lugha School of International Languages",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Sigul Vocational Training Center",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Majengo Vocational Training Centre",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Wote Technical Training Institute",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Makueni Crestwood Training College",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Bungoma North Technical & Vocational College",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "MALAHA TECHNICAL AND THEOLOGICAL COLLEGE",
+    "has_phone": true,
+    "has_address": false,
+    "has_website": true
+  },
+  {
+    "name": "Laikipia East Technical and Professional College",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Maries college of professional studies",
+    "has_phone": true,
+    "has_address": false,
+    "has_website": true
+  },
+  {
+    "name": "Dykaan College",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Mercylife college",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "QXV4+QW3 Ruiru",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Mitoto S A Vocational Training Center for the Visually impaired",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Mkongani Vocational Training Center",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Mivumoni Vocational Training Centre",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "name": "MUKURU SKILLS TRAINING CENTRE",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "MKHURU VOCATIONAL TRAINING CENTER",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "name": "coastlands college of professional studies",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Mombasa College of Professional Studies�",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Bura Vocational Rehabilitation Center - Taita",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Mraru Vocational Training Centre",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Mt Elgon Academy",
+    "source": "retry",
+    "status": "RETRY_USER_REJECTED",
+    "searched_for": "Mt. Elgon Bible College",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Nembure Vocational Training Centre",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Muchonoke Vocational Training Centre",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Muraga Technical Training Institute",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "MUGUMANGO VOCATIONAL TRAINING CENTER",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Nyagwethe Vocational Training Center",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "NYANDIWA VOCATIONAL TRAINING CENTRE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "name": "NITA Athi River",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Nys Athi River Technical Institute",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Busia Polytechnic",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "NZOIA COUNTY POLYTECHNIC",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "name": "LIONHILL VOCATIONAL TRAINING CENTER",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "OGILGEI VOCATIONAL TRAINING CENTER",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Isinya Vocational Training Centre",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Oldoinyo Oibor Training Institute",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Rhema Bible Training College Nairobi",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Redeemed Theological College",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Kirinyaga Institute Of Professional Studies",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "REHOBOTH INSTITUTE OF PROFESSIONAL STUDIES",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Raganga Vocational Training Center",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Risamwera Vocational Training Center",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "South Eastern Kenya University (SEKU), Kitui Campus",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "SEKU TVET Migwani Campus",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Isiolo School of Business and Vocational Training College",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Sericho Vocational Training Centre",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Kathanje Vocational Training Centre",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "SIAKAGO VOCATIONAL TRAINING CENTRE",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "OUR LADY OF LOURDES MWEA SCHOOL OF NURSING",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "SMIOUR LADY OF LOURDES MEDICAL TRAINING COLLEGE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Machakos Professional Training Center",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Southern Equippers Training Institute",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "St.Theresa Business and Technology Institute",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "ST TERESA'S BUSINESS AND TECHNOLOGY TRAINING INSTITUTE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "name": "Innovative Development Approach Centre",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "ST. NICHOLAS CENTRE FOR PROFESSIONAL DEVELOPMENT",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "St. Andrew'S Krima Vocational Training Center",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "ST. PETERS GETENI VOCATIONAL TRAINING CENTER",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Trimsy Beauty & hairdressing training",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Stylush Hair and Beauty College",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "name": "Bay Technology Training Institute",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Surfcrest Technology Training Institute",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Witu Vocational Training Center",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "TAVETA VOCATIONAL TRAINING CENTER",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "name": "Lamu East Technical and Vocational College",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "TEWE VOCATIONAL TRAINING CENTER",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "SPRING INTERNATIONAL TRAINING COLLEGE | WESTLANDS CAMPUS| CNA | CAREGIVING | IELTS | OET | PTE | DET | TOEFL",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Uscan Training Institute",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Busia Industrial Training College",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Victoria Leadership and Technology Training College",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "name": "Embu College",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Walton College",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Maasai National Polytechnic",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "WAMA TRAINING INSTITUTE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Mkwajuni Vocational Training Center",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "WATAMU VOCATIONAL TRAINING CENTER",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Rotary Vocational Training Centre",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Weststar Technical Training College",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "School of Hospitality and Tourism",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "Yan School of Hospitality",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "name": "Kitui East Technical and Vocational College",
+    "source": "retry",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "searched_for": "ZOMBE VOCATIONAL TRAINING CENTER",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  }
+]

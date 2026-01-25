@@ -1,0 +1,314 @@
+[
+    {
+        "alias": "UoN",
+        "name": "UNIVERSITY OF NAIROBI"
+    },
+    {
+        "alias": "JKUAT",
+        "name": "JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY"
+    },
+    {
+        "alias": "KU",
+        "name": "KENYATTA UNIVERSITY"
+    },
+    {
+        "alias": "TUK",
+        "name": "TECHNICAL UNIVERSITY OF KENYA"
+    },
+    {
+        "alias": "TUM",
+        "name": "TECHNICAL UNIVERSITY OF MOMBASA"
+    },
+    {
+        "alias": "USIU",
+        "name": "UNITED STATES INTERNATIONAL UNIVERSITY"
+    },
+    {
+        "alias": "MKU",
+        "name": "MOUNT KENYA UNIVERSITY"
+    },
+    {
+        "alias": "CUEA",
+        "name": "CATHOLIC UNIVERSITY OF EASTERN AFRICA"
+    },
+    {
+        "alias": "MMU",
+        "name": "MULTIMEDIA UNIVERSITY OF KENYA"
+    },
+    {
+        "alias": "DeKUT",
+        "name": "DEDAN KIMATHI UNIVERSITY OF TECHNOLOGY"
+    },
+    {
+        "alias": "SEKU",
+        "name": "SOUTH EASTERN KENYA UNIVERSITY"
+    },
+    {
+        "alias": "JOOUST",
+        "name": "JARAMOGI OGINGA ODINGA UNIVERSITY OF SCIENCE AND TECHNOLOGY"
+    },
+    {
+        "alias": "MMUST",
+        "name": "MASINDE MULIRO UNIVERSITY OF SCIENCE & TECHNOLOGY"
+    },
+    {
+        "alias": "KeMU",
+        "name": "KENYA METHODIST UNIVERSITY"
+    },
+    {
+        "alias": "ANU",
+        "name": "AFRICA NAZARENE UNIVERSITY"
+    },
+    {
+        "alias": "PAC",
+        "name": "PAN AFRICA CHRISTIAN UNIVERSITY"
+    },
+    {
+        "alias": "KCA",
+        "name": "KCA UNIVERSITY"
+    },
+    {
+        "alias": "Zetech",
+        "name": "ZETECH UNIVERSITY"
+    },
+    {
+        "alias": "Kabarak",
+        "name": "KABARAK UNIVERSITY"
+    },
+    {
+        "alias": "Egerton",
+        "name": "EGERTON UNIVERSITY"
+    },
+    {
+        "alias": "Moi",
+        "name": "MOI UNIVERSITY"
+    },
+    {
+        "alias": "Maseno",
+        "name": "MASENO UNIVERSITY"
+    },
+    {
+        "alias": "Pwani",
+        "name": "PWANI UNIVERSITY"
+    },
+    {
+        "alias": "Kibabii",
+        "name": "KIBABII UNIVERSITY"
+    },
+    {
+        "alias": "Laikipia",
+        "name": "LAIKIPIA UNIVERSITY"
+    },
+    {
+        "alias": "MKS",
+        "name": "MACHAKOS UNIVERSITY"
+    },
+    {
+        "alias": "Meru",
+        "name": "MERU UNIVERSITY OF SCIENCE AND TECHNOLOGY"
+    },
+    {
+        "alias": "MUST",
+        "name": "MERU UNIVERSITY OF SCIENCE AND TECHNOLOGY"
+    },
+    {
+        "alias": "Murang'a",
+        "name": "MURANG'A UNIVERSITY OF TECHNOLOGY"
+    },
+    {
+        "alias": "MUT",
+        "name": "MURANG'A UNIVERSITY OF TECHNOLOGY"
+    },
+    {
+        "alias": "Embu",
+        "name": "UNIVERSITY OF EMBU"
+    },
+    {
+        "alias": "Eldoret",
+        "name": "UNIVERSITY OF ELDORET"
+    },
+    {
+        "alias": "UoE",
+        "name": "UNIVERSITY OF ELDORET"
+    },
+    {
+        "alias": "Kabianga",
+        "name": "UNIVERSITY OF KABIANGA"
+    },
+    {
+        "alias": "Chuka",
+        "name": "CHUKA UNIVERSITY"
+    },
+    {
+        "alias": "Kisii",
+        "name": "KISII UNIVERSITY"
+    },
+    {
+        "alias": "Karatina",
+        "name": "KARATINA UNIVERSITY"
+    },
+    {
+        "alias": "Maasai Mara",
+        "name": "MAASAI MARA UNIVERSITY"
+    },
+    {
+        "alias": "Rongo",
+        "name": "RONGO UNIVERSITY"
+    },
+    {
+        "alias": "Taita Taveta",
+        "name": "TAITA TAVETA UNIVERSITY"
+    },
+    {
+        "alias": "TTU",
+        "name": "TAITA TAVETA UNIVERSITY"
+    },
+    {
+        "alias": "Co-op",
+        "name": "THE CO-OPERATIVE UNIVERSITY OF KENYA"
+    },
+    {
+        "alias": "CUK",
+        "name": "THE CO-OPERATIVE UNIVERSITY OF KENYA"
+    },
+    {
+        "alias": "Garissa",
+        "name": "GARISSA UNIVERSITY"
+    },
+    {
+        "alias": "Alupe",
+        "name": "ALUPE UNIVERSITY"
+    },
+    {
+        "alias": "Kaimosi",
+        "name": "KAIMOSI FRIENDS UNIVERSITY"
+    },
+    {
+        "alias": "KAFU",
+        "name": "KAIMOSI FRIENDS UNIVERSITY"
+    },
+    {
+        "alias": "Tharaka",
+        "name": "THARAKA UNIVERSITY"
+    },
+    {
+        "alias": "Tom Mboya",
+        "name": "TOM MBOYA UNIVERSITY"
+    },
+    {
+        "alias": "TMU",
+        "name": "TOM MBOYA UNIVERSITY"
+    },
+    {
+        "alias": "Turkana",
+        "name": "TURKANA UNIVERSITY COLLEGE"
+    },
+    {
+        "alias": "Bomet",
+        "name": "BOMET UNIVERSITY COLLEGE"
+    },
+    {
+        "alias": "Gretsa",
+        "name": "GRETSA UNIVERSITY"
+    },
+    {
+        "alias": "Riara",
+        "name": "RIARA UNIVERSITY"
+    },
+    {
+        "alias": "St Pauls",
+        "name": "ST PAULS UNIVERSITY"
+    },
+    {
+        "alias": "SPU",
+        "name": "ST PAULS UNIVERSITY"
+    },
+    {
+        "alias": "Africa International",
+        "name": "AFRICA INTERNATIONAL UNIVERSITY"
+    },
+    {
+        "alias": "AIU",
+        "name": "AFRICA INTERNATIONAL UNIVERSITY"
+    },
+    {
+        "alias": "Amref",
+        "name": "AMREF INTERNATIONAL UNIVERSITY"
+    },
+    {
+        "alias": "AMIU",
+        "name": "AMREF INTERNATIONAL UNIVERSITY"
+    },
+    {
+        "alias": "Daystar",
+        "name": "DAYSTAR UNIVERSITY"
+    },
+    {
+        "alias": "GLUK",
+        "name": "GREAT LAKES UNIVERSITY OF KISUMU"
+    },
+    {
+        "alias": "Scott",
+        "name": "SCOTT CHRISTIAN UNIVERSITY"
+    },
+    {
+        "alias": "Baraton",
+        "name": "UNIVERSITY OF EASTERN AFRICA, BARATON"
+    },
+    {
+        "alias": "UEAB",
+        "name": "UNIVERSITY OF EASTERN AFRICA, BARATON"
+    },
+    {
+        "alias": "Uzima",
+        "name": "UZIMA UNIVERSITY"
+    },
+    {
+        "alias": "Marist",
+        "name": "MARIST INTERNATIONAL UNIVERSITY COLLEGE"
+    },
+    {
+        "alias": "Tangaza",
+        "name": "TANGAZA UNIVERSITY"
+    },
+    {
+        "alias": "MUA",
+        "name": "MANAGEMENT UNIVERSITY OF AFRICA"
+    },
+    {
+        "alias": "Lukenya",
+        "name": "LUKENYA UNIVERSITY"
+    },
+    {
+        "alias": "Islamic",
+        "name": "ISLAMIC UNIVERSITY OF KENYA"
+    },
+    {
+        "alias": "IUK",
+        "name": "ISLAMIC UNIVERSITY OF KENYA"
+    },
+    {
+        "alias": "KAG",
+        "name": "KENYA ASSEMBLIES OF GOD EAST UNIVERSITY"
+    },
+    {
+        "alias": "Pioneer",
+        "name": "PIONEER INTERNATIONAL UNIVERSITY"
+    },
+    {
+        "alias": "RAF",
+        "name": "RAF INTERNATIONAL UNIVERSITY"
+    },
+    {
+        "alias": "ILU",
+        "name": "INTERNATIONAL LEADERSHIP UNIVERSITY"
+    },
+    {
+        "alias": "East African",
+        "name": "THE EAST AFRICAN UNIVERSITY"
+    },
+    {
+        "alias": "Kenya Highlands",
+        "name": "KENYA HIGHLANDS EVANGELICAL UNIVERSITY"
+    }
+]

@@ -1,0 +1,564 @@
+{
+  "source": "TVET_CLUSTER_DOCUMENT_2025.pdf",
+  "extraction_method": "text_parsing",
+  "total_programs": 53,
+  "programs": [
+    {
+      "category": "Law",
+      "level": "Diploma",
+      "min_mean_grade": "C",
+      "requirements": [
+        {
+          "subject": "plain ENG/KIS",
+          "grade": "C+"
+        }
+      ],
+      "exam_type": "KUCCPS"
+    },
+    {
+      "category": "Law",
+      "level": "Certificate",
+      "min_mean_grade": "C",
+      "requirements": [],
+      "exam_type": "KUCCPS"
+    },
+    {
+      "category": "Education",
+      "level": "Diploma",
+      "min_mean_grade": "C+",
+      "requirements": [
+        {
+          "subject": "ENG",
+          "grade": "C"
+        },
+        {
+          "subject": "MATH",
+          "grade": "C"
+        },
+        {
+          "subject": "ENG",
+          "grade": "C"
+        },
+        {
+          "subject": "MATH",
+          "grade": "D+"
+        }
+      ],
+      "exam_type": "KUCCPS"
+    },
+    {
+      "category": "Education",
+      "level": "Diploma",
+      "min_mean_grade": "C--",
+      "requirements": [],
+      "exam_type": "KUCCPS"
+    },
+    {
+      "category": "Accountancy",
+      "level": "Diploma",
+      "min_mean_grade": "C-",
+      "requirements": [],
+      "exam_type": "KUCCPS"
+    },
+    {
+      "category": "Accountancy",
+      "level": "Certificate",
+      "min_mean_grade": "N",
+      "requirements": [],
+      "exam_type": "KUCCPS"
+    },
+    {
+      "category": "Architecture",
+      "level": "Diploma",
+      "min_mean_grade": "C",
+      "requirements": [
+        {
+          "subject": "MATH Alternative A",
+          "grade": "C"
+        },
+        {
+          "subject": "PHY",
+          "grade": "C"
+        },
+        {
+          "subject": "ENG/KIS",
+          "grade": "C"
+        }
+      ],
+      "exam_type": "KUCCPS"
+    },
+    {
+      "category": "Architecture",
+      "level": "Certificate",
+      "min_mean_grade": "C--",
+      "requirements": [
+        {
+          "subject": "PHY",
+          "grade": "C--"
+        },
+        {
+          "subject": "ENG/KIS",
+          "grade": "C--"
+        }
+      ],
+      "exam_type": "KUCCPS"
+    },
+    {
+      "category": "Programme Level Minimum Subjects Requirements",
+      "level": "Certificate",
+      "min_mean_grade": "C--",
+      "requirements": [
+        {
+          "subject": "PHY",
+          "grade": "C--"
+        },
+        {
+          "subject": "ENG/KIS",
+          "grade": "C--"
+        }
+      ],
+      "exam_type": "KUCCPS"
+    },
+    {
+      "category": "Engineering, Engineering",
+      "level": "Diploma",
+      "min_mean_grade": "C-",
+      "requirements": [],
+      "exam_type": "KUCCPS"
+    },
+    {
+      "category": "Pharmacy",
+      "level": "Diploma",
+      "min_mean_grade": "C",
+      "requirements": [
+        {
+          "subject": "CHE",
+          "grade": "C Biological Sciences -"
+        }
+      ],
+      "exam_type": "KUCCPS"
+    },
+    {
+      "category": "Environmental Health",
+      "level": "Diploma",
+      "min_mean_grade": "C",
+      "requirements": [
+        {
+          "subject": "ENG/KIS",
+          "grade": "C"
+        }
+      ],
+      "exam_type": "KUCCPS"
+    },
+    {
+      "category": "Environmental Health",
+      "level": "Certificate",
+      "min_mean_grade": "C--",
+      "requirements": [],
+      "exam_type": "KUCCPS"
+    },
+    {
+      "category": "Nursing",
+      "level": "Diploma",
+      "min_mean_grade": "C",
+      "requirements": [
+        {
+          "subject": "BIO/Biological Sciences",
+          "grade": "C"
+        },
+        {
+          "subject": "ENG/KIS",
+          "grade": "C"
+        }
+      ],
+      "exam_type": "KUCCPS"
+    },
+    {
+      "category": "Nursing",
+      "level": "Certificate",
+      "min_mean_grade": "C",
+      "requirements": [
+        {
+          "subject": "ENG/KIS",
+          "grade": "C --"
+        }
+      ],
+      "exam_type": "KUCCPS"
+    },
+    {
+      "category": "Animal Health",
+      "level": "Diploma",
+      "min_mean_grade": "C",
+      "requirements": [
+        {
+          "subject": "BIO",
+          "grade": "C"
+        },
+        {
+          "subject": "CHE",
+          "grade": "C--"
+        },
+        {
+          "subject": "MATH/PHY/AGRIC",
+          "grade": "C--"
+        }
+      ],
+      "exam_type": "KUCCPS"
+    },
+    {
+      "category": "Animal Health",
+      "level": "Certificate",
+      "min_mean_grade": "C--",
+      "requirements": [],
+      "exam_type": "KUCCPS"
+    },
+    {
+      "category": "Medical Laboratory Science",
+      "level": "Diploma",
+      "min_mean_grade": "C",
+      "requirements": [
+        {
+          "subject": "ENG/KIS",
+          "grade": "C"
+        },
+        {
+          "subject": "MATH/PHY",
+          "grade": "C"
+        },
+        {
+          "subject": "BIO",
+          "grade": "C"
+        },
+        {
+          "subject": "CHE",
+          "grade": "C"
+        }
+      ],
+      "exam_type": "KUCCPS"
+    },
+    {
+      "category": "Nutrition & Dietetics",
+      "level": "Diploma",
+      "min_mean_grade": "C-",
+      "requirements": [
+        {
+          "subject": "CHE/Physical Sciences",
+          "grade": "D+"
+        }
+      ],
+      "exam_type": "KUCCPS"
+    },
+    {
+      "category": "Nutrition & Dietetics",
+      "level": "Certificate",
+      "min_mean_grade": "D",
+      "requirements": [],
+      "exam_type": "KUCCPS"
+    },
+    {
+      "category": "Land Surveying",
+      "level": "Diploma",
+      "min_mean_grade": "C-",
+      "requirements": [
+        {
+          "subject": "ENG",
+          "grade": "C--"
+        }
+      ],
+      "exam_type": "KUCCPS"
+    },
+    {
+      "category": "Land Surveying",
+      "level": "Certificate",
+      "min_mean_grade": "N",
+      "requirements": [],
+      "exam_type": "KUCCPS"
+    },
+    {
+      "category": "Clinical Medicine and Surgery",
+      "level": "Diploma",
+      "min_mean_grade": "C",
+      "requirements": [
+        {
+          "subject": "ENG/KIS",
+          "grade": "C"
+        }
+      ],
+      "exam_type": "KUCCPS"
+    },
+    {
+      "category": "Health Records and",
+      "level": "Diploma",
+      "min_mean_grade": "ENG/KIS",
+      "requirements": [],
+      "exam_type": "KUCCPS"
+    },
+    {
+      "category": "Health Records and",
+      "level": "Certificate",
+      "min_mean_grade": "C--",
+      "requirements": [
+        {
+          "subject": "MATH A/MAT B",
+          "grade": "D"
+        },
+        {
+          "subject": "BIO/BSC",
+          "grade": "D"
+        },
+        {
+          "subject": "PHY/CHE/COMP/AGR/HSC/ECON/GEO/COM/BST",
+          "grade": "D+"
+        },
+        {
+          "subject": "C",
+          "grade": "-"
+        }
+      ],
+      "exam_type": "KUCCPS"
+    },
+    {
+      "category": "Business courses",
+      "level": "Diploma",
+      "min_mean_grade": "C-",
+      "requirements": [],
+      "exam_type": "KNEC"
+    },
+    {
+      "category": "Business courses",
+      "level": "Certificate",
+      "min_mean_grade": "D",
+      "requirements": [],
+      "exam_type": "KNEC"
+    },
+    {
+      "category": "Business courses",
+      "level": "Artisan",
+      "min_mean_grade": "b",
+      "requirements": [],
+      "exam_type": "KNEC"
+    },
+    {
+      "category": "Humanities (Social Sciences)",
+      "level": "Diploma",
+      "min_mean_grade": "C-",
+      "requirements": [],
+      "exam_type": "KNEC"
+    },
+    {
+      "category": "Humanities (Social Sciences)",
+      "level": "Certificate",
+      "min_mean_grade": "D",
+      "requirements": [],
+      "exam_type": "KNEC"
+    },
+    {
+      "category": "Humanities (Social Sciences)",
+      "level": "Artisan",
+      "min_mean_grade": "b",
+      "requirements": [],
+      "exam_type": "KNEC"
+    },
+    {
+      "category": "Computing",
+      "level": "Diploma",
+      "min_mean_grade": "C-",
+      "requirements": [],
+      "exam_type": "KNEC"
+    },
+    {
+      "category": "Computing",
+      "level": "Certificate",
+      "min_mean_grade": "D",
+      "requirements": [],
+      "exam_type": "KNEC"
+    },
+    {
+      "category": "Computing",
+      "level": "Artisan",
+      "min_mean_grade": "b",
+      "requirements": [],
+      "exam_type": "KNEC"
+    },
+    {
+      "category": "Tourism and Hotel",
+      "level": "Diploma",
+      "min_mean_grade": "C-",
+      "requirements": [],
+      "exam_type": "KNEC"
+    },
+    {
+      "category": "Tourism and Hotel",
+      "level": "Artisan",
+      "min_mean_grade": "b",
+      "requirements": [],
+      "exam_type": "KNEC"
+    },
+    {
+      "category": "Clothing & Textile",
+      "level": "Diploma",
+      "min_mean_grade": "C-",
+      "requirements": [],
+      "exam_type": "KNEC"
+    },
+    {
+      "category": "Clothing & Textile",
+      "level": "Certificate",
+      "min_mean_grade": "D",
+      "requirements": [],
+      "exam_type": "KNEC"
+    },
+    {
+      "category": "Clothing & Textile",
+      "level": "Artisan",
+      "min_mean_grade": "b",
+      "requirements": [],
+      "exam_type": "KNEC"
+    },
+    {
+      "category": "Clothing & Textile",
+      "level": "Certificate",
+      "min_mean_grade": "N",
+      "requirements": [],
+      "exam_type": "KNEC"
+    },
+    {
+      "category": "Clothing & Textile",
+      "level": "Artisan",
+      "min_mean_grade": "N",
+      "requirements": [],
+      "exam_type": "KNEC"
+    },
+    {
+      "category": "Agricultural Courses",
+      "level": "Diploma",
+      "min_mean_grade": "C-",
+      "requirements": [],
+      "exam_type": "KNEC"
+    },
+    {
+      "category": "Agricultural Courses",
+      "level": "Certificate",
+      "min_mean_grade": "N",
+      "requirements": [],
+      "exam_type": "KNEC"
+    },
+    {
+      "category": "Agricultural Courses",
+      "level": "Artisan",
+      "min_mean_grade": "N",
+      "requirements": [],
+      "exam_type": "KNEC"
+    },
+    {
+      "category": "Natural Resources (Geology,",
+      "level": "Diploma",
+      "min_mean_grade": "C-",
+      "requirements": [],
+      "exam_type": "KNEC"
+    },
+    {
+      "category": "Aeronautical Engineering",
+      "level": "Diploma",
+      "min_mean_grade": "C",
+      "requirements": [
+        {
+          "subject": "MATH Alternative A",
+          "grade": "C--"
+        }
+      ],
+      "exam_type": "KNEC"
+    },
+    {
+      "category": "Photogrammetry & Remote",
+      "level": "Diploma",
+      "min_mean_grade": "C",
+      "requirements": [
+        {
+          "subject": "ENG",
+          "grade": "C--"
+        }
+      ],
+      "exam_type": "INTERNAL"
+    },
+    {
+      "category": "Cartography",
+      "level": "Diploma",
+      "min_mean_grade": "C",
+      "requirements": [
+        {
+          "subject": "ENG",
+          "grade": "C--"
+        }
+      ],
+      "exam_type": "INTERNAL"
+    },
+    {
+      "category": "Map Reproduction (Printing)",
+      "level": "Diploma",
+      "min_mean_grade": "C",
+      "requirements": [
+        {
+          "subject": "ENG",
+          "grade": "C--"
+        }
+      ],
+      "exam_type": "INTERNAL"
+    },
+    {
+      "category": "Forestry",
+      "level": "Certificate",
+      "min_mean_grade": "D+",
+      "requirements": [
+        {
+          "subject": "MATH Alternative A",
+          "grade": "D+"
+        },
+        {
+          "subject": "BIO/PHY/CHE/AGRIC",
+          "grade": "C--"
+        },
+        {
+          "subject": "BIO/PHY/CHE/AGRIC",
+          "grade": "C--"
+        },
+        {
+          "subject": "ENG/KIS",
+          "grade": "C--"
+        }
+      ],
+      "exam_type": "INTERNAL"
+    },
+    {
+      "category": "Tax Administration",
+      "level": "Diploma",
+      "min_mean_grade": "C",
+      "requirements": [
+        {
+          "subject": "ENG",
+          "grade": "C--"
+        }
+      ],
+      "exam_type": "INTERNAL"
+    },
+    {
+      "category": "Tax Administration",
+      "level": "Certificate",
+      "min_mean_grade": "D+",
+      "requirements": [],
+      "exam_type": "INTERNAL"
+    },
+    {
+      "category": "Agricultural Irrigation and",
+      "level": "Diploma",
+      "min_mean_grade": "C",
+      "requirements": [
+        {
+          "subject": "ENG / KIS",
+          "grade": "D"
+        }
+      ],
+      "exam_type": "INTERNAL"
+    }
+  ]
+}

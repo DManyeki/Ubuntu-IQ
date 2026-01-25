@@ -1,0 +1,3082 @@
+[
+  {
+    "id": "23d3533d-76a5-4d23-9682-a8d51d27868a",
+    "searched_for": "Maji Mazuri  VTC",
+    "found_instead": "Maji Mazuri Vocational Training Centre",
+    "county": "Baringo",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "b7469e52-bf98-4192-a15c-603a986ba3fd",
+    "searched_for": "Burgei Vocational Training Center",
+    "found_instead": "Boito Vocational Training Center",
+    "county": "Bomet",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "a74c456b-7f71-4ce7-9375-896c2009c0aa",
+    "searched_for": "Keborok Technical Training & Counselling Centre",
+    "found_instead": "Konoin Technical Training Institute",
+    "county": "Bomet",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "85408c96-07b1-41e7-9a67-36a721c3f881",
+    "searched_for": "Bungoma Township Vocational Center",
+    "found_instead": "Kisiwa Vocational Training Center",
+    "county": "Bungoma",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "d0fa79c2-b08e-4766-9fd1-ba8e43cb16f5",
+    "searched_for": "KIKWECHI VOCATIONAL TRAINING CENTER",
+    "found_instead": "Kibabii Vocational Training Institute",
+    "county": "Bungoma",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "69e8e1c6-3986-4dcf-9b14-33cc57a8ec13",
+    "searched_for": "Magra International German Language College",
+    "found_instead": "German language migra training collegee",
+    "county": "Bungoma",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "a61b9663-d532-4a7c-be8d-2a2a8f63e689",
+    "searched_for": "MALAHA TECHNICAL AND THEOLOGICAL COLLEGE",
+    "found_instead": "Bungoma North Technical & Vocational College",
+    "county": "Bungoma",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": false,
+    "has_website": true
+  },
+  {
+    "id": "487534a0-0a30-4eaf-8e81-ecbe0a1c6073",
+    "searched_for": "Okisimo Vocational Training Center",
+    "found_instead": "Kisiwa Vocational Training Center",
+    "county": "Bungoma",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "6c9760ee-76b0-4f95-b455-e5651836a82e",
+    "searched_for": "Wamachio Institute of Management and Innovation",
+    "found_instead": "Mawego Technical Training Institute",
+    "county": "Bungoma",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "677bea55-d63a-4428-977b-b749f6ef8281",
+    "searched_for": "BUKOMA VOCATIONAL TRAINING CENTER",
+    "found_instead": "Busia Vocational Training Center",
+    "county": "Busia",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "e2c2cb59-d154-4309-8b2c-0984b9b875dc",
+    "searched_for": "BUTULA VOCATIONAL TRAINING CENTRE",
+    "found_instead": "Busia Vocational Training Center",
+    "county": "Busia",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "a414de3d-1bd9-405a-b9d1-11de039d2427",
+    "searched_for": "NZOIA COUNTY POLYTECHNIC",
+    "found_instead": "Busia Polytechnic",
+    "county": "Busia",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "011e1cf5-56b7-4485-82f0-b4eef4b9c869",
+    "searched_for": "THE BUMBE NATIONAL POLYTECHNIC",
+    "found_instead": "Bumbe Technical Training Institute",
+    "county": "Busia",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "108dc901-8ddf-4476-b423-c5eab5cd6183",
+    "searched_for": "Victoria Leadership and Technology Training College",
+    "found_instead": "Busia Industrial Training College",
+    "county": "Busia",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "9b69772f-dbaf-4d89-adaf-7e839a0177b2",
+    "searched_for": "CHESEWEW VOCATIONAL TRAINING CENTRE",
+    "found_instead": "CHEPSIREI TECHNICAL AND VOCATIONAL COLLEGE",
+    "county": "Elgeyo Marakwet",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "02af509a-156d-4fc5-a70f-76e180c42bd6",
+    "searched_for": "Kapkei Vocational Training college",
+    "found_instead": "Kipkabus Technical and Vocational College",
+    "county": "Elgeyo Marakwet",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "985d9aa2-0f80-4036-b10b-4bae080e361f",
+    "searched_for": "Catholic Diocese of Meru Consolata Nkubu Medical College",
+    "found_instead": "Consolata school of nursing",
+    "county": "Embu",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "a69b4d57-10e2-48e5-98b3-360f8e3acfc4",
+    "searched_for": "Embu Accountancy Training College",
+    "found_instead": "Embu College",
+    "county": "Embu",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "3d2f78e7-3790-44b5-8232-bf53c994eaeb",
+    "searched_for": "INSTITUTE FOR DISABILITY TRAINING",
+    "found_instead": "Milestone Institute of Caregivers",
+    "county": "Embu",
+    "status": "INVALID_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "2454333e-863d-48cf-bd9c-ba1ca4cfc42d",
+    "searched_for": "Muchonoke Vocational Training Centre",
+    "found_instead": "Nembure Vocational Training Centre",
+    "county": "Embu",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "45959a40-3ccf-4aad-9092-e7f9b4f8f29e",
+    "searched_for": "SIAKAGO VOCATIONAL TRAINING CENTRE",
+    "found_instead": "Kathanje Vocational Training Centre",
+    "county": "Embu",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "d1db4141-c6a1-42bf-aec6-0bbbf5ee25a2",
+    "searched_for": "Walton College",
+    "found_instead": "Embu College",
+    "county": "Embu",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "953b4e60-9b96-41e7-aad3-0c7546667251",
+    "searched_for": "Balambala Technical and Vocational College",
+    "found_instead": "Garissa Professional Training Centre",
+    "county": "Garissa",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "e997349a-67f2-4a65-9d38-fbb9666cfd20",
+    "searched_for": "Fafi Vocational Training Institute",
+    "found_instead": "Garissa Professional Training Centre",
+    "county": "Garissa",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "ef686891-1081-4fd9-b1ff-c719622f6d74",
+    "searched_for": "Highrise Modern College",
+    "found_instead": "Kenya Medical Training College, Garissa Campus",
+    "county": "Garissa",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "f8d2e1cc-20b1-44c1-b7de-94887f3719e7",
+    "searched_for": "LAGDERA TECHNICAL AND VOCATIONAL COLLEGE",
+    "found_instead": "Garissa Commercial College",
+    "county": "Garissa",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "246d252c-9700-4b2a-ab11-cb33baf35691",
+    "searched_for": "KANYALUO VOCATIONAL TRAINING CENTRE",
+    "found_instead": "Homabay Vocational Training Centre",
+    "county": "Homabay",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "3800c981-0e7b-4ded-9245-c2718c0e9ea2",
+    "searched_for": "KOSELE VOCATIONAL TRAINING CENTER",
+    "found_instead": "Homabay Vocational Training Centre",
+    "county": "Homabay",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "009505fb-6d49-4843-a5f7-8b2033ac3378",
+    "searched_for": "Mbita Technical and Vocational College",
+    "found_instead": "waondo in mbita, homabay,kenya",
+    "county": "Homabay",
+    "status": "INVALID_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "8df68532-48d8-41c7-8a74-ecbe06c380a3",
+    "searched_for": "NYANDIWA VOCATIONAL TRAINING CENTRE",
+    "found_instead": "Nyagwethe Vocational Training Center",
+    "county": "Homabay",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "4d9a1cd0-5847-447b-8a2f-93e4536eb08d",
+    "searched_for": "Nyang'iela Vocational Training Centre",
+    "found_instead": "Nyagwethe Vocational Training Center",
+    "county": "Homabay",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "9c17df3a-7aca-4242-a016-ce4170ee84d8",
+    "searched_for": "OJIJO OTEK VOCATIONAL TRAINING CENTER",
+    "found_instead": "Homabay Vocational Training Centre",
+    "county": "Homabay",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "62858cd9-4bef-470c-842c-a920144bb478",
+    "searched_for": "SILA MBANI VOCATIONAL TRAINING CENTRE",
+    "found_instead": "Siala Technical Training Institute",
+    "county": "Homabay",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "c644f8ba-f41a-4c4c-a418-c0177281b009",
+    "searched_for": "Garbatulla Technical and Vocational College",
+    "found_instead": "ISIOLO TECHNICAL TRAINING INSTITUTE",
+    "county": "Isiolo",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "fde194e2-ae3a-45ee-a623-f9c39fe0902d",
+    "searched_for": "Sericho Vocational Training Centre",
+    "found_instead": "Isiolo School of Business and Vocational Training College",
+    "county": "Isiolo",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "ccbef381-fb68-4da4-9aa2-556f24071193",
+    "searched_for": "Dignified Future Training Institute",
+    "found_instead": "Maasai National Polytechnic",
+    "county": "Kajiado",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "265deceb-c145-41e5-8313-d625f6daff71",
+    "searched_for": "East Africa Farmers Training Institute",
+    "found_instead": "College of Sustainable Agriculture for Eastern Africa",
+    "county": "Kajiado",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "5cb46869-4f47-46e0-b007-0aa2498be39c",
+    "searched_for": "MASAI TECHNICAL TRAINING INSTITUTE",
+    "found_instead": "Maasai National Polytechnic",
+    "county": "Kajiado",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "8be16329-bd1b-401a-9a00-ce24acd134d2",
+    "searched_for": "MUA Technical Institute",
+    "found_instead": "Maasai National Polytechnic",
+    "county": "Kajiado",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "12dc90b9-91ea-430f-8d96-ff917f6c9021",
+    "searched_for": "Oldoinyo Oibor Training Institute",
+    "found_instead": "Isinya Vocational Training Centre",
+    "county": "Kajiado",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "be31590d-b9c8-44a6-aebe-45a62776a938",
+    "searched_for": "Sharpmore College of Business Studies",
+    "found_instead": "Maa Institute Of Professional Studies",
+    "county": "Kajiado",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "c8b4927a-2b36-4a87-8e26-0923af499528",
+    "searched_for": "Strive Professional Training Institute",
+    "found_instead": "Maasai National Polytechnic",
+    "county": "Kajiado",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "c46a7d89-9fd7-4051-9229-46131c245866",
+    "searched_for": "WAMA TRAINING INSTITUTE",
+    "found_instead": "Maasai National Polytechnic",
+    "county": "Kajiado",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "d3387d2b-09e1-4013-8567-e82706238998",
+    "searched_for": "BINYENYA VTC",
+    "found_instead": "Kakamega county",
+    "county": "Kakamega",
+    "status": "INVALID_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "d3555013-bbdf-410e-b19b-38eec614cc88",
+    "searched_for": "BURUNDU VTC",
+    "found_instead": "Kakamega County Polytechnic VTC.",
+    "county": "Kakamega",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "21e794ec-6392-4196-9114-8d7952656777",
+    "searched_for": "Catholic Diocese Of Kakamega - St. Mary's Medical Training College",
+    "found_instead": "KMTC Kakamega",
+    "county": "Kakamega",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "306bd567-d0b1-4582-a4a5-34bf24133afa",
+    "searched_for": "Imanga County Polytechnic",
+    "found_instead": "Kakamega County Polytechnic VTC.",
+    "county": "Kakamega",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "cf020f22-477e-4b48-86fd-f933a2980a22",
+    "searched_for": "Kilimo Training Institute of Permaculture",
+    "found_instead": "Kenya Institute Of Organic Farming",
+    "county": "Kakamega",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "c16ebeee-d7cb-4e09-9f58-7aaa12adb677",
+    "searched_for": "Masaba Vocational Training Centre",
+    "found_instead": "Kitutu Masaba Technical and Vocational College",
+    "county": "Kakamega",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "c91c5484-25d5-489f-b61f-3a18affba448",
+    "searched_for": "MKHURU VOCATIONAL TRAINING CENTER",
+    "found_instead": "MUKURU SKILLS TRAINING CENTRE",
+    "county": "Kakamega",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "a2657ea6-5e74-4e3b-acc2-04f4be3e3cdc",
+    "searched_for": "ST. JEROME SAVANE VTC",
+    "found_instead": "Kakamega County Polytechnic VTC.",
+    "county": "Kakamega",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "2e7c15a6-d9a8-439a-8cb4-13514d55a4f7",
+    "searched_for": "THE SHAMBERERE NATIONAL POLYTECHNIC",
+    "found_instead": "Shamberere Technical Training Institute",
+    "county": "Kakamega",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "ce33a1ec-ffb6-4ae0-a601-ff6553611c31",
+    "searched_for": "Bureti Bible College",
+    "found_instead": "Bureti Technical Training Institute",
+    "county": "Kericho",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "b863231b-61bd-4282-9c86-d5ba85d7c8ee",
+    "searched_for": "Chebigen VTC",
+    "found_instead": "CHEBIGEN VOCATIONAL TRAINING CENTRE",
+    "county": "Kericho",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "c495dacd-a3ca-417e-8ae1-80f963404487",
+    "searched_for": "Eastport International Training College",
+    "found_instead": "Kericho Teachers Training College",
+    "county": "Kericho",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "ee65f9ac-f85d-4641-aaac-1a33e37df149",
+    "searched_for": "Equinox Emergency Training Center",
+    "found_instead": "Kericho",
+    "county": "Kericho",
+    "status": "INVALID_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "5f7f7283-4198-4e07-a905-0a49cc6c797c",
+    "searched_for": "GRATIA TECHNICAL TRAINING INSTITUTE",
+    "found_instead": "BELGUT TECHNICAL TRAINING INSTITUTE",
+    "county": "Kericho",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "219d6bcb-ff5b-4a34-a2ff-9b54155bd6a7",
+    "searched_for": "Holistic Grace Training College",
+    "found_instead": "Kericho Teachers Training College",
+    "county": "Kericho",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "57040ce9-1235-47cf-bc5d-882ca97ba575",
+    "searched_for": "Kamineiywo Vocational Training Centre",
+    "found_instead": "Kericho Township TVC",
+    "county": "Kericho",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "4de1e0da-8fc0-4e62-b3e5-153ab4287d09",
+    "searched_for": "Leldet vocational training centre",
+    "found_instead": "BELGUT TECHNICAL TRAINING INSTITUTE",
+    "county": "Kericho",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "fd0eaa6a-d03e-4046-b828-970f1eb4268b",
+    "searched_for": "Rehema TTI",
+    "found_instead": "Kericho Township TTI",
+    "county": "Kericho",
+    "status": "INVALID_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "d4594462-b573-4906-a6fa-1af3d5d96374",
+    "searched_for": "SOUTH RIFT TECHNICAL TRAINING INSTITUTE",
+    "found_instead": "Kericho Township TVC",
+    "county": "Kericho",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "f39cfc96-901b-43a1-aad4-76b034524f9a",
+    "searched_for": "Accquest Training Institute",
+    "found_instead": "CircleTest Training Institute",
+    "county": "Kiambu",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "d56d801b-9b3a-4105-bf0e-5f3b7b2a7ea6",
+    "searched_for": "Brooke Wood Institute of Professional Studies",
+    "found_instead": "Brookhouse School Runda",
+    "county": "Kiambu",
+    "status": "INVALID_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "b97d7fcf-f1c4-4d05-ba6d-4ff685b40888",
+    "searched_for": "Candy College of Beauty and Applied Sciences - Ruaka",
+    "found_instead": "Candy Beauty College",
+    "county": "Kiambu",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "25a84a7f-54dd-405b-bc76-ee21007b4eec",
+    "searched_for": "Capdev Institute",
+    "found_instead": "Kiambu",
+    "county": "Kiambu",
+    "status": "INVALID_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "d0b79dfd-5f65-4ef4-8bcd-3cc9a663b3f3",
+    "searched_for": "Fanisi Technical Training College",
+    "found_instead": "Kiambu National Polytechnic",
+    "county": "Kiambu",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "3db2485e-bf95-4eef-8081-a25bf3098ca9",
+    "searched_for": "Githurai Institute of Business Studies",
+    "found_instead": "GIBS College",
+    "county": "Kiambu",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "51e27682-81ad-4adf-88a0-4dbbc367305d",
+    "searched_for": "KENEMA COLLEGE OF PROFESSIONAL STUDIES",
+    "found_instead": "Rhema Institute",
+    "county": "Kiambu",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "461724c8-3581-4beb-b0eb-4f3e1abc0883",
+    "searched_for": "Lenmac Leadership Training Centre",
+    "found_instead": "Rhema Institute",
+    "county": "Kiambu",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "d84111d0-b7cd-45ce-a0af-9b3f4e09ec39",
+    "searched_for": "Libu Training Institute",
+    "found_instead": "Kiambu National Polytechnic",
+    "county": "Kiambu",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "65317f8c-f6eb-4fec-b695-54b702f5abcb",
+    "searched_for": "Medelite Training Institute",
+    "found_instead": "MedLutek International College Of Health Sciences",
+    "county": "Kiambu",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "f8a13f62-896a-47a4-9578-7e5bfb539d63",
+    "searched_for": "MERCY CARE TRAINING CENTRE",
+    "found_instead": "SISTER'S OF MERCY COMMERCIAL COLLEGE, MIGUTA.",
+    "county": "Kiambu",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "eb562430-e3f8-4051-ba6e-020ac3cd1561",
+    "searched_for": "Mercylife college",
+    "found_instead": "Dykaan College",
+    "county": "Kiambu",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "93c2842d-242b-4ed5-80f1-dc29f5ed00f2",
+    "searched_for": "Modecai Technical and Vocational Training College",
+    "found_instead": "Kiambu National Polytechnic",
+    "county": "Kiambu",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "203501bd-b457-496e-bf43-e8720ff5dea4",
+    "searched_for": "Oakwood Training Institute",
+    "found_instead": "Kiambu National Polytechnic",
+    "county": "Kiambu",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "b0cf63f6-be17-425f-a106-c7507d2a6480",
+    "searched_for": "Oulac Institute of Cosmetology",
+    "found_instead": "Lio College",
+    "county": "Kiambu",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "a4b33d92-21e2-457b-ba5f-01f24c861a53",
+    "searched_for": "Royal Kings Training Institute",
+    "found_instead": "Kiambu National Polytechnic",
+    "county": "Kiambu",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "81e6eeea-7c37-4526-add9-6fc9d2420e01",
+    "searched_for": "ST KIZITO VOCATIONAL TRAINING INSTITUTE - GITHURAI",
+    "found_instead": "QXV4+QW3 Ruiru",
+    "county": "Kiambu",
+    "status": "INVALID_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "0e712a35-88d3-43bd-a6c5-add48673a21e",
+    "searched_for": "St Kizito Vocational Training Institute Githurai",
+    "found_instead": "QXV4+QW3 Ruiru",
+    "county": "Kiambu",
+    "status": "INVALID_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "571bfba2-6edc-4310-834d-f43c0d3f5c32",
+    "searched_for": "Stylush Hair and Beauty College",
+    "found_instead": "Trimsy Beauty & hairdressing training",
+    "county": "Kiambu",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "ba91689c-694f-4c1d-ae36-82f915f7c6b1",
+    "searched_for": "Tante African Studios Vocational Training Centre",
+    "found_instead": "Nyaga Vocational Training Center",
+    "county": "Kiambu",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "a7d6fefb-d036-4cd9-8660-78ad20780c83",
+    "searched_for": "Theophilus Theological Institute",
+    "found_instead": "Theologicum Seminary",
+    "county": "Kiambu",
+    "status": "INVALID_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "7705bf90-0c62-40b9-85cd-3a4c7c824a7e",
+    "searched_for": "Brighton vocational Training Center",
+    "found_instead": "Godoma Technical Training Institute",
+    "county": "Kilifi",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "5c7709b5-351c-4604-883b-cb388cafeced",
+    "searched_for": "Chidutani Vocational Training Centre",
+    "found_instead": "Sokoni Vocational Training Center",
+    "county": "Kilifi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "7b244660-0229-4f8b-a4a6-6b6134057347",
+    "searched_for": "First Lady Computer Training College�",
+    "found_instead": "Divas Technology College",
+    "county": "Kilifi",
+    "status": "INVALID_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "f3e0a699-7e8b-4740-9e9f-a96ae21799d7",
+    "searched_for": "GANDA VOCATIONAL TRAINING CENTER",
+    "found_instead": "Gede Vocational Training Center",
+    "county": "Kilifi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "4c190f25-5c05-4973-892c-5c13e390b995",
+    "searched_for": "GANZE VOCATIONAL TRAINING CENTRE",
+    "found_instead": "Gede Vocational Training Center",
+    "county": "Kilifi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "a8e1fc8d-83c8-4b4c-a0ea-8c214f912a7f",
+    "searched_for": "KAMBI YA WAYA VOCATIONAL TRAINING CENTRE",
+    "found_instead": "Pwani Training Institute Kilifi",
+    "county": "Kilifi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "6abf1fcb-de96-4c91-8db2-f9940d0db6a6",
+    "searched_for": "Mojutex Institute of Management�",
+    "found_instead": "Kilifi Medical Training College",
+    "county": "Kilifi",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "46e45017-683a-438a-8c8d-db010126fb78",
+    "searched_for": "WATAMU VOCATIONAL TRAINING CENTER",
+    "found_instead": "Mkwajuni Vocational Training Center",
+    "county": "Kilifi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "54e116c8-3128-4ff5-b8d9-44b8ef81a3d4",
+    "searched_for": "REHOBOTH INSTITUTE OF PROFESSIONAL STUDIES",
+    "found_instead": "Kirinyaga Institute Of Professional Studies",
+    "county": "Kirinyaga",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "d00dec85-1f3b-436e-b1a6-ab50f2d33240",
+    "searched_for": "SMIOUR LADY OF LOURDES MEDICAL TRAINING COLLEGE",
+    "found_instead": "OUR LADY OF LOURDES MWEA SCHOOL OF NURSING",
+    "county": "Kirinyaga",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "0be5f860-6178-42fb-b473-0833d3bd5345",
+    "searched_for": "Risamwera Vocational Training Center",
+    "found_instead": "Raganga Vocational Training Center",
+    "county": "Kisii",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "96e06280-0d90-4dcf-9917-4a5b6b01734a",
+    "searched_for": "Somawise College",
+    "found_instead": "Somawise Institute of Science and Technology",
+    "county": "Kisii",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "1ad9adaf-0d26-4708-9c71-ceeacc16b115",
+    "searched_for": "Ahero School of Health Sciences",
+    "found_instead": "Thika School of Medical and Health Sciences - Kisumu Campus",
+    "county": "Kisumu",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "37510cde-1670-4db9-88ce-4f46136c4cb6",
+    "searched_for": "Home of Glory Technical and Vocational Training",
+    "found_instead": "Rotary Vocational Training Centre",
+    "county": "Kisumu",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "a90be01b-c9a3-448e-81b9-1de719783adb",
+    "searched_for": "Johans Medical and Health Sciences Training Institute�",
+    "found_instead": "Johans Medical College",
+    "county": "Kisumu",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "437efb32-0787-4978-a103-f17b44840e21",
+    "searched_for": "KANDARIA VOCATIONAL & TRAINING CENTRE",
+    "found_instead": "Akado Vocational and Training Centre",
+    "county": "Kisumu",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "c1e7eb81-5270-4454-9873-589999764082",
+    "searched_for": "Kelac Training Institute",
+    "found_instead": "East Africa Institute of Certified Studies",
+    "county": "Kisumu",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "136e3560-f6a4-450b-b84b-a8bf162730db",
+    "searched_for": "Ladiva Beauty Training College",
+    "found_instead": "Lavon School Of Hair & Beauty",
+    "county": "Kisumu",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "08e062bb-f11a-46fd-9b9e-463abc6245f6",
+    "searched_for": "OBWOLO VOCATIONAL TRAINING CENTRE",
+    "found_instead": "Akado Vocational and Training Centre",
+    "county": "Kisumu",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "71ed7cf8-873c-4106-a3d3-37c620e317d0",
+    "searched_for": "Weststar Technical Training College",
+    "found_instead": "Rotary Vocational Training Centre",
+    "county": "Kisumu",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "b7e8f01c-eed1-4dd4-a0b5-a36e0f836e25",
+    "searched_for": "Withur Vocational Training Centre",
+    "found_instead": "Weru Technical And Vocational College",
+    "county": "Kisumu",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "9ac6442e-d03d-4ad4-999b-94710951e69e",
+    "searched_for": "FRANCES TAYLOR VOCATIONAL TRAINING CENTER",
+    "found_instead": "Taylored Training Institute",
+    "county": "Kitui",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "fca54902-fa67-430d-b7a2-33d0fab3b89c",
+    "searched_for": "KAIVISI VOCATIONAL TRAINING CENTER",
+    "found_instead": "Katse Vocational Training Center",
+    "county": "Kitui",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "45f65787-e3a8-4090-9c10-ec87539243a1",
+    "searched_for": "KALIVU VOCATIONAL TRAINING CENTER",
+    "found_instead": "Kyatune Vocational Training Center",
+    "county": "Kitui",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "5af91351-ea26-43a7-b3d5-10f3b34def59",
+    "searched_for": "KALIWA VOCATIONAL TRAINING CENTER",
+    "found_instead": "Kawala Vocational Training Center",
+    "county": "Kitui",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "ebcc494e-4289-481a-bee6-b87dfe22116c",
+    "searched_for": "KANDUTI VOCATIONAL TRAINING CENTER",
+    "found_instead": "Kyatune Vocational Training Center",
+    "county": "Kitui",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "528e03aa-b7a4-4990-9844-b8d95a476ad7",
+    "searched_for": "KASAALA VOCATIONAL TRAINING CENTRE",
+    "found_instead": "Kawala Vocational Training Center",
+    "county": "Kitui",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "f997ceba-84ba-436b-ad28-c4b8220bf910",
+    "searched_for": "KATHUNGU VOCATIONAL TRAINING CENTER",
+    "found_instead": "Kyatune Vocational Training Center",
+    "county": "Kitui",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "8ea34259-a299-4e78-bd4c-9d2732182707",
+    "searched_for": "KAUWI VOCATIONAL TRAINING CENTER",
+    "found_instead": "Kyatune Vocational Training Center",
+    "county": "Kitui",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "b1cc7c4c-9dc2-4fb0-a9a3-ee5929bafcf4",
+    "searched_for": "Kavingoni Vocational Training Center",
+    "found_instead": "Kanyengya Vocational Training Center",
+    "county": "Kitui",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "fe9bed75-f286-4104-aee1-9e4dcf0a7747",
+    "searched_for": "SEKU TVET Migwani Campus",
+    "found_instead": "South Eastern Kenya University (SEKU), Kitui Campus",
+    "county": "Kitui",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "0f4b5c47-b60c-4b8e-9f97-e9120d1b2170",
+    "searched_for": "Sonshine Vocational Training Centre",
+    "found_instead": "Jubilee College",
+    "county": "Kitui",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "e07aa753-4300-41b2-b3e2-3bf1843b998d",
+    "searched_for": "South Eastern VTC Kyambiti",
+    "found_instead": "Kitui East Technical and Vocational College",
+    "county": "Kitui",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "e364829c-4b2b-4ce8-9366-93f34c529b07",
+    "searched_for": "South Eastern VTC-Kyambiti",
+    "found_instead": "Kitui East Technical and Vocational College",
+    "county": "Kitui",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "4124260f-a9c8-4c4d-9fbd-3f2e68bbecb7",
+    "searched_for": "The Tseikuru National Polytechnic",
+    "found_instead": "Tseikuru Technical Training İnstitute",
+    "county": "Kitui",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "40e4e66e-7fdc-4f9f-981e-0c3fe1f3fec7",
+    "searched_for": "ZOMBE VOCATIONAL TRAINING CENTER",
+    "found_instead": "Kitui East Technical and Vocational College",
+    "county": "Kitui",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "54aa935c-ccce-4085-83cc-5938486cfeee",
+    "searched_for": "Bodo Vocational Training Centre",
+    "found_instead": "Diani Vocational Training Center",
+    "county": "Kwale",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "2463b38b-292e-4d9b-a353-be4a1ff3b493",
+    "searched_for": "Donje Vocational Training Centre",
+    "found_instead": "Diani Vocational Training Center",
+    "county": "Kwale",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "41c56010-fe73-4ab6-b163-3452dd7dcdf3",
+    "searched_for": "Galana Vocational Training Centre",
+    "found_instead": "Mama Lorenzas Vocational Training Center",
+    "county": "Kwale",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "9da8ef18-6246-407a-93db-106a73a52016",
+    "searched_for": "Kamale Vocational Training Centre",
+    "found_instead": "Kwale Community Technical Training Centre",
+    "county": "Kwale",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "f688008d-d00c-4e77-a014-bf6a3c8ebb70",
+    "searched_for": "Mabesheni Vocational Training Centre",
+    "found_instead": "Msulwa Vocational Center",
+    "county": "Kwale",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "25e5968e-f720-4320-8545-0a63cdd52221",
+    "searched_for": "Maponda Vocational Training Centre",
+    "found_instead": "Diani Vocational Training Center",
+    "county": "Kwale",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "c0e40579-78c0-4f0c-8254-afe6ac8c4838",
+    "searched_for": "Mivumoni Vocational Training Centre",
+    "found_instead": "Mkongani Vocational Training Center",
+    "county": "Kwale",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "946bf932-65ab-4107-93b0-d10fb4949840",
+    "searched_for": "Mlafyeni Vocational Training Centre",
+    "found_instead": "Mkongani Vocational Training Center",
+    "county": "Kwale",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "86fbf94d-0689-4476-b851-9e825d6bb4fa",
+    "searched_for": "Shimoni Vocational Training Center",
+    "found_instead": "Mavirivirini Vocational Training Center",
+    "county": "Kwale",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "9f9bd4ac-5d78-42aa-8095-31dcc759bdba",
+    "searched_for": "EAGLE CREEK COLLEGE",
+    "found_instead": "Laikipia East Technical and Professional College",
+    "county": "Laikipia",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "8365bdfe-6810-430a-a0bb-0ae649b90028",
+    "searched_for": "Maries college of professional studies",
+    "found_instead": "Laikipia East Technical and Professional College",
+    "county": "Laikipia",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": false,
+    "has_website": true
+  },
+  {
+    "id": "771d6584-9123-42f0-8f63-13e91066512e",
+    "searched_for": "BAHARI VOCATIONAL TRAINING CENTER",
+    "found_instead": "Riabai Vocational Training Center",
+    "county": "Lamu",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "443f6c46-3215-418f-9223-b42ba2170dd0",
+    "searched_for": "Lamu East TVC",
+    "found_instead": "Lamu East Technical and Vocational College",
+    "county": "Lamu",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "e6585173-954b-4709-a8e1-1b7c873c1c20",
+    "searched_for": "TEWE VOCATIONAL TRAINING CENTER",
+    "found_instead": "Lamu East Technical and Vocational College",
+    "county": "Lamu",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "ae592612-8819-4f90-b897-c202c8f99c9a",
+    "searched_for": "DIGITEX TECHNICAL & DRIVING SCHOOL",
+    "found_instead": "Denis Motor Vehicle Trainig And Driving School",
+    "county": "Machakos",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "39949986-069e-47bd-a49f-c12fd9d8b946",
+    "searched_for": "DURRIS COMPUTER INSTITUTE",
+    "found_instead": "The Institute Of Community Development-Machakos",
+    "county": "Machakos",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "ea83ed30-ac0f-44bd-93c4-13781ea681aa",
+    "searched_for": "EUNI Training Institute",
+    "found_instead": "Machakos Technical Institute For The Blind",
+    "county": "Machakos",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "d934d6bb-9bba-4b6b-8b04-e49761de745c",
+    "searched_for": "Great Nairobi East College of Management and Technology",
+    "found_instead": "East Africa School Of Management",
+    "county": "Machakos",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "156e5ac9-b1b6-470a-a348-e7ad712b8f12",
+    "searched_for": "Hakuna Matata Automotive Technical Training Institute",
+    "found_instead": "Machakos Technical Institute For The Blind",
+    "county": "Machakos",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "60b96c88-072b-4dad-8cd6-524e90283910",
+    "searched_for": "Jobplus Medical and Health Sciences Training College",
+    "found_instead": "KMTC-Manza",
+    "county": "Machakos",
+    "status": "INVALID_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "19222ed1-ab84-4c7d-b10b-586c3b9cdd70",
+    "searched_for": "Kamit Skills Training Institute",
+    "found_instead": "Machakos Institute of Technology",
+    "county": "Machakos",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "1ab6b1c6-65cc-442e-ba9b-0456486a4c8b",
+    "searched_for": "Lungulueni Vocational Training Centre",
+    "found_instead": "Kaluluni Vocational Training Center",
+    "county": "Machakos",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "1b917f60-f8d0-4862-ba01-53c6c025d73a",
+    "searched_for": "Nys Athi River Technical Institute",
+    "found_instead": "NITA Athi River",
+    "county": "Machakos",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "b64e8e9e-d98a-4221-8b85-81fce2f4cb8d",
+    "searched_for": "NYS Yatta Technical Training Institute",
+    "found_instead": "Yatta College",
+    "county": "Machakos",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "0dff09c6-2f45-4f87-b186-c8d16e36bc40",
+    "searched_for": "SKILLSLINK TECHNICAL COLLEGE",
+    "found_instead": "Machakos Technical Institute For The Blind",
+    "county": "Machakos",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "fdcad88c-e3a8-4cb5-81b5-f909861217ce",
+    "searched_for": "Southern Equippers Training Institute",
+    "found_instead": "Machakos Professional Training Center",
+    "county": "Machakos",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "741f4cac-c76a-4f73-8c42-f8793c320b48",
+    "searched_for": "ST. NICHOLAS CENTRE FOR PROFESSIONAL DEVELOPMENT",
+    "found_instead": "Innovative Development Approach Centre",
+    "county": "Machakos",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "3ca58252-b124-4bb0-9d86-574df88dbc85",
+    "searched_for": "AIC Mukaatini Vocational Training Centre",
+    "found_instead": "AIC Tulimani County Technical Training Institute",
+    "county": "Makueni",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "9d4d54ae-e2f9-4d63-b41a-f936443f940c",
+    "searched_for": "Fem Leadership College - Kambu Campus",
+    "found_instead": "KMTC-Makueni Campus",
+    "county": "Makueni",
+    "status": "INVALID_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "1fbb2db0-0237-489a-aab2-eaf83c107318",
+    "searched_for": "Heros College",
+    "found_instead": "Heroes Technical and Vocational College",
+    "county": "Makueni",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "3423cafa-0b10-4d9b-b218-d037291fbee4",
+    "searched_for": "Kanundu Vocational Training Centre",
+    "found_instead": "Kaluluni Vocational Training Center",
+    "county": "Makueni",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "3866cc99-20fc-40a3-870d-ea98227299f8",
+    "searched_for": "Kativani Vocational Training Centre",
+    "found_instead": "Kithaayoni Vocational Training Center",
+    "county": "Makueni",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "50692935-fdb7-4140-9ac4-9248c4bbcbd6",
+    "searched_for": "KENYA SCHOOL FOR DEVOLUTION AND COMMUNITY LED DEVELOPMENT",
+    "found_instead": "The Makueni School",
+    "county": "Makueni",
+    "status": "INVALID_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "5668885a-f655-4e3f-a745-e45ab44701d6",
+    "searched_for": "Kitaingo Vocational Training Centers",
+    "found_instead": "Kinangop Technical and Professional College",
+    "county": "Makueni",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "77c0788a-8674-4e15-acc3-a1847206377f",
+    "searched_for": "Kitumbini Vocational Training Centre",
+    "found_instead": "Kituluni Vocational Training Center",
+    "county": "Makueni",
+    "status": "RETRY_USER_REJECTED",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "1b3c26b6-717f-442d-92ce-b393151f2e79",
+    "searched_for": "MACHAKOS BAPTIST PRESBYTERIAN TECHNICAL INSTITUTE",
+    "found_instead": "Machakos Technical Institute For The Blind",
+    "county": "Makueni",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "e15a7d51-1217-469b-9ddb-3302bd96aaee",
+    "searched_for": "Makueni Crestwood Training College",
+    "found_instead": "Wote Technical Training Institute",
+    "county": "Makueni",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "7232e046-d1d1-4364-9c7a-b094ff0913e2",
+    "searched_for": "MASOKANI VTC",
+    "found_instead": "Masokani County Technical Training Institute",
+    "county": "Makueni",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "7753c5ad-eda2-48e3-ad48-fc916fe55163",
+    "searched_for": "Ukala Vocational Training Centre",
+    "found_instead": "Wote Technical Training Institute",
+    "county": "Makueni",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "c5a7dcd6-3358-4140-9198-72d4a8c15e3d",
+    "searched_for": "ELWAK TECHNICAL AND VOCATIONAL COLLEGE",
+    "found_instead": "Mandera Technical Training Institute",
+    "county": "Mandera",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "7eafe42f-23d3-44fc-8f12-c8672629ae4c",
+    "searched_for": "Rhamu Technical and Vocational College",
+    "found_instead": "Mandera Technical Training Institute",
+    "county": "Mandera",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "4fbc2309-e1a5-44b2-b491-c0db0162caf7",
+    "searched_for": "Best Workforce Development Training Institute",
+    "found_instead": "Best Kenya Training Institute",
+    "county": "Meru",
+    "status": "RETRY_USER_REJECTED",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "593d38cf-425a-4b46-adf6-2003efab0328",
+    "searched_for": "Fusion Skills Technical College",
+    "found_instead": "Meru Technical Training College application",
+    "county": "Meru",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "d3058372-887b-4efc-8dab-d70182c99c1f",
+    "searched_for": "Great Eastern Technical Training Institute",
+    "found_instead": "Meru Technical Training College application",
+    "county": "Meru",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "1f21d4d5-40c1-4113-8881-f750e5568b0d",
+    "searched_for": "KATHUNGURI VOCATIONAL TRAINING CENTRE",
+    "found_instead": "Nkabune Technical Training Institute",
+    "county": "Meru",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "80526a6f-c115-4f91-970b-50c3aff2c6bf",
+    "searched_for": "Saints in Light Theological Training Institute",
+    "found_instead": "Meru University of Science and Technology",
+    "county": "Meru",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "d4f4dcc9-1189-4cf2-94d9-bfe0f9cd802d",
+    "searched_for": "ELGON VIEW TECHNICAL AND VOCATIONAL COLLEGE - MIGORI CAMPUS",
+    "found_instead": "ELGON VIEW COLLEGE",
+    "county": "Migori",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "dba6a179-99c5-47d6-8720-84ff08a4bbad",
+    "searched_for": "Golden Hill Vocational Training Center",
+    "found_instead": "Migori Vocational Training Center",
+    "county": "Migori",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "42f4660b-8596-488b-8f84-92afc1f21fc6",
+    "searched_for": "GOLDEN HILL VOCATIONAL TRAINING CENTRE",
+    "found_instead": "Uriri Vocational Training Center",
+    "county": "Migori",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "8b9aaf86-40b2-4fff-84cc-d17662e30569",
+    "searched_for": "Karungu Technical Training College",
+    "found_instead": "Kakrao Technical and Professional College",
+    "county": "Migori",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "db199118-c211-48d2-a643-0b4b01c8ba75",
+    "searched_for": "KODENY VOCATIONAL TRAINING CENTRE",
+    "found_instead": "Uriri Vocational Training Center",
+    "county": "Migori",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "25a88783-ee06-4006-9b3f-2f05278bdd3c",
+    "searched_for": "KOKELO VOCATIONAL TRAINING CENTRE",
+    "found_instead": "Migori Vocational Training Center",
+    "county": "Migori",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "786376ac-5c41-4fdd-b294-e09f05ffbab3",
+    "searched_for": "Aldina Modern Training College",
+    "found_instead": "MacMillan University College",
+    "county": "Mombasa",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "24a9d4f5-b9a2-4d8e-b149-7c5c6ac0b7e2",
+    "searched_for": "EQUIP AFRICA INSTITUTE -MOMBASA",
+    "found_instead": "East Africa Institute of Certified Studies Mombasa Branch",
+    "county": "Mombasa",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "ce892aba-118b-4cc0-a35c-c6a3f2775bf6",
+    "searched_for": "GLOBOPOINT LEARNING CENTRE",
+    "found_instead": "Mombasa Learning Centre",
+    "county": "Mombasa",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "2f1a6b12-024a-4acb-bebb-89858b1f78af",
+    "searched_for": "Impact training and counselling centre",
+    "found_instead": "Amani Counselling Centre & Training Institute",
+    "county": "Mombasa",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "636286f2-dbdc-468d-aa4c-d8548180284c",
+    "searched_for": "Menorah Training Institute",
+    "found_instead": "Sponsored",
+    "county": "Mombasa",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": true
+  },
+  {
+    "id": "8f66351f-c529-4a6c-aa4e-991beece233f",
+    "searched_for": "Mombasa College of Professional Studies�",
+    "found_instead": "coastlands college of professional studies",
+    "county": "Mombasa",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "28b94de5-1c54-4c21-96a0-257a4833be7a",
+    "searched_for": "Romesgate Training Institute",
+    "found_instead": "Marianist Technical Institute",
+    "county": "Mombasa",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "e41c4ea6-b31d-4e83-8c2f-bb6821948682",
+    "searched_for": "St Mulumba TVC",
+    "found_instead": "Holy Ghost Fathers' Technical Institute",
+    "county": "Mombasa",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "b2203e14-4fce-4509-a996-7ccb0d2c8c72",
+    "searched_for": "Wellington Training College",
+    "found_instead": "Edinburgh School",
+    "county": "Murang'a",
+    "status": "INVALID_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "e93e1164-b5e6-412d-9f8d-e1e700ead6c3",
+    "searched_for": "Acropolis College Of Medical And Professional Studies",
+    "found_instead": "Royal Institute of Professional Studies",
+    "county": "Nairobi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "cd795b36-0b23-48d1-8360-a947a1a3c557",
+    "searched_for": "Albury Training Institute",
+    "found_instead": "SPRING INTERNATIONAL TRAINING COLLEGE | KILIMANI CAMPUS |ENGLISH | GERMAN | FRENCH | IELTS | KISWAHILI | SPANISH | A1-C1",
+    "county": "Nairobi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "e971ee06-df1e-48cb-8577-4f4283a37136",
+    "searched_for": "ATLAS COLLEGE",
+    "found_instead": "ATLAS COLLEGE",
+    "county": "Nairobi",
+    "status": "RETRY_USER_REJECTED",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "02e2cf77-2060-4ec8-b8cb-d3e6aad98a9a",
+    "searched_for": "Barton Training Institute",
+    "found_instead": "Tabor Training Institute",
+    "county": "Nairobi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "82a81a16-52d0-4e74-9fff-a7e6c9f7f0a7",
+    "searched_for": "Candy College of Beauty and Applied Sciences",
+    "found_instead": "Candy Beauty College",
+    "county": "Nairobi",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "76438e07-5001-4164-a6f2-805df62be635",
+    "searched_for": "Chemilil PotoPoto VTC",
+    "found_instead": "Kitlio Executive Transfers",
+    "county": "Nairobi",
+    "status": "INVALID_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "e245edae-b652-4991-a4b2-81e013730544",
+    "searched_for": "Elevana Professional Training Institute",
+    "found_instead": "Eastlands College of Technology",
+    "county": "Nairobi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "e1868b9f-5357-4b98-90aa-e7890730d890",
+    "searched_for": "Excelligent Health Training Institute",
+    "found_instead": "Elmwood Healthcare Training Institute",
+    "county": "Nairobi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "edbc623d-868a-4d32-a706-7cbb65ed669a",
+    "searched_for": "Fahma Naleey Beauty College",
+    "found_instead": "Vera Beauty And Fashion College - Nairobi",
+    "county": "Nairobi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "b07986ec-5ac2-4b09-bca3-f659f21a42d1",
+    "searched_for": "Full Gospel Theology Training Institute",
+    "found_instead": "Nairobi Pentecostal Bible College",
+    "county": "Nairobi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "3d12fdf6-0e5a-408d-a3d1-e6a31333d771",
+    "searched_for": "Granden Technical Training College",
+    "found_instead": "Global Technical Training Institute G.T.T.I",
+    "county": "Nairobi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "cf850868-2c62-4705-a4bc-07d3698b94b7",
+    "searched_for": "High Global Technical Training College",
+    "found_instead": "Global Technical Training Institute G.T.T.I",
+    "county": "Nairobi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "fdb1f889-73d2-40ac-9c56-2c863181a187",
+    "searched_for": "KCA UNIVERSITY PROFESSIONAL AND TECHNICAL TRAINING INSTITUTE",
+    "found_instead": "KCA Technical College Buruburu",
+    "county": "Nairobi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "aab8fc79-a58e-499f-8a93-f74617be7c75",
+    "searched_for": "KCA University Professional Technical Training Institute - Town Campus",
+    "found_instead": "KCA Technical College Buruburu",
+    "county": "Nairobi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "297659e6-e294-4977-adc3-efebdee459e2",
+    "searched_for": "KENYA INSTITUTE OF BUSINESS AND COUNSELING STUDIES",
+    "found_instead": "KIBCo",
+    "county": "Nairobi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "7d44f9ee-98a0-45b8-8ea9-5720f854859c",
+    "searched_for": "KENYA INSTITUTE OF PROFESSIONAL STUDIES ( KIPS) - KPCU",
+    "found_instead": "KIPS Technical College",
+    "county": "Nairobi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "08316452-948f-4dcc-bfa7-1ce064706797",
+    "searched_for": "Kenya Institute of Project Management",
+    "found_instead": "Sponsored",
+    "county": "Nairobi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "56b295ac-0959-4423-803c-334add8011e1",
+    "searched_for": "KEY CENTER OF EXELLENCE INSTITUTE",
+    "found_instead": "Institute Of Service Excellence Kenya",
+    "county": "Nairobi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": false,
+    "has_website": true
+  },
+  {
+    "id": "f95fcadd-c27c-4dd5-9608-71a3644d9e13",
+    "searched_for": "KQ Pride Training Centre",
+    "found_instead": "Kenya Airways Pride Centre",
+    "county": "Nairobi",
+    "status": "INVALID_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "532a32d3-6ba3-412e-86b6-a1b3f4f85a73",
+    "searched_for": "Maior Lugha School of International Languages",
+    "found_instead": "Lugha Learning Solutions",
+    "county": "Nairobi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "d0de272f-30ec-4b25-80dd-0d2801c00c4e",
+    "searched_for": "Marura Technical Training Institute",
+    "found_instead": "Mathare Vocational Training Center",
+    "county": "Nairobi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "fb230cb4-a879-48f7-ac41-da8ca2355a75",
+    "searched_for": "Medipoint Training College",
+    "found_instead": "MedPrime Training College",
+    "county": "Nairobi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "c7d39b88-6fce-4e13-a337-df5cc8dd65e8",
+    "searched_for": "Moalim Technical Training Institute",
+    "found_instead": "QXV4+QW3 Ruiru",
+    "county": "Nairobi",
+    "status": "INVALID_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "fa032f5d-837f-4ed5-912f-7963369176fd",
+    "searched_for": "Mohi Technical Training Institute",
+    "found_instead": "Nairobi technical training institute",
+    "county": "Nairobi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "1647d017-5776-46fe-964c-44c365c08247",
+    "searched_for": "NYS Engineering Craft School",
+    "found_instead": "Sponsored",
+    "county": "Nairobi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "c5f4d693-074d-45b6-a850-0eed7dc87d85",
+    "searched_for": "Redeemed Theological College",
+    "found_instead": "Rhema Bible Training College Nairobi",
+    "county": "Nairobi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "fbf539e3-ac35-42ca-b848-0fb4cb4af44b",
+    "searched_for": "ST. KIZITO VOCATIONAL TRAINING INSTITUTE - RUARAKA",
+    "found_instead": "QXV4+QW3 Ruiru",
+    "county": "Nairobi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "0639aa3e-5e51-48c5-8521-c2865a265d7b",
+    "searched_for": "Surfcrest Technology Training Institute",
+    "found_instead": "Bay Technology Training Institute",
+    "county": "Nairobi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "cdabcadf-b3cf-4cfe-9e69-2b6a2ded2d67",
+    "searched_for": "Trelyne Training Institute",
+    "found_instead": "ELY-YON TRAINING INSTITUTE",
+    "county": "Nairobi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "6448fb2f-2222-432c-b5e1-0a79e8a94edc",
+    "searched_for": "Uscan Training Institute",
+    "found_instead": "SPRING INTERNATIONAL TRAINING COLLEGE | WESTLANDS CAMPUS| CNA | CAREGIVING | IELTS | OET | PTE | DET | TOEFL",
+    "county": "Nairobi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "4efd3ba6-92eb-434c-a447-ec5e21982787",
+    "searched_for": "Ushindi College of Professional Studies",
+    "found_instead": "Uhandisi Training Institute",
+    "county": "Nairobi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "c3527098-51a8-40b8-85c5-53fc8ff45930",
+    "searched_for": "Utawala TTI",
+    "found_instead": "Utawala Technical Training Institute",
+    "county": "Nairobi",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "b105831e-40bf-4499-82b3-65beaea25f94",
+    "searched_for": "Wesleyan United Methodist Training College",
+    "found_instead": "Kenya medical training college-nairobi",
+    "county": "Nairobi",
+    "status": "INVALID_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "cc10efcf-1185-4bff-b39b-0ccce146edd7",
+    "searched_for": "Yan School of Hospitality",
+    "found_instead": "School of Hospitality and Tourism",
+    "county": "Nairobi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "73dbd0a9-20a7-4901-b40a-51af60cbb915",
+    "searched_for": "ZETECH BUSINESS AND TECHNICAL INSTITUTE - STANBANK CAMPUS",
+    "found_instead": "Zetech University",
+    "county": "Nairobi",
+    "status": "INVALID_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "d14fa320-a203-43fa-aaeb-bee41c1aedfd",
+    "searched_for": "Antioch Mission Training Institute",
+    "found_instead": "Nakuru",
+    "county": "Nakuru",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "8248663e-1a17-43a6-a71b-d2965b9b5459",
+    "searched_for": "Apostolic Faith Church Bible College",
+    "found_instead": "Njoro Bible College",
+    "county": "Nakuru",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "611df7de-bff5-48af-97fd-bfedf6a12109",
+    "searched_for": "Beniels Beauty Training College",
+    "found_instead": "Flamingo International School Of Hairdressing",
+    "county": "Nakuru",
+    "status": "INVALID_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "a6f8adbd-e8c8-4ee7-9137-19de06009585",
+    "searched_for": "Berlin Business Training Institute",
+    "found_instead": "Nakuru Training Institute",
+    "county": "Nakuru",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "69658cf3-8ee0-41a1-8eea-16a58b7e5968",
+    "searched_for": "Cambridge universal college Nakuru",
+    "found_instead": "Dalc Education Cambridge Oxford",
+    "county": "Nakuru",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "500fec57-2297-4702-9374-ac536ddc89cf",
+    "searched_for": "Comboni Technical and Vocational Training College",
+    "found_instead": "Sponsored",
+    "county": "Nakuru",
+    "status": "INVALID_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "22110032-edfb-4a86-a84e-a85d13f59dc7",
+    "searched_for": "Elburgon Vocational Training Centre",
+    "found_instead": "Molo Technical and Vocational College - Elburgon",
+    "county": "Nakuru",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "131f3b30-6ecf-4ce2-82d1-ff48f8e83855",
+    "searched_for": "Fooster Dairy Training Center",
+    "found_instead": "Rift Valley Technology Farm",
+    "county": "Nakuru",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "6a2fb90c-11c6-4737-9b36-7c8349a22b4b",
+    "searched_for": "KENYA INSTITUTE OF DEVELOPMENT STUDIES",
+    "found_instead": "African Institute Of Research And Development Studies-Nakuru campus",
+    "county": "Nakuru",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "f4976af5-25db-45b4-b588-a9b64d2e8ad0",
+    "searched_for": "Kingdom Transformers Training Institute",
+    "found_instead": "Kenya industrial training institute",
+    "county": "Nakuru",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "5c8d2bd8-b50e-4613-b3d3-9c78e1d5254b",
+    "searched_for": "Kio Training Center",
+    "found_instead": "Kikopey Vocational Training Center",
+    "county": "Nakuru",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "5de6c92f-2375-44f6-9512-2e97e1abfb2a",
+    "searched_for": "KWARE VOCATIONAL TRAINING CENTER",
+    "found_instead": "Nakuru Vocational Training Center",
+    "county": "Nakuru",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "b1e7c580-a110-4709-b2d8-b03bcd269edb",
+    "searched_for": "MBEGI VOCATIONAL TRAINING CENTRE",
+    "found_instead": "Nakuru Vocational Training Center",
+    "county": "Nakuru",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "af39ae6b-82c8-4423-a93b-9a122541d238",
+    "searched_for": "Merit Smart Skills Training Institute",
+    "found_instead": "Nakuru Training Institute",
+    "county": "Nakuru",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "de464c4e-b796-4083-8e08-f60d7688f9d0",
+    "searched_for": "Mother Kevin Vocational Training Institute",
+    "found_instead": "Nakuru Vocational Training Center",
+    "county": "Nakuru",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "4379b750-5fca-4643-aa69-ab4270dfbf4d",
+    "searched_for": "OGIEK VOCATIONAL TRAINING CENTRE",
+    "found_instead": "Nakuru Vocational Training Center",
+    "county": "Nakuru",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "a971e77d-10c2-40c5-a577-d829c17bb863",
+    "searched_for": "OGILGEI VOCATIONAL TRAINING CENTER",
+    "found_instead": "LIONHILL VOCATIONAL TRAINING CENTER",
+    "county": "Nakuru",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "0b1b72dd-0f6d-41ac-a006-ae77221f6bd6",
+    "searched_for": "RVIST - KURESOI CAMPUS",
+    "found_instead": "Rift Valley Institute Of Science & Technology-Nakuru Town Campus",
+    "county": "Nakuru",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "b1b62b14-73c8-4561-8807-49145f2c727b",
+    "searched_for": "Sahara emergency medical services college",
+    "found_instead": "Kenya Council Of Emergency Medical Technicians",
+    "county": "Nakuru",
+    "status": "INVALID_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "5e408b42-6cd6-486a-bf52-9e247f6ba5d9",
+    "searched_for": "Spectrum Business Training College",
+    "found_instead": "Rift Valley Institute of Business studies",
+    "county": "Nakuru",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "26b69bb7-04c5-40ab-9376-54f8cb08183f",
+    "searched_for": "Tesscol Homecare Training Institute",
+    "found_instead": "Nakuru Training Institute",
+    "county": "Nakuru",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "cf2991b5-1abe-4a80-955e-fbd06e6d1a41",
+    "searched_for": "TRENDY TECHNICAL AND VOCATIONAL TRAINING CENTRE",
+    "found_instead": "Nakuru Vocational Training Center",
+    "county": "Nakuru",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "8ce8fc3e-7dde-49a6-bb4c-c86580f7f19d",
+    "searched_for": "Chemundu Vocational Training Centre",
+    "found_instead": "Mugondoi Vocational Training Centre",
+    "county": "Nandi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "f82e05a2-e9a4-4d75-b4ff-1b7800eeea46",
+    "searched_for": "Chepsire Vocational Training Centre",
+    "found_instead": "Cheptuech Vocational Training Center",
+    "county": "Nandi",
+    "status": "RETRY_USER_REJECTED",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "a4dce880-28a2-46d6-8eca-9b60978f26cd",
+    "searched_for": "Ilkarian Vocational Training Centre",
+    "found_instead": "Narok Vocational Training Center",
+    "county": "Narok",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "6e19aae2-9770-43a4-937c-7e0d75953a7b",
+    "searched_for": "Samba Institute of Technical Training",
+    "found_instead": "Maasai Mara Technical and Vocational College",
+    "county": "Narok",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "9bcc28ba-bedb-4d3d-a20f-a9afbf535c74",
+    "searched_for": "Shepherd's Hope Training Center",
+    "found_instead": "Narok",
+    "county": "Narok",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "51990157-6d62-4c71-9fe2-6e543b3851e9",
+    "searched_for": "Cennet Technology and Management Training Institute",
+    "found_instead": "Nyamira Institute Of Science And Technology",
+    "county": "Nyamira",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "1f01cbfb-7460-4421-b8da-1f5c15a2654e",
+    "searched_for": "KENYERERE VOCATIONAL TRAINING CENTER",
+    "found_instead": "Nyaga Vocational Training Center",
+    "county": "Nyamira",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "6079b7da-ed7c-4979-ad19-63bf45f31f8e",
+    "searched_for": "KIANGENDE VOCATIONAL TAINING CENTER",
+    "found_instead": "Kiendege Vocational Training Center",
+    "county": "Nyamira",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "4a0cde40-0a76-4578-b416-a64848d6b76f",
+    "searched_for": "Minto Institute of Professional Studies",
+    "found_instead": "Nyamira Institute Of Science And Technology",
+    "county": "Nyamira",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "2767dc89-b4d0-4c2a-bd97-54ebafe921d2",
+    "searched_for": "Saigangiya Vocational Training Center",
+    "found_instead": "Nyaga Vocational Training Center",
+    "county": "Nyamira",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "0a0ded03-68b3-4fe4-aa9f-3dc6c090f173",
+    "searched_for": "ST. PETERS GETENI VOCATIONAL TRAINING CENTER",
+    "found_instead": "St. Andrew'S Krima Vocational Training Center",
+    "county": "Nyamira",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "1112ffac-fd73-49ba-a1af-3da9337997c0",
+    "searched_for": "SHAURI VOCATIONAL TRAINING CENTER",
+    "found_instead": "Rurii Vocational Training Center",
+    "county": "Nyandarua",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "be755c2b-3d4e-443b-b483-e8a39a38ffd5",
+    "searched_for": "Cheni Training Institute",
+    "found_instead": "The Nyeri National Polytechnic",
+    "county": "Nyeri",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "ff51b81d-41b2-4310-937e-2f71bbc1d809",
+    "searched_for": "DCU Spring Christian Training Institute",
+    "found_instead": "St Augustine’s Catechists Centre",
+    "county": "Nyeri",
+    "status": "INVALID_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "142bccac-b1c0-4004-9bae-69022d592f5b",
+    "searched_for": "DEXTER INTERNATIONAL COLLEGE",
+    "found_instead": "TESLAK LINGUISTICS & Communication",
+    "county": "Nyeri",
+    "status": "INVALID_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "5f1b7c7b-0d63-4956-9148-c01a3843b373",
+    "searched_for": "Impartation Leadership Bible Training Institute",
+    "found_instead": "Moffat Bible College",
+    "county": "Nyeri",
+    "status": "INVALID_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "828b5035-bb62-44e9-ac65-c40f907ea452",
+    "searched_for": "ST TERESA'S BUSINESS AND TECHNOLOGY TRAINING INSTITUTE",
+    "found_instead": "St.Theresa Business and Technology Institute",
+    "county": "Nyeri",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "7b8bd487-8b90-460c-9277-82c0e159c4f2",
+    "searched_for": "Yeshua Technical Training Institute",
+    "found_instead": "The Nyeri National Polytechnic",
+    "county": "Nyeri",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "2ab0f16f-cbc4-48dd-829e-92ba1cff2539",
+    "searched_for": "Samburu North TVC",
+    "found_instead": "Samburu North Technical and Professional College",
+    "county": "Samburu",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "90ec5d5d-d49d-4478-9846-440ea827b2c3",
+    "searched_for": "ADOK LIGEGA VOCATIONAL TRAINING CENTRE",
+    "found_instead": "Siaya Institute of Technology",
+    "county": "Siaya",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "8032bfdd-11eb-47f7-ba5a-9f4efa6106e9",
+    "searched_for": "Cawibo Technical Training College",
+    "found_instead": "Technical and vocational training institute",
+    "county": "Siaya",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "7b1b0b41-64b9-4e4c-aec2-cb08cbf682c8",
+    "searched_for": "Donald Dima German Medical Training Institute",
+    "found_instead": "Dima College",
+    "county": "Siaya",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "33f89aa8-573a-4164-85fa-ba68fc1cfded",
+    "searched_for": "Got Ramogi Technical and Vocational College",
+    "found_instead": "Ramogi Institute Of Advanced Technology (RIAT)",
+    "county": "Siaya",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "06fce6df-990b-45be-9878-00fe5f9a5db0",
+    "searched_for": "Majengo Vocational Training Centre",
+    "found_instead": "Sigul Vocational Training Center",
+    "county": "Siaya",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "578efa64-3328-47db-889d-4a300018f548",
+    "searched_for": "RANDAGO VOCATIONAL TRAINING CENTER",
+    "found_instead": "Siaya Institute of Technology",
+    "county": "Siaya",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "bcbc1fa7-8382-48cf-8cd2-2942bf634320",
+    "searched_for": "Rarieda Technical & Vocational College",
+    "found_instead": "Rarieda Training and Resource Center (RTRC)",
+    "county": "Siaya",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "eb0211fa-937e-46f3-a83c-3c343a361bb9",
+    "searched_for": "Rarieda Technical & Vocational College",
+    "found_instead": "Rarieda Training and Resource Center (RTRC)",
+    "county": "Siaya",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "9c0b8c12-974e-484b-a474-3dea5b0668ec",
+    "searched_for": "ST. CLEMENCE INSTITUTE",
+    "found_instead": "Siaya Institute of Technology",
+    "county": "Siaya",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "8e834904-5f3e-408e-b05f-e99ca126160e",
+    "searched_for": "Steve Boyd Training Institute",
+    "found_instead": "Siaya Institute of Technology",
+    "county": "Siaya",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "77de70d6-0277-459f-845a-7dafbee2f054",
+    "searched_for": "GHAZI VOCATIONAL TRAINING CENTER",
+    "found_instead": "Gatanga Technical and Professional College",
+    "county": "Taita Taveta",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "bb2738b4-14bb-4013-aad3-fa06354ab7c0",
+    "searched_for": "KIDAYA NGERENYI VOCATIONAL TRAINING CENTER",
+    "found_instead": "Ngenyilel Vocational Training Center",
+    "county": "Taita Taveta",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "b84ede8a-e4ed-42bf-a727-6a68c74efcf0",
+    "searched_for": "MLAMBENYI VOCATIONAL TRAINING CENTRES",
+    "found_instead": "Mwagafwa Vocational Training Center",
+    "county": "Taita Taveta",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "eb20cbd7-cdfc-4074-b087-6da2b4533be8",
+    "searched_for": "Mraru Vocational Training Centre",
+    "found_instead": "Bura Vocational Rehabilitation Center - Taita",
+    "county": "Taita Taveta",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "04e1117b-c617-40d5-8d3c-5851f557bfc1",
+    "searched_for": "RONGE JUU VOCATIONAL TRAINING CENTER",
+    "found_instead": "Bura Vocational Rehabilitation Center - Taita",
+    "county": "Taita Taveta",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "96bb6570-e735-467b-8048-7b906d4cc143",
+    "searched_for": "TAUSA VOCATIONAL TRAINING CENTER",
+    "found_instead": "Bura Vocational Rehabilitation Center - Taita",
+    "county": "Taita Taveta",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "e2f86c80-d5d9-4184-b09b-a2707c6d4023",
+    "searched_for": "Taveta Technical and Vocational College",
+    "found_instead": "Cha Chewa Bomeni Ward",
+    "county": "Taita Taveta",
+    "status": "INVALID_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "ae017900-52fd-4688-a5f6-19c4ceec09a5",
+    "searched_for": "TAVETA VOCATIONAL TRAINING CENTER",
+    "found_instead": "Witu Vocational Training Center",
+    "county": "Taita Taveta",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "18d4f74f-e89d-4ad1-b406-65e4a286f9b6",
+    "searched_for": "TSAVO INSTITUTE OF TECHNOLOGY",
+    "found_instead": "Thika",
+    "county": "Taita Taveta",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "57febb09-0f1d-470d-af99-0c39e3f6e5db",
+    "searched_for": "Odha Vocational Training Center",
+    "found_instead": "Athi River Vocational Training Center",
+    "county": "Tana River",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "7e67e768-b2fd-4b88-8189-7e7a07cfe9fd",
+    "searched_for": "TARASAA VOCATIONAL TRAINING CENTRE",
+    "found_instead": "Tana River Technical and Professional College",
+    "county": "Tana River",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "56df7e1c-688a-4629-b9b7-b5fec59323cb",
+    "searched_for": "CIAMAKIE VOCATIONAL TRAINING CENTER",
+    "found_instead": "THARAKA TECHNICAL & VOCATIONAL COLLEGE - kiembea",
+    "county": "Tharaka Nithi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "90f0fa1b-57f8-4899-afa2-db542035ef17",
+    "searched_for": "MUGUMANGO VOCATIONAL TRAINING CENTER",
+    "found_instead": "Muraga Technical Training Institute",
+    "county": "Tharaka Nithi",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "89f99f95-d60c-407c-8074-c5ee2ed3ddfa",
+    "searched_for": "PCEA CHOGORIA HOSPITAL CLIVE IRVINE COLLEGE OF NURSING",
+    "found_instead": "Clive Irvine College Of Health sciences",
+    "county": "Tharaka Nithi",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "b43d8b68-7ab9-468c-b0a6-96766d6df1f4",
+    "searched_for": "Chalicha Vocational Training Center",
+    "found_instead": "Chesongoch Vocational Training Center",
+    "county": "Trans Nzoia",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "ce559447-a64d-4313-b219-e0528d386505",
+    "searched_for": "FULBRIGHT UNIVERSAL COLLEGE",
+    "found_instead": "Transnzoia Teachers College",
+    "county": "Trans Nzoia",
+    "status": "INVALID_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "03ed0820-6e02-4c51-aa83-5d84bdbe1e83",
+    "searched_for": "Imani Digital Learning Centre (IDLC)",
+    "found_instead": "Trans-Nzoia County",
+    "county": "Trans Nzoia",
+    "status": "INVALID_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "7839766e-1f50-4560-8887-f830afe3e141",
+    "searched_for": "KAPKARWA VOCATIONAL TRAINING CENTRE",
+    "found_instead": "Kapenguria Vocational Training Center",
+    "county": "Trans Nzoia",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "ea9477c0-6647-450a-b2cf-1666e836f5ee",
+    "searched_for": "KIPSNGORI VOCATIONAL TRAINING CENTER",
+    "found_instead": "Kiptiroko Vocational Training Center",
+    "county": "Trans Nzoia",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "adc7f009-3b25-42ad-afde-de0c2748a98c",
+    "searched_for": "Mitoto S A Vocational Training Center for the Visually impaired",
+    "found_instead": "QXV4+QW3 Ruiru",
+    "county": "Trans Nzoia",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "01745799-0b54-4f75-bfb5-7ae987493bfa",
+    "searched_for": "Mt. Elgon Bible College",
+    "found_instead": "Mt Elgon Academy",
+    "county": "Trans Nzoia",
+    "status": "RETRY_USER_REJECTED",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "652cc394-d2c7-47ba-b07e-41a33493bf7d",
+    "searched_for": "Kingdom Ambassadors Christian Institute",
+    "found_instead": "Turkana County",
+    "county": "Turkana",
+    "status": "INVALID_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "779e2c80-094e-4f52-86ef-36e4d4be611e",
+    "searched_for": "LORUGUM VOCATIONAL TRAINING CENTER",
+    "found_instead": "Loima Technical and Professional College",
+    "county": "Turkana",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "efca5ef8-ca4c-4c1a-8a7d-4d9aadd2699b",
+    "searched_for": "Teska Technical Training Institute",
+    "found_instead": "Turkana East Technical and Vocational College",
+    "county": "Turkana",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "5cd7112e-b114-4cf4-b32e-8f03353ccc7d",
+    "searched_for": "Vast College of Accounting and Finance",
+    "found_instead": "Turkana East Technical and Vocational College",
+    "county": "Turkana",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "360524a4-b23b-4ca0-ad79-269703a24857",
+    "searched_for": "BreeAfric Training Institute",
+    "found_instead": "Rift Valley Technical Training Institute",
+    "county": "Uasin Gishu",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "37c8724b-ed30-43aa-a514-7314e7833ec2",
+    "searched_for": "CAYZER INTERNATIONAL MISSIONS BIBLE TRAINING COLLEGE",
+    "found_instead": "RCPI Bible College - Eldoret",
+    "county": "Uasin Gishu",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "5bc5c5a9-c052-43f7-bc00-2a1c7abb1db3",
+    "searched_for": "Gihon Leadership Training Institute",
+    "found_instead": "Ngenyilel Vocational Training Center",
+    "county": "Uasin Gishu",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "7982f1a0-a5f6-4bd5-897c-d141cc470844",
+    "searched_for": "Leaders Training College-Eldoret",
+    "found_instead": "Discipleship College",
+    "county": "Uasin Gishu",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "81be8f01-9c9b-4a80-9235-63b70fd53a2e",
+    "searched_for": "RITT COLLEGE OF TECHNOLOGY",
+    "found_instead": "Rift Valley Technical Training Institute",
+    "county": "Uasin Gishu",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "84d59672-e4cb-4af9-ba7e-cfcd14613309",
+    "searched_for": "Vinson International Training College",
+    "found_instead": "Rift Valley Technical Training Institute",
+    "county": "Uasin Gishu",
+    "status": "MISMATCH_CROSS_MATCH",
+    "has_phone": false,
+    "has_address": false,
+    "has_website": false
+  },
+  {
+    "id": "0b6850b7-f323-4576-858f-3825598dfff2",
+    "searched_for": "Zuriel Technical Training Institute",
+    "found_instead": "Ziwa Technical Training Institute",
+    "county": "Uasin Gishu",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "a4662fae-5276-4e6f-a0eb-3f9e16a839d5",
+    "searched_for": "BUSAINA VOCATIONAL TRAINING CENTER",
+    "found_instead": "MBAA-INI VOCATIONAL TRAINING CENTER",
+    "county": "Vihiga",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "08eebac3-d1bd-4552-82b4-9f6f6167f182",
+    "searched_for": "Equip International Bible School",
+    "found_instead": "I. G. O - Kenya Bible College",
+    "county": "Vihiga",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "0bd4d48f-3a8f-4b2f-b7dd-d7f7d5eacabf",
+    "searched_for": "JEPKOSE VOCATIONAL TRAINING CENTER",
+    "found_instead": "Gokoe Vocational Training Center",
+    "county": "Vihiga",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "77dafba0-8a28-466a-8845-8b4797a6bbec",
+    "searched_for": "Kegendirova Vocational Training Centre",
+    "found_instead": "Gokoe Vocational Training Center",
+    "county": "Vihiga",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "43800870-d5fe-4347-af91-0ff4b0444540",
+    "searched_for": "LOTEGO VOCATIONAL TRAINING CENTER",
+    "found_instead": "Solongo Vocational Training Centre",
+    "county": "Vihiga",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": true
+  },
+  {
+    "id": "9cbbeaf2-c105-4e8e-81b5-bf8e813d6f56",
+    "searched_for": "VIGETSE VOCATIONAL TRAINING CENTER",
+    "found_instead": "Gede Vocational Training Center",
+    "county": "Vihiga",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "8e7f0b31-3c05-4ae4-9d5e-fa794e3be246",
+    "searched_for": "CHEPARERIA VOCATIONAL TRAINING CENTER",
+    "found_instead": "Mercy Vocational Training Center",
+    "county": "West Pokot",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": false,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "b217cfd3-2004-4844-b51c-6c7db6967b2d",
+    "searched_for": "Chesubet Vocational Training Centre",
+    "found_instead": "Cheptuech Vocational Training Center",
+    "county": "West Pokot",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "0eef175f-d231-4bab-9004-b64bc407c559",
+    "searched_for": "Kacheliba Technical Training Institute",
+    "found_instead": "Kitelakapel technical training institute",
+    "county": "West Pokot",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  },
+  {
+    "id": "9c2290cf-f6c2-4e6b-8cee-f03bec5cd4bc",
+    "searched_for": "SINA VOCATIONAL TRAINING CENTER",
+    "found_instead": "Kapenguria Vocational Training Center",
+    "county": "West Pokot",
+    "status": "RETRY_LOW_CONFIDENCE",
+    "has_phone": true,
+    "has_address": true,
+    "has_website": false
+  }
+]

@@ -1,0 +1,10 @@
+University of Nairobi - Bachelor of Science (Computer Science) - C001-100 - B+
+University of Nairobi - Bachelor of Arts (Economics) - C001-101 - B
+Kenyatta University - Bachelor of Education (Science) - C002-050 - B-
+JKUAT - BSc Mechanical Engineering - C003-075 - B+
+Moi University - Bachelor of Medicine (MBChB) - C004-001 - A-
+Strathmore University - Bachelor of Commerce - C005-020 - B+
+Egerton University - BSc Agriculture - C006-030 - C+
+Technical University of Kenya - Diploma in Civil Engineering - D007-010 - C
+Multimedia University - BSc Information Technology - C008-045 - B
+Pwani University - Bachelor of Science (Marine Biology) - C009-025 - C+

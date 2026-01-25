@@ -1,0 +1,118 @@
+TVET Excel Analysis
+==================================================
+File: Kuccps Files/TVET_CLUSTER_DOCUMENT_2025.xlsx
+Total sheets: 5
+
+=== Table 1 ===
+Rows: 27, Columns: 5
+
+First 15 rows:
+  Row 1: KENYA UNIVERSITIES AND COLLEGES CENTRAL PLACEME... |  |  |  | 
+  Row 2: Minimum Subject Requirements for TVET Programmes |  |  |  | 
+  Row 3:  | Programme
+Category | Level | Minimum
+Mean Grade | Subjects Requirements
+  Row 4:  |  |  |  | Minimum Subject Grade
+  Row 5: 1 | Law | Diploma | C plain | ENG/KIS - C+
+  Row 6:  |  | Certificate | C- (minus) | ENG/KIS - C(plain)
+  Row 7: 2 | Education | Diploma | C+ | Science Based Courses
+ENG - C (plain) MATH - C ...
+  Row 8:  |  | Diploma for
+Visually and Hearing Impaired Appli... | C (plain) | (Science Based Courses) ENG -     C- (Minus) MA...
+  Row 9: 3 | Accountancy | Diploma | C- (minus) | None
+  Row 10:  |  | Certificate | D(plain) | None
+  Row 11: 4 | Architecture | Diploma | C (plain) | MATH Alternative A -    C (plain) PHY - C (plai...
+  Row 12:  |  | Certificate | C- (minus) | MATH -    C- (minus)
+PHY - C- (minus) ENG/KIS -...
+  Row 13:  | Quantity Survey | Diploma | C (plain) | MATH Alternative A -    C (plain) PHY - C (plai...
+  Row 14:  |  |  |  | 
+  Row 15:  |  |  |  | 
+
+=== Table 2 ===
+Rows: 12, Columns: 5
+
+First 15 rows:
+  Row 1:  | Programme
+Category | Level | Minimum
+Mean Grade | Subjects Requirements
+  Row 2:  |  |  |  | Minimum Subject Grade
+  Row 3: 10 | Medical Laboratory Science | Diploma | C (plain) | ENG/KIS -    C (plain) MATH/PHY  - C (plain) BI...
+  Row 4: 11 | Nutrition & Dietetics | Diploma | C- (minus) | CHE/Physical Sciences - D+ BIO/Biological Scien...
+  Row 5:  |  | Certificate | D (plain) | CHE/Physical Sciences - D (plain) BIO/Biologica...
+  Row 6: 12 | Land Surveying | Diploma | C- (minus) | ENG - C- (minus)
+MATH Alternatine A - C- (minus...
+  Row 7:  |  | Certificate | D (plain) | None
+  Row 8: 13 | Clinical Medicine and Surgery and Community Health | Diploma (Alternative A) | C (plain) | ENG/KIS - C (plain) BIO -   C (plain) CHE - C- ...
+  Row 9:  |  | Diploma (Alternative B) |  | ENG/KIS - C (plain)
+Biological Sciences -   C (...
+  Row 10: 14 | Health Records and Information Technology | Diploma | C (plain) | ENG/KIS - C (plain)
+MATH A/MAT B - C- (minus) B...
+  Row 11:  |  | Certificate | C- (minus) | ENG/KIS - C- (minus) MATH A/MAT B - D (plain) B...
+  Row 12: KNEC EXAMINATION |  |  |  | 
+
+=== Table 3 ===
+Rows: 36, Columns: 5
+
+First 15 rows:
+  Row 1:  | Programme
+Category | Level | Minimum
+Mean Grade | Subjects Requirements
+  Row 2:  |  |  |  | Minimum Subject Grade
+  Row 3:  | Programme
+Category | Level | Minimum
+Mean Grade | Subjects Requirements
+  Row 4:  |  |  |  | Minimum Subject Grade
+  Row 5: 1 | Business courses | Diploma | C- (minus) | None
+  Row 6:  |  | Certificate | D (plain) | 
+  Row 7:  |  | Artisan | D- (minus) and below | 
+  Row 8: 2 | Humanities (Social Sciences) | Diploma | C- (minus) | None
+  Row 9:  |  | Certificate | D (plain) | 
+  Row 10:  |  | Artisan | D- (minus) and below | 
+  Row 11: 3 | Computing | Diploma | C- (minus) | None
+  Row 12:  |  | Certificate | D (plain) | 
+  Row 13:  |  | Artisan | D- (minus) and below | 
+  Row 14: 4 | Tourism and Hotel Management | Diploma | C- (minus) | None
+  Row 15:  |  | Certificate | D (plain) | 
+
+=== Table 4 ===
+Rows: 15, Columns: 5
+
+First 15 rows:
+  Row 1:  | Programme
+Category | Level | Minimum
+Mean Grade | Subjects Requirements
+  Row 2:  |  |  |  | Minimum Subject Grade
+  Row 3:  | Aeronautical Engineering (Avionics) | Diploma | C (plain) | MATH Alternative A - C- (minus) ENG - C - (minu...
+  Row 4: INTERNAL EXAMINERS |  |  |  | 
+  Row 5:  | Programme
+Category | Programme level | Minimum
+Mean Grade | Subjects Requirements
+  Row 6:  |  |  |  | Minimum Subject Grade
+  Row 7: 1 | Photogrammetry & Remote Sensing | Diploma | C - (minus) | ENG - C- (minus)
+MATH Alternatine A - C- (minus...
+  Row 8: 2 | Cartography | Diploma | C - (minus) | ENG - C- (minus)
+MATH Alternatine A - C- (minus...
+  Row 9: 3 | Map Reproduction (Printing) | Diploma | C - (minus) | ENG - C- (minus)
+MATH Alternatine A - C- (minus...
+  Row 10: 4 | Forestry | Certificate | D+ (plus) | MATH Alternative A - D+ BIO/PHY/CHE/AGRIC - C- ...
+  Row 11:  |  |  |  | 
+  Row 12: 5 | Tax Administration | Diploma | C (plain) | ENG - C- (minus)
+MATH Alternative A - C- (minus)
+  Row 13:  |  | Certificate | C- (minus) | ENG - D+
+MATH Alternative A - D+
+  Row 14:  | Custom Administration | Diploma | C (plain) | ENG - C- (minus)
+MATH Alternative A - C- (minus)
+  Row 15:  |  | Certificate | C - (minus) | ENG - D+
+MATH Alternative A - D+
+
+=== Table 5 ===
+Rows: 4, Columns: 5
+
+First 15 rows:
+  Row 1:  | Programme
+Category | Level | Minimum
+Mean Grade | Subjects Requirements
+  Row 2:  |  |  |  | Minimum Subject Grade
+  Row 3: 6 | Agricultural Irrigation and Drainage Engineering | Diploma | C - (minus) | ENG / KIS   - D (plain) MAT A         - D (plai...
+  Row 4: Note: Placement shall adhere to minimum require... |  |  |  | 
+

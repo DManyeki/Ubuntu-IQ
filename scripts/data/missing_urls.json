@@ -1,0 +1,202 @@
+[
+  {
+    "id": "1d2d95d9-c9f5-4ef1-9757-0814d5f6e1d7",
+    "name": "KISII UNIVERSITY"
+  },
+  {
+    "id": "aa70bb5c-4a80-4b3c-bfe6-d33817537d63",
+    "name": "CHUKA UNIVERSITY"
+  },
+  {
+    "id": "4642ed06-6937-42fc-a585-6aecf5d3e665",
+    "name": "PWANI UNIVERSITY"
+  },
+  {
+    "id": "bfbb09ce-aab9-4ab5-89cf-2677841aefec",
+    "name": "MACHAKOS UNIVERSITY"
+  },
+  {
+    "id": "7f3007bc-164b-492b-bd26-431c112ea3f1",
+    "name": "MOI UNIVERSITY"
+  },
+  {
+    "id": "5e8d3678-f69d-4164-95f5-7fe0a9fce5a0",
+    "name": "UNIVERSITY OF NAIROBI"
+  },
+  {
+    "id": "3145dae5-c549-4498-8494-0b67da6de3b4",
+    "name": "THARAKA UNIVERSITY"
+  },
+  {
+    "id": "d9457a87-9d2a-4369-9449-0967b7df7f52",
+    "name": "BOMET UNIVERSITY COLLEGE"
+  },
+  {
+    "id": "f387a94d-a94e-4cb4-91be-bf7ef447d4e7",
+    "name": "KOITALEEL SAMOEI UNIVERSITY COLLEGE"
+  },
+  {
+    "id": "84ee8387-1c94-4177-818d-b691c81f6f68",
+    "name": "TOM MBOYA UNIVERSITY"
+  },
+  {
+    "id": "c5dc806c-6330-4ea4-aa16-863fc85a61c7",
+    "name": "TECHNICAL UNIVERSITY OF KENYA"
+  },
+  {
+    "id": "a5a34e32-6ff6-4701-bf22-9df67aab622f",
+    "name": "CATHOLIC UNIVERSITY OF EASTERN AFRICA"
+  },
+  {
+    "id": "35b76655-cc21-4933-9786-27e013380a42",
+    "name": "KCA UNIVERSITY"
+  },
+  {
+    "id": "f5c9fe28-1798-42fa-b498-b3e8765fc85a",
+    "name": "JARAMOGI OGINGA ODINGA UNIVERSITY OF SCIENCE AND TECHNOLOGY"
+  },
+  {
+    "id": "701a4b8e-a006-4eda-8876-7bb68f645d94",
+    "name": "GARISSA UNIVERSITY"
+  },
+  {
+    "id": "624a92a6-1a6b-4172-b2b9-0dcc0174e9e1",
+    "name": "UNIVERSITY OF KABIANGA"
+  },
+  {
+    "id": "db1af8e2-13d0-4ee7-9775-1af29d1f73d9",
+    "name": "MERU UNIVERSITY OF SCIENCE AND TECHNOLOGY"
+  },
+  {
+    "id": "4c7183ed-abca-45dd-920e-3c5160b3f9dc",
+    "name": "KABARAK UNIVERSITY"
+  },
+  {
+    "id": "fe1ca4cb-9b45-4dcb-b4a0-0fe861148d5d",
+    "name": "KIRINYAGA UNIVERSITY"
+  },
+  {
+    "id": "29d6f702-a816-4b3b-8652-8d3fb61c1b4d",
+    "name": "UNIVERSITY OF ELDORET"
+  },
+  {
+    "id": "82f7aaa1-a37e-4743-a705-c90cb5dd4a47",
+    "name": "DEDAN KIMATHI UNIVERSITY OF TECHNOLOGY"
+  },
+  {
+    "id": "2ac2f691-a9c0-4356-979c-34c44628fd71",
+    "name": "KARATINA UNIVERSITY"
+  },
+  {
+    "id": "feaeb4a3-f5bc-4b59-8dd4-2bb7d06e5352",
+    "name": "MURANG'A UNIVERSITY OF TECHNOLOGY"
+  },
+  {
+    "id": "e9ffa051-094f-4f1e-a8e3-4eed0e131176",
+    "name": "MOUNT KENYA UNIVERSITY"
+  },
+  {
+    "id": "5b93386e-bea2-4f03-9f3f-c0dd912bc42a",
+    "name": "ZETECH UNIVERSITY"
+  },
+  {
+    "id": "747be46d-8444-4a95-b917-a3a40eccce08",
+    "name": "MASINDE MULIRO UNIVERSITY OF SCIENCE & TECHNOLOGY"
+  },
+  {
+    "id": "86483395-af80-4302-b44a-d883297d0dc6",
+    "name": "KIBABII UNIVERSITY"
+  },
+  {
+    "id": "4020398a-0fed-4c44-9b7a-d0c314233661",
+    "name": "KIRIRI WOMENS UNIVERSITY OF SCIENCE AND TECHNOLOGY"
+  },
+  {
+    "id": "05ac9909-6bc9-49a3-acf3-2031ddd79996",
+    "name": "KAIMOSI FRIENDS UNIVERSITY"
+  },
+  {
+    "id": "93c41fda-cfc7-413f-928e-670f3564502f",
+    "name": "LAIKIPIA UNIVERSITY"
+  },
+  {
+    "id": "2b91a6c7-787d-4bbe-9884-f2f23247c159",
+    "name": "KENYA METHODIST UNIVERSITY"
+  },
+  {
+    "id": "c45ec874-e0a8-4992-8c97-3d7a134cd86e",
+    "name": "KENYA HIGHLANDS EVANGELICAL UNIVERSITY"
+  },
+  {
+    "id": "e165ac13-3aea-4e53-bec8-fa302b65c16b",
+    "name": "THE EAST AFRICAN UNIVERSITY"
+  },
+  {
+    "id": "721e8512-6961-4b35-a188-9842a13b00a6",
+    "name": "KENYATTA UNIVERSITY - MAMA NGINA UNIVERSITY COLLEGE"
+  },
+  {
+    "id": "e94a0fd4-5888-43bb-a41a-dc5aaf08b27f",
+    "name": "ALUPE UNIVERSITY"
+  },
+  {
+    "id": "8c701f14-92ab-4a6b-8896-6c95ba3341aa",
+    "name": "OPEN UNIVERSITY OF KENYA"
+  },
+  {
+    "id": "b2380a58-dc12-4739-9a2a-8211585431fd",
+    "name": "RIARA UNIVERSITY"
+  },
+  {
+    "id": "39e6dd3e-72ca-4da0-8f98-a9f5c74dfdb1",
+    "name": "GRETSA UNIVERSITY"
+  },
+  {
+    "id": "6daf1a45-e328-4363-9d2c-a4b03a00b2ad",
+    "name": "ST PAULS UNIVERSITY"
+  },
+  {
+    "id": "eeaf51f1-c19c-4a9f-8cb1-e77cb0a2e345",
+    "name": "PRESBYTERIAN UNIVERSITY OF EAST AFRICA"
+  },
+  {
+    "id": "bf6be9ff-5438-490e-88e4-cb43dbb3240b",
+    "name": "TURKANA UNIVERSITY COLLEGE"
+  },
+  {
+    "id": "26bb1639-733e-4b45-befe-140619b02450",
+    "name": "MANAGEMENT UNIVERSITY OF AFRICA"
+  },
+  {
+    "id": "35faed3e-0b2d-4ef5-a2cb-e0d1a4af417e",
+    "name": "LUKENYA UNIVERSITY"
+  },
+  {
+    "id": "7c433d60-5620-4848-86c8-8ef9a9b33ea1",
+    "name": "AFRICA INTERNATIONAL UNIVERSITY"
+  },
+  {
+    "id": "a271041d-f9c8-4ae0-853f-f419c0cd583b",
+    "name": "TANGAZA UNIVERSITY"
+  },
+  {
+    "id": "f5d47f5c-3101-4e2e-8a53-f4b1e274a72e",
+    "name": "KENYA ASSEMBLIES OF GOD EAST UNIVERSITY"
+  },
+  {
+    "id": "e8c2d8f0-5d2a-4d0c-b0de-e4277d07169e",
+    "name": "ISLAMIC UNIVERSITY OF KENYA"
+  },
+  {
+    "id": "ea6daa4d-70df-4d28-8eef-0380c93bfce5",
+    "name": "INTERNATIONAL LEADERSHIP UNIVERSITY"
+  },
+  {
+    "id": "83d730d4-e646-4001-b48a-8d4e96cb9e3d",
+    "name": "KABARNET UNIVERSITY COLLEGE"
+  },
+  {
+    "id": "4e33e454-cc45-405b-aa17-6144b5fe5bf5",
+    "name": "NYANDARUA UNIVERSITY COLLEGE"
+  }
+]

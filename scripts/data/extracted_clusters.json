@@ -1,0 +1,214 @@
+{
+  "source_file": "Kuccps Files\\DEGREE_CLUSTER_DOCUMENT_2025_03 (1).pdf",
+  "total_clusters": 26,
+  "clusters": [
+    {
+      "cluster_id": "1",
+      "subject_1": "1A",
+      "subject_2": "Subject 1 ENG/KIS",
+      "subject_3": "Subject 2 MAT ALTERNATIVE A/MAT ALTERNATIVE B/ANY GROUP II",
+      "subject_4": "Subject 3 Any GROUP III",
+      "programs": []
+    },
+    {
+      "cluster_id": "2",
+      "subject_1": "",
+      "subject_2": "Subject 1 ENG/KIS ENG/KIS",
+      "subject_3": "Subject 2 MAT ALTERNATIVE A/B",
+      "subject_4": "Subject 3 Any GROUP II or any GROUP III",
+      "programs": []
+    },
+    {
+      "cluster_id": "3",
+      "subject_1": "",
+      "subject_2": "Subject 1 ENG/KIS",
+      "subject_3": "Subject 2 MAT ALTERNATIVE A/B or any GROUP II",
+      "subject_4": "Subject 3 Any GROUP III",
+      "programs": []
+    },
+    {
+      "cluster_id": "4",
+      "subject_1": "",
+      "subject_2": "Subject 1 MAT ALTERNATIVE A",
+      "subject_3": "Subject 2 PHY",
+      "subject_4": "Subject 3 BIO/CHE/GEO",
+      "programs": []
+    },
+    {
+      "cluster_id": "5",
+      "subject_1": "",
+      "subject_2": "Subject 1 MAT ALTERNATIVE A",
+      "subject_3": "Subject 2 PHY",
+      "subject_4": "Subject 3 CHE",
+      "programs": []
+    },
+    {
+      "cluster_id": "5B",
+      "subject_1": "MAT ALTERNATIVE A - C (PLAIN)",
+      "subject_2": "PHY – C (PLAIN)",
+      "subject_3": "CHE - C+",
+      "subject_4": "",
+      "programs": []
+    },
+    {
+      "cluster_id": "5C",
+      "subject_1": "MAT ALTERNATIVE A - C (PLAIN)",
+      "subject_2": "PHY – C (PLAIN)",
+      "subject_3": "CHE – C (PLAIN)",
+      "subject_4": "",
+      "programs": []
+    },
+    {
+      "cluster_id": "5D",
+      "subject_1": "MAT ALTERNATIVE A - C+",
+      "subject_2": "PHY - C+",
+      "subject_3": "CHE - C+",
+      "subject_4": "BIO - C+",
+      "programs": []
+    },
+    {
+      "cluster_id": "5E",
+      "subject_1": "MAT ALTERNATIVE A - C+",
+      "subject_2": "PHY - C+",
+      "subject_3": "CHE - C+",
+      "subject_4": "",
+      "programs": []
+    },
+    {
+      "cluster_id": "6",
+      "subject_1": "",
+      "subject_2": "Subject 1 MAT ALTERNATIVE A",
+      "subject_3": "Subject 2 PHY",
+      "subject_4": "Subject 3 Any GROUP III",
+      "programs": []
+    },
+    {
+      "cluster_id": "7",
+      "subject_1": "",
+      "subject_2": "Subject 1 MAT ALTERNATIVE A",
+      "subject_3": "Subject 2 PHY",
+      "subject_4": "Subject 3 2nd GROUP II or any GROUP III",
+      "programs": []
+    },
+    {
+      "cluster_id": "8",
+      "subject_1": "",
+      "subject_2": "Subject 1 MAT ALTERNATIVE A",
+      "subject_3": "Subject 2 BIO",
+      "subject_4": "Subject 3 PHY or CHE",
+      "programs": []
+    },
+    {
+      "cluster_id": "9",
+      "subject_1": "",
+      "subject_2": "Subject 1 MAT ALTERNATIVE A",
+      "subject_3": "Subject 2 any GROUP II",
+      "subject_4": "Subject 3 2nd GROUP II",
+      "programs": []
+    },
+    {
+      "cluster_id": "10",
+      "subject_1": "",
+      "subject_2": "Subject 1 MAT ALTERNATIVE A",
+      "subject_3": "Subject 2 Any GROUP II",
+      "subject_4": "Subject 3 Any GROUP III",
+      "programs": []
+    },
+    {
+      "cluster_id": "11",
+      "subject_1": "",
+      "subject_2": "Subject 1 CHE",
+      "subject_3": "Subject 2 MAT ALTERNATIVE A/B or PHY",
+      "subject_4": "Subject 3 BIO/HSC",
+      "programs": []
+    },
+    {
+      "cluster_id": "12",
+      "subject_1": "",
+      "subject_2": "Subject 1 BIO/GSC",
+      "subject_3": "Subject 2 MAT ALTERNATIVE A/B",
+      "subject_4": "Subject 3 Any GROUP II or any GROUP III",
+      "programs": []
+    },
+    {
+      "cluster_id": "13",
+      "subject_1": "",
+      "subject_2": "Subject 1 BIO",
+      "subject_3": "Subject 2 CHE",
+      "subject_4": "Subject 3 MAT ALTERNATIVE A/PHY",
+      "programs": []
+    },
+    {
+      "cluster_id": "14",
+      "subject_1": "",
+      "subject_2": "Subject 1 HAG - C+",
+      "subject_3": "Subject 2 ENG/KIS",
+      "subject_4": "Subject 3 MAT ALTERNATIVE A/B or any GROUP II",
+      "programs": []
+    },
+    {
+      "cluster_id": "15",
+      "subject_1": "",
+      "subject_2": "Subject 1 BIO",
+      "subject_3": "Subject 2 CHE",
+      "subject_4": "Subject 3 MAT ALTERNATIVE A/PHY/GEO",
+      "programs": []
+    },
+    {
+      "cluster_id": "15E",
+      "subject_1": "BIO/AGRIC/HSC – C (PLAIN)",
+      "subject_2": "CHE – C (PLAIN)",
+      "subject_3": "MATH C - (PLAIN)",
+      "subject_4": "",
+      "programs": []
+    },
+    {
+      "cluster_id": "15F",
+      "subject_1": "BIO/AGR – C+",
+      "subject_2": "CHE/GEO – C+",
+      "subject_3": "",
+      "subject_4": "",
+      "programs": []
+    },
+    {
+      "cluster_id": "16",
+      "subject_1": "",
+      "subject_2": "Subject 1 GEO",
+      "subject_3": "Subject 2 MAT ALTERNATIVE A/B",
+      "subject_4": "Subject 3 Any GROUP II",
+      "programs": []
+    },
+    {
+      "cluster_id": "17",
+      "subject_1": "",
+      "subject_2": "Subject 1 FRE/GER",
+      "subject_3": "Subject 2 ENG/KIS",
+      "subject_4": "Subject 3 MAT ALTERNATIVE A/B or any GROUP II or any",
+      "programs": []
+    },
+    {
+      "cluster_id": "18",
+      "subject_1": "",
+      "subject_2": "Subject 1 MUS",
+      "subject_3": "Subject 2 ENG/KIS",
+      "subject_4": "Subject 3 MAT ALTERNATIVE A/B or any GROUP II or any GROUP III",
+      "programs": []
+    },
+    {
+      "cluster_id": "19",
+      "subject_1": "",
+      "subject_2": "Subject 1 ENG",
+      "subject_3": "Subject 2 MAT ALTERNATIVE A/B or any GROUP II",
+      "subject_4": "Subject 3 2nd GROUP II",
+      "programs": []
+    },
+    {
+      "cluster_id": "20",
+      "subject_1": "",
+      "subject_2": "Subject 1 CRE/IRE/HRE",
+      "subject_3": "Subject 2 ENG/KIS",
+      "subject_4": "Subject 3 2nd GROUP III",
+      "programs": []
+    }
+  ]
+}
